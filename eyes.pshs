@@ -1,0 +1,6656 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ANIMATION_INFO</key>
+	<array/>
+	<key>Author</key>
+	<string>Bogdan Vladu</string>
+	<key>BatchZOrder</key>
+	<integer>1</integer>
+	<key>CreatedWith</key>
+	<string>SpriteHelper</string>
+	<key>ImportedImages</key>
+	<array>
+		<string>/Users/jeppetuxen/Documents/ITU/UserExperienceAndPrototyping/Corona/prototype4/eyes.png</string>
+	</array>
+	<key>ImportedImages-HD</key>
+	<array>
+		<string>/Users/jeppetuxen/Documents/ITU/UserExperienceAndPrototyping/Corona/prototype4/eyes-hd.png</string>
+	</array>
+	<key>ImportedImages-HD_relative</key>
+	<array>
+		<string>eyes-hd.png</string>
+	</array>
+	<key>ImportedImages_relative</key>
+	<array>
+		<string>eyes.png</string>
+	</array>
+	<key>SPRITES_INFO</key>
+	<array>
+		<dict>
+			<key>PhysicProperties</key>
+			<dict>
+				<key>AngularDamping</key>
+				<real>0.0</real>
+				<key>AngularVelocity</key>
+				<real>0.0</real>
+				<key>CanSleep</key>
+				<true/>
+				<key>Category</key>
+				<integer>1</integer>
+				<key>Density</key>
+				<real>0.20000000298023224</real>
+				<key>Fixtures</key>
+				<array>
+					<array>
+						<string>{-22, -5.5}</string>
+						<string>{-19, -15.5}</string>
+						<string>{-8.5, -25.5}</string>
+						<string>{6, -29}</string>
+						<string>{18, -20}</string>
+						<string>{26, -3}</string>
+						<string>{-10.5, 18}</string>
+						<string>{-20.5, 2}</string>
+					</array>
+					<array>
+						<string>{-10.5, 18}</string>
+						<string>{26, -3}</string>
+						<string>{23, 14}</string>
+						<string>{14.5, 23}</string>
+						<string>{-0.5, 25.5}</string>
+					</array>
+				</array>
+				<key>Friction</key>
+				<real>0.20000000298023224</real>
+				<key>Group</key>
+				<integer>0</integer>
+				<key>IsBullet</key>
+				<false/>
+				<key>IsCircle</key>
+				<false/>
+				<key>IsFixedRot</key>
+				<false/>
+				<key>IsSensor</key>
+				<false/>
+				<key>LinearDamping</key>
+				<real>0.0</real>
+				<key>LinearVelocityX</key>
+				<real>0.0</real>
+				<key>LinearVelocityY</key>
+				<real>0.0</real>
+				<key>Mask</key>
+				<integer>65535</integer>
+				<key>PhysicType</key>
+				<integer>2</integer>
+				<key>Restitution</key>
+				<real>0.20000000298023224</real>
+				<key>SHHolesPoints</key>
+				<array/>
+				<key>SHShapePoints</key>
+				<array>
+					<string>{17, 61}</string>
+					<string>{37, 29}</string>
+					<string>{57, 14}</string>
+					<string>{87, 19}</string>
+					<string>{104, 37}</string>
+					<string>{110, 71}</string>
+					<string>{94, 105}</string>
+					<string>{70, 123}</string>
+					<string>{41, 116}</string>
+					<string>{20, 96}</string>
+					<string>{14, 76}</string>
+				</array>
+				<key>ShapeBorderH</key>
+				<integer>0</integer>
+				<key>ShapeBorderW</key>
+				<integer>0</integer>
+				<key>ShapePositionOffsetX</key>
+				<integer>0</integer>
+				<key>ShapePositionOffsetY</key>
+				<integer>0</integer>
+			</dict>
+			<key>TextureProperties</key>
+			<dict>
+				<key>Color</key>
+				<string>{{1, 1}, {1, 0}}</string>
+				<key>Frame</key>
+				<string>{{0, 0}, {58, 65}}</string>
+				<key>Frame-HD</key>
+				<string>{{0, 0}, {116, 130}}</string>
+				<key>FrameUV</key>
+				<string>{{0, 0}, {0.23015873, 0.25999999}}</string>
+				<key>HD_ImageSize</key>
+				<string>{504, 500}</string>
+				<key>Image</key>
+				<string>eyes.png</string>
+				<key>Image-HD</key>
+				<string>eyes-hd.png</string>
+				<key>ImageURL</key>
+				<string>/Users/jeppetuxen/Documents/ITU/UserExperienceAndPrototyping/Corona/prototype4/eyes.png</string>
+				<key>ImageURL-HD</key>
+				<string>/Users/jeppetuxen/Documents/ITU/UserExperienceAndPrototyping/Corona/prototype4/eyes-hd.png</string>
+				<key>Name</key>
+				<string>eye13</string>
+				<key>Opacity</key>
+				<real>1</real>
+				<key>SD_ImageSize</key>
+				<string>{252, 250}</string>
+				<key>Scale</key>
+				<string>{1, 1}</string>
+				<key>ZOrder</key>
+				<integer>0</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>PhysicProperties</key>
+			<dict>
+				<key>AngularDamping</key>
+				<real>0.0</real>
+				<key>AngularVelocity</key>
+				<real>0.0</real>
+				<key>CanSleep</key>
+				<true/>
+				<key>Category</key>
+				<integer>1</integer>
+				<key>Density</key>
+				<real>0.20000000298023224</real>
+				<key>Fixtures</key>
+				<array>
+					<array>
+						<string>{-0, 36}</string>
+						<string>{-5, 35}</string>
+						<string>{-10.5, 32.5}</string>
+						<string>{-18, 23.5}</string>
+						<string>{-19, 19}</string>
+						<string>{-19, 14}</string>
+						<string>{18.550003, 13.5}</string>
+						<string>{18.5, 23}</string>
+					</array>
+					<array>
+						<string>{18.550003, 13.5}</string>
+						<string>{-19, 14}</string>
+						<string>{-18.5, 10}</string>
+						<string>{-13, -16.5}</string>
+						<string>{-10.5, -26}</string>
+						<string>{9.5, -28}</string>
+					</array>
+					<array>
+						<string>{16, 29}</string>
+						<string>{14, 31.5}</string>
+						<string>{13, 32.5}</string>
+						<string>{7, 35.5}</string>
+						<string>{-0, 36}</string>
+						<string>{18.5, 23}</string>
+						<string>{18, 25.5}</string>
+						<string>{17, 27.5}</string>
+					</array>
+					<array>
+						<string>{-18, 23.5}</string>
+						<string>{-10.5, 32.5}</string>
+						<string>{-14.5, 29.5}</string>
+						<string>{-15.5, 28.5}</string>
+					</array>
+					<array>
+						<string>{-7, -33}</string>
+						<string>{1, -35.5}</string>
+						<string>{3.5, -35}</string>
+						<string>{5.5, -34}</string>
+						<string>{8, -31.5}</string>
+						<string>{9, -29.5}</string>
+						<string>{9.5, -28}</string>
+						<string>{-10.5, -26}</string>
+					</array>
+					<array>
+						<string>{-9, 33.5}</string>
+						<string>{-10.5, 32.5}</string>
+						<string>{-5, 35}</string>
+						<string>{-7, 34.5}</string>
+					</array>
+					<array>
+						<string>{-6, -34}</string>
+						<string>{-4, -35}</string>
+						<string>{-1.5, -35.550003}</string>
+						<string>{1, -35.5}</string>
+						<string>{-7, -33}</string>
+					</array>
+					<array>
+						<string>{-0, 36}</string>
+						<string>{7, 35.5}</string>
+						<string>{4.5, 35.950001}</string>
+					</array>
+				</array>
+				<key>Friction</key>
+				<real>0.20000000298023224</real>
+				<key>Group</key>
+				<integer>0</integer>
+				<key>IsBullet</key>
+				<false/>
+				<key>IsCircle</key>
+				<false/>
+				<key>IsFixedRot</key>
+				<false/>
+				<key>IsSensor</key>
+				<false/>
+				<key>LinearDamping</key>
+				<real>0.0</real>
+				<key>LinearVelocityX</key>
+				<real>0.0</real>
+				<key>LinearVelocityY</key>
+				<real>0.0</real>
+				<key>Mask</key>
+				<integer>65535</integer>
+				<key>PhysicType</key>
+				<integer>2</integer>
+				<key>Restitution</key>
+				<real>0.20000000298023224</real>
+				<key>SHHolesPoints</key>
+				<array/>
+				<key>SHShapePoints</key>
+				<array>
+					<string>{122, 34}</string>
+					<string>{124, 25}</string>
+					<string>{129, 15}</string>
+					<string>{131, 13}</string>
+					<string>{139, 7}</string>
+					<string>{142, 5}</string>
+					<string>{146, 3}</string>
+					<string>{150, 2}</string>
+					<string>{160, 0}</string>
+					<string>{169, 0.099998474}</string>
+					<string>{174, 1}</string>
+					<string>{186, 7}</string>
+					<string>{188, 9}</string>
+					<string>{192, 14}</string>
+					<string>{194, 17}</string>
+					<string>{196, 21}</string>
+					<string>{197, 26}</string>
+					<string>{197.10001, 45}</string>
+					<string>{181, 120}</string>
+					<string>{179, 128}</string>
+					<string>{178, 131}</string>
+					<string>{176, 135}</string>
+					<string>{171, 140}</string>
+					<string>{167, 142}</string>
+					<string>{162, 143}</string>
+					<string>{157, 143.10001}</string>
+					<string>{152, 142}</string>
+					<string>{148, 140}</string>
+					<string>{146, 138}</string>
+					<string>{139, 124}</string>
+					<string>{137, 117}</string>
+					<string>{134, 105}</string>
+					<string>{123, 52}</string>
+					<string>{122, 44}</string>
+				</array>
+				<key>ShapeBorderH</key>
+				<integer>0</integer>
+				<key>ShapeBorderW</key>
+				<integer>0</integer>
+				<key>ShapePositionOffsetX</key>
+				<integer>0</integer>
+				<key>ShapePositionOffsetY</key>
+				<integer>0</integer>
+			</dict>
+			<key>TextureProperties</key>
+			<dict>
+				<key>Color</key>
+				<string>{{1, 1}, {1, 0}}</string>
+				<key>Frame</key>
+				<string>{{61, 0}, {38, 72}}</string>
+				<key>Frame-HD</key>
+				<string>{{122, 0}, {76, 144}}</string>
+				<key>FrameUV</key>
+				<string>{{0.24206349, 0}, {0.39285713, 0.28799999}}</string>
+				<key>HD_ImageSize</key>
+				<string>{504, 500}</string>
+				<key>Image</key>
+				<string>eyes.png</string>
+				<key>Image-HD</key>
+				<string>eyes-hd.png</string>
+				<key>ImageURL</key>
+				<string>/Users/jeppetuxen/Documents/ITU/UserExperienceAndPrototyping/Corona/prototype4/eyes.png</string>
+				<key>ImageURL-HD</key>
+				<string>/Users/jeppetuxen/Documents/ITU/UserExperienceAndPrototyping/Corona/prototype4/eyes-hd.png</string>
+				<key>Name</key>
+				<string>eye20</string>
+				<key>Opacity</key>
+				<real>1</real>
+				<key>SD_ImageSize</key>
+				<string>{252, 250}</string>
+				<key>Scale</key>
+				<string>{1, 1}</string>
+				<key>ZOrder</key>
+				<integer>0</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>PhysicProperties</key>
+			<dict>
+				<key>AngularDamping</key>
+				<real>0.0</real>
+				<key>AngularVelocity</key>
+				<real>0.0</real>
+				<key>CanSleep</key>
+				<true/>
+				<key>Category</key>
+				<integer>1</integer>
+				<key>Density</key>
+				<real>0.20000000298023224</real>
+				<key>Fixtures</key>
+				<array>
+					<array>
+						<string>{2.5, 9.5}</string>
+						<string>{15.5, 0.5}</string>
+						<string>{17.550003, 13}</string>
+						<string>{17.5, 19}</string>
+						<string>{17, 21.5}</string>
+						<string>{-0.5, 29.5}</string>
+					</array>
+					<array>
+						<string>{-0.5, 29.5}</string>
+						<string>{17, 21.5}</string>
+						<string>{16, 26}</string>
+						<string>{15.5, 27.5}</string>
+						<string>{14.5, 29.5}</string>
+						<string>{11.5, 32.5}</string>
+						<string>{10, 33.5}</string>
+						<string>{1.5, 33}</string>
+					</array>
+					<array>
+						<string>{-18, -28.5}</string>
+						<string>{-17, -30.5}</string>
+						<string>{-16, -32}</string>
+						<string>{-12.5, -34}</string>
+						<string>{-7, -34.5}</string>
+						<string>{-5.5, -34}</string>
+						<string>{-3.5, -33}</string>
+						<string>{-18, -22}</string>
+					</array>
+					<array>
+						<string>{15, -1.5}</string>
+						<string>{15.5, 0.5}</string>
+						<string>{2.5, 9.5}</string>
+						<string>{-16.5, -17}</string>
+						<string>{5, -25.5}</string>
+						<string>{8, -19.5}</string>
+						<string>{11.5, -11.5}</string>
+					</array>
+					<array>
+						<string>{11.5, 32.5}</string>
+						<string>{14.5, 29.5}</string>
+						<string>{13.5, 31}</string>
+					</array>
+					<array>
+						<string>{-18, -22}</string>
+						<string>{-3.5, -33}</string>
+						<string>{-1, -31.5}</string>
+						<string>{1, -30}</string>
+						<string>{3.5, -27.5}</string>
+						<string>{5, -25.5}</string>
+						<string>{-16.5, -17}</string>
+						<string>{-17.5, -20}</string>
+					</array>
+					<array>
+						<string>{1.5, 33}</string>
+						<string>{10, 33.5}</string>
+						<string>{7, 34.950001}</string>
+						<string>{4, 35}</string>
+						<string>{3, 34.5}</string>
+					</array>
+				</array>
+				<key>Friction</key>
+				<real>0.20000000298023224</real>
+				<key>Group</key>
+				<integer>0</integer>
+				<key>IsBullet</key>
+				<false/>
+				<key>IsCircle</key>
+				<false/>
+				<key>IsFixedRot</key>
+				<false/>
+				<key>IsSensor</key>
+				<false/>
+				<key>LinearDamping</key>
+				<real>0.0</real>
+				<key>LinearVelocityX</key>
+				<real>0.0</real>
+				<key>LinearVelocityY</key>
+				<real>0.0</real>
+				<key>Mask</key>
+				<integer>65535</integer>
+				<key>PhysicType</key>
+				<integer>2</integer>
+				<key>Restitution</key>
+				<real>0.20000000298023224</real>
+				<key>SHHolesPoints</key>
+				<array/>
+				<key>SHShapePoints</key>
+				<array>
+					<string>{202, 114}</string>
+					<string>{203, 110}</string>
+					<string>{205, 104}</string>
+					<string>{243, 51}</string>
+					<string>{237, 11}</string>
+					<string>{241, 4}</string>
+					<string>{244, 1}</string>
+					<string>{246, 0}</string>
+					<string>{252, 0.099998474}</string>
+					<string>{258, 3}</string>
+					<string>{261, 5}</string>
+					<string>{265, 8}</string>
+					<string>{267, 11}</string>
+					<string>{269, 15}</string>
+					<string>{270, 18}</string>
+					<string>{272, 27}</string>
+					<string>{273, 32}</string>
+					<string>{273.10001, 44}</string>
+					<string>{272, 52}</string>
+					<string>{270, 64}</string>
+					<string>{269, 69}</string>
+					<string>{268, 73}</string>
+					<string>{266, 79}</string>
+					<string>{261, 93}</string>
+					<string>{254, 109}</string>
+					<string>{248, 121}</string>
+					<string>{245, 125}</string>
+					<string>{240, 130}</string>
+					<string>{236, 133}</string>
+					<string>{231, 136}</string>
+					<string>{227, 138}</string>
+					<string>{224, 139}</string>
+					<string>{216, 139.10001}</string>
+					<string>{213, 138}</string>
+					<string>{207, 135}</string>
+					<string>{206, 134}</string>
+					<string>{204, 131}</string>
+					<string>{202, 127}</string>
+				</array>
+				<key>ShapeBorderH</key>
+				<integer>0</integer>
+				<key>ShapeBorderW</key>
+				<integer>0</integer>
+				<key>ShapePositionOffsetX</key>
+				<integer>0</integer>
+				<key>ShapePositionOffsetY</key>
+				<integer>0</integer>
+			</dict>
+			<key>TextureProperties</key>
+			<dict>
+				<key>Color</key>
+				<string>{{1, 1}, {1, 0}}</string>
+				<key>Frame</key>
+				<string>{{101, 0}, {36, 70}}</string>
+				<key>Frame-HD</key>
+				<string>{{202, 0}, {72, 140}}</string>
+				<key>FrameUV</key>
+				<string>{{0.40079364, 0}, {0.54365081, 0.28}}</string>
+				<key>HD_ImageSize</key>
+				<string>{504, 500}</string>
+				<key>Image</key>
+				<string>eyes.png</string>
+				<key>Image-HD</key>
+				<string>eyes-hd.png</string>
+				<key>ImageURL</key>
+				<string>/Users/jeppetuxen/Documents/ITU/UserExperienceAndPrototyping/Corona/prototype4/eyes.png</string>
+				<key>ImageURL-HD</key>
+				<string>/Users/jeppetuxen/Documents/ITU/UserExperienceAndPrototyping/Corona/prototype4/eyes-hd.png</string>
+				<key>Name</key>
+				<string>eye9</string>
+				<key>Opacity</key>
+				<real>1</real>
+				<key>SD_ImageSize</key>
+				<string>{252, 250}</string>
+				<key>Scale</key>
+				<string>{1, 1}</string>
+				<key>ZOrder</key>
+				<integer>0</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>PhysicProperties</key>
+			<dict>
+				<key>AngularDamping</key>
+				<real>0.0</real>
+				<key>AngularVelocity</key>
+				<real>0.0</real>
+				<key>CanSleep</key>
+				<true/>
+				<key>Category</key>
+				<integer>1</integer>
+				<key>Density</key>
+				<real>0.20000000298023224</real>
+				<key>Fixtures</key>
+				<array>
+					<array>
+						<string>{-1.75, -0.75}</string>
+						<string>{-15.25, -20.75}</string>
+						<string>{14.25, -24.25}</string>
+						<string>{7.75, 2.75}</string>
+					</array>
+					<array>
+						<string>{7.75, 2.75}</string>
+						<string>{12.75, 2.75}</string>
+						<string>{9.75, 13.75}</string>
+					</array>
+					<array>
+						<string>{-11.75, 18.75}</string>
+						<string>{-1.75, -0.75}</string>
+						<string>{7.75, 2.75}</string>
+						<string>{9.75, 13.75}</string>
+						<string>{-1.75, 21.75}</string>
+						<string>{-9.25, 21.75}</string>
+					</array>
+				</array>
+				<key>Friction</key>
+				<real>0.20000000298023224</real>
+				<key>Group</key>
+				<integer>0</integer>
+				<key>IsBullet</key>
+				<false/>
+				<key>IsCircle</key>
+				<false/>
+				<key>IsFixedRot</key>
+				<false/>
+				<key>IsSensor</key>
+				<false/>
+				<key>LinearDamping</key>
+				<real>0.0</real>
+				<key>LinearVelocityX</key>
+				<real>0.0</real>
+				<key>LinearVelocityY</key>
+				<real>0.0</real>
+				<key>Mask</key>
+				<integer>65535</integer>
+				<key>PhysicType</key>
+				<integer>2</integer>
+				<key>Restitution</key>
+				<real>0.20000000298023224</real>
+				<key>SHHolesPoints</key>
+				<array/>
+				<key>SHShapePoints</key>
+				<array>
+					<string>{289, 98}</string>
+					<string>{316, 58}</string>
+					<string>{296, 19}</string>
+					<string>{301, 13}</string>
+					<string>{316, 13}</string>
+					<string>{339, 29}</string>
+					<string>{345, 51}</string>
+					<string>{335, 51}</string>
+					<string>{348, 105}</string>
+				</array>
+				<key>ShapeBorderH</key>
+				<integer>0</integer>
+				<key>ShapeBorderW</key>
+				<integer>0</integer>
+				<key>ShapePositionOffsetX</key>
+				<integer>0</integer>
+				<key>ShapePositionOffsetY</key>
+				<integer>0</integer>
+			</dict>
+			<key>TextureProperties</key>
+			<dict>
+				<key>Color</key>
+				<string>{{1, 1}, {1, 0}}</string>
+				<key>Frame</key>
+				<string>{{140, 0}, {39.5, 56.5}}</string>
+				<key>Frame-HD</key>
+				<string>{{280, 0}, {79, 113}}</string>
+				<key>FrameUV</key>
+				<string>{{0.55555558, 0}, {0.71230161, 0.226}}</string>
+				<key>HD_ImageSize</key>
+				<string>{504, 500}</string>
+				<key>Image</key>
+				<string>eyes.png</string>
+				<key>Image-HD</key>
+				<string>eyes-hd.png</string>
+				<key>ImageURL</key>
+				<string>/Users/jeppetuxen/Documents/ITU/UserExperienceAndPrototyping/Corona/prototype4/eyes.png</string>
+				<key>ImageURL-HD</key>
+				<string>/Users/jeppetuxen/Documents/ITU/UserExperienceAndPrototyping/Corona/prototype4/eyes-hd.png</string>
+				<key>Name</key>
+				<string>eye4</string>
+				<key>Opacity</key>
+				<real>1</real>
+				<key>SD_ImageSize</key>
+				<string>{252, 250}</string>
+				<key>Scale</key>
+				<string>{1, 1}</string>
+				<key>ZOrder</key>
+				<integer>0</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>PhysicProperties</key>
+			<dict>
+				<key>AngularDamping</key>
+				<real>0.0</real>
+				<key>AngularVelocity</key>
+				<real>0.0</real>
+				<key>CanSleep</key>
+				<true/>
+				<key>Category</key>
+				<integer>1</integer>
+				<key>Density</key>
+				<real>0.20000000298023224</real>
+				<key>Fixtures</key>
+				<array>
+					<array>
+						<string>{17.5, -16.25}</string>
+						<string>{18.050003, 10.75}</string>
+						<string>{15, 18.75}</string>
+						<string>{-12.5, 27.700001}</string>
+						<string>{-18.5, 17.75}</string>
+						<string>{-12.5, -14.75}</string>
+						<string>{-12, -16.25}</string>
+						<string>{-11, -18.75}</string>
+					</array>
+					<array>
+						<string>{15, 18.75}</string>
+						<string>{18.050003, 10.75}</string>
+						<string>{18, 13.25}</string>
+						<string>{16.5, 17.25}</string>
+						<string>{16, 18.25}</string>
+					</array>
+					<array>
+						<string>{4, -27.25}</string>
+						<string>{15, -22.25}</string>
+						<string>{17, -18.25}</string>
+						<string>{17.5, -16.25}</string>
+						<string>{-11, -18.75}</string>
+						<string>{-10, -20.75}</string>
+						<string>{-8.5, -22.75}</string>
+						<string>{-5.5, -25.75}</string>
+					</array>
+					<array>
+						<string>{-16, 26.25}</string>
+						<string>{-18.5, 19.75}</string>
+						<string>{-18.5, 17.75}</string>
+						<string>{-12.5, 27.700001}</string>
+						<string>{-14.5, 27.75}</string>
+						<string>{-15.5, 27.25}</string>
+					</array>
+					<array>
+						<string>{12, -25.25}</string>
+						<string>{15, -22.25}</string>
+						<string>{4, -27.25}</string>
+						<string>{8.5, -26.75}</string>
+						<string>{10, -26.25}</string>
+					</array>
+					<array>
+						<string>{-3.5, -27.299999}</string>
+						<string>{4, -27.25}</string>
+						<string>{-5.5, -25.75}</string>
+					</array>
+				</array>
+				<key>Friction</key>
+				<real>0.20000000298023224</real>
+				<key>Group</key>
+				<integer>0</integer>
+				<key>IsBullet</key>
+				<false/>
+				<key>IsCircle</key>
+				<false/>
+				<key>IsFixedRot</key>
+				<false/>
+				<key>IsSensor</key>
+				<false/>
+				<key>LinearDamping</key>
+				<real>0.0</real>
+				<key>LinearVelocityX</key>
+				<real>0.0</real>
+				<key>LinearVelocityY</key>
+				<real>0.0</real>
+				<key>Mask</key>
+				<integer>65535</integer>
+				<key>PhysicType</key>
+				<integer>2</integer>
+				<key>Restitution</key>
+				<real>0.20000000298023224</real>
+				<key>SHHolesPoints</key>
+				<array/>
+				<key>SHShapePoints</key>
+				<array>
+					<string>{364, 16}</string>
+					<string>{369, 3}</string>
+					<string>{370, 1}</string>
+					<string>{372, 0}</string>
+					<string>{376, 0.099998474}</string>
+					<string>{431, 18}</string>
+					<string>{433, 19}</string>
+					<string>{434, 21}</string>
+					<string>{437, 29}</string>
+					<string>{437.10001, 34}</string>
+					<string>{436, 88}</string>
+					<string>{435, 92}</string>
+					<string>{431, 100}</string>
+					<string>{425, 106}</string>
+					<string>{421, 108}</string>
+					<string>{418, 109}</string>
+					<string>{409, 110}</string>
+					<string>{394, 110.1}</string>
+					<string>{390, 107}</string>
+					<string>{384, 101}</string>
+					<string>{381, 97}</string>
+					<string>{379, 93}</string>
+					<string>{377, 88}</string>
+					<string>{376, 85}</string>
+					<string>{364, 20}</string>
+				</array>
+				<key>ShapeBorderH</key>
+				<integer>0</integer>
+				<key>ShapeBorderW</key>
+				<integer>0</integer>
+				<key>ShapePositionOffsetX</key>
+				<integer>0</integer>
+				<key>ShapePositionOffsetY</key>
+				<integer>0</integer>
+			</dict>
+			<key>TextureProperties</key>
+			<dict>
+				<key>Color</key>
+				<string>{{1, 1}, {1, 0}}</string>
+				<key>Frame</key>
+				<string>{{182, 0}, {37, 55.5}}</string>
+				<key>Frame-HD</key>
+				<string>{{364, 0}, {74, 111}}</string>
+				<key>FrameUV</key>
+				<string>{{0.72222221, 0}, {0.86904764, 0.222}}</string>
+				<key>HD_ImageSize</key>
+				<string>{504, 500}</string>
+				<key>Image</key>
+				<string>eyes.png</string>
+				<key>Image-HD</key>
+				<string>eyes-hd.png</string>
+				<key>ImageURL</key>
+				<string>/Users/jeppetuxen/Documents/ITU/UserExperienceAndPrototyping/Corona/prototype4/eyes.png</string>
+				<key>ImageURL-HD</key>
+				<string>/Users/jeppetuxen/Documents/ITU/UserExperienceAndPrototyping/Corona/prototype4/eyes-hd.png</string>
+				<key>Name</key>
+				<string>eye8</string>
+				<key>Opacity</key>
+				<real>1</real>
+				<key>SD_ImageSize</key>
+				<string>{252, 250}</string>
+				<key>Scale</key>
+				<string>{1, 1}</string>
+				<key>ZOrder</key>
+				<integer>0</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>PhysicProperties</key>
+			<dict>
+				<key>AngularDamping</key>
+				<real>0.0</real>
+				<key>AngularVelocity</key>
+				<real>0.0</real>
+				<key>CanSleep</key>
+				<true/>
+				<key>Category</key>
+				<integer>1</integer>
+				<key>Density</key>
+				<real>0.20000000298023224</real>
+				<key>Fixtures</key>
+				<array>
+					<array>
+						<string>{-12.25, 8}</string>
+						<string>{-13.75, 4}</string>
+						<string>{12.25, -8}</string>
+						<string>{14.300003, -3}</string>
+						<string>{14.25, 8}</string>
+						<string>{13.25, 11}</string>
+						<string>{3.25, 16.950001}</string>
+						<string>{-10.75, 11}</string>
+					</array>
+					<array>
+						<string>{3.25, 16.950001}</string>
+						<string>{13.25, 11}</string>
+						<string>{11.75, 13.5}</string>
+						<string>{9.75, 15.5}</string>
+						<string>{8.75, 16}</string>
+					</array>
+					<array>
+						<string>{-14.25, 2}</string>
+						<string>{-14.75, -1}</string>
+						<string>{-14.75, -6}</string>
+						<string>{1.25, -16}</string>
+						<string>{7.25, -13.5}</string>
+						<string>{11.25, -9.5}</string>
+						<string>{12.25, -8}</string>
+						<string>{-13.75, 4}</string>
+					</array>
+					<array>
+						<string>{-14.25, -8.5}</string>
+						<string>{-13.25, -10.5}</string>
+						<string>{-12.25, -12}</string>
+						<string>{-6.75, -16}</string>
+						<string>{-0.75, -16.5}</string>
+						<string>{1.25, -16}</string>
+						<string>{-14.75, -6}</string>
+					</array>
+					<array>
+						<string>{-10.75, 11}</string>
+						<string>{3.25, 16.950001}</string>
+						<string>{-2.75, 17}</string>
+						<string>{-4.25, 16.5}</string>
+						<string>{-7.25, 15}</string>
+						<string>{-9.75, 12.5}</string>
+					</array>
+					<array>
+						<string>{-10.75, -14}</string>
+						<string>{-6.75, -16}</string>
+						<string>{-12.25, -12}</string>
+					</array>
+				</array>
+				<key>Friction</key>
+				<real>0.20000000298023224</real>
+				<key>Group</key>
+				<integer>0</integer>
+				<key>IsBullet</key>
+				<false/>
+				<key>IsCircle</key>
+				<false/>
+				<key>IsFixedRot</key>
+				<false/>
+				<key>IsSensor</key>
+				<false/>
+				<key>LinearDamping</key>
+				<real>0.0</real>
+				<key>LinearVelocityX</key>
+				<real>0.0</real>
+				<key>LinearVelocityY</key>
+				<real>0.0</real>
+				<key>Mask</key>
+				<integer>65535</integer>
+				<key>PhysicType</key>
+				<integer>2</integer>
+				<key>Restitution</key>
+				<real>0.20000000298023224</real>
+				<key>SHHolesPoints</key>
+				<array/>
+				<key>SHShapePoints</key>
+				<array>
+					<string>{442, 36}</string>
+					<string>{443, 30}</string>
+					<string>{444, 26}</string>
+					<string>{447, 18}</string>
+					<string>{450, 12}</string>
+					<string>{452, 9}</string>
+					<string>{457, 4}</string>
+					<string>{463, 1}</string>
+					<string>{466, 0}</string>
+					<string>{478, 0.099998474}</string>
+					<string>{489, 2}</string>
+					<string>{491, 3}</string>
+					<string>{495, 7}</string>
+					<string>{498, 12}</string>
+					<string>{500, 18}</string>
+					<string>{500.10001, 40}</string>
+					<string>{496, 50}</string>
+					<string>{494, 53}</string>
+					<string>{486, 61}</string>
+					<string>{474, 66}</string>
+					<string>{470, 67}</string>
+					<string>{462, 67.099998}</string>
+					<string>{458, 66}</string>
+					<string>{450, 62}</string>
+					<string>{447, 58}</string>
+					<string>{445, 55}</string>
+					<string>{443, 51}</string>
+					<string>{442, 46}</string>
+				</array>
+				<key>ShapeBorderH</key>
+				<integer>0</integer>
+				<key>ShapeBorderW</key>
+				<integer>0</integer>
+				<key>ShapePositionOffsetX</key>
+				<integer>0</integer>
+				<key>ShapePositionOffsetY</key>
+				<integer>0</integer>
+			</dict>
+			<key>TextureProperties</key>
+			<dict>
+				<key>Color</key>
+				<string>{{1, 1}, {1, 0}}</string>
+				<key>Frame</key>
+				<string>{{221, 0}, {29.5, 34}}</string>
+				<key>Frame-HD</key>
+				<string>{{442, 0}, {59, 68}}</string>
+				<key>FrameUV</key>
+				<string>{{0.87698412, 0}, {0.99404764, 0.13600001}}</string>
+				<key>HD_ImageSize</key>
+				<string>{504, 500}</string>
+				<key>Image</key>
+				<string>eyes.png</string>
+				<key>Image-HD</key>
+				<string>eyes-hd.png</string>
+				<key>ImageURL</key>
+				<string>/Users/jeppetuxen/Documents/ITU/UserExperienceAndPrototyping/Corona/prototype4/eyes.png</string>
+				<key>ImageURL-HD</key>
+				<string>/Users/jeppetuxen/Documents/ITU/UserExperienceAndPrototyping/Corona/prototype4/eyes-hd.png</string>
+				<key>Name</key>
+				<string>eye7R</string>
+				<key>Opacity</key>
+				<real>1</real>
+				<key>SD_ImageSize</key>
+				<string>{252, 250}</string>
+				<key>Scale</key>
+				<string>{1, 1}</string>
+				<key>ZOrder</key>
+				<integer>0</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>PhysicProperties</key>
+			<dict>
+				<key>AngularDamping</key>
+				<real>0.0</real>
+				<key>AngularVelocity</key>
+				<real>0.0</real>
+				<key>CanSleep</key>
+				<true/>
+				<key>Category</key>
+				<integer>1</integer>
+				<key>Density</key>
+				<real>0.20000000298023224</real>
+				<key>Fixtures</key>
+				<array>
+					<array>
+						<string>{-13.75, -0.25}</string>
+						<string>{13.25, 5.25}</string>
+						<string>{11.75, 8.25}</string>
+						<string>{9.75, 11.25}</string>
+						<string>{0.75, 15.700001}</string>
+						<string>{-5.25, 15.75}</string>
+						<string>{-6.25, 15.25}</string>
+						<string>{-13.75, 10.25}</string>
+					</array>
+					<array>
+						<string>{7.25, -12.75}</string>
+						<string>{9.75, -10.75}</string>
+						<string>{11.25, -8.75}</string>
+						<string>{13.800003, -2.25}</string>
+						<string>{-7.75, -12.25}</string>
+						<string>{-3.75, -14.25}</string>
+						<string>{-0.25, -15.300003}</string>
+						<string>{2.25, -15.25}</string>
+					</array>
+					<array>
+						<string>{-13.75, -0.25}</string>
+						<string>{-13.25, -4.25}</string>
+						<string>{-12.25, -6.75}</string>
+						<string>{11.25, -8.75}</string>
+						<string>{13.25, -4.75}</string>
+						<string>{13.800003, -2.25}</string>
+						<string>{13.75, 3.75}</string>
+						<string>{13.25, 5.25}</string>
+					</array>
+					<array>
+						<string>{-12.75, -5.75}</string>
+						<string>{-12.25, -6.75}</string>
+						<string>{-13.25, -4.25}</string>
+					</array>
+					<array>
+						<string>{0.75, 15.700001}</string>
+						<string>{9.75, 11.25}</string>
+						<string>{7.25, 13.75}</string>
+						<string>{5.25, 14.75}</string>
+						<string>{3.75, 15.25}</string>
+					</array>
+					<array>
+						<string>{12.25, -7.25}</string>
+						<string>{13.25, -4.75}</string>
+						<string>{-10.75, -9.25}</string>
+						<string>{-7.75, -12.25}</string>
+					</array>
+					<array>
+						<string>{-10.75, -9.25}</string>
+						<string>{11.25, -8.75}</string>
+						<string>{-12.25, -6.75}</string>
+					</array>
+					<array>
+						<string>{8.75, -11.75}</string>
+						<string>{9.75, -10.75}</string>
+						<string>{7.25, -12.75}</string>
+					</array>
+				</array>
+				<key>Friction</key>
+				<real>0.20000000298023224</real>
+				<key>Group</key>
+				<integer>0</integer>
+				<key>IsBullet</key>
+				<false/>
+				<key>IsCircle</key>
+				<false/>
+				<key>IsFixedRot</key>
+				<false/>
+				<key>IsSensor</key>
+				<false/>
+				<key>LinearDamping</key>
+				<real>0.0</real>
+				<key>LinearVelocityX</key>
+				<real>0.0</real>
+				<key>LinearVelocityY</key>
+				<real>0.0</real>
+				<key>Mask</key>
+				<integer>65535</integer>
+				<key>PhysicType</key>
+				<integer>2</integer>
+				<key>Restitution</key>
+				<real>0.20000000298023224</real>
+				<key>SHHolesPoints</key>
+				<array/>
+				<key>SHShapePoints</key>
+				<array>
+					<string>{443, 85}</string>
+					<string>{458, 75}</string>
+					<string>{460, 74}</string>
+					<string>{472, 74.099998}</string>
+					<string>{478, 75}</string>
+					<string>{481, 76}</string>
+					<string>{485, 78}</string>
+					<string>{490, 83}</string>
+					<string>{494, 89}</string>
+					<string>{497, 95}</string>
+					<string>{498, 98}</string>
+					<string>{498.10001, 110}</string>
+					<string>{497, 115}</string>
+					<string>{495, 120}</string>
+					<string>{493, 123}</string>
+					<string>{490, 127}</string>
+					<string>{488, 129}</string>
+					<string>{485, 131}</string>
+					<string>{475, 136}</string>
+					<string>{470, 136.10001}</string>
+					<string>{463, 134}</string>
+					<string>{455, 130}</string>
+					<string>{449, 124}</string>
+					<string>{446, 119}</string>
+					<string>{445, 117}</string>
+					<string>{444, 114}</string>
+					<string>{443, 106}</string>
+				</array>
+				<key>ShapeBorderH</key>
+				<integer>0</integer>
+				<key>ShapeBorderW</key>
+				<integer>0</integer>
+				<key>ShapePositionOffsetX</key>
+				<integer>0</integer>
+				<key>ShapePositionOffsetY</key>
+				<integer>0</integer>
+			</dict>
+			<key>TextureProperties</key>
+			<dict>
+				<key>Color</key>
+				<string>{{1, 1}, {1, 0}}</string>
+				<key>Frame</key>
+				<string>{{221, 37}, {28.5, 31.5}}</string>
+				<key>Frame-HD</key>
+				<string>{{442, 74}, {57, 63}}</string>
+				<key>FrameUV</key>
+				<string>{{0.87698412, 0.148}, {0.99007934, 0.27399999}}</string>
+				<key>HD_ImageSize</key>
+				<string>{504, 500}</string>
+				<key>Image</key>
+				<string>eyes.png</string>
+				<key>Image-HD</key>
+				<string>eyes-hd.png</string>
+				<key>ImageURL</key>
+				<string>/Users/jeppetuxen/Documents/ITU/UserExperienceAndPrototyping/Corona/prototype4/eyes.png</string>
+				<key>ImageURL-HD</key>
+				<string>/Users/jeppetuxen/Documents/ITU/UserExperienceAndPrototyping/Corona/prototype4/eyes-hd.png</string>
+				<key>Name</key>
+				<string>eye12L.</string>
+				<key>Opacity</key>
+				<real>1</real>
+				<key>SD_ImageSize</key>
+				<string>{252, 250}</string>
+				<key>Scale</key>
+				<string>{1, 1}</string>
+				<key>ZOrder</key>
+				<integer>0</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>PhysicProperties</key>
+			<dict>
+				<key>AngularDamping</key>
+				<real>0.0</real>
+				<key>AngularVelocity</key>
+				<real>0.0</real>
+				<key>CanSleep</key>
+				<true/>
+				<key>Category</key>
+				<integer>1</integer>
+				<key>Density</key>
+				<real>0.20000000298023224</real>
+				<key>Fixtures</key>
+				<array>
+					<array>
+						<string>{12.75, -2.5}</string>
+						<string>{13.800003, -1.5}</string>
+						<string>{13.75, 0.5}</string>
+						<string>{13.25, 1.5}</string>
+						<string>{11.75, 3}</string>
+						<string>{10.75, 3.5}</string>
+						<string>{8.25, 4.4500008}</string>
+						<string>{-2.25, 4.5}</string>
+					</array>
+					<array>
+						<string>{-14.25, -2}</string>
+						<string>{-13.75, -3}</string>
+						<string>{-13.25, -3.5}</string>
+						<string>{-12.25, -4.0500031}</string>
+						<string>{-9.75, -4}</string>
+						<string>{-7.25, 3.5}</string>
+						<string>{-13.25, 1.5}</string>
+						<string>{-14.25, 0.5}</string>
+					</array>
+					<array>
+						<string>{-9.75, -4}</string>
+						<string>{12.75, -2.5}</string>
+						<string>{-2.25, 4.5}</string>
+						<string>{-5.25, 4}</string>
+						<string>{-7.25, 3.5}</string>
+					</array>
+				</array>
+				<key>Friction</key>
+				<real>0.20000000298023224</real>
+				<key>Group</key>
+				<integer>0</integer>
+				<key>IsBullet</key>
+				<false/>
+				<key>IsCircle</key>
+				<false/>
+				<key>IsFixedRot</key>
+				<false/>
+				<key>IsSensor</key>
+				<false/>
+				<key>LinearDamping</key>
+				<real>0.0</real>
+				<key>LinearVelocityX</key>
+				<real>0.0</real>
+				<key>LinearVelocityY</key>
+				<real>0.0</real>
+				<key>Mask</key>
+				<integer>65535</integer>
+				<key>PhysicType</key>
+				<integer>2</integer>
+				<key>Restitution</key>
+				<real>0.20000000298023224</real>
+				<key>SHHolesPoints</key>
+				<array/>
+				<key>SHShapePoints</key>
+				<array>
+					<string>{364, 124}</string>
+					<string>{366, 122}</string>
+					<string>{378, 118}</string>
+					<string>{382, 117}</string>
+					<string>{388, 116}</string>
+					<string>{409, 116.1}</string>
+					<string>{414, 118}</string>
+					<string>{416, 119}</string>
+					<string>{419, 122}</string>
+					<string>{420, 124}</string>
+					<string>{420.10001, 128}</string>
+					<string>{418, 130}</string>
+					<string>{373, 133}</string>
+					<string>{368, 133.10001}</string>
+					<string>{366, 132}</string>
+					<string>{365, 131}</string>
+					<string>{364, 129}</string>
+				</array>
+				<key>ShapeBorderH</key>
+				<integer>0</integer>
+				<key>ShapeBorderW</key>
+				<integer>0</integer>
+				<key>ShapePositionOffsetX</key>
+				<integer>0</integer>
+				<key>ShapePositionOffsetY</key>
+				<integer>0</integer>
+			</dict>
+			<key>TextureProperties</key>
+			<dict>
+				<key>Color</key>
+				<string>{{1, 1}, {1, 0}}</string>
+				<key>Frame</key>
+				<string>{{182, 58}, {28.5, 9}}</string>
+				<key>Frame-HD</key>
+				<string>{{364, 116}, {57, 18}}</string>
+				<key>FrameUV</key>
+				<string>{{0.72222221, 0.23199999}, {0.83531743, 0.26800001}}</string>
+				<key>HD_ImageSize</key>
+				<string>{504, 500}</string>
+				<key>Image</key>
+				<string>eyes.png</string>
+				<key>Image-HD</key>
+				<string>eyes-hd.png</string>
+				<key>ImageURL</key>
+				<string>/Users/jeppetuxen/Documents/ITU/UserExperienceAndPrototyping/Corona/prototype4/eyes.png</string>
+				<key>ImageURL-HD</key>
+				<string>/Users/jeppetuxen/Documents/ITU/UserExperienceAndPrototyping/Corona/prototype4/eyes-hd.png</string>
+				<key>Name</key>
+				<string>eye4R</string>
+				<key>Opacity</key>
+				<real>1</real>
+				<key>SD_ImageSize</key>
+				<string>{252, 250}</string>
+				<key>Scale</key>
+				<string>{1, 1}</string>
+				<key>ZOrder</key>
+				<integer>0</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>PhysicProperties</key>
+			<dict>
+				<key>AngularDamping</key>
+				<real>0.0</real>
+				<key>AngularVelocity</key>
+				<real>0.0</real>
+				<key>CanSleep</key>
+				<true/>
+				<key>Category</key>
+				<integer>1</integer>
+				<key>Density</key>
+				<real>0.20000000298023224</real>
+				<key>Fixtures</key>
+				<array>
+					<array>
+						<string>{8.5, -5.8000031}</string>
+						<string>{12, -5.75}</string>
+						<string>{13, -5.25}</string>
+						<string>{13.550003, -4.25}</string>
+						<string>{13.5, 2.25}</string>
+						<string>{11.5, 5.25}</string>
+						<string>{11, 5.75}</string>
+						<string>{1, 6.2000008}</string>
+					</array>
+					<array>
+						<string>{-13.949997, 2.25}</string>
+						<string>{-14, -3.25}</string>
+						<string>{-7.5, -5.25}</string>
+						<string>{1, 6.2000008}</string>
+						<string>{-7, 6.25}</string>
+						<string>{-12, 4.25}</string>
+						<string>{-13, 3.75}</string>
+						<string>{-13.5, 3.25}</string>
+					</array>
+					<array>
+						<string>{-13.5, -4.25}</string>
+						<string>{-7.5, -5.25}</string>
+						<string>{-14, -3.25}</string>
+					</array>
+					<array>
+						<string>{-7.5, -5.25}</string>
+						<string>{8.5, -5.8000031}</string>
+						<string>{1, 6.2000008}</string>
+					</array>
+				</array>
+				<key>Friction</key>
+				<real>0.20000000298023224</real>
+				<key>Group</key>
+				<integer>0</integer>
+				<key>IsBullet</key>
+				<false/>
+				<key>IsCircle</key>
+				<false/>
+				<key>IsFixedRot</key>
+				<false/>
+				<key>IsSensor</key>
+				<false/>
+				<key>LinearDamping</key>
+				<real>0.0</real>
+				<key>LinearVelocityX</key>
+				<real>0.0</real>
+				<key>LinearVelocityY</key>
+				<real>0.0</real>
+				<key>Mask</key>
+				<integer>65535</integer>
+				<key>PhysicType</key>
+				<integer>2</integer>
+				<key>Restitution</key>
+				<real>0.20000000298023224</real>
+				<key>SHHolesPoints</key>
+				<array/>
+				<key>SHShapePoints</key>
+				<array>
+					<string>{280.10001, 126}</string>
+					<string>{281, 124}</string>
+					<string>{282, 123}</string>
+					<string>{284, 122}</string>
+					<string>{294, 118}</string>
+					<string>{310, 118.1}</string>
+					<string>{330, 119}</string>
+					<string>{331, 120}</string>
+					<string>{335, 126}</string>
+					<string>{335.10001, 139}</string>
+					<string>{334, 141}</string>
+					<string>{332, 142}</string>
+					<string>{325, 142.10001}</string>
+					<string>{293, 141}</string>
+					<string>{281, 139}</string>
+					<string>{280, 137}</string>
+				</array>
+				<key>ShapeBorderH</key>
+				<integer>0</integer>
+				<key>ShapeBorderW</key>
+				<integer>0</integer>
+				<key>ShapePositionOffsetX</key>
+				<integer>0</integer>
+				<key>ShapePositionOffsetY</key>
+				<integer>0</integer>
+			</dict>
+			<key>TextureProperties</key>
+			<dict>
+				<key>Color</key>
+				<string>{{1, 1}, {1, 0}}</string>
+				<key>Frame</key>
+				<string>{{140, 59}, {28, 12.5}}</string>
+				<key>Frame-HD</key>
+				<string>{{280, 118}, {56, 25}}</string>
+				<key>FrameUV</key>
+				<string>{{0.55555558, 0.236}, {0.66666669, 0.28600001}}</string>
+				<key>HD_ImageSize</key>
+				<string>{504, 500}</string>
+				<key>Image</key>
+				<string>eyes.png</string>
+				<key>Image-HD</key>
+				<string>eyes-hd.png</string>
+				<key>ImageURL</key>
+				<string>/Users/jeppetuxen/Documents/ITU/UserExperienceAndPrototyping/Corona/prototype4/eyes.png</string>
+				<key>ImageURL-HD</key>
+				<string>/Users/jeppetuxen/Documents/ITU/UserExperienceAndPrototyping/Corona/prototype4/eyes-hd.png</string>
+				<key>Name</key>
+				<string>eye6</string>
+				<key>Opacity</key>
+				<real>1</real>
+				<key>SD_ImageSize</key>
+				<string>{252, 250}</string>
+				<key>Scale</key>
+				<string>{1, 1}</string>
+				<key>ZOrder</key>
+				<integer>0</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>PhysicProperties</key>
+			<dict>
+				<key>AngularDamping</key>
+				<real>0.0</real>
+				<key>AngularVelocity</key>
+				<real>0.0</real>
+				<key>CanSleep</key>
+				<true/>
+				<key>Category</key>
+				<integer>1</integer>
+				<key>Density</key>
+				<real>0.20000000298023224</real>
+				<key>Fixtures</key>
+				<array>
+					<array>
+						<string>{-18, 23.25}</string>
+						<string>{-20, 19.25}</string>
+						<string>{-21, 10.75}</string>
+						<string>{-21, 2.25}</string>
+						<string>{20.549999, 5.25}</string>
+						<string>{20.5, 19.75}</string>
+						<string>{-4, 33.75}</string>
+						<string>{-8.5, 32.25}</string>
+					</array>
+					<array>
+						<string>{16, -14.75}</string>
+						<string>{20.549999, 5.25}</string>
+						<string>{-21, 2.25}</string>
+						<string>{-18.5, -7.25}</string>
+						<string>{-17, -11.25}</string>
+						<string>{-13.5, -18.25}</string>
+						<string>{-12.5, -19.75}</string>
+					</array>
+					<array>
+						<string>{-21, 10.75}</string>
+						<string>{-20, 19.25}</string>
+						<string>{-20.5, 17.75}</string>
+					</array>
+					<array>
+						<string>{-0, 34.75}</string>
+						<string>{-4, 33.75}</string>
+						<string>{20.5, 19.75}</string>
+						<string>{19.5, 23.25}</string>
+						<string>{19, 24.75}</string>
+						<string>{18, 26.75}</string>
+						<string>{16, 29.75}</string>
+						<string>{10.5, 34.25}</string>
+					</array>
+					<array>
+						<string>{10.5, 34.25}</string>
+						<string>{16, 29.75}</string>
+						<string>{12.5, 33.25}</string>
+					</array>
+					<array>
+						<string>{-15, 27.75}</string>
+						<string>{-16.5, 25.75}</string>
+						<string>{-18, 23.25}</string>
+						<string>{-8.5, 32.25}</string>
+						<string>{-10.5, 31.25}</string>
+						<string>{-12, 30.25}</string>
+						<string>{-14, 28.75}</string>
+					</array>
+					<array>
+						<string>{16, -14.75}</string>
+						<string>{-12.5, -19.75}</string>
+						<string>{-8.5, -24.75}</string>
+						<string>{-5.5, -27.75}</string>
+						<string>{2.5, -33.75}</string>
+						<string>{12.5, -27.75}</string>
+					</array>
+					<array>
+						<string>{16, -14.75}</string>
+						<string>{8.5, 34.699997}</string>
+						<string>{3.5, -34.300003}</string>
+						<string>{11.5, -30.25}</string>
+						<string>{12, -29.25}</string>
+						<string>{12.5, -27.75}</string>
+					</array>
+					<array>
+						<string>{12, -29.25}</string>
+						<string>{12.5, -27.75}</string>
+						<string>{2.5, -33.75}</string>
+						<string>{5.5, -34.25}</string>
+						<string>{7.5, -33.75}</string>
+						<string>{8.5, -33.25}</string>
+						<string>{11.5, -30.25}</string>
+					</array>
+					<array>
+						<string>{5.5, -34.25}</string>
+						<string>{7.5, -33.75}</string>
+						<string>{8.5, -33.25}</string>
+						<string>{11.5, -30.25}</string>
+						<string>{3.5, -34.300003}</string>
+					</array>
+					<array>
+						<string>{-0, 34.75}</string>
+						<string>{10.5, 34.25}</string>
+						<string>{8.5, 34.699997}</string>
+					</array>
+				</array>
+				<key>Friction</key>
+				<real>0.20000000298023224</real>
+				<key>Group</key>
+				<integer>0</integer>
+				<key>IsBullet</key>
+				<false/>
+				<key>IsCircle</key>
+				<false/>
+				<key>IsFixedRot</key>
+				<false/>
+				<key>IsSensor</key>
+				<false/>
+				<key>LinearDamping</key>
+				<real>0.0</real>
+				<key>LinearVelocityX</key>
+				<real>0.0</real>
+				<key>LinearVelocityY</key>
+				<real>0.0</real>
+				<key>Mask</key>
+				<integer>65535</integer>
+				<key>PhysicType</key>
+				<integer>2</integer>
+				<key>Restitution</key>
+				<real>0.20000000298023224</real>
+				<key>SHHolesPoints</key>
+				<array/>
+				<key>SHShapePoints</key>
+				<array>
+					<string>{0, 184}</string>
+					<string>{1, 170}</string>
+					<string>{2, 167}</string>
+					<string>{6, 159}</string>
+					<string>{9, 154}</string>
+					<string>{12, 150}</string>
+					<string>{14, 148}</string>
+					<string>{18, 145}</string>
+					<string>{21, 143}</string>
+					<string>{25, 141}</string>
+					<string>{34, 138}</string>
+					<string>{42, 136}</string>
+					<string>{59, 136.10001}</string>
+					<string>{63, 137}</string>
+					<string>{67, 139}</string>
+					<string>{74, 146}</string>
+					<string>{78, 152}</string>
+					<string>{80, 156}</string>
+					<string>{81, 159}</string>
+					<string>{83, 166}</string>
+					<string>{83.099998, 195}</string>
+					<string>{74, 235}</string>
+					<string>{72, 243}</string>
+					<string>{69, 254}</string>
+					<string>{67, 261}</string>
+					<string>{66, 264}</string>
+					<string>{65, 266}</string>
+					<string>{59, 272}</string>
+					<string>{57, 273}</string>
+					<string>{53, 274}</string>
+					<string>{49, 274.10001}</string>
+					<string>{47, 273}</string>
+					<string>{31, 261}</string>
+					<string>{25, 255}</string>
+					<string>{17, 245}</string>
+					<string>{15, 242}</string>
+					<string>{8, 228}</string>
+					<string>{5, 220}</string>
+					<string>{1, 205}</string>
+					<string>{0, 201}</string>
+				</array>
+				<key>ShapeBorderH</key>
+				<integer>0</integer>
+				<key>ShapeBorderW</key>
+				<integer>0</integer>
+				<key>ShapePositionOffsetX</key>
+				<integer>0</integer>
+				<key>ShapePositionOffsetY</key>
+				<integer>0</integer>
+			</dict>
+			<key>TextureProperties</key>
+			<dict>
+				<key>Color</key>
+				<string>{{1, 1}, {1, 0}}</string>
+				<key>Frame</key>
+				<string>{{0, 68}, {42, 69.5}}</string>
+				<key>Frame-HD</key>
+				<string>{{0, 136}, {84, 139}}</string>
+				<key>FrameUV</key>
+				<string>{{0, 0.27200001}, {0.16666667, 0.55000001}}</string>
+				<key>HD_ImageSize</key>
+				<string>{504, 500}</string>
+				<key>Image</key>
+				<string>eyes.png</string>
+				<key>Image-HD</key>
+				<string>eyes-hd.png</string>
+				<key>ImageURL</key>
+				<string>/Users/jeppetuxen/Documents/ITU/UserExperienceAndPrototyping/Corona/prototype4/eyes.png</string>
+				<key>ImageURL-HD</key>
+				<string>/Users/jeppetuxen/Documents/ITU/UserExperienceAndPrototyping/Corona/prototype4/eyes-hd.png</string>
+				<key>Name</key>
+				<string>eye15R</string>
+				<key>Opacity</key>
+				<real>1</real>
+				<key>SD_ImageSize</key>
+				<string>{252, 250}</string>
+				<key>Scale</key>
+				<string>{1, 1}</string>
+				<key>ZOrder</key>
+				<integer>0</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>PhysicProperties</key>
+			<dict>
+				<key>AngularDamping</key>
+				<real>0.0</real>
+				<key>AngularVelocity</key>
+				<real>0.0</real>
+				<key>CanSleep</key>
+				<true/>
+				<key>Category</key>
+				<integer>1</integer>
+				<key>Density</key>
+				<real>0.20000000298023224</real>
+				<key>Fixtures</key>
+				<array>
+					<array>
+						<string>{1.25, 7}</string>
+						<string>{-0.25, 3.5}</string>
+						<string>{-1.75, -1.5}</string>
+						<string>{-2.2000008, -5}</string>
+						<string>{-0.25, -3.5}</string>
+						<string>{1.25, 1}</string>
+						<string>{1.7999992, 5}</string>
+						<string>{1.75, 7.5}</string>
+					</array>
+					<array>
+						<string>{-2.25, -7}</string>
+						<string>{-1.25, -5.5}</string>
+						<string>{-0.25, -3.5}</string>
+						<string>{-2.2000008, -5}</string>
+					</array>
+				</array>
+				<key>Friction</key>
+				<real>0.20000000298023224</real>
+				<key>Group</key>
+				<integer>0</integer>
+				<key>IsBullet</key>
+				<false/>
+				<key>IsCircle</key>
+				<false/>
+				<key>IsFixedRot</key>
+				<false/>
+				<key>IsSensor</key>
+				<false/>
+				<key>LinearDamping</key>
+				<real>0.0</real>
+				<key>LinearVelocityX</key>
+				<real>0.0</real>
+				<key>LinearVelocityY</key>
+				<real>0.0</real>
+				<key>Mask</key>
+				<integer>65535</integer>
+				<key>PhysicType</key>
+				<integer>2</integer>
+				<key>Restitution</key>
+				<real>0.20000000298023224</real>
+				<key>SHHolesPoints</key>
+				<array/>
+				<key>SHShapePoints</key>
+				<array>
+					<string>{90.099998, 161}</string>
+					<string>{91, 154}</string>
+					<string>{94, 144}</string>
+					<string>{97, 137}</string>
+					<string>{98, 136}</string>
+					<string>{98.099998, 141}</string>
+					<string>{97, 149}</string>
+					<string>{94, 158}</string>
+					<string>{92, 162}</string>
+					<string>{90, 165}</string>
+				</array>
+				<key>ShapeBorderH</key>
+				<integer>0</integer>
+				<key>ShapeBorderW</key>
+				<integer>0</integer>
+				<key>ShapePositionOffsetX</key>
+				<integer>0</integer>
+				<key>ShapePositionOffsetY</key>
+				<integer>0</integer>
+			</dict>
+			<key>TextureProperties</key>
+			<dict>
+				<key>Color</key>
+				<string>{{1, 1}, {1, 0}}</string>
+				<key>Frame</key>
+				<string>{{45, 68}, {4.5, 15}}</string>
+				<key>Frame-HD</key>
+				<string>{{90, 136}, {9, 30}}</string>
+				<key>FrameUV</key>
+				<string>{{0.17857143, 0.27200001}, {0.19642857, 0.33199999}}</string>
+				<key>HD_ImageSize</key>
+				<string>{504, 500}</string>
+				<key>Image</key>
+				<string>eyes.png</string>
+				<key>Image-HD</key>
+				<string>eyes-hd.png</string>
+				<key>ImageURL</key>
+				<string>/Users/jeppetuxen/Documents/ITU/UserExperienceAndPrototyping/Corona/prototype4/eyes.png</string>
+				<key>ImageURL-HD</key>
+				<string>/Users/jeppetuxen/Documents/ITU/UserExperienceAndPrototyping/Corona/prototype4/eyes-hd.png</string>
+				<key>Name</key>
+				<string>eye13R_1</string>
+				<key>Opacity</key>
+				<real>1</real>
+				<key>SD_ImageSize</key>
+				<string>{252, 250}</string>
+				<key>Scale</key>
+				<string>{1, 1}</string>
+				<key>ZOrder</key>
+				<integer>0</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>PhysicProperties</key>
+			<dict>
+				<key>AngularDamping</key>
+				<real>0.0</real>
+				<key>AngularVelocity</key>
+				<real>0.0</real>
+				<key>CanSleep</key>
+				<true/>
+				<key>Category</key>
+				<integer>1</integer>
+				<key>Density</key>
+				<real>0.20000000298023224</real>
+				<key>Fixtures</key>
+				<array>
+					<array>
+						<string>{-1, 0.75}</string>
+						<string>{-2, -0.75}</string>
+						<string>{-0, -1.75}</string>
+						<string>{1, -1.25}</string>
+						<string>{1.5499992, -0.25}</string>
+						<string>{1.5, 1.25}</string>
+						<string>{1, 2.1999969}</string>
+						<string>{0.5, 2.25}</string>
+					</array>
+					<array>
+						<string>{-1.5, -1.8000031}</string>
+						<string>{-0, -1.75}</string>
+						<string>{-2, -0.75}</string>
+					</array>
+				</array>
+				<key>Friction</key>
+				<real>0.20000000298023224</real>
+				<key>Group</key>
+				<integer>0</integer>
+				<key>IsBullet</key>
+				<false/>
+				<key>IsCircle</key>
+				<false/>
+				<key>IsFixedRot</key>
+				<false/>
+				<key>IsSensor</key>
+				<false/>
+				<key>LinearDamping</key>
+				<real>0.0</real>
+				<key>LinearVelocityX</key>
+				<real>0.0</real>
+				<key>LinearVelocityY</key>
+				<real>0.0</real>
+				<key>Mask</key>
+				<integer>65535</integer>
+				<key>PhysicType</key>
+				<integer>2</integer>
+				<key>Restitution</key>
+				<real>0.20000000298023224</real>
+				<key>SHHolesPoints</key>
+				<array/>
+				<key>SHShapePoints</key>
+				<array>
+					<string>{104, 142}</string>
+					<string>{106, 139}</string>
+					<string>{109, 136}</string>
+					<string>{110, 136.10001}</string>
+					<string>{111, 138}</string>
+					<string>{111.1, 141}</string>
+					<string>{110, 143}</string>
+					<string>{108, 144}</string>
+					<string>{105, 144.10001}</string>
+					<string>{104, 143}</string>
+				</array>
+				<key>ShapeBorderH</key>
+				<integer>0</integer>
+				<key>ShapeBorderW</key>
+				<integer>0</integer>
+				<key>ShapePositionOffsetX</key>
+				<integer>0</integer>
+				<key>ShapePositionOffsetY</key>
+				<integer>0</integer>
+			</dict>
+			<key>TextureProperties</key>
+			<dict>
+				<key>Color</key>
+				<string>{{1, 1}, {1, 0}}</string>
+				<key>Frame</key>
+				<string>{{52, 68}, {4, 4.5}}</string>
+				<key>Frame-HD</key>
+				<string>{{104, 136}, {8, 9}}</string>
+				<key>FrameUV</key>
+				<string>{{0.20634921, 0.27200001}, {0.22222222, 0.28999999}}</string>
+				<key>HD_ImageSize</key>
+				<string>{504, 500}</string>
+				<key>Image</key>
+				<string>eyes.png</string>
+				<key>Image-HD</key>
+				<string>eyes-hd.png</string>
+				<key>ImageURL</key>
+				<string>/Users/jeppetuxen/Documents/ITU/UserExperienceAndPrototyping/Corona/prototype4/eyes.png</string>
+				<key>ImageURL-HD</key>
+				<string>/Users/jeppetuxen/Documents/ITU/UserExperienceAndPrototyping/Corona/prototype4/eyes-hd.png</string>
+				<key>Name</key>
+				<string>eye14</string>
+				<key>Opacity</key>
+				<real>1</real>
+				<key>SD_ImageSize</key>
+				<string>{252, 250}</string>
+				<key>Scale</key>
+				<string>{1, 1}</string>
+				<key>ZOrder</key>
+				<integer>0</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>PhysicProperties</key>
+			<dict>
+				<key>AngularDamping</key>
+				<real>0.0</real>
+				<key>AngularVelocity</key>
+				<real>0.0</real>
+				<key>CanSleep</key>
+				<true/>
+				<key>Category</key>
+				<integer>1</integer>
+				<key>Density</key>
+				<real>0.20000000298023224</real>
+				<key>Fixtures</key>
+				<array>
+					<array>
+						<string>{14.5, -34}</string>
+						<string>{15.050003, -32.5}</string>
+						<string>{15, -22.5}</string>
+						<string>{1, -34.5}</string>
+						<string>{2.5, -35.5}</string>
+						<string>{4.5, -36.5}</string>
+						<string>{12.5, -36.5}</string>
+						<string>{13.5, -35.5}</string>
+					</array>
+					<array>
+						<string>{-13.5, 13}</string>
+						<string>{-5.5, -24.5}</string>
+						<string>{14, -18}</string>
+						<string>{-1.5, 32.5}</string>
+						<string>{-2.5, 34}</string>
+						<string>{-14.5, 30.5}</string>
+						<string>{-14.5, 24}</string>
+						<string>{-14, 17}</string>
+					</array>
+					<array>
+						<string>{-3.5, -29.5}</string>
+						<string>{-3, -30.5}</string>
+						<string>{-2, -32}</string>
+						<string>{15, -22.5}</string>
+						<string>{14.5, -20}</string>
+						<string>{14, -18}</string>
+						<string>{-5.5, -24.5}</string>
+						<string>{-5, -26}</string>
+					</array>
+					<array>
+						<string>{-14, 33.5}</string>
+						<string>{-14.5, 30.5}</string>
+						<string>{-2.5, 34}</string>
+						<string>{-5.5, 37}</string>
+						<string>{-6.5, 37.449997}</string>
+						<string>{-11, 37.5}</string>
+						<string>{-12, 37}</string>
+						<string>{-12.5, 36.5}</string>
+					</array>
+					<array>
+						<string>{1, -34.5}</string>
+						<string>{15, -22.5}</string>
+						<string>{-2, -32}</string>
+					</array>
+					<array>
+						<string>{11.5, -37}</string>
+						<string>{12.5, -36.5}</string>
+						<string>{4.5, -36.5}</string>
+					</array>
+				</array>
+				<key>Friction</key>
+				<real>0.20000000298023224</real>
+				<key>Group</key>
+				<integer>0</integer>
+				<key>IsBullet</key>
+				<false/>
+				<key>IsCircle</key>
+				<false/>
+				<key>IsFixedRot</key>
+				<false/>
+				<key>IsSensor</key>
+				<false/>
+				<key>LinearDamping</key>
+				<real>0.0</real>
+				<key>LinearVelocityX</key>
+				<real>0.0</real>
+				<key>LinearVelocityY</key>
+				<real>0.0</real>
+				<key>Mask</key>
+				<integer>65535</integer>
+				<key>PhysicType</key>
+				<integer>2</integer>
+				<key>Restitution</key>
+				<real>0.20000000298023224</real>
+				<key>SHHolesPoints</key>
+				<array/>
+				<key>SHShapePoints</key>
+				<array>
+					<string>{124, 164}</string>
+					<string>{125, 158}</string>
+					<string>{128, 152}</string>
+					<string>{129, 151}</string>
+					<string>{131, 150}</string>
+					<string>{140, 150.10001}</string>
+					<string>{142, 151}</string>
+					<string>{148, 157}</string>
+					<string>{150, 160}</string>
+					<string>{181, 261}</string>
+					<string>{182, 265}</string>
+					<string>{183, 270}</string>
+					<string>{183.10001, 290}</string>
+					<string>{182, 293}</string>
+					<string>{180, 296}</string>
+					<string>{178, 298}</string>
+					<string>{176, 299}</string>
+					<string>{165, 299.10001}</string>
+					<string>{162, 298}</string>
+					<string>{158, 296}</string>
+					<string>{155, 294}</string>
+					<string>{149, 289}</string>
+					<string>{147, 286}</string>
+					<string>{146, 284}</string>
+					<string>{143, 277}</string>
+					<string>{142, 274}</string>
+					<string>{126, 199}</string>
+					<string>{125, 191}</string>
+					<string>{124, 177}</string>
+				</array>
+				<key>ShapeBorderH</key>
+				<integer>0</integer>
+				<key>ShapeBorderW</key>
+				<integer>0</integer>
+				<key>ShapePositionOffsetX</key>
+				<integer>0</integer>
+				<key>ShapePositionOffsetY</key>
+				<integer>0</integer>
+			</dict>
+			<key>TextureProperties</key>
+			<dict>
+				<key>Color</key>
+				<string>{{1, 1}, {1, 0}}</string>
+				<key>Frame</key>
+				<string>{{61, 75}, {31, 75}}</string>
+				<key>Frame-HD</key>
+				<string>{{122, 150}, {62, 150}}</string>
+				<key>FrameUV</key>
+				<string>{{0.24206349, 0.30000001}, {0.36507937, 0.60000002}}</string>
+				<key>HD_ImageSize</key>
+				<string>{504, 500}</string>
+				<key>Image</key>
+				<string>eyes.png</string>
+				<key>Image-HD</key>
+				<string>eyes-hd.png</string>
+				<key>ImageURL</key>
+				<string>/Users/jeppetuxen/Documents/ITU/UserExperienceAndPrototyping/Corona/prototype4/eyes.png</string>
+				<key>ImageURL-HD</key>
+				<string>/Users/jeppetuxen/Documents/ITU/UserExperienceAndPrototyping/Corona/prototype4/eyes-hd.png</string>
+				<key>Name</key>
+				<string>eye11</string>
+				<key>Opacity</key>
+				<real>1</real>
+				<key>SD_ImageSize</key>
+				<string>{252, 250}</string>
+				<key>Scale</key>
+				<string>{1, 1}</string>
+				<key>ZOrder</key>
+				<integer>0</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>PhysicProperties</key>
+			<dict>
+				<key>AngularDamping</key>
+				<real>0.0</real>
+				<key>AngularVelocity</key>
+				<real>0.0</real>
+				<key>CanSleep</key>
+				<true/>
+				<key>Category</key>
+				<integer>1</integer>
+				<key>Density</key>
+				<real>0.20000000298023224</real>
+				<key>Fixtures</key>
+				<array>
+					<array>
+						<string>{-16.5, 14.75}</string>
+						<string>{-15, -13.75}</string>
+						<string>{15, -15.25}</string>
+						<string>{16.050003, -7.75}</string>
+						<string>{16, -2.75}</string>
+						<string>{-4, 24.75}</string>
+						<string>{-15.5, 19.75}</string>
+						<string>{-16.449997, 19.25}</string>
+					</array>
+					<array>
+						<string>{-4, 24.75}</string>
+						<string>{16, -2.75}</string>
+						<string>{15.5, 21.75}</string>
+						<string>{15, 22.75}</string>
+						<string>{10.5, 27.699997}</string>
+						<string>{4.5, 27.75}</string>
+						<string>{-1.5, 25.75}</string>
+					</array>
+					<array>
+						<string>{-14, -16.75}</string>
+						<string>{-13.5, -17.75}</string>
+						<string>{-9.5, -23.25}</string>
+						<string>{11, -21.75}</string>
+						<string>{12.5, -19.75}</string>
+						<string>{13.5, -18.25}</string>
+						<string>{15, -15.25}</string>
+						<string>{-15, -13.75}</string>
+					</array>
+					<array>
+						<string>{-11.5, -21.25}</string>
+						<string>{-9.5, -23.25}</string>
+						<string>{-13.5, -17.75}</string>
+					</array>
+					<array>
+						<string>{-7.5, -24.75}</string>
+						<string>{-6, -25.75}</string>
+						<string>{-5, -26.25}</string>
+						<string>{1, -27.300003}</string>
+						<string>{5, -27.25}</string>
+						<string>{8.5, -24.25}</string>
+						<string>{11, -21.75}</string>
+						<string>{-9.5, -23.25}</string>
+					</array>
+				</array>
+				<key>Friction</key>
+				<real>0.20000000298023224</real>
+				<key>Group</key>
+				<integer>0</integer>
+				<key>IsBullet</key>
+				<false/>
+				<key>IsCircle</key>
+				<false/>
+				<key>IsFixedRot</key>
+				<false/>
+				<key>IsSensor</key>
+				<false/>
+				<key>LinearDamping</key>
+				<real>0.0</real>
+				<key>LinearVelocityX</key>
+				<real>0.0</real>
+				<key>LinearVelocityY</key>
+				<real>0.0</real>
+				<key>Mask</key>
+				<integer>65535</integer>
+				<key>PhysicType</key>
+				<integer>2</integer>
+				<key>Restitution</key>
+				<real>0.20000000298023224</real>
+				<key>SHHolesPoints</key>
+				<array/>
+				<key>SHShapePoints</key>
+				<array>
+					<string>{188.10001, 167}</string>
+					<string>{190, 166}</string>
+					<string>{213, 156}</string>
+					<string>{218, 154}</string>
+					<string>{230, 150}</string>
+					<string>{242, 150.10001}</string>
+					<string>{251, 160}</string>
+					<string>{252, 162}</string>
+					<string>{253, 211}</string>
+					<string>{253.10001, 221}</string>
+					<string>{251, 236}</string>
+					<string>{248, 242}</string>
+					<string>{246, 245}</string>
+					<string>{243, 249}</string>
+					<string>{238, 254}</string>
+					<string>{231, 260}</string>
+					<string>{223, 260.10001}</string>
+					<string>{211, 258}</string>
+					<string>{209, 257}</string>
+					<string>{206, 255}</string>
+					<string>{202, 252}</string>
+					<string>{198, 248}</string>
+					<string>{194, 241}</string>
+					<string>{193, 239}</string>
+					<string>{191, 233}</string>
+					<string>{188, 176}</string>
+				</array>
+				<key>ShapeBorderH</key>
+				<integer>0</integer>
+				<key>ShapeBorderW</key>
+				<integer>0</integer>
+				<key>ShapePositionOffsetX</key>
+				<integer>0</integer>
+				<key>ShapePositionOffsetY</key>
+				<integer>0</integer>
+			</dict>
+			<key>TextureProperties</key>
+			<dict>
+				<key>Color</key>
+				<string>{{1, 1}, {1, 0}}</string>
+				<key>Frame</key>
+				<string>{{94, 75}, {33, 55.5}}</string>
+				<key>Frame-HD</key>
+				<string>{{188, 150}, {66, 111}}</string>
+				<key>FrameUV</key>
+				<string>{{0.37301588, 0.30000001}, {0.50396824, 0.52200001}}</string>
+				<key>HD_ImageSize</key>
+				<string>{504, 500}</string>
+				<key>Image</key>
+				<string>eyes.png</string>
+				<key>Image-HD</key>
+				<string>eyes-hd.png</string>
+				<key>ImageURL</key>
+				<string>/Users/jeppetuxen/Documents/ITU/UserExperienceAndPrototyping/Corona/prototype4/eyes.png</string>
+				<key>ImageURL-HD</key>
+				<string>/Users/jeppetuxen/Documents/ITU/UserExperienceAndPrototyping/Corona/prototype4/eyes-hd.png</string>
+				<key>Name</key>
+				<string>eye2</string>
+				<key>Opacity</key>
+				<real>1</real>
+				<key>SD_ImageSize</key>
+				<string>{252, 250}</string>
+				<key>Scale</key>
+				<string>{1, 1}</string>
+				<key>ZOrder</key>
+				<integer>0</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>PhysicProperties</key>
+			<dict>
+				<key>AngularDamping</key>
+				<real>0.0</real>
+				<key>AngularVelocity</key>
+				<real>0.0</real>
+				<key>CanSleep</key>
+				<true/>
+				<key>Category</key>
+				<integer>1</integer>
+				<key>Density</key>
+				<real>0.20000000298023224</real>
+				<key>Fixtures</key>
+				<array>
+					<array>
+						<string>{16.75, 4.75}</string>
+						<string>{15.75, 7.25}</string>
+						<string>{-17.75, 3.75}</string>
+						<string>{-18.25, 1.75}</string>
+						<string>{-18.25, -7.75}</string>
+						<string>{17.25, -7.75}</string>
+						<string>{17.800003, -4.75}</string>
+						<string>{17.75, 1.75}</string>
+					</array>
+					<array>
+						<string>{16.75, -9.75}</string>
+						<string>{17.25, -7.75}</string>
+						<string>{-18.25, -7.75}</string>
+						<string>{-16.75, -12.25}</string>
+						<string>{-8.25, -21.25}</string>
+						<string>{-3.25, -22.800003}</string>
+						<string>{12.75, -16.25}</string>
+						<string>{15.75, -11.75}</string>
+					</array>
+					<array>
+						<string>{-15.25, -15.25}</string>
+						<string>{-13.25, -17.75}</string>
+						<string>{-12.25, -18.75}</string>
+						<string>{-10.25, -20.25}</string>
+						<string>{-8.25, -21.25}</string>
+						<string>{-16.75, -12.25}</string>
+					</array>
+					<array>
+						<string>{-16.25, 8.25}</string>
+						<string>{-17.75, 3.75}</string>
+						<string>{15.75, 7.25}</string>
+						<string>{13.75, 11.25}</string>
+						<string>{12.75, 12.75}</string>
+						<string>{7.25, 18.25}</string>
+						<string>{-11.25, 17.75}</string>
+						<string>{-13.25, 15.25}</string>
+					</array>
+					<array>
+						<string>{6.75, -21.25}</string>
+						<string>{8.75, -20.25}</string>
+						<string>{12.75, -16.25}</string>
+						<string>{-3.25, -22.800003}</string>
+						<string>{2.25, -22.75}</string>
+					</array>
+					<array>
+						<string>{-4.25, 23.25}</string>
+						<string>{-6.25, 22.25}</string>
+						<string>{-8.25, 20.75}</string>
+						<string>{-11.25, 17.75}</string>
+						<string>{7.25, 18.25}</string>
+						<string>{1.75, 22.25}</string>
+					</array>
+					<array>
+						<string>{-5.75, -22.25}</string>
+						<string>{-3.25, -22.800003}</string>
+						<string>{-8.25, -21.25}</string>
+					</array>
+				</array>
+				<key>Friction</key>
+				<real>0.20000000298023224</real>
+				<key>Group</key>
+				<integer>0</integer>
+				<key>IsBullet</key>
+				<false/>
+				<key>IsCircle</key>
+				<false/>
+				<key>IsFixedRot</key>
+				<false/>
+				<key>IsSensor</key>
+				<false/>
+				<key>LinearDamping</key>
+				<real>0.0</real>
+				<key>LinearVelocityX</key>
+				<real>0.0</real>
+				<key>LinearVelocityY</key>
+				<real>0.0</real>
+				<key>Mask</key>
+				<integer>65535</integer>
+				<key>PhysicType</key>
+				<integer>2</integer>
+				<key>Restitution</key>
+				<real>0.20000000298023224</real>
+				<key>SHHolesPoints</key>
+				<array/>
+				<key>SHShapePoints</key>
+				<array>
+					<string>{260, 193}</string>
+					<string>{261, 189}</string>
+					<string>{264, 180}</string>
+					<string>{270, 166}</string>
+					<string>{274, 161}</string>
+					<string>{280, 155}</string>
+					<string>{284, 152}</string>
+					<string>{288, 150}</string>
+					<string>{296, 150.10001}</string>
+					<string>{300, 152}</string>
+					<string>{311, 160}</string>
+					<string>{322, 171}</string>
+					<string>{324, 174}</string>
+					<string>{328, 182}</string>
+					<string>{330, 187}</string>
+					<string>{332, 193}</string>
+					<string>{332.10001, 206}</string>
+					<string>{331, 212}</string>
+					<string>{330, 216}</string>
+					<string>{328, 220}</string>
+					<string>{322, 229}</string>
+					<string>{314, 237}</string>
+					<string>{310, 239}</string>
+					<string>{301, 242}</string>
+					<string>{290, 242.10001}</string>
+					<string>{285, 241}</string>
+					<string>{280, 239}</string>
+					<string>{276, 237}</string>
+					<string>{272, 234}</string>
+					<string>{270, 232}</string>
+					<string>{266, 227}</string>
+					<string>{263, 221}</string>
+					<string>{260, 212}</string>
+				</array>
+				<key>ShapeBorderH</key>
+				<integer>0</integer>
+				<key>ShapeBorderW</key>
+				<integer>0</integer>
+				<key>ShapePositionOffsetX</key>
+				<integer>0</integer>
+				<key>ShapePositionOffsetY</key>
+				<integer>0</integer>
+			</dict>
+			<key>TextureProperties</key>
+			<dict>
+				<key>Color</key>
+				<string>{{1, 1}, {1, 0}}</string>
+				<key>Frame</key>
+				<string>{{130, 75}, {36.5, 46.5}}</string>
+				<key>Frame-HD</key>
+				<string>{{260, 150}, {73, 93}}</string>
+				<key>FrameUV</key>
+				<string>{{0.51587301, 0.30000001}, {0.66071427, 0.486}}</string>
+				<key>HD_ImageSize</key>
+				<string>{504, 500}</string>
+				<key>Image</key>
+				<string>eyes.png</string>
+				<key>Image-HD</key>
+				<string>eyes-hd.png</string>
+				<key>ImageURL</key>
+				<string>/Users/jeppetuxen/Documents/ITU/UserExperienceAndPrototyping/Corona/prototype4/eyes.png</string>
+				<key>ImageURL-HD</key>
+				<string>/Users/jeppetuxen/Documents/ITU/UserExperienceAndPrototyping/Corona/prototype4/eyes-hd.png</string>
+				<key>Name</key>
+				<string>eye18</string>
+				<key>Opacity</key>
+				<real>1</real>
+				<key>SD_ImageSize</key>
+				<string>{252, 250}</string>
+				<key>Scale</key>
+				<string>{1, 1}</string>
+				<key>ZOrder</key>
+				<integer>0</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>PhysicProperties</key>
+			<dict>
+				<key>AngularDamping</key>
+				<real>0.0</real>
+				<key>AngularVelocity</key>
+				<real>0.0</real>
+				<key>CanSleep</key>
+				<true/>
+				<key>Category</key>
+				<integer>1</integer>
+				<key>Density</key>
+				<real>0.20000000298023224</real>
+				<key>Fixtures</key>
+				<array>
+					<array>
+						<string>{17, 12.5}</string>
+						<string>{16.5, 13}</string>
+						<string>{8.5, 17}</string>
+						<string>{-11, -14}</string>
+						<string>{1, -19}</string>
+						<string>{10.5, -16}</string>
+						<string>{17.550003, 10.5}</string>
+						<string>{17.5, 11.5}</string>
+					</array>
+					<array>
+						<string>{-18, 11.5}</string>
+						<string>{-11, -14}</string>
+						<string>{8.5, 17}</string>
+						<string>{-0, 19.449997}</string>
+						<string>{-10.5, 19.5}</string>
+						<string>{-17.5, 14.5}</string>
+						<string>{-18, 13.5}</string>
+					</array>
+					<array>
+						<string>{10, -17}</string>
+						<string>{10.5, -16}</string>
+						<string>{1, -19}</string>
+						<string>{9, -17.5}</string>
+					</array>
+					<array>
+						<string>{-10.5, -15}</string>
+						<string>{-9.5, -16}</string>
+						<string>{-7.5, -17}</string>
+						<string>{-1, -19.050003}</string>
+						<string>{1, -19}</string>
+						<string>{-11, -14}</string>
+					</array>
+				</array>
+				<key>Friction</key>
+				<real>0.20000000298023224</real>
+				<key>Group</key>
+				<integer>0</integer>
+				<key>IsBullet</key>
+				<false/>
+				<key>IsCircle</key>
+				<false/>
+				<key>IsFixedRot</key>
+				<false/>
+				<key>IsSensor</key>
+				<false/>
+				<key>LinearDamping</key>
+				<real>0.0</real>
+				<key>LinearVelocityX</key>
+				<real>0.0</real>
+				<key>LinearVelocityY</key>
+				<real>0.0</real>
+				<key>Mask</key>
+				<integer>65535</integer>
+				<key>PhysicType</key>
+				<integer>2</integer>
+				<key>Restitution</key>
+				<real>0.20000000298023224</real>
+				<key>SHHolesPoints</key>
+				<array/>
+				<key>SHShapePoints</key>
+				<array>
+					<string>{338, 162}</string>
+					<string>{339, 160}</string>
+					<string>{353, 150}</string>
+					<string>{374, 150.10001}</string>
+					<string>{391, 155}</string>
+					<string>{407, 163}</string>
+					<string>{408, 164}</string>
+					<string>{409, 166}</string>
+					<string>{409.10001, 168}</string>
+					<string>{395, 221}</string>
+					<string>{394, 223}</string>
+					<string>{392, 224}</string>
+					<string>{376, 227}</string>
+					<string>{372, 227.10001}</string>
+					<string>{359, 223}</string>
+					<string>{355, 221}</string>
+					<string>{353, 219}</string>
+					<string>{352, 217}</string>
+					<string>{338, 166}</string>
+				</array>
+				<key>ShapeBorderH</key>
+				<integer>0</integer>
+				<key>ShapeBorderW</key>
+				<integer>0</integer>
+				<key>ShapePositionOffsetX</key>
+				<integer>0</integer>
+				<key>ShapePositionOffsetY</key>
+				<integer>0</integer>
+			</dict>
+			<key>TextureProperties</key>
+			<dict>
+				<key>Color</key>
+				<string>{{1, 1}, {1, 0}}</string>
+				<key>Frame</key>
+				<string>{{169, 75}, {36, 39}}</string>
+				<key>Frame-HD</key>
+				<string>{{338, 150}, {72, 78}}</string>
+				<key>FrameUV</key>
+				<string>{{0.67063493, 0.30000001}, {0.81349206, 0.456}}</string>
+				<key>HD_ImageSize</key>
+				<string>{504, 500}</string>
+				<key>Image</key>
+				<string>eyes.png</string>
+				<key>Image-HD</key>
+				<string>eyes-hd.png</string>
+				<key>ImageURL</key>
+				<string>/Users/jeppetuxen/Documents/ITU/UserExperienceAndPrototyping/Corona/prototype4/eyes.png</string>
+				<key>ImageURL-HD</key>
+				<string>/Users/jeppetuxen/Documents/ITU/UserExperienceAndPrototyping/Corona/prototype4/eyes-hd.png</string>
+				<key>Name</key>
+				<string>eye20_1</string>
+				<key>Opacity</key>
+				<real>1</real>
+				<key>SD_ImageSize</key>
+				<string>{252, 250}</string>
+				<key>Scale</key>
+				<string>{1, 1}</string>
+				<key>ZOrder</key>
+				<integer>0</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>PhysicProperties</key>
+			<dict>
+				<key>AngularDamping</key>
+				<real>0.0</real>
+				<key>AngularVelocity</key>
+				<real>0.0</real>
+				<key>CanSleep</key>
+				<true/>
+				<key>Category</key>
+				<integer>1</integer>
+				<key>Density</key>
+				<real>0.20000000298023224</real>
+				<key>Fixtures</key>
+				<array>
+					<array>
+						<string>{16.5, -16.25}</string>
+						<string>{17.550003, -15.25}</string>
+						<string>{17.5, -13.25}</string>
+						<string>{17, -11.75}</string>
+						<string>{16.5, -10.75}</string>
+						<string>{11, -4.75}</string>
+						<string>{9, -3.25}</string>
+						<string>{5, -16.300003}</string>
+					</array>
+					<array>
+						<string>{-18, -5.75}</string>
+						<string>{-17, -9.25}</string>
+						<string>{-16.5, -10.25}</string>
+						<string>{-14.5, -11.25}</string>
+						<string>{-5.5, -14.75}</string>
+						<string>{4.5, -0.75}</string>
+						<string>{-9.5, 6.1999969}</string>
+						<string>{-18, -3.75}</string>
+					</array>
+					<array>
+						<string>{-14.5, -11.25}</string>
+						<string>{-9.5, 6.1999969}</string>
+						<string>{-11.5, 6.25}</string>
+						<string>{-12.5, 5.75}</string>
+					</array>
+					<array>
+						<string>{5, -16.300003}</string>
+						<string>{9, -3.25}</string>
+						<string>{4.5, -0.75}</string>
+						<string>{-5.5, -14.75}</string>
+						<string>{-2, -15.75}</string>
+					</array>
+					<array>
+						<string>{-18, -3.75}</string>
+						<string>{-9.5, 6.1999969}</string>
+						<string>{-12.5, 5.75}</string>
+						<string>{-17, 0.75}</string>
+					</array>
+				</array>
+				<key>Friction</key>
+				<real>0.20000000298023224</real>
+				<key>Group</key>
+				<integer>0</integer>
+				<key>IsBullet</key>
+				<false/>
+				<key>IsCircle</key>
+				<false/>
+				<key>IsFixedRot</key>
+				<false/>
+				<key>IsSensor</key>
+				<false/>
+				<key>LinearDamping</key>
+				<real>0.0</real>
+				<key>LinearVelocityX</key>
+				<real>0.0</real>
+				<key>LinearVelocityY</key>
+				<real>0.0</real>
+				<key>Mask</key>
+				<integer>65535</integer>
+				<key>PhysicType</key>
+				<integer>2</integer>
+				<key>Restitution</key>
+				<real>0.20000000298023224</real>
+				<key>SHHolesPoints</key>
+				<array/>
+				<key>SHShapePoints</key>
+				<array>
+					<string>{414, 191}</string>
+					<string>{416, 182}</string>
+					<string>{425, 172}</string>
+					<string>{427, 171}</string>
+					<string>{431, 171.10001}</string>
+					<string>{459, 185}</string>
+					<string>{468, 190}</string>
+					<string>{472, 193}</string>
+					<string>{483, 205}</string>
+					<string>{484, 207}</string>
+					<string>{485, 210}</string>
+					<string>{485.10001, 214}</string>
+					<string>{483, 216}</string>
+					<string>{460, 216.10001}</string>
+					<string>{446, 215}</string>
+					<string>{439, 213}</string>
+					<string>{421, 206}</string>
+					<string>{417, 204}</string>
+					<string>{416, 202}</string>
+					<string>{414, 195}</string>
+				</array>
+				<key>ShapeBorderH</key>
+				<integer>0</integer>
+				<key>ShapeBorderW</key>
+				<integer>0</integer>
+				<key>ShapePositionOffsetX</key>
+				<integer>0</integer>
+				<key>ShapePositionOffsetY</key>
+				<integer>0</integer>
+			</dict>
+			<key>TextureProperties</key>
+			<dict>
+				<key>Color</key>
+				<string>{{1, 1}, {1, 0}}</string>
+				<key>Frame</key>
+				<string>{{207, 75}, {36, 33.5}}</string>
+				<key>Frame-HD</key>
+				<string>{{414, 150}, {72, 67}}</string>
+				<key>FrameUV</key>
+				<string>{{0.8214286, 0.30000001}, {0.96428573, 0.43399999}}</string>
+				<key>HD_ImageSize</key>
+				<string>{504, 500}</string>
+				<key>Image</key>
+				<string>eyes.png</string>
+				<key>Image-HD</key>
+				<string>eyes-hd.png</string>
+				<key>ImageURL</key>
+				<string>/Users/jeppetuxen/Documents/ITU/UserExperienceAndPrototyping/Corona/prototype4/eyes.png</string>
+				<key>ImageURL-HD</key>
+				<string>/Users/jeppetuxen/Documents/ITU/UserExperienceAndPrototyping/Corona/prototype4/eyes-hd.png</string>
+				<key>Name</key>
+				<string>eye15</string>
+				<key>Opacity</key>
+				<real>1</real>
+				<key>SD_ImageSize</key>
+				<string>{252, 250}</string>
+				<key>Scale</key>
+				<string>{1, 1}</string>
+				<key>ZOrder</key>
+				<integer>0</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>PhysicProperties</key>
+			<dict>
+				<key>AngularDamping</key>
+				<real>0.0</real>
+				<key>AngularVelocity</key>
+				<real>0.0</real>
+				<key>CanSleep</key>
+				<true/>
+				<key>Category</key>
+				<integer>1</integer>
+				<key>Density</key>
+				<real>0.20000000298023224</real>
+				<key>Fixtures</key>
+				<array>
+					<array>
+						<string>{-1.25, 2.25}</string>
+						<string>{0.79999924, -1.75}</string>
+						<string>{0.75, 0.25}</string>
+						<string>{0.25, 1.25}</string>
+						<string>{-0.75, 2.1999969}</string>
+					</array>
+				</array>
+				<key>Friction</key>
+				<real>0.20000000298023224</real>
+				<key>Group</key>
+				<integer>0</integer>
+				<key>IsBullet</key>
+				<false/>
+				<key>IsCircle</key>
+				<false/>
+				<key>IsFixedRot</key>
+				<false/>
+				<key>IsSensor</key>
+				<false/>
+				<key>LinearDamping</key>
+				<real>0.0</real>
+				<key>LinearVelocityX</key>
+				<real>0.0</real>
+				<key>LinearVelocityY</key>
+				<real>0.0</real>
+				<key>Mask</key>
+				<integer>65535</integer>
+				<key>PhysicType</key>
+				<integer>2</integer>
+				<key>Restitution</key>
+				<real>0.20000000298023224</real>
+				<key>SHHolesPoints</key>
+				<array/>
+				<key>SHShapePoints</key>
+				<array>
+					<string>{104, 150}</string>
+					<string>{105, 150.10001}</string>
+					<string>{107, 152}</string>
+					<string>{108, 154}</string>
+					<string>{108.1, 158}</string>
+				</array>
+				<key>ShapeBorderH</key>
+				<integer>0</integer>
+				<key>ShapeBorderW</key>
+				<integer>0</integer>
+				<key>ShapePositionOffsetX</key>
+				<integer>0</integer>
+				<key>ShapePositionOffsetY</key>
+				<integer>0</integer>
+			</dict>
+			<key>TextureProperties</key>
+			<dict>
+				<key>Color</key>
+				<string>{{1, 1}, {1, 0}}</string>
+				<key>Frame</key>
+				<string>{{52, 75}, {2.5, 4.5}}</string>
+				<key>Frame-HD</key>
+				<string>{{104, 150}, {5, 9}}</string>
+				<key>FrameUV</key>
+				<string>{{0.20634921, 0.30000001}, {0.21626984, 0.31799999}}</string>
+				<key>HD_ImageSize</key>
+				<string>{504, 500}</string>
+				<key>Image</key>
+				<string>eyes.png</string>
+				<key>Image-HD</key>
+				<string>eyes-hd.png</string>
+				<key>ImageURL</key>
+				<string>/Users/jeppetuxen/Documents/ITU/UserExperienceAndPrototyping/Corona/prototype4/eyes.png</string>
+				<key>ImageURL-HD</key>
+				<string>/Users/jeppetuxen/Documents/ITU/UserExperienceAndPrototyping/Corona/prototype4/eyes-hd.png</string>
+				<key>Name</key>
+				<string>eye11L_1</string>
+				<key>Opacity</key>
+				<real>1</real>
+				<key>SD_ImageSize</key>
+				<string>{252, 250}</string>
+				<key>Scale</key>
+				<string>{1, 1}</string>
+				<key>ZOrder</key>
+				<integer>0</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>PhysicProperties</key>
+			<dict>
+				<key>AngularDamping</key>
+				<real>0.0</real>
+				<key>AngularVelocity</key>
+				<real>0.0</real>
+				<key>CanSleep</key>
+				<true/>
+				<key>Category</key>
+				<integer>1</integer>
+				<key>Density</key>
+				<real>0.20000000298023224</real>
+				<key>Fixtures</key>
+				<array>
+					<array>
+						<string>{-0.5, 0.25}</string>
+						<string>{0.049999237, -0.75}</string>
+						<string>{-0, -0.25}</string>
+						<string>{-0.5, 1.25}</string>
+					</array>
+				</array>
+				<key>Friction</key>
+				<real>0.20000000298023224</real>
+				<key>Group</key>
+				<integer>0</integer>
+				<key>IsBullet</key>
+				<false/>
+				<key>IsCircle</key>
+				<false/>
+				<key>IsFixedRot</key>
+				<false/>
+				<key>IsSensor</key>
+				<false/>
+				<key>LinearDamping</key>
+				<real>0.0</real>
+				<key>LinearVelocityX</key>
+				<real>0.0</real>
+				<key>LinearVelocityY</key>
+				<real>0.0</real>
+				<key>Mask</key>
+				<integer>65535</integer>
+				<key>PhysicType</key>
+				<integer>2</integer>
+				<key>Restitution</key>
+				<real>0.20000000298023224</real>
+				<key>SHHolesPoints</key>
+				<array/>
+				<key>SHShapePoints</key>
+				<array>
+					<string>{114, 150}</string>
+					<string>{115, 153}</string>
+					<string>{115.1, 154}</string>
+					<string>{114, 152}</string>
+				</array>
+				<key>ShapeBorderH</key>
+				<integer>0</integer>
+				<key>ShapeBorderW</key>
+				<integer>0</integer>
+				<key>ShapePositionOffsetX</key>
+				<integer>0</integer>
+				<key>ShapePositionOffsetY</key>
+				<integer>0</integer>
+			</dict>
+			<key>TextureProperties</key>
+			<dict>
+				<key>Color</key>
+				<string>{{1, 1}, {1, 0}}</string>
+				<key>Frame</key>
+				<string>{{57, 75}, {1, 2.5}}</string>
+				<key>Frame-HD</key>
+				<string>{{114, 150}, {2, 5}}</string>
+				<key>FrameUV</key>
+				<string>{{0.22619048, 0.30000001}, {0.23015873, 0.31}}</string>
+				<key>HD_ImageSize</key>
+				<string>{504, 500}</string>
+				<key>Image</key>
+				<string>eyes.png</string>
+				<key>Image-HD</key>
+				<string>eyes-hd.png</string>
+				<key>ImageURL</key>
+				<string>/Users/jeppetuxen/Documents/ITU/UserExperienceAndPrototyping/Corona/prototype4/eyes.png</string>
+				<key>ImageURL-HD</key>
+				<string>/Users/jeppetuxen/Documents/ITU/UserExperienceAndPrototyping/Corona/prototype4/eyes-hd.png</string>
+				<key>Name</key>
+				<string>eye10L</string>
+				<key>Opacity</key>
+				<real>1</real>
+				<key>SD_ImageSize</key>
+				<string>{252, 250}</string>
+				<key>Scale</key>
+				<string>{1, 1}</string>
+				<key>ZOrder</key>
+				<integer>0</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>PhysicProperties</key>
+			<dict>
+				<key>AngularDamping</key>
+				<real>0.0</real>
+				<key>AngularVelocity</key>
+				<real>0.0</real>
+				<key>CanSleep</key>
+				<true/>
+				<key>Category</key>
+				<integer>1</integer>
+				<key>Density</key>
+				<real>0.20000000298023224</real>
+				<key>Fixtures</key>
+				<array/>
+				<key>Friction</key>
+				<real>0.20000000298023224</real>
+				<key>Group</key>
+				<integer>0</integer>
+				<key>IsBullet</key>
+				<false/>
+				<key>IsCircle</key>
+				<false/>
+				<key>IsFixedRot</key>
+				<false/>
+				<key>IsSensor</key>
+				<false/>
+				<key>LinearDamping</key>
+				<real>0.0</real>
+				<key>LinearVelocityX</key>
+				<real>0.0</real>
+				<key>LinearVelocityY</key>
+				<real>0.0</real>
+				<key>Mask</key>
+				<integer>65535</integer>
+				<key>PhysicType</key>
+				<integer>2</integer>
+				<key>Restitution</key>
+				<real>0.20000000298023224</real>
+				<key>SHHolesPoints</key>
+				<array/>
+				<key>SHShapePoints</key>
+				<array/>
+				<key>ShapeBorderH</key>
+				<integer>0</integer>
+				<key>ShapeBorderW</key>
+				<integer>0</integer>
+				<key>ShapePositionOffsetX</key>
+				<integer>0</integer>
+				<key>ShapePositionOffsetY</key>
+				<integer>0</integer>
+			</dict>
+			<key>TextureProperties</key>
+			<dict>
+				<key>Color</key>
+				<string>{{1, 1}, {1, 0}}</string>
+				<key>Frame</key>
+				<string>{{57, 80}, {0.5, 2.5}}</string>
+				<key>Frame-HD</key>
+				<string>{{114, 160}, {1, 5}}</string>
+				<key>FrameUV</key>
+				<string>{{0.22619048, 0.31999999}, {0.2281746, 0.33000001}}</string>
+				<key>HD_ImageSize</key>
+				<string>{504, 500}</string>
+				<key>Image</key>
+				<string>eyes.png</string>
+				<key>Image-HD</key>
+				<string>eyes-hd.png</string>
+				<key>ImageURL</key>
+				<string>/Users/jeppetuxen/Documents/ITU/UserExperienceAndPrototyping/Corona/prototype4/eyes.png</string>
+				<key>ImageURL-HD</key>
+				<string>/Users/jeppetuxen/Documents/ITU/UserExperienceAndPrototyping/Corona/prototype4/eyes-hd.png</string>
+				<key>Name</key>
+				<string>eye4L_2</string>
+				<key>Opacity</key>
+				<real>1</real>
+				<key>SD_ImageSize</key>
+				<string>{252, 250}</string>
+				<key>Scale</key>
+				<string>{1, 1}</string>
+				<key>ZOrder</key>
+				<integer>0</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>PhysicProperties</key>
+			<dict>
+				<key>AngularDamping</key>
+				<real>0.0</real>
+				<key>AngularVelocity</key>
+				<real>0.0</real>
+				<key>CanSleep</key>
+				<true/>
+				<key>Category</key>
+				<integer>1</integer>
+				<key>Density</key>
+				<real>0.20000000298023224</real>
+				<key>Fixtures</key>
+				<array>
+					<array>
+						<string>{2.25, -2.75}</string>
+						<string>{3.2999992, -1.25}</string>
+						<string>{3.25, 2.25}</string>
+						<string>{-3.25, 2.25}</string>
+						<string>{-3.75, 0.25}</string>
+						<string>{-2.75, -2.75}</string>
+						<string>{-1.75, -3.3000031}</string>
+						<string>{1.25, -3.25}</string>
+					</array>
+					<array>
+						<string>{1.75, 3.6999969}</string>
+						<string>{-1.75, 3.75}</string>
+						<string>{-2.75, 3.25}</string>
+						<string>{-3.25, 2.25}</string>
+						<string>{3.2999992, -1.25}</string>
+						<string>{3.25, 2.25}</string>
+					</array>
+					<array>
+						<string>{-3.75, -1.25}</string>
+						<string>{-3.25, -2.25}</string>
+						<string>{-2.75, -2.75}</string>
+						<string>{-3.75, 0.25}</string>
+					</array>
+				</array>
+				<key>Friction</key>
+				<real>0.20000000298023224</real>
+				<key>Group</key>
+				<integer>0</integer>
+				<key>IsBullet</key>
+				<false/>
+				<key>IsCircle</key>
+				<false/>
+				<key>IsFixedRot</key>
+				<false/>
+				<key>IsSensor</key>
+				<false/>
+				<key>LinearDamping</key>
+				<real>0.0</real>
+				<key>LinearVelocityX</key>
+				<real>0.0</real>
+				<key>LinearVelocityY</key>
+				<real>0.0</real>
+				<key>Mask</key>
+				<integer>65535</integer>
+				<key>PhysicType</key>
+				<integer>2</integer>
+				<key>Restitution</key>
+				<real>0.20000000298023224</real>
+				<key>SHHolesPoints</key>
+				<array/>
+				<key>SHShapePoints</key>
+				<array>
+					<string>{90, 177}</string>
+					<string>{91, 173}</string>
+					<string>{92, 171}</string>
+					<string>{94, 170}</string>
+					<string>{101, 170.10001}</string>
+					<string>{104, 173}</string>
+					<string>{104.1, 180}</string>
+					<string>{102, 183}</string>
+					<string>{100, 184}</string>
+					<string>{94, 184.10001}</string>
+					<string>{92, 183}</string>
+					<string>{91, 182}</string>
+					<string>{90, 180}</string>
+				</array>
+				<key>ShapeBorderH</key>
+				<integer>0</integer>
+				<key>ShapeBorderW</key>
+				<integer>0</integer>
+				<key>ShapePositionOffsetX</key>
+				<integer>0</integer>
+				<key>ShapePositionOffsetY</key>
+				<integer>0</integer>
+			</dict>
+			<key>TextureProperties</key>
+			<dict>
+				<key>Color</key>
+				<string>{{1, 1}, {1, 0}}</string>
+				<key>Frame</key>
+				<string>{{45, 85}, {7.5, 7.5}}</string>
+				<key>Frame-HD</key>
+				<string>{{90, 170}, {15, 15}}</string>
+				<key>FrameUV</key>
+				<string>{{0.17857143, 0.34}, {0.20833333, 0.37}}</string>
+				<key>HD_ImageSize</key>
+				<string>{504, 500}</string>
+				<key>Image</key>
+				<string>eyes.png</string>
+				<key>Image-HD</key>
+				<string>eyes-hd.png</string>
+				<key>ImageURL</key>
+				<string>/Users/jeppetuxen/Documents/ITU/UserExperienceAndPrototyping/Corona/prototype4/eyes.png</string>
+				<key>ImageURL-HD</key>
+				<string>/Users/jeppetuxen/Documents/ITU/UserExperienceAndPrototyping/Corona/prototype4/eyes-hd.png</string>
+				<key>Name</key>
+				<string>eye10</string>
+				<key>Opacity</key>
+				<real>1</real>
+				<key>SD_ImageSize</key>
+				<string>{252, 250}</string>
+				<key>Scale</key>
+				<string>{1, 1}</string>
+				<key>ZOrder</key>
+				<integer>0</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>PhysicProperties</key>
+			<dict>
+				<key>AngularDamping</key>
+				<real>0.0</real>
+				<key>AngularVelocity</key>
+				<real>0.0</real>
+				<key>CanSleep</key>
+				<true/>
+				<key>Category</key>
+				<integer>1</integer>
+				<key>Density</key>
+				<real>0.20000000298023224</real>
+				<key>Fixtures</key>
+				<array>
+					<array>
+						<string>{-3, 2}</string>
+						<string>{-3.5, 0.5}</string>
+						<string>{2, -3}</string>
+						<string>{3, 2}</string>
+						<string>{1, 3.9499969}</string>
+						<string>{-1, 4}</string>
+						<string>{-2, 3.5}</string>
+						<string>{-2.5, 3}</string>
+					</array>
+					<array>
+						<string>{2, -3}</string>
+						<string>{3.0499992, -2}</string>
+						<string>{3, 2}</string>
+					</array>
+					<array>
+						<string>{1, 3.9499969}</string>
+						<string>{3, 2}</string>
+						<string>{2.5, 3}</string>
+						<string>{2, 3.5}</string>
+					</array>
+					<array>
+						<string>{-3, -2.5}</string>
+						<string>{-2.5, -3}</string>
+						<string>{-1.5, -3.5500031}</string>
+						<string>{1, -3.5}</string>
+						<string>{2, -3}</string>
+						<string>{-3.5, 0.5}</string>
+						<string>{-3.5, -1.5}</string>
+					</array>
+				</array>
+				<key>Friction</key>
+				<real>0.20000000298023224</real>
+				<key>Group</key>
+				<integer>0</integer>
+				<key>IsBullet</key>
+				<false/>
+				<key>IsCircle</key>
+				<false/>
+				<key>IsFixedRot</key>
+				<false/>
+				<key>IsSensor</key>
+				<false/>
+				<key>LinearDamping</key>
+				<real>0.0</real>
+				<key>LinearVelocityX</key>
+				<real>0.0</real>
+				<key>LinearVelocityY</key>
+				<real>0.0</real>
+				<key>Mask</key>
+				<integer>65535</integer>
+				<key>PhysicType</key>
+				<integer>2</integer>
+				<key>Restitution</key>
+				<real>0.20000000298023224</real>
+				<key>SHHolesPoints</key>
+				<array/>
+				<key>SHShapePoints</key>
+				<array>
+					<string>{90, 197}</string>
+					<string>{91, 194}</string>
+					<string>{92, 192}</string>
+					<string>{93, 191}</string>
+					<string>{95, 190}</string>
+					<string>{99, 190.10001}</string>
+					<string>{101, 191}</string>
+					<string>{102, 192}</string>
+					<string>{103, 194}</string>
+					<string>{103.1, 202}</string>
+					<string>{101, 204}</string>
+					<string>{99, 205}</string>
+					<string>{94, 205.10001}</string>
+					<string>{92, 204}</string>
+					<string>{91, 203}</string>
+					<string>{90, 201}</string>
+				</array>
+				<key>ShapeBorderH</key>
+				<integer>0</integer>
+				<key>ShapeBorderW</key>
+				<integer>0</integer>
+				<key>ShapePositionOffsetX</key>
+				<integer>0</integer>
+				<key>ShapePositionOffsetY</key>
+				<integer>0</integer>
+			</dict>
+			<key>TextureProperties</key>
+			<dict>
+				<key>Color</key>
+				<string>{{1, 1}, {1, 0}}</string>
+				<key>Frame</key>
+				<string>{{45, 95}, {7, 8}}</string>
+				<key>Frame-HD</key>
+				<string>{{90, 190}, {14, 16}}</string>
+				<key>FrameUV</key>
+				<string>{{0.17857143, 0.38}, {0.20634921, 0.412}}</string>
+				<key>HD_ImageSize</key>
+				<string>{504, 500}</string>
+				<key>Image</key>
+				<string>eyes.png</string>
+				<key>Image-HD</key>
+				<string>eyes-hd.png</string>
+				<key>ImageURL</key>
+				<string>/Users/jeppetuxen/Documents/ITU/UserExperienceAndPrototyping/Corona/prototype4/eyes.png</string>
+				<key>ImageURL-HD</key>
+				<string>/Users/jeppetuxen/Documents/ITU/UserExperienceAndPrototyping/Corona/prototype4/eyes-hd.png</string>
+				<key>Name</key>
+				<string>eye5R</string>
+				<key>Opacity</key>
+				<real>1</real>
+				<key>SD_ImageSize</key>
+				<string>{252, 250}</string>
+				<key>Scale</key>
+				<string>{1, 1}</string>
+				<key>ZOrder</key>
+				<integer>0</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>PhysicProperties</key>
+			<dict>
+				<key>AngularDamping</key>
+				<real>0.0</real>
+				<key>AngularVelocity</key>
+				<real>0.0</real>
+				<key>CanSleep</key>
+				<true/>
+				<key>Category</key>
+				<integer>1</integer>
+				<key>Density</key>
+				<real>0.20000000298023224</real>
+				<key>Fixtures</key>
+				<array>
+					<array>
+						<string>{-16.75, -13.5}</string>
+						<string>{-16.25, -14.5}</string>
+						<string>{-15.25, -15.5}</string>
+						<string>{-14.25, -16}</string>
+						<string>{-12.75, -16.550003}</string>
+						<string>{-9.25, -16.5}</string>
+						<string>{-7.25, -16}</string>
+						<string>{-16.75, -9.5}</string>
+					</array>
+					<array>
+						<string>{9.75, 17}</string>
+						<string>{1.75, 13}</string>
+						<string>{15.75, 8}</string>
+						<string>{16.300003, 10.5}</string>
+						<string>{16.25, 11.5}</string>
+						<string>{15.25, 15.5}</string>
+						<string>{14.75, 16}</string>
+						<string>{12.75, 16.949997}</string>
+					</array>
+					<array>
+						<string>{15.25, 6.5}</string>
+						<string>{15.75, 8}</string>
+						<string>{1.75, 13}</string>
+						<string>{-5.75, 7}</string>
+						<string>{9.25, -2.5}</string>
+						<string>{12.75, 2}</string>
+						<string>{14.25, 4.5}</string>
+					</array>
+					<array>
+						<string>{0.75, -11}</string>
+						<string>{9.25, -2.5}</string>
+						<string>{-5.75, 7}</string>
+						<string>{-7.25, 5.5}</string>
+						<string>{-9.75, 2.5}</string>
+						<string>{-11.25, 0.5}</string>
+						<string>{-12.25, -1}</string>
+						<string>{-1.75, -13}</string>
+					</array>
+					<array>
+						<string>{-16.75, -9.5}</string>
+						<string>{-7.25, -16}</string>
+						<string>{-3.25, -14}</string>
+						<string>{-1.75, -13}</string>
+						<string>{-12.25, -1}</string>
+						<string>{-13.75, -3.5}</string>
+					</array>
+				</array>
+				<key>Friction</key>
+				<real>0.20000000298023224</real>
+				<key>Group</key>
+				<integer>0</integer>
+				<key>IsBullet</key>
+				<false/>
+				<key>IsCircle</key>
+				<false/>
+				<key>IsFixedRot</key>
+				<false/>
+				<key>IsSensor</key>
+				<false/>
+				<key>LinearDamping</key>
+				<real>0.0</real>
+				<key>LinearVelocityX</key>
+				<real>0.0</real>
+				<key>LinearVelocityY</key>
+				<real>0.0</real>
+				<key>Mask</key>
+				<integer>65535</integer>
+				<key>PhysicType</key>
+				<integer>2</integer>
+				<key>Restitution</key>
+				<real>0.20000000298023224</real>
+				<key>SHHolesPoints</key>
+				<array/>
+				<key>SHShapePoints</key>
+				<array>
+					<string>{260, 301}</string>
+					<string>{266, 289}</string>
+					<string>{269, 284}</string>
+					<string>{271, 281}</string>
+					<string>{274, 277}</string>
+					<string>{279, 271}</string>
+					<string>{282, 268}</string>
+					<string>{297, 256}</string>
+					<string>{313, 248}</string>
+					<string>{319, 248.10001}</string>
+					<string>{323, 250}</string>
+					<string>{324, 251}</string>
+					<string>{326, 259}</string>
+					<string>{326.10001, 261}</string>
+					<string>{325, 266}</string>
+					<string>{324, 269}</string>
+					<string>{322, 273}</string>
+					<string>{319, 278}</string>
+					<string>{316, 282}</string>
+					<string>{312, 287}</string>
+					<string>{295, 304}</string>
+					<string>{290, 308}</string>
+					<string>{287, 310}</string>
+					<string>{279, 314}</string>
+					<string>{275, 315}</string>
+					<string>{268, 315.10001}</string>
+					<string>{265, 314}</string>
+					<string>{263, 313}</string>
+					<string>{261, 311}</string>
+					<string>{260, 309}</string>
+				</array>
+				<key>ShapeBorderH</key>
+				<integer>0</integer>
+				<key>ShapeBorderW</key>
+				<integer>0</integer>
+				<key>ShapePositionOffsetX</key>
+				<integer>0</integer>
+				<key>ShapePositionOffsetY</key>
+				<integer>0</integer>
+			</dict>
+			<key>TextureProperties</key>
+			<dict>
+				<key>Color</key>
+				<string>{{1, 1}, {1, 0}}</string>
+				<key>Frame</key>
+				<string>{{130, 124}, {33.5, 34}}</string>
+				<key>Frame-HD</key>
+				<string>{{260, 248}, {67, 68}}</string>
+				<key>FrameUV</key>
+				<string>{{0.51587301, 0.49599999}, {0.64880955, 0.63200003}}</string>
+				<key>HD_ImageSize</key>
+				<string>{504, 500}</string>
+				<key>Image</key>
+				<string>eyes.png</string>
+				<key>Image-HD</key>
+				<string>eyes-hd.png</string>
+				<key>ImageURL</key>
+				<string>/Users/jeppetuxen/Documents/ITU/UserExperienceAndPrototyping/Corona/prototype4/eyes.png</string>
+				<key>ImageURL-HD</key>
+				<string>/Users/jeppetuxen/Documents/ITU/UserExperienceAndPrototyping/Corona/prototype4/eyes-hd.png</string>
+				<key>Name</key>
+				<string>eye11R_1</string>
+				<key>Opacity</key>
+				<real>1</real>
+				<key>SD_ImageSize</key>
+				<string>{252, 250}</string>
+				<key>Scale</key>
+				<string>{1, 1}</string>
+				<key>ZOrder</key>
+				<integer>0</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>PhysicProperties</key>
+			<dict>
+				<key>AngularDamping</key>
+				<real>0.0</real>
+				<key>AngularVelocity</key>
+				<real>0.0</real>
+				<key>CanSleep</key>
+				<true/>
+				<key>Category</key>
+				<integer>1</integer>
+				<key>Density</key>
+				<real>0.20000000298023224</real>
+				<key>Fixtures</key>
+				<array>
+					<array>
+						<string>{-13, 11.5}</string>
+						<string>{-14, 9.5}</string>
+						<string>{-15, 5.5}</string>
+						<string>{4.5, 14}</string>
+						<string>{-2.5, 15.449997}</string>
+						<string>{-8, 15.5}</string>
+						<string>{-11, 14}</string>
+						<string>{-12, 13}</string>
+					</array>
+					<array>
+						<string>{4, -14}</string>
+						<string>{9.5, -12}</string>
+						<string>{14, -6}</string>
+						<string>{14.550003, -4}</string>
+						<string>{14.5, 3}</string>
+						<string>{13.5, 6}</string>
+						<string>{4.5, 14}</string>
+						<string>{-14, -5.5}</string>
+					</array>
+					<array>
+						<string>{13.5, -7.5}</string>
+						<string>{14, -6}</string>
+						<string>{9.5, -12}</string>
+						<string>{10.5, -11.5}</string>
+						<string>{12.5, -9.5}</string>
+					</array>
+					<array>
+						<string>{8, 12.5}</string>
+						<string>{6, 13.5}</string>
+						<string>{4.5, 14}</string>
+						<string>{13.5, 6}</string>
+						<string>{12.5, 8}</string>
+						<string>{11.5, 9.5}</string>
+						<string>{9.5, 11.5}</string>
+					</array>
+					<array>
+						<string>{2.5, -14.5}</string>
+						<string>{4, -14}</string>
+						<string>{-14, -5.5}</string>
+						<string>{-12.5, -8.5}</string>
+						<string>{-11.5, -10}</string>
+						<string>{-7, -14.5}</string>
+						<string>{-1, -15}</string>
+					</array>
+					<array>
+						<string>{-14, -5.5}</string>
+						<string>{4.5, 14}</string>
+						<string>{-15, 5.5}</string>
+						<string>{-15, -3}</string>
+					</array>
+				</array>
+				<key>Friction</key>
+				<real>0.20000000298023224</real>
+				<key>Group</key>
+				<integer>0</integer>
+				<key>IsBullet</key>
+				<false/>
+				<key>IsCircle</key>
+				<false/>
+				<key>IsFixedRot</key>
+				<false/>
+				<key>IsSensor</key>
+				<false/>
+				<key>LinearDamping</key>
+				<real>0.0</real>
+				<key>LinearVelocityX</key>
+				<real>0.0</real>
+				<key>LinearVelocityY</key>
+				<real>0.0</real>
+				<key>Mask</key>
+				<integer>65535</integer>
+				<key>PhysicType</key>
+				<integer>2</integer>
+				<key>Restitution</key>
+				<real>0.20000000298023224</real>
+				<key>SHHolesPoints</key>
+				<array/>
+				<key>SHShapePoints</key>
+				<array>
+					<string>{332, 268}</string>
+					<string>{334, 260}</string>
+					<string>{336, 256}</string>
+					<string>{338, 253}</string>
+					<string>{340, 251}</string>
+					<string>{346, 248}</string>
+					<string>{357, 248.10001}</string>
+					<string>{371, 251}</string>
+					<string>{374, 252}</string>
+					<string>{378, 254}</string>
+					<string>{381, 256}</string>
+					<string>{385, 260}</string>
+					<string>{387, 263}</string>
+					<string>{389, 267}</string>
+					<string>{391, 273}</string>
+					<string>{391.10001, 287}</string>
+					<string>{390, 291}</string>
+					<string>{389, 294}</string>
+					<string>{387, 298}</string>
+					<string>{383, 302}</string>
+					<string>{381, 303}</string>
+					<string>{370, 307}</string>
+					<string>{367, 308}</string>
+					<string>{360, 309}</string>
+					<string>{350, 309.10001}</string>
+					<string>{348, 308}</string>
+					<string>{339, 299}</string>
+					<string>{337, 296}</string>
+					<string>{334, 290}</string>
+					<string>{332, 285}</string>
+				</array>
+				<key>ShapeBorderH</key>
+				<integer>0</integer>
+				<key>ShapeBorderW</key>
+				<integer>0</integer>
+				<key>ShapePositionOffsetX</key>
+				<integer>0</integer>
+				<key>ShapePositionOffsetY</key>
+				<integer>0</integer>
+			</dict>
+			<key>TextureProperties</key>
+			<dict>
+				<key>Color</key>
+				<string>{{1, 1}, {1, 0}}</string>
+				<key>Frame</key>
+				<string>{{166, 124}, {30, 31}}</string>
+				<key>Frame-HD</key>
+				<string>{{332, 248}, {60, 62}}</string>
+				<key>FrameUV</key>
+				<string>{{0.65873015, 0.49599999}, {0.77777779, 0.62}}</string>
+				<key>HD_ImageSize</key>
+				<string>{504, 500}</string>
+				<key>Image</key>
+				<string>eyes.png</string>
+				<key>Image-HD</key>
+				<string>eyes-hd.png</string>
+				<key>ImageURL</key>
+				<string>/Users/jeppetuxen/Documents/ITU/UserExperienceAndPrototyping/Corona/prototype4/eyes.png</string>
+				<key>ImageURL-HD</key>
+				<string>/Users/jeppetuxen/Documents/ITU/UserExperienceAndPrototyping/Corona/prototype4/eyes-hd.png</string>
+				<key>Name</key>
+				<string>eye1L_1</string>
+				<key>Opacity</key>
+				<real>1</real>
+				<key>SD_ImageSize</key>
+				<string>{252, 250}</string>
+				<key>Scale</key>
+				<string>{1, 1}</string>
+				<key>ZOrder</key>
+				<integer>0</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>PhysicProperties</key>
+			<dict>
+				<key>AngularDamping</key>
+				<real>0.0</real>
+				<key>AngularVelocity</key>
+				<real>0.0</real>
+				<key>CanSleep</key>
+				<true/>
+				<key>Category</key>
+				<integer>1</integer>
+				<key>Density</key>
+				<real>0.20000000298023224</real>
+				<key>Fixtures</key>
+				<array>
+					<array>
+						<string>{13.5, 3.5}</string>
+						<string>{9.5, -12.5}</string>
+						<string>{11, -11.5}</string>
+						<string>{13, -9.5}</string>
+						<string>{14, -8}</string>
+						<string>{14.5, -7}</string>
+						<string>{15.050003, -5.5}</string>
+						<string>{15, 0.5}</string>
+					</array>
+					<array>
+						<string>{-14.5, -4.5}</string>
+						<string>{-14, -5.5}</string>
+						<string>{12.5, 5}</string>
+						<string>{7, 12}</string>
+						<string>{-15, 5.5}</string>
+						<string>{-15.5, 3.5}</string>
+						<string>{-15.5, -1}</string>
+						<string>{-15, -3}</string>
+					</array>
+					<array>
+						<string>{9.5, -12.5}</string>
+						<string>{13.5, 3.5}</string>
+						<string>{12.5, 5}</string>
+						<string>{-10, -11}</string>
+						<string>{-7, -13}</string>
+						<string>{-2.5, -14.550003}</string>
+						<string>{4.5, -14.5}</string>
+						<string>{6.5, -14}</string>
+					</array>
+					<array>
+						<string>{-12, -9}</string>
+						<string>{-10, -11}</string>
+						<string>{12.5, 5}</string>
+						<string>{-14, -5.5}</string>
+					</array>
+					<array>
+						<string>{1, 14.949997}</string>
+						<string>{-6.5, 15}</string>
+						<string>{-9.5, 13.5}</string>
+						<string>{-12.5, 10.5}</string>
+						<string>{-15, 5.5}</string>
+						<string>{7, 12}</string>
+						<string>{6, 13}</string>
+						<string>{3, 14.5}</string>
+					</array>
+				</array>
+				<key>Friction</key>
+				<real>0.20000000298023224</real>
+				<key>Group</key>
+				<integer>0</integer>
+				<key>IsBullet</key>
+				<false/>
+				<key>IsCircle</key>
+				<false/>
+				<key>IsFixedRot</key>
+				<false/>
+				<key>IsSensor</key>
+				<false/>
+				<key>LinearDamping</key>
+				<real>0.0</real>
+				<key>LinearVelocityX</key>
+				<real>0.0</real>
+				<key>LinearVelocityY</key>
+				<real>0.0</real>
+				<key>Mask</key>
+				<integer>65535</integer>
+				<key>PhysicType</key>
+				<integer>2</integer>
+				<key>Restitution</key>
+				<real>0.20000000298023224</real>
+				<key>SHHolesPoints</key>
+				<array/>
+				<key>SHShapePoints</key>
+				<array>
+					<string>{396, 271}</string>
+					<string>{397, 267}</string>
+					<string>{402, 257}</string>
+					<string>{408, 251}</string>
+					<string>{414, 248}</string>
+					<string>{429, 248.10001}</string>
+					<string>{433, 249}</string>
+					<string>{439, 252}</string>
+					<string>{441, 254}</string>
+					<string>{452, 268}</string>
+					<string>{454, 271}</string>
+					<string>{457, 277}</string>
+					<string>{457.10001, 289}</string>
+					<string>{456, 292}</string>
+					<string>{455, 294}</string>
+					<string>{453, 297}</string>
+					<string>{449, 301}</string>
+					<string>{446, 303}</string>
+					<string>{440, 306}</string>
+					<string>{436, 307}</string>
+					<string>{422, 307.10001}</string>
+					<string>{413, 304}</string>
+					<string>{407, 300}</string>
+					<string>{403, 296}</string>
+					<string>{399, 289}</string>
+					<string>{398, 287}</string>
+					<string>{397, 284}</string>
+					<string>{396, 280}</string>
+				</array>
+				<key>ShapeBorderH</key>
+				<integer>0</integer>
+				<key>ShapeBorderW</key>
+				<integer>0</integer>
+				<key>ShapePositionOffsetX</key>
+				<integer>0</integer>
+				<key>ShapePositionOffsetY</key>
+				<integer>0</integer>
+			</dict>
+			<key>TextureProperties</key>
+			<dict>
+				<key>Color</key>
+				<string>{{1, 1}, {1, 0}}</string>
+				<key>Frame</key>
+				<string>{{198, 124}, {31, 30}}</string>
+				<key>Frame-HD</key>
+				<string>{{396, 248}, {62, 60}}</string>
+				<key>FrameUV</key>
+				<string>{{0.78571427, 0.49599999}, {0.90873015, 0.616}}</string>
+				<key>HD_ImageSize</key>
+				<string>{504, 500}</string>
+				<key>Image</key>
+				<string>eyes.png</string>
+				<key>Image-HD</key>
+				<string>eyes-hd.png</string>
+				<key>ImageURL</key>
+				<string>/Users/jeppetuxen/Documents/ITU/UserExperienceAndPrototyping/Corona/prototype4/eyes.png</string>
+				<key>ImageURL-HD</key>
+				<string>/Users/jeppetuxen/Documents/ITU/UserExperienceAndPrototyping/Corona/prototype4/eyes-hd.png</string>
+				<key>Name</key>
+				<string>eye1R_1</string>
+				<key>Opacity</key>
+				<real>1</real>
+				<key>SD_ImageSize</key>
+				<string>{252, 250}</string>
+				<key>Scale</key>
+				<string>{1, 1}</string>
+				<key>ZOrder</key>
+				<integer>0</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>PhysicProperties</key>
+			<dict>
+				<key>AngularDamping</key>
+				<real>0.0</real>
+				<key>AngularVelocity</key>
+				<real>0.0</real>
+				<key>CanSleep</key>
+				<true/>
+				<key>Category</key>
+				<integer>1</integer>
+				<key>Density</key>
+				<real>0.20000000298023224</real>
+				<key>Fixtures</key>
+				<array>
+					<array>
+						<string>{2.25, 15.949997}</string>
+						<string>{-2.75, 16}</string>
+						<string>{-4.75, 15}</string>
+						<string>{-8.25, 8.5}</string>
+						<string>{-8.25, -3}</string>
+						<string>{6.75, -11.5}</string>
+						<string>{7.8000031, 6.5}</string>
+						<string>{7.75, 13.5}</string>
+					</array>
+					<array>
+						<string>{-8.25, 8.5}</string>
+						<string>{-4.75, 15}</string>
+						<string>{-7.25, 12.5}</string>
+						<string>{-7.75, 11.5}</string>
+					</array>
+					<array>
+						<string>{-7.75, -6}</string>
+						<string>{-6.75, -10}</string>
+						<string>{-5.75, -12}</string>
+						<string>{-4.75, -13.5}</string>
+						<string>{-3.25, -14.5}</string>
+						<string>{6.25, -12.5}</string>
+						<string>{6.75, -11.5}</string>
+						<string>{-8.25, -3}</string>
+					</array>
+					<array>
+						<string>{6.25, -12.5}</string>
+						<string>{6.75, -11.5}</string>
+						<string>{-3.25, -14.5}</string>
+						<string>{-0.25, -15.550003}</string>
+						<string>{0.75, -15.5}</string>
+						<string>{3.75, -15}</string>
+						<string>{4.75, -14.5}</string>
+						<string>{5.25, -14}</string>
+					</array>
+				</array>
+				<key>Friction</key>
+				<real>0.20000000298023224</real>
+				<key>Group</key>
+				<integer>0</integer>
+				<key>IsBullet</key>
+				<false/>
+				<key>IsCircle</key>
+				<false/>
+				<key>IsFixedRot</key>
+				<false/>
+				<key>IsSensor</key>
+				<false/>
+				<key>LinearDamping</key>
+				<real>0.0</real>
+				<key>LinearVelocityX</key>
+				<real>0.0</real>
+				<key>LinearVelocityY</key>
+				<real>0.0</real>
+				<key>Mask</key>
+				<integer>65535</integer>
+				<key>PhysicType</key>
+				<integer>2</integer>
+				<key>Restitution</key>
+				<real>0.20000000298023224</real>
+				<key>SHHolesPoints</key>
+				<array/>
+				<key>SHShapePoints</key>
+				<array>
+					<string>{464, 263}</string>
+					<string>{465, 257}</string>
+					<string>{466, 255}</string>
+					<string>{471, 250}</string>
+					<string>{475, 248}</string>
+					<string>{485, 248.10001}</string>
+					<string>{496, 253}</string>
+					<string>{496.10001, 267}</string>
+					<string>{494, 303}</string>
+					<string>{493, 305}</string>
+					<string>{491, 308}</string>
+					<string>{490, 309}</string>
+					<string>{488, 310}</string>
+					<string>{482, 311}</string>
+					<string>{480, 311.10001}</string>
+					<string>{474, 309}</string>
+					<string>{472, 308}</string>
+					<string>{471, 307}</string>
+					<string>{469, 304}</string>
+					<string>{467, 300}</string>
+					<string>{465, 292}</string>
+					<string>{464, 286}</string>
+				</array>
+				<key>ShapeBorderH</key>
+				<integer>0</integer>
+				<key>ShapeBorderW</key>
+				<integer>0</integer>
+				<key>ShapePositionOffsetX</key>
+				<integer>0</integer>
+				<key>ShapePositionOffsetY</key>
+				<integer>0</integer>
+			</dict>
+			<key>TextureProperties</key>
+			<dict>
+				<key>Color</key>
+				<string>{{1, 1}, {1, 0}}</string>
+				<key>Frame</key>
+				<string>{{232, 124}, {16.5, 32}}</string>
+				<key>Frame-HD</key>
+				<string>{{464, 248}, {33, 64}}</string>
+				<key>FrameUV</key>
+				<string>{{0.92063493, 0.49599999}, {0.9861111, 0.62400001}}</string>
+				<key>HD_ImageSize</key>
+				<string>{504, 500}</string>
+				<key>Image</key>
+				<string>eyes.png</string>
+				<key>Image-HD</key>
+				<string>eyes-hd.png</string>
+				<key>ImageURL</key>
+				<string>/Users/jeppetuxen/Documents/ITU/UserExperienceAndPrototyping/Corona/prototype4/eyes.png</string>
+				<key>ImageURL-HD</key>
+				<string>/Users/jeppetuxen/Documents/ITU/UserExperienceAndPrototyping/Corona/prototype4/eyes-hd.png</string>
+				<key>Name</key>
+				<string>eye3R</string>
+				<key>Opacity</key>
+				<real>1</real>
+				<key>SD_ImageSize</key>
+				<string>{252, 250}</string>
+				<key>Scale</key>
+				<string>{1, 1}</string>
+				<key>ZOrder</key>
+				<integer>0</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>PhysicProperties</key>
+			<dict>
+				<key>AngularDamping</key>
+				<real>0.0</real>
+				<key>AngularVelocity</key>
+				<real>0.0</real>
+				<key>CanSleep</key>
+				<true/>
+				<key>Category</key>
+				<integer>1</integer>
+				<key>Density</key>
+				<real>0.20000000298023224</real>
+				<key>Fixtures</key>
+				<array>
+					<array>
+						<string>{-14, 10.5}</string>
+						<string>{-14.5, 9.5}</string>
+						<string>{13.5, 11.5}</string>
+						<string>{9, 16}</string>
+						<string>{6, 18}</string>
+						<string>{3, 19.5}</string>
+						<string>{-4, 21.949997}</string>
+						<string>{-9.5, 18}</string>
+					</array>
+					<array>
+						<string>{15.5, -6}</string>
+						<string>{16.050003, -3}</string>
+						<string>{16, 6.5}</string>
+						<string>{14.5, 10}</string>
+						<string>{13.5, 11.5}</string>
+						<string>{-16, 5}</string>
+						<string>{-16.5, 0.5}</string>
+						<string>{15, -7.5}</string>
+					</array>
+					<array>
+						<string>{14.5, 10}</string>
+						<string>{16, 6.5}</string>
+						<string>{15.5, 8}</string>
+					</array>
+					<array>
+						<string>{13.5, -11}</string>
+						<string>{15, -7.5}</string>
+						<string>{-16.5, 0.5}</string>
+						<string>{-16.5, -9.5}</string>
+						<string>{-14.5, -14.5}</string>
+						<string>{7, -19}</string>
+						<string>{9.5, -17}</string>
+						<string>{12.5, -13}</string>
+					</array>
+					<array>
+						<string>{-16, -11.5}</string>
+						<string>{-14.5, -14.5}</string>
+						<string>{-16.5, -9.5}</string>
+					</array>
+					<array>
+						<string>{-15.5, 7}</string>
+						<string>{-16, 5}</string>
+						<string>{13.5, 11.5}</string>
+						<string>{-14.5, 9.5}</string>
+					</array>
+					<array>
+						<string>{-11.5, -18.5}</string>
+						<string>{-9, -20}</string>
+						<string>{-7, -21}</string>
+						<string>{-5, -21.550003}</string>
+						<string>{1.5, -21.5}</string>
+						<string>{7, -19}</string>
+						<string>{-14.5, -14.5}</string>
+						<string>{-13, -17}</string>
+					</array>
+					<array>
+						<string>{5.5, -20}</string>
+						<string>{7, -19}</string>
+						<string>{1.5, -21.5}</string>
+						<string>{4.5, -20.5}</string>
+					</array>
+					<array>
+						<string>{-8, 20}</string>
+						<string>{-9.5, 18}</string>
+						<string>{-4, 21.949997}</string>
+						<string>{-6, 22}</string>
+					</array>
+				</array>
+				<key>Friction</key>
+				<real>0.20000000298023224</real>
+				<key>Group</key>
+				<integer>0</integer>
+				<key>IsBullet</key>
+				<false/>
+				<key>IsCircle</key>
+				<false/>
+				<key>IsFixedRot</key>
+				<false/>
+				<key>IsSensor</key>
+				<false/>
+				<key>LinearDamping</key>
+				<real>0.0</real>
+				<key>LinearVelocityX</key>
+				<real>0.0</real>
+				<key>LinearVelocityY</key>
+				<real>0.0</real>
+				<key>Mask</key>
+				<integer>65535</integer>
+				<key>PhysicType</key>
+				<integer>2</integer>
+				<key>Restitution</key>
+				<real>0.20000000298023224</real>
+				<key>SHHolesPoints</key>
+				<array/>
+				<key>SHShapePoints</key>
+				<array>
+					<string>{188, 309}</string>
+					<string>{189, 300}</string>
+					<string>{190, 296}</string>
+					<string>{192, 291}</string>
+					<string>{193, 289}</string>
+					<string>{202, 274}</string>
+					<string>{205, 270}</string>
+					<string>{209, 266}</string>
+					<string>{213, 266.10001}</string>
+					<string>{227, 271}</string>
+					<string>{233, 274}</string>
+					<string>{239, 278}</string>
+					<string>{248, 287}</string>
+					<string>{250, 290}</string>
+					<string>{252, 294}</string>
+					<string>{253, 297}</string>
+					<string>{253.10001, 316}</string>
+					<string>{252, 322}</string>
+					<string>{251, 325}</string>
+					<string>{248, 332}</string>
+					<string>{246, 336}</string>
+					<string>{240, 344}</string>
+					<string>{239, 345}</string>
+					<string>{235, 348}</string>
+					<string>{232, 350}</string>
+					<string>{230, 351}</string>
+					<string>{224, 353}</string>
+					<string>{211, 353.10001}</string>
+					<string>{207, 352}</string>
+					<string>{203, 350}</string>
+					<string>{198, 347}</string>
+					<string>{195, 344}</string>
+					<string>{192, 339}</string>
+					<string>{189, 333}</string>
+					<string>{188, 329}</string>
+				</array>
+				<key>ShapeBorderH</key>
+				<integer>0</integer>
+				<key>ShapeBorderW</key>
+				<integer>0</integer>
+				<key>ShapePositionOffsetX</key>
+				<integer>0</integer>
+				<key>ShapePositionOffsetY</key>
+				<integer>0</integer>
+			</dict>
+			<key>TextureProperties</key>
+			<dict>
+				<key>Color</key>
+				<string>{{1, 1}, {1, 0}}</string>
+				<key>Frame</key>
+				<string>{{94, 133}, {33, 44}}</string>
+				<key>Frame-HD</key>
+				<string>{{188, 266}, {66, 88}}</string>
+				<key>FrameUV</key>
+				<string>{{0.37301588, 0.53200001}, {0.50396824, 0.708}}</string>
+				<key>HD_ImageSize</key>
+				<string>{504, 500}</string>
+				<key>Image</key>
+				<string>eyes.png</string>
+				<key>Image-HD</key>
+				<string>eyes-hd.png</string>
+				<key>ImageURL</key>
+				<string>/Users/jeppetuxen/Documents/ITU/UserExperienceAndPrototyping/Corona/prototype4/eyes.png</string>
+				<key>ImageURL-HD</key>
+				<string>/Users/jeppetuxen/Documents/ITU/UserExperienceAndPrototyping/Corona/prototype4/eyes-hd.png</string>
+				<key>Name</key>
+				<string>eye19_1_2</string>
+				<key>Opacity</key>
+				<real>1</real>
+				<key>SD_ImageSize</key>
+				<string>{252, 250}</string>
+				<key>Scale</key>
+				<string>{1, 1}</string>
+				<key>ZOrder</key>
+				<integer>0</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>PhysicProperties</key>
+			<dict>
+				<key>AngularDamping</key>
+				<real>0.0</real>
+				<key>AngularVelocity</key>
+				<real>0.0</real>
+				<key>CanSleep</key>
+				<true/>
+				<key>Category</key>
+				<integer>1</integer>
+				<key>Density</key>
+				<real>0.20000000298023224</real>
+				<key>Fixtures</key>
+				<array>
+					<array>
+						<string>{24.25, 9.25}</string>
+						<string>{22.75, 12.25}</string>
+						<string>{-20.75, 11.25}</string>
+						<string>{-21.25, 10.25}</string>
+						<string>{-22.75, 6.75}</string>
+						<string>{23.75, -12.25}</string>
+						<string>{25.299999, -7.75}</string>
+						<string>{25.25, 6.75}</string>
+					</array>
+					<array>
+						<string>{20.75, -17.25}</string>
+						<string>{22.75, -14.25}</string>
+						<string>{23.75, -12.25}</string>
+						<string>{-22.75, 6.75}</string>
+						<string>{-23.75, 3.75}</string>
+						<string>{11.75, -24.75}</string>
+						<string>{14.25, -23.25}</string>
+						<string>{16.25, -21.75}</string>
+					</array>
+					<array>
+						<string>{-25.25, -12.25}</string>
+						<string>{-23.25, -16.25}</string>
+						<string>{-21.75, -18.25}</string>
+						<string>{-18.75, -21.25}</string>
+						<string>{-5.75, -27.75}</string>
+						<string>{-25.25, -1.75}</string>
+						<string>{-25.75, -5.75}</string>
+						<string>{-25.75, -8.75}</string>
+					</array>
+					<array>
+						<string>{5.25, -27.25}</string>
+						<string>{9.75, -25.75}</string>
+						<string>{11.75, -24.75}</string>
+						<string>{-23.75, 3.75}</string>
+						<string>{-25.25, -1.75}</string>
+						<string>{-5.75, -27.75}</string>
+					</array>
+					<array>
+						<string>{-20.75, 11.25}</string>
+						<string>{22.75, 12.25}</string>
+						<string>{19.75, 16.75}</string>
+						<string>{16.25, 20.25}</string>
+						<string>{14.75, 21.25}</string>
+						<string>{11.25, 23.25}</string>
+						<string>{-15.75, 19.25}</string>
+						<string>{-17.25, 17.25}</string>
+					</array>
+					<array>
+						<string>{-7.25, 26.75}</string>
+						<string>{-10.25, 24.75}</string>
+						<string>{-12.25, 23.25}</string>
+						<string>{-15.75, 19.25}</string>
+						<string>{11.25, 23.25}</string>
+						<string>{3.25, 27.25}</string>
+						<string>{0.75, 28.199997}</string>
+						<string>{-4.25, 28.25}</string>
+					</array>
+					<array>
+						<string>{-10.25, 24.75}</string>
+						<string>{11.25, 23.25}</string>
+						<string>{3.25, 27.25}</string>
+					</array>
+					<array>
+						<string>{-9.25, -27.800003}</string>
+						<string>{-5.75, -27.75}</string>
+						<string>{-18.75, -21.25}</string>
+						<string>{-12.25, -26.25}</string>
+					</array>
+				</array>
+				<key>Friction</key>
+				<real>0.20000000298023224</real>
+				<key>Group</key>
+				<integer>0</integer>
+				<key>IsBullet</key>
+				<false/>
+				<key>IsCircle</key>
+				<false/>
+				<key>IsFixedRot</key>
+				<false/>
+				<key>IsSensor</key>
+				<false/>
+				<key>LinearDamping</key>
+				<real>0.0</real>
+				<key>LinearVelocityX</key>
+				<real>0.0</real>
+				<key>LinearVelocityY</key>
+				<real>0.0</real>
+				<key>Mask</key>
+				<integer>65535</integer>
+				<key>PhysicType</key>
+				<integer>2</integer>
+				<key>Restitution</key>
+				<real>0.20000000298023224</real>
+				<key>SHHolesPoints</key>
+				<array/>
+				<key>SHShapePoints</key>
+				<array>
+					<string>{0, 348}</string>
+					<string>{1, 340}</string>
+					<string>{4, 329}</string>
+					<string>{6, 323}</string>
+					<string>{9, 316}</string>
+					<string>{10, 314}</string>
+					<string>{17, 302}</string>
+					<string>{20, 298}</string>
+					<string>{27, 290}</string>
+					<string>{31, 287}</string>
+					<string>{37, 283}</string>
+					<string>{43, 280}</string>
+					<string>{53, 280.10001}</string>
+					<string>{58, 282}</string>
+					<string>{74, 290}</string>
+					<string>{81, 294}</string>
+					<string>{84, 296}</string>
+					<string>{91, 303}</string>
+					<string>{97, 312}</string>
+					<string>{100, 318}</string>
+					<string>{102, 323}</string>
+					<string>{102.1, 352}</string>
+					<string>{99, 361}</string>
+					<string>{97, 365}</string>
+					<string>{93, 371}</string>
+					<string>{84, 380}</string>
+					<string>{80, 383}</string>
+					<string>{75, 386}</string>
+					<string>{71, 388}</string>
+					<string>{62, 391}</string>
+					<string>{40, 392}</string>
+					<string>{33, 392.10001}</string>
+					<string>{27, 389}</string>
+					<string>{14, 379}</string>
+					<string>{8, 373}</string>
+					<string>{5, 369}</string>
+					<string>{1, 361}</string>
+					<string>{0, 354}</string>
+				</array>
+				<key>ShapeBorderH</key>
+				<integer>0</integer>
+				<key>ShapeBorderW</key>
+				<integer>0</integer>
+				<key>ShapePositionOffsetX</key>
+				<integer>0</integer>
+				<key>ShapePositionOffsetY</key>
+				<integer>0</integer>
+			</dict>
+			<key>TextureProperties</key>
+			<dict>
+				<key>Color</key>
+				<string>{{1, 1}, {1, 0}}</string>
+				<key>Frame</key>
+				<string>{{0, 140}, {51.5, 56.5}}</string>
+				<key>Frame-HD</key>
+				<string>{{0, 280}, {103, 113}}</string>
+				<key>FrameUV</key>
+				<string>{{0, 0.56}, {0.20436507, 0.78600001}}</string>
+				<key>HD_ImageSize</key>
+				<string>{504, 500}</string>
+				<key>Image</key>
+				<string>eyes.png</string>
+				<key>Image-HD</key>
+				<string>eyes-hd.png</string>
+				<key>ImageURL</key>
+				<string>/Users/jeppetuxen/Documents/ITU/UserExperienceAndPrototyping/Corona/prototype4/eyes.png</string>
+				<key>ImageURL-HD</key>
+				<string>/Users/jeppetuxen/Documents/ITU/UserExperienceAndPrototyping/Corona/prototype4/eyes-hd.png</string>
+				<key>Name</key>
+				<string>eye21</string>
+				<key>Opacity</key>
+				<real>1</real>
+				<key>SD_ImageSize</key>
+				<string>{252, 250}</string>
+				<key>Scale</key>
+				<string>{1, 1}</string>
+				<key>ZOrder</key>
+				<integer>0</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>PhysicProperties</key>
+			<dict>
+				<key>AngularDamping</key>
+				<real>0.0</real>
+				<key>AngularVelocity</key>
+				<real>0.0</real>
+				<key>CanSleep</key>
+				<true/>
+				<key>Category</key>
+				<integer>1</integer>
+				<key>Density</key>
+				<real>0.20000000298023224</real>
+				<key>Fixtures</key>
+				<array>
+					<array>
+						<string>{-15.5, -17.25}</string>
+						<string>{-15, -18.25}</string>
+						<string>{-14, -19.25}</string>
+						<string>{-13, -19.800003}</string>
+						<string>{-8.5, -19.75}</string>
+						<string>{-1, -19.25}</string>
+						<string>{-15.5, -15.25}</string>
+					</array>
+					<array>
+						<string>{14, 18.75}</string>
+						<string>{13, 19.25}</string>
+						<string>{-4.5, 20.199997}</string>
+						<string>{-14.5, 16.25}</string>
+						<string>{-15.5, -15.25}</string>
+						<string>{14.5, 5.75}</string>
+						<string>{15.050003, 11.25}</string>
+						<string>{15, 17.75}</string>
+					</array>
+					<array>
+						<string>{-1, -19.25}</string>
+						<string>{10.5, -18.25}</string>
+						<string>{11.5, -17.25}</string>
+						<string>{14.5, 5.75}</string>
+						<string>{-15.5, -15.25}</string>
+					</array>
+					<array>
+						<string>{-14.5, 16.25}</string>
+						<string>{-4.5, 20.199997}</string>
+						<string>{-12.5, 20.25}</string>
+						<string>{-13.5, 19.75}</string>
+						<string>{-14, 18.75}</string>
+					</array>
+				</array>
+				<key>Friction</key>
+				<real>0.20000000298023224</real>
+				<key>Group</key>
+				<integer>0</integer>
+				<key>IsBullet</key>
+				<false/>
+				<key>IsCircle</key>
+				<false/>
+				<key>IsFixedRot</key>
+				<false/>
+				<key>IsSensor</key>
+				<false/>
+				<key>LinearDamping</key>
+				<real>0.0</real>
+				<key>LinearVelocityX</key>
+				<real>0.0</real>
+				<key>LinearVelocityY</key>
+				<real>0.0</real>
+				<key>Mask</key>
+				<integer>65535</integer>
+				<key>PhysicType</key>
+				<integer>2</integer>
+				<key>Restitution</key>
+				<real>0.20000000298023224</real>
+				<key>SHHolesPoints</key>
+				<array/>
+				<key>SHShapePoints</key>
+				<array>
+					<string>{122, 375}</string>
+					<string>{124, 312}</string>
+					<string>{125, 307}</string>
+					<string>{126, 305}</string>
+					<string>{128, 304}</string>
+					<string>{144, 304.10001}</string>
+					<string>{179, 306}</string>
+					<string>{181, 307}</string>
+					<string>{183, 309}</string>
+					<string>{183.10001, 322}</string>
+					<string>{182, 333}</string>
+					<string>{176, 379}</string>
+					<string>{174, 381}</string>
+					<string>{151, 383}</string>
+					<string>{136, 384}</string>
+					<string>{127, 384.10001}</string>
+					<string>{125, 383}</string>
+					<string>{123, 381}</string>
+					<string>{122, 379}</string>
+				</array>
+				<key>ShapeBorderH</key>
+				<integer>0</integer>
+				<key>ShapeBorderW</key>
+				<integer>0</integer>
+				<key>ShapePositionOffsetX</key>
+				<integer>0</integer>
+				<key>ShapePositionOffsetY</key>
+				<integer>0</integer>
+			</dict>
+			<key>TextureProperties</key>
+			<dict>
+				<key>Color</key>
+				<string>{{1, 1}, {1, 0}}</string>
+				<key>Frame</key>
+				<string>{{61, 152}, {31, 40.5}}</string>
+				<key>Frame-HD</key>
+				<string>{{122, 304}, {62, 81}}</string>
+				<key>FrameUV</key>
+				<string>{{0.24206349, 0.60799998}, {0.36507937, 0.76999998}}</string>
+				<key>HD_ImageSize</key>
+				<string>{504, 500}</string>
+				<key>Image</key>
+				<string>eyes.png</string>
+				<key>Image-HD</key>
+				<string>eyes-hd.png</string>
+				<key>ImageURL</key>
+				<string>/Users/jeppetuxen/Documents/ITU/UserExperienceAndPrototyping/Corona/prototype4/eyes.png</string>
+				<key>ImageURL-HD</key>
+				<string>/Users/jeppetuxen/Documents/ITU/UserExperienceAndPrototyping/Corona/prototype4/eyes-hd.png</string>
+				<key>Name</key>
+				<string>eye8R</string>
+				<key>Opacity</key>
+				<real>1</real>
+				<key>SD_ImageSize</key>
+				<string>{252, 250}</string>
+				<key>Scale</key>
+				<string>{1, 1}</string>
+				<key>ZOrder</key>
+				<integer>0</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>PhysicProperties</key>
+			<dict>
+				<key>AngularDamping</key>
+				<real>0.0</real>
+				<key>AngularVelocity</key>
+				<real>0.0</real>
+				<key>CanSleep</key>
+				<true/>
+				<key>Category</key>
+				<integer>1</integer>
+				<key>Density</key>
+				<real>0.20000000298023224</real>
+				<key>Fixtures</key>
+				<array>
+					<array>
+						<string>{14.25, -15.5}</string>
+						<string>{15.300003, -14.5}</string>
+						<string>{15.25, -7.5}</string>
+						<string>{13.25, -1.5}</string>
+						<string>{12.75, -0.5}</string>
+						<string>{12.25, 0}</string>
+						<string>{-3.75, 0}</string>
+						<string>{3.25, -16.5}</string>
+					</array>
+					<array>
+						<string>{-14.75, -16}</string>
+						<string>{-12.75, -17.050003}</string>
+						<string>{3.25, -16.5}</string>
+						<string>{-11.75, -7.5}</string>
+						<string>{-15.25, -12}</string>
+						<string>{-15.75, -13}</string>
+						<string>{-15.75, -14}</string>
+					</array>
+					<array>
+						<string>{4.75, 4}</string>
+						<string>{-3.75, 0}</string>
+						<string>{12.25, 0}</string>
+						<string>{7.25, 3.5}</string>
+						<string>{6.25, 3.9499969}</string>
+					</array>
+					<array>
+						<string>{-7.75, -3}</string>
+						<string>{-9.75, -5}</string>
+						<string>{-11.75, -7.5}</string>
+						<string>{3.25, -16.5}</string>
+						<string>{-3.75, 0}</string>
+						<string>{-4.75, -0.5}</string>
+					</array>
+				</array>
+				<key>Friction</key>
+				<real>0.20000000298023224</real>
+				<key>Group</key>
+				<integer>0</integer>
+				<key>IsBullet</key>
+				<false/>
+				<key>IsCircle</key>
+				<false/>
+				<key>IsFixedRot</key>
+				<false/>
+				<key>IsSensor</key>
+				<false/>
+				<key>LinearDamping</key>
+				<real>0.0</real>
+				<key>LinearVelocityX</key>
+				<real>0.0</real>
+				<key>LinearVelocityY</key>
+				<real>0.0</real>
+				<key>Mask</key>
+				<integer>65535</integer>
+				<key>PhysicType</key>
+				<integer>2</integer>
+				<key>Restitution</key>
+				<real>0.20000000298023224</real>
+				<key>SHHolesPoints</key>
+				<array/>
+				<key>SHShapePoints</key>
+				<array>
+					<string>{260, 381}</string>
+					<string>{261, 379}</string>
+					<string>{268, 370}</string>
+					<string>{272, 365}</string>
+					<string>{276, 361}</string>
+					<string>{282, 356}</string>
+					<string>{284, 355}</string>
+					<string>{301, 347}</string>
+					<string>{304, 347.10001}</string>
+					<string>{306, 348}</string>
+					<string>{316, 355}</string>
+					<string>{317, 356}</string>
+					<string>{318, 358}</string>
+					<string>{322, 370}</string>
+					<string>{322.10001, 384}</string>
+					<string>{320, 386}</string>
+					<string>{298, 388}</string>
+					<string>{269, 389}</string>
+					<string>{266, 389.10001}</string>
+					<string>{262, 387}</string>
+					<string>{260, 383}</string>
+				</array>
+				<key>ShapeBorderH</key>
+				<integer>0</integer>
+				<key>ShapeBorderW</key>
+				<integer>0</integer>
+				<key>ShapePositionOffsetX</key>
+				<integer>0</integer>
+				<key>ShapePositionOffsetY</key>
+				<integer>0</integer>
+			</dict>
+			<key>TextureProperties</key>
+			<dict>
+				<key>Color</key>
+				<string>{{1, 1}, {1, 0}}</string>
+				<key>Frame</key>
+				<string>{{130, 160}, {31.5, 35}}</string>
+				<key>Frame-HD</key>
+				<string>{{260, 320}, {63, 70}}</string>
+				<key>FrameUV</key>
+				<string>{{0.51587301, 0.63999999}, {0.64087301, 0.77999997}}</string>
+				<key>HD_ImageSize</key>
+				<string>{504, 500}</string>
+				<key>Image</key>
+				<string>eyes.png</string>
+				<key>Image-HD</key>
+				<string>eyes-hd.png</string>
+				<key>ImageURL</key>
+				<string>/Users/jeppetuxen/Documents/ITU/UserExperienceAndPrototyping/Corona/prototype4/eyes.png</string>
+				<key>ImageURL-HD</key>
+				<string>/Users/jeppetuxen/Documents/ITU/UserExperienceAndPrototyping/Corona/prototype4/eyes-hd.png</string>
+				<key>Name</key>
+				<string>eye12</string>
+				<key>Opacity</key>
+				<real>1</real>
+				<key>SD_ImageSize</key>
+				<string>{252, 250}</string>
+				<key>Scale</key>
+				<string>{1, 1}</string>
+				<key>ZOrder</key>
+				<integer>0</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>PhysicProperties</key>
+			<dict>
+				<key>AngularDamping</key>
+				<real>0.0</real>
+				<key>AngularVelocity</key>
+				<real>0.0</real>
+				<key>CanSleep</key>
+				<true/>
+				<key>Category</key>
+				<integer>1</integer>
+				<key>Density</key>
+				<real>0.20000000298023224</real>
+				<key>Fixtures</key>
+				<array>
+					<array>
+						<string>{-12.5, -14.75}</string>
+						<string>{-11, -15.75}</string>
+						<string>{-9, -16.75}</string>
+						<string>{-6.5, -17.300003}</string>
+						<string>{11, -7.25}</string>
+						<string>{12.050003, 5.75}</string>
+						<string>{-10.5, 11.25}</string>
+						<string>{-12.449997, -8.75}</string>
+					</array>
+					<array>
+						<string>{8.5, 16.75}</string>
+						<string>{0.5, 17.699997}</string>
+						<string>{-9.5, 16.75}</string>
+						<string>{-10.5, 11.25}</string>
+						<string>{12.050003, 5.75}</string>
+						<string>{12, 13.75}</string>
+						<string>{11.5, 14.75}</string>
+						<string>{10.5, 15.75}</string>
+					</array>
+					<array>
+						<string>{7, -17.25}</string>
+						<string>{8.5, -16.75}</string>
+						<string>{9.5, -15.75}</string>
+						<string>{11, -7.25}</string>
+						<string>{-6.5, -17.300003}</string>
+					</array>
+					<array>
+						<string>{-9.5, 16.75}</string>
+						<string>{0.5, 17.699997}</string>
+						<string>{-9, 17.75}</string>
+					</array>
+				</array>
+				<key>Friction</key>
+				<real>0.20000000298023224</real>
+				<key>Group</key>
+				<integer>0</integer>
+				<key>IsBullet</key>
+				<false/>
+				<key>IsCircle</key>
+				<false/>
+				<key>IsFixedRot</key>
+				<false/>
+				<key>IsSensor</key>
+				<false/>
+				<key>LinearDamping</key>
+				<real>0.0</real>
+				<key>LinearVelocityX</key>
+				<real>0.0</real>
+				<key>LinearVelocityY</key>
+				<real>0.0</real>
+				<key>Mask</key>
+				<integer>65535</integer>
+				<key>PhysicType</key>
+				<integer>2</integer>
+				<key>Restitution</key>
+				<real>0.20000000298023224</real>
+				<key>SHHolesPoints</key>
+				<array/>
+				<key>SHShapePoints</key>
+				<array>
+					<string>{328.10001, 373}</string>
+					<string>{332, 333}</string>
+					<string>{334, 322}</string>
+					<string>{335, 320}</string>
+					<string>{354, 320.10001}</string>
+					<string>{370, 322}</string>
+					<string>{374, 324}</string>
+					<string>{376, 326}</string>
+					<string>{377, 328}</string>
+					<string>{377.10001, 344}</string>
+					<string>{375, 370}</string>
+					<string>{372, 387}</string>
+					<string>{370, 389}</string>
+					<string>{367, 390}</string>
+					<string>{340, 390.10001}</string>
+					<string>{335, 389}</string>
+					<string>{331, 387}</string>
+					<string>{328, 385}</string>
+				</array>
+				<key>ShapeBorderH</key>
+				<integer>0</integer>
+				<key>ShapeBorderW</key>
+				<integer>0</integer>
+				<key>ShapePositionOffsetX</key>
+				<integer>0</integer>
+				<key>ShapePositionOffsetY</key>
+				<integer>0</integer>
+			</dict>
+			<key>TextureProperties</key>
+			<dict>
+				<key>Color</key>
+				<string>{{1, 1}, {1, 0}}</string>
+				<key>Frame</key>
+				<string>{{164, 160}, {25, 35.5}}</string>
+				<key>Frame-HD</key>
+				<string>{{328, 320}, {50, 71}}</string>
+				<key>FrameUV</key>
+				<string>{{0.65079367, 0.63999999}, {0.75, 0.78200001}}</string>
+				<key>HD_ImageSize</key>
+				<string>{504, 500}</string>
+				<key>Image</key>
+				<string>eyes.png</string>
+				<key>Image-HD</key>
+				<string>eyes-hd.png</string>
+				<key>ImageURL</key>
+				<string>/Users/jeppetuxen/Documents/ITU/UserExperienceAndPrototyping/Corona/prototype4/eyes.png</string>
+				<key>ImageURL-HD</key>
+				<string>/Users/jeppetuxen/Documents/ITU/UserExperienceAndPrototyping/Corona/prototype4/eyes-hd.png</string>
+				<key>Name</key>
+				<string>eye3</string>
+				<key>Opacity</key>
+				<real>1</real>
+				<key>SD_ImageSize</key>
+				<string>{252, 250}</string>
+				<key>Scale</key>
+				<string>{1, 1}</string>
+				<key>ZOrder</key>
+				<integer>0</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>PhysicProperties</key>
+			<dict>
+				<key>AngularDamping</key>
+				<real>0.0</real>
+				<key>AngularVelocity</key>
+				<real>0.0</real>
+				<key>CanSleep</key>
+				<true/>
+				<key>Category</key>
+				<integer>1</integer>
+				<key>Density</key>
+				<real>0.20000000298023224</real>
+				<key>Fixtures</key>
+				<array>
+					<array>
+						<string>{-12.75, 2.75}</string>
+						<string>{-12.75, -3.25}</string>
+						<string>{9.75, -8.25}</string>
+						<string>{11.25, -5.25}</string>
+						<string>{11.75, -3.75}</string>
+						<string>{12.300003, -0.75}</string>
+						<string>{12.25, 3.75}</string>
+						<string>{-12.25, 5.75}</string>
+					</array>
+					<array>
+						<string>{-9.25, -11.75}</string>
+						<string>{-7.25, -13.25}</string>
+						<string>{-3.25, -15.300003}</string>
+						<string>{4.25, -14.25}</string>
+						<string>{7.75, -11.25}</string>
+						<string>{9.75, -8.25}</string>
+						<string>{-11.75, -7.25}</string>
+						<string>{-9.75, -11.25}</string>
+					</array>
+					<array>
+						<string>{-12.25, 5.75}</string>
+						<string>{12.25, 3.75}</string>
+						<string>{11.75, 6.75}</string>
+						<string>{10.25, 9.75}</string>
+						<string>{8.75, 12.25}</string>
+						<string>{7.75, 13.75}</string>
+						<string>{4.75, 15.699997}</string>
+						<string>{-11.25, 9.25}</string>
+					</array>
+					<array>
+						<string>{-11.75, -7.25}</string>
+						<string>{9.75, -8.25}</string>
+						<string>{-12.75, -3.25}</string>
+					</array>
+					<array>
+						<string>{7.75, -11.25}</string>
+						<string>{9.75, -8.25}</string>
+						<string>{4.25, -14.25}</string>
+						<string>{6.25, -12.75}</string>
+					</array>
+					<array>
+						<string>{-8.75, 14.25}</string>
+						<string>{-11.25, 9.25}</string>
+						<string>{4.75, 15.699997}</string>
+						<string>{-6.75, 15.75}</string>
+						<string>{-7.75, 15.25}</string>
+					</array>
+					<array>
+						<string>{2.25, -15.25}</string>
+						<string>{4.25, -14.25}</string>
+						<string>{-3.25, -15.300003}</string>
+					</array>
+					<array>
+						<string>{4.75, 15.699997}</string>
+						<string>{7.75, 13.75}</string>
+						<string>{7.25, 14.25}</string>
+						<string>{5.75, 15.25}</string>
+					</array>
+				</array>
+				<key>Friction</key>
+				<real>0.20000000298023224</real>
+				<key>Group</key>
+				<integer>0</integer>
+				<key>IsBullet</key>
+				<false/>
+				<key>IsCircle</key>
+				<false/>
+				<key>IsFixedRot</key>
+				<false/>
+				<key>IsSensor</key>
+				<false/>
+				<key>LinearDamping</key>
+				<real>0.0</real>
+				<key>LinearVelocityX</key>
+				<real>0.0</real>
+				<key>LinearVelocityY</key>
+				<real>0.0</real>
+				<key>Mask</key>
+				<integer>65535</integer>
+				<key>PhysicType</key>
+				<integer>2</integer>
+				<key>Restitution</key>
+				<real>0.20000000298023224</real>
+				<key>SHHolesPoints</key>
+				<array/>
+				<key>SHShapePoints</key>
+				<array>
+					<string>{382, 346}</string>
+					<string>{383, 340}</string>
+					<string>{385, 333}</string>
+					<string>{390, 323}</string>
+					<string>{392, 321}</string>
+					<string>{394, 320}</string>
+					<string>{417, 320.10001}</string>
+					<string>{419, 321}</string>
+					<string>{422, 323}</string>
+					<string>{423, 324}</string>
+					<string>{425, 327}</string>
+					<string>{428, 332}</string>
+					<string>{431, 338}</string>
+					<string>{432, 344}</string>
+					<string>{432.10001, 353}</string>
+					<string>{431, 359}</string>
+					<string>{430, 362}</string>
+					<string>{427, 368}</string>
+					<string>{423, 374}</string>
+					<string>{420, 377}</string>
+					<string>{416, 380}</string>
+					<string>{412, 382}</string>
+					<string>{401, 382.10001}</string>
+					<string>{393, 378}</string>
+					<string>{389, 375}</string>
+					<string>{388, 374}</string>
+					<string>{384, 366}</string>
+					<string>{382, 358}</string>
+				</array>
+				<key>ShapeBorderH</key>
+				<integer>0</integer>
+				<key>ShapeBorderW</key>
+				<integer>0</integer>
+				<key>ShapePositionOffsetX</key>
+				<integer>0</integer>
+				<key>ShapePositionOffsetY</key>
+				<integer>0</integer>
+			</dict>
+			<key>TextureProperties</key>
+			<dict>
+				<key>Color</key>
+				<string>{{1, 1}, {1, 0}}</string>
+				<key>Frame</key>
+				<string>{{191, 160}, {25.5, 31.5}}</string>
+				<key>Frame-HD</key>
+				<string>{{382, 320}, {51, 63}}</string>
+				<key>FrameUV</key>
+				<string>{{0.75793654, 0.63999999}, {0.85912699, 0.76599997}}</string>
+				<key>HD_ImageSize</key>
+				<string>{504, 500}</string>
+				<key>Image</key>
+				<string>eyes.png</string>
+				<key>Image-HD</key>
+				<string>eyes-hd.png</string>
+				<key>ImageURL</key>
+				<string>/Users/jeppetuxen/Documents/ITU/UserExperienceAndPrototyping/Corona/prototype4/eyes.png</string>
+				<key>ImageURL-HD</key>
+				<string>/Users/jeppetuxen/Documents/ITU/UserExperienceAndPrototyping/Corona/prototype4/eyes-hd.png</string>
+				<key>Name</key>
+				<string>eye17</string>
+				<key>Opacity</key>
+				<real>1</real>
+				<key>SD_ImageSize</key>
+				<string>{252, 250}</string>
+				<key>Scale</key>
+				<string>{1, 1}</string>
+				<key>ZOrder</key>
+				<integer>0</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>PhysicProperties</key>
+			<dict>
+				<key>AngularDamping</key>
+				<real>0.0</real>
+				<key>AngularVelocity</key>
+				<real>0.0</real>
+				<key>CanSleep</key>
+				<true/>
+				<key>Category</key>
+				<integer>1</integer>
+				<key>Density</key>
+				<real>0.20000000298023224</real>
+				<key>Fixtures</key>
+				<array>
+					<array>
+						<string>{12, 0.25}</string>
+						<string>{12.5, 5.75}</string>
+						<string>{10.5, 8.75}</string>
+						<string>{8.5, 10.75}</string>
+						<string>{2.5, 13.75}</string>
+					</array>
+					<array>
+						<string>{-10.5, -8.75}</string>
+						<string>{6.5, -11.75}</string>
+						<string>{11, -6.25}</string>
+						<string>{12, 0.25}</string>
+						<string>{0.5, 14.199997}</string>
+						<string>{-13, 3.75}</string>
+						<string>{-13, -4.25}</string>
+						<string>{-11.5, -7.25}</string>
+					</array>
+					<array>
+						<string>{-13, 3.75}</string>
+						<string>{0.5, 14.199997}</string>
+						<string>{-6.5, 14.25}</string>
+						<string>{-10.5, 10.75}</string>
+						<string>{-12, 7.75}</string>
+						<string>{-12.5, 6.25}</string>
+					</array>
+					<array>
+						<string>{11, -6.25}</string>
+						<string>{12, 0.25}</string>
+						<string>{0.5, 14.199997}</string>
+						<string>{-4.5, -13.25}</string>
+						<string>{-3, -13.800003}</string>
+						<string>{2, -13.75}</string>
+						<string>{3.5, -13.25}</string>
+						<string>{6.5, -11.75}</string>
+					</array>
+					<array>
+						<string>{-10.5, 10.75}</string>
+						<string>{-6.5, 14.25}</string>
+						<string>{-7.5, 13.75}</string>
+						<string>{-9.5, 12.25}</string>
+					</array>
+					<array>
+						<string>{-7.5, -11.75}</string>
+						<string>{-4.5, -13.25}</string>
+						<string>{3.5, -13.25}</string>
+						<string>{6.5, -11.75}</string>
+						<string>{-10.5, -8.75}</string>
+					</array>
+					<array>
+						<string>{10.5, -7.75}</string>
+						<string>{11, -6.25}</string>
+						<string>{6.5, -11.75}</string>
+						<string>{9, -9.75}</string>
+						<string>{10, -8.75}</string>
+					</array>
+				</array>
+				<key>Friction</key>
+				<real>0.20000000298023224</real>
+				<key>Group</key>
+				<integer>0</integer>
+				<key>IsBullet</key>
+				<false/>
+				<key>IsCircle</key>
+				<false/>
+				<key>IsFixedRot</key>
+				<false/>
+				<key>IsSensor</key>
+				<false/>
+				<key>LinearDamping</key>
+				<real>0.0</real>
+				<key>LinearVelocityX</key>
+				<real>0.0</real>
+				<key>LinearVelocityY</key>
+				<real>0.0</real>
+				<key>Mask</key>
+				<integer>65535</integer>
+				<key>PhysicType</key>
+				<integer>2</integer>
+				<key>Restitution</key>
+				<real>0.20000000298023224</real>
+				<key>SHHolesPoints</key>
+				<array/>
+				<key>SHShapePoints</key>
+				<array>
+					<string>{438, 341}</string>
+					<string>{439, 336}</string>
+					<string>{440, 333}</string>
+					<string>{443, 327}</string>
+					<string>{445, 324}</string>
+					<string>{449, 321}</string>
+					<string>{451, 320}</string>
+					<string>{465, 320.10001}</string>
+					<string>{469, 321}</string>
+					<string>{481, 327}</string>
+					<string>{485, 331}</string>
+					<string>{489, 337}</string>
+					<string>{488, 348}</string>
+					<string>{486, 361}</string>
+					<string>{485, 364}</string>
+					<string>{484, 366}</string>
+					<string>{482, 368}</string>
+					<string>{477, 372}</string>
+					<string>{471, 375}</string>
+					<string>{468, 376}</string>
+					<string>{458, 376.10001}</string>
+					<string>{455, 375}</string>
+					<string>{449, 372}</string>
+					<string>{443, 366}</string>
+					<string>{441, 363}</string>
+					<string>{438, 357}</string>
+				</array>
+				<key>ShapeBorderH</key>
+				<integer>0</integer>
+				<key>ShapeBorderW</key>
+				<integer>0</integer>
+				<key>ShapePositionOffsetX</key>
+				<integer>0</integer>
+				<key>ShapePositionOffsetY</key>
+				<integer>0</integer>
+			</dict>
+			<key>TextureProperties</key>
+			<dict>
+				<key>Color</key>
+				<string>{{1, 1}, {1, 0}}</string>
+				<key>Frame</key>
+				<string>{{219, 160}, {26, 28.5}}</string>
+				<key>Frame-HD</key>
+				<string>{{438, 320}, {52, 57}}</string>
+				<key>FrameUV</key>
+				<string>{{0.86904764, 0.63999999}, {0.97222221, 0.75400001}}</string>
+				<key>HD_ImageSize</key>
+				<string>{504, 500}</string>
+				<key>Image</key>
+				<string>eyes.png</string>
+				<key>Image-HD</key>
+				<string>eyes-hd.png</string>
+				<key>ImageURL</key>
+				<string>/Users/jeppetuxen/Documents/ITU/UserExperienceAndPrototyping/Corona/prototype4/eyes.png</string>
+				<key>ImageURL-HD</key>
+				<string>/Users/jeppetuxen/Documents/ITU/UserExperienceAndPrototyping/Corona/prototype4/eyes-hd.png</string>
+				<key>Name</key>
+				<string>eye12R_2</string>
+				<key>Opacity</key>
+				<real>1</real>
+				<key>SD_ImageSize</key>
+				<string>{252, 250}</string>
+				<key>Scale</key>
+				<string>{1, 1}</string>
+				<key>ZOrder</key>
+				<integer>0</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>PhysicProperties</key>
+			<dict>
+				<key>AngularDamping</key>
+				<real>0.0</real>
+				<key>AngularVelocity</key>
+				<real>0.0</real>
+				<key>CanSleep</key>
+				<true/>
+				<key>Category</key>
+				<integer>1</integer>
+				<key>Density</key>
+				<real>0.20000000298023224</real>
+				<key>Fixtures</key>
+				<array>
+					<array>
+						<string>{-15.75, -2.25}</string>
+						<string>{-11.25, -14.75}</string>
+						<string>{8.25, -16.25}</string>
+						<string>{15.800003, 5.75}</string>
+						<string>{15.75, 7.75}</string>
+						<string>{15.25, 8.75}</string>
+						<string>{10.75, 13.75}</string>
+						<string>{-16.25, -0.25}</string>
+					</array>
+					<array>
+						<string>{-10.25, -16.25}</string>
+						<string>{-8.75, -17.25}</string>
+						<string>{-2.25, -20.300003}</string>
+						<string>{1.75, -20.25}</string>
+						<string>{7.75, -17.25}</string>
+						<string>{8.25, -16.25}</string>
+						<string>{-11.25, -14.75}</string>
+						<string>{-10.75, -15.75}</string>
+					</array>
+					<array>
+						<string>{-16.25, -0.25}</string>
+						<string>{10.75, 13.75}</string>
+						<string>{4.25, 19.25}</string>
+						<string>{3.25, 19.75}</string>
+						<string>{-5.75, 20.699997}</string>
+						<string>{-7.75, 20.75}</string>
+						<string>{-16.25, 16.75}</string>
+					</array>
+					<array>
+						<string>{-16.25, 16.75}</string>
+						<string>{-7.75, 20.75}</string>
+						<string>{-14.75, 18.25}</string>
+						<string>{-15.75, 17.75}</string>
+					</array>
+				</array>
+				<key>Friction</key>
+				<real>0.20000000298023224</real>
+				<key>Group</key>
+				<integer>0</integer>
+				<key>IsBullet</key>
+				<false/>
+				<key>IsCircle</key>
+				<false/>
+				<key>IsFixedRot</key>
+				<false/>
+				<key>IsSensor</key>
+				<false/>
+				<key>LinearDamping</key>
+				<real>0.0</real>
+				<key>LinearVelocityX</key>
+				<real>0.0</real>
+				<key>LinearVelocityY</key>
+				<real>0.0</real>
+				<key>Mask</key>
+				<integer>65535</integer>
+				<key>PhysicType</key>
+				<integer>2</integer>
+				<key>Restitution</key>
+				<real>0.20000000298023224</real>
+				<key>SHHolesPoints</key>
+				<array/>
+				<key>SHShapePoints</key>
+				<array>
+					<string>{188, 366}</string>
+					<string>{189, 364}</string>
+					<string>{191, 363}</string>
+					<string>{205, 358}</string>
+					<string>{209, 358.10001}</string>
+					<string>{227, 360}</string>
+					<string>{229, 361}</string>
+					<string>{242, 372}</string>
+					<string>{251, 382}</string>
+					<string>{252, 384}</string>
+					<string>{252.10001, 388}</string>
+					<string>{237, 432}</string>
+					<string>{236, 434}</string>
+					<string>{224, 440}</string>
+					<string>{216, 440.10001}</string>
+					<string>{203, 434}</string>
+					<string>{200, 432}</string>
+					<string>{199, 431}</string>
+					<string>{198, 429}</string>
+					<string>{189, 404}</string>
+					<string>{188, 400}</string>
+				</array>
+				<key>ShapeBorderH</key>
+				<integer>0</integer>
+				<key>ShapeBorderW</key>
+				<integer>0</integer>
+				<key>ShapePositionOffsetX</key>
+				<integer>0</integer>
+				<key>ShapePositionOffsetY</key>
+				<integer>0</integer>
+			</dict>
+			<key>TextureProperties</key>
+			<dict>
+				<key>Color</key>
+				<string>{{1, 1}, {1, 0}}</string>
+				<key>Frame</key>
+				<string>{{94, 179}, {32.5, 41.5}}</string>
+				<key>Frame-HD</key>
+				<string>{{188, 358}, {65, 83}}</string>
+				<key>FrameUV</key>
+				<string>{{0.37301588, 0.71600002}, {0.50198412, 0.88200003}}</string>
+				<key>HD_ImageSize</key>
+				<string>{504, 500}</string>
+				<key>Image</key>
+				<string>eyes.png</string>
+				<key>Image-HD</key>
+				<string>eyes-hd.png</string>
+				<key>ImageURL</key>
+				<string>/Users/jeppetuxen/Documents/ITU/UserExperienceAndPrototyping/Corona/prototype4/eyes.png</string>
+				<key>ImageURL-HD</key>
+				<string>/Users/jeppetuxen/Documents/ITU/UserExperienceAndPrototyping/Corona/prototype4/eyes-hd.png</string>
+				<key>Name</key>
+				<string>eye4L_1</string>
+				<key>Opacity</key>
+				<real>1</real>
+				<key>SD_ImageSize</key>
+				<string>{252, 250}</string>
+				<key>Scale</key>
+				<string>{1, 1}</string>
+				<key>ZOrder</key>
+				<integer>0</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>PhysicProperties</key>
+			<dict>
+				<key>AngularDamping</key>
+				<real>0.0</real>
+				<key>AngularVelocity</key>
+				<real>0.0</real>
+				<key>CanSleep</key>
+				<true/>
+				<key>Category</key>
+				<integer>1</integer>
+				<key>Density</key>
+				<real>0.20000000298023224</real>
+				<key>Fixtures</key>
+				<array>
+					<array>
+						<string>{16.25, -4.25}</string>
+						<string>{16.800003, -3.25}</string>
+						<string>{16.75, -1.75}</string>
+						<string>{16.25, -0.75}</string>
+						<string>{15.75, -0.25}</string>
+						<string>{12.75, 1.75}</string>
+						<string>{14.75, -5.25}</string>
+						<string>{15.75, -4.75}</string>
+					</array>
+					<array>
+						<string>{-17.25, 2.75}</string>
+						<string>{-16.75, -1.25}</string>
+						<string>{-16.25, -3.75}</string>
+						<string>{-15.25, -5.75}</string>
+						<string>{-10.75, -7.25}</string>
+						<string>{0.75, 7.6999969}</string>
+						<string>{-16.75, 7.75}</string>
+						<string>{-17.199997, 6.75}</string>
+					</array>
+					<array>
+						<string>{-14.25, -6.75}</string>
+						<string>{-10.75, -7.25}</string>
+						<string>{-15.25, -5.75}</string>
+					</array>
+				</array>
+				<key>Friction</key>
+				<real>0.20000000298023224</real>
+				<key>Group</key>
+				<integer>0</integer>
+				<key>IsBullet</key>
+				<false/>
+				<key>IsCircle</key>
+				<false/>
+				<key>IsFixedRot</key>
+				<false/>
+				<key>IsSensor</key>
+				<false/>
+				<key>LinearDamping</key>
+				<real>0.0</real>
+				<key>LinearVelocityX</key>
+				<real>0.0</real>
+				<key>LinearVelocityY</key>
+				<real>0.0</real>
+				<key>Mask</key>
+				<integer>65535</integer>
+				<key>PhysicType</key>
+				<integer>2</integer>
+				<key>Restitution</key>
+				<real>0.20000000298023224</real>
+				<key>SHHolesPoints</key>
+				<array/>
+				<key>SHShapePoints</key>
+				<array>
+					<string>{382.10001, 390}</string>
+					<string>{383, 388}</string>
+					<string>{418, 388.10001}</string>
+					<string>{421, 389}</string>
+					<string>{423, 390}</string>
+					<string>{442, 400}</string>
+					<string>{448, 404}</string>
+					<string>{449, 405}</string>
+					<string>{450, 407}</string>
+					<string>{450.10001, 410}</string>
+					<string>{449, 412}</string>
+					<string>{448, 413}</string>
+					<string>{446, 414}</string>
+					<string>{395, 418}</string>
+					<string>{390, 418.10001}</string>
+					<string>{388, 417}</string>
+					<string>{386, 415}</string>
+					<string>{384, 411}</string>
+					<string>{383, 406}</string>
+					<string>{382, 398}</string>
+				</array>
+				<key>ShapeBorderH</key>
+				<integer>0</integer>
+				<key>ShapeBorderW</key>
+				<integer>0</integer>
+				<key>ShapePositionOffsetX</key>
+				<integer>0</integer>
+				<key>ShapePositionOffsetY</key>
+				<integer>0</integer>
+			</dict>
+			<key>TextureProperties</key>
+			<dict>
+				<key>Color</key>
+				<string>{{1, 1}, {1, 0}}</string>
+				<key>Frame</key>
+				<string>{{191, 194}, {34.5, 15.5}}</string>
+				<key>Frame-HD</key>
+				<string>{{382, 388}, {69, 31}}</string>
+				<key>FrameUV</key>
+				<string>{{0.75793654, 0.77600002}, {0.89484125, 0.838}}</string>
+				<key>HD_ImageSize</key>
+				<string>{504, 500}</string>
+				<key>Image</key>
+				<string>eyes.png</string>
+				<key>Image-HD</key>
+				<string>eyes-hd.png</string>
+				<key>ImageURL</key>
+				<string>/Users/jeppetuxen/Documents/ITU/UserExperienceAndPrototyping/Corona/prototype4/eyes.png</string>
+				<key>ImageURL-HD</key>
+				<string>/Users/jeppetuxen/Documents/ITU/UserExperienceAndPrototyping/Corona/prototype4/eyes-hd.png</string>
+				<key>Name</key>
+				<string>eye1</string>
+				<key>Opacity</key>
+				<real>1</real>
+				<key>SD_ImageSize</key>
+				<string>{252, 250}</string>
+				<key>Scale</key>
+				<string>{1, 1}</string>
+				<key>ZOrder</key>
+				<integer>0</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>PhysicProperties</key>
+			<dict>
+				<key>AngularDamping</key>
+				<real>0.0</real>
+				<key>AngularVelocity</key>
+				<real>0.0</real>
+				<key>CanSleep</key>
+				<true/>
+				<key>Category</key>
+				<integer>1</integer>
+				<key>Density</key>
+				<real>0.20000000298023224</real>
+				<key>Fixtures</key>
+				<array>
+					<array>
+						<string>{-8.25, -6.25}</string>
+						<string>{-7.75, -10.75}</string>
+						<string>{9.25, -15.25}</string>
+						<string>{10.300003, -5.75}</string>
+						<string>{10.25, 10.75}</string>
+						<string>{9.75, 13.75}</string>
+						<string>{9.25, 15.75}</string>
+						<string>{-8.75, 11.25}</string>
+					</array>
+					<array>
+						<string>{-8.25, 19.75}</string>
+						<string>{-8.75, 18.75}</string>
+						<string>{-8.75, 11.25}</string>
+						<string>{9.25, 15.75}</string>
+						<string>{8.75, 17.25}</string>
+						<string>{-2.25, 23.25}</string>
+						<string>{-4.25, 22.75}</string>
+						<string>{-7.25, 21.25}</string>
+					</array>
+					<array>
+						<string>{8.75, -17.25}</string>
+						<string>{9.25, -15.25}</string>
+						<string>{-5.25, -17.75}</string>
+						<string>{-4.25, -19.25}</string>
+						<string>{-2.25, -21.25}</string>
+						<string>{7.75, -19.75}</string>
+						<string>{8.25, -18.75}</string>
+					</array>
+					<array>
+						<string>{-5.75, -16.75}</string>
+						<string>{-5.25, -17.75}</string>
+						<string>{8.75, -17.25}</string>
+						<string>{9.25, -15.25}</string>
+						<string>{-7.75, -10.75}</string>
+						<string>{-6.75, -14.25}</string>
+					</array>
+					<array>
+						<string>{4.25, -22.75}</string>
+						<string>{5.75, -21.75}</string>
+						<string>{7.75, -19.75}</string>
+						<string>{8.25, -18.75}</string>
+						<string>{8.75, -17.25}</string>
+						<string>{-2.25, -21.25}</string>
+						<string>{-0.75, -22.25}</string>
+						<string>{1.25, -22.800003}</string>
+					</array>
+					<array>
+						<string>{-2.25, 23.25}</string>
+						<string>{8.75, 17.25}</string>
+						<string>{7.25, 20.25}</string>
+						<string>{5.25, 22.25}</string>
+						<string>{4.25, 22.75}</string>
+						<string>{2.75, 23.199997}</string>
+					</array>
+				</array>
+				<key>Friction</key>
+				<real>0.20000000298023224</real>
+				<key>Group</key>
+				<integer>0</integer>
+				<key>IsBullet</key>
+				<false/>
+				<key>IsCircle</key>
+				<false/>
+				<key>IsFixedRot</key>
+				<false/>
+				<key>IsSensor</key>
+				<false/>
+				<key>LinearDamping</key>
+				<real>0.0</real>
+				<key>LinearVelocityX</key>
+				<real>0.0</real>
+				<key>LinearVelocityY</key>
+				<real>0.0</real>
+				<key>Mask</key>
+				<integer>65535</integer>
+				<key>PhysicType</key>
+				<integer>2</integer>
+				<key>Restitution</key>
+				<real>0.20000000298023224</real>
+				<key>SHHolesPoints</key>
+				<array/>
+				<key>SHShapePoints</key>
+				<array>
+					<string>{126, 399}</string>
+					<string>{127, 397}</string>
+					<string>{129, 394}</string>
+					<string>{135, 391}</string>
+					<string>{139, 390}</string>
+					<string>{149, 390.10001}</string>
+					<string>{152, 391}</string>
+					<string>{154, 392}</string>
+					<string>{158, 396}</string>
+					<string>{161, 402}</string>
+					<string>{162, 405}</string>
+					<string>{163, 409}</string>
+					<string>{164, 415}</string>
+					<string>{164.10001, 448}</string>
+					<string>{162, 467}</string>
+					<string>{161, 471}</string>
+					<string>{160, 474}</string>
+					<string>{159, 476}</string>
+					<string>{155, 480}</string>
+					<string>{152, 482}</string>
+					<string>{146, 482.10001}</string>
+					<string>{142, 481}</string>
+					<string>{139, 479}</string>
+					<string>{135, 475}</string>
+					<string>{133, 472}</string>
+					<string>{132, 470}</string>
+					<string>{130, 465}</string>
+					<string>{128, 458}</string>
+					<string>{127, 449}</string>
+					<string>{126, 414}</string>
+				</array>
+				<key>ShapeBorderH</key>
+				<integer>0</integer>
+				<key>ShapeBorderW</key>
+				<integer>0</integer>
+				<key>ShapePositionOffsetX</key>
+				<integer>0</integer>
+				<key>ShapePositionOffsetY</key>
+				<integer>0</integer>
+			</dict>
+			<key>TextureProperties</key>
+			<dict>
+				<key>Color</key>
+				<string>{{1, 1}, {1, 0}}</string>
+				<key>Frame</key>
+				<string>{{61, 195}, {21.5, 46.5}}</string>
+				<key>Frame-HD</key>
+				<string>{{122, 390}, {43, 93}}</string>
+				<key>FrameUV</key>
+				<string>{{0.24206349, 0.77999997}, {0.32738096, 0.96600002}}</string>
+				<key>HD_ImageSize</key>
+				<string>{504, 500}</string>
+				<key>Image</key>
+				<string>eyes.png</string>
+				<key>Image-HD</key>
+				<string>eyes-hd.png</string>
+				<key>ImageURL</key>
+				<string>/Users/jeppetuxen/Documents/ITU/UserExperienceAndPrototyping/Corona/prototype4/eyes.png</string>
+				<key>ImageURL-HD</key>
+				<string>/Users/jeppetuxen/Documents/ITU/UserExperienceAndPrototyping/Corona/prototype4/eyes-hd.png</string>
+				<key>Name</key>
+				<string>eye16L.</string>
+				<key>Opacity</key>
+				<real>1</real>
+				<key>SD_ImageSize</key>
+				<string>{252, 250}</string>
+				<key>Scale</key>
+				<string>{1, 1}</string>
+				<key>ZOrder</key>
+				<integer>0</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>PhysicProperties</key>
+			<dict>
+				<key>AngularDamping</key>
+				<real>0.0</real>
+				<key>AngularVelocity</key>
+				<real>0.0</real>
+				<key>CanSleep</key>
+				<true/>
+				<key>Category</key>
+				<integer>1</integer>
+				<key>Density</key>
+				<real>0.20000000298023224</real>
+				<key>Fixtures</key>
+				<array>
+					<array>
+						<string>{-11, 4.25}</string>
+						<string>{9.5, -7.25}</string>
+						<string>{10, -4.25}</string>
+						<string>{10.550003, 0.75}</string>
+						<string>{10.5, 9.75}</string>
+						<string>{10, 12.25}</string>
+						<string>{-9, 16.25}</string>
+						<string>{-10, 11.75}</string>
+					</array>
+					<array>
+						<string>{3.5, 22.199997}</string>
+						<string>{-2, 22.25}</string>
+						<string>{-5, 20.75}</string>
+						<string>{-8, 18.75}</string>
+						<string>{-8.5, 17.75}</string>
+						<string>{-9, 16.25}</string>
+						<string>{10, 12.25}</string>
+						<string>{7.5, 19.75}</string>
+					</array>
+					<array>
+						<string>{7.5, -14.75}</string>
+						<string>{8, -13.25}</string>
+						<string>{9.5, -7.25}</string>
+						<string>{-11, 4.25}</string>
+						<string>{-11, -13.75}</string>
+						<string>{-10.5, -15.25}</string>
+						<string>{-9.5, -17.25}</string>
+						<string>{6, -17.75}</string>
+					</array>
+					<array>
+						<string>{-8.5, -18.75}</string>
+						<string>{-5.5, -20.75}</string>
+						<string>{-3.5, -21.800003}</string>
+						<string>{1, -21.75}</string>
+						<string>{3, -20.75}</string>
+						<string>{5, -19.25}</string>
+						<string>{6, -17.75}</string>
+						<string>{-9.5, -17.25}</string>
+					</array>
+					<array>
+						<string>{3.5, 22.199997}</string>
+						<string>{7.5, 19.75}</string>
+						<string>{6.5, 20.75}</string>
+					</array>
+					<array>
+						<string>{4.5, -19.75}</string>
+						<string>{5, -19.25}</string>
+						<string>{3, -20.75}</string>
+					</array>
+				</array>
+				<key>Friction</key>
+				<real>0.20000000298023224</real>
+				<key>Group</key>
+				<integer>0</integer>
+				<key>IsBullet</key>
+				<false/>
+				<key>IsCircle</key>
+				<false/>
+				<key>IsFixedRot</key>
+				<false/>
+				<key>IsSensor</key>
+				<false/>
+				<key>LinearDamping</key>
+				<real>0.0</real>
+				<key>LinearVelocityX</key>
+				<real>0.0</real>
+				<key>LinearVelocityY</key>
+				<real>0.0</real>
+				<key>Mask</key>
+				<integer>65535</integer>
+				<key>PhysicType</key>
+				<integer>2</integer>
+				<key>Restitution</key>
+				<real>0.20000000298023224</real>
+				<key>SHHolesPoints</key>
+				<array/>
+				<key>SHShapePoints</key>
+				<array>
+					<string>{260, 432}</string>
+					<string>{262, 417}</string>
+					<string>{264, 408}</string>
+					<string>{265, 405}</string>
+					<string>{266, 403}</string>
+					<string>{272, 399}</string>
+					<string>{278, 396}</string>
+					<string>{289, 396.10001}</string>
+					<string>{295, 399}</string>
+					<string>{297, 401}</string>
+					<string>{302, 416}</string>
+					<string>{303, 421}</string>
+					<string>{303.10001, 439}</string>
+					<string>{302, 449}</string>
+					<string>{301, 455}</string>
+					<string>{298, 467}</string>
+					<string>{297, 470}</string>
+					<string>{294, 476}</string>
+					<string>{292, 479}</string>
+					<string>{291, 480}</string>
+					<string>{288, 482}</string>
+					<string>{284, 484}</string>
+					<string>{275, 484.10001}</string>
+					<string>{271, 482}</string>
+					<string>{265, 478}</string>
+					<string>{263, 475}</string>
+					<string>{261, 471}</string>
+					<string>{260, 468}</string>
+				</array>
+				<key>ShapeBorderH</key>
+				<integer>0</integer>
+				<key>ShapeBorderW</key>
+				<integer>0</integer>
+				<key>ShapePositionOffsetX</key>
+				<integer>0</integer>
+				<key>ShapePositionOffsetY</key>
+				<integer>0</integer>
+			</dict>
+			<key>TextureProperties</key>
+			<dict>
+				<key>Color</key>
+				<string>{{1, 1}, {1, 0}}</string>
+				<key>Frame</key>
+				<string>{{130, 198}, {22, 44.5}}</string>
+				<key>Frame-HD</key>
+				<string>{{260, 396}, {44, 89}}</string>
+				<key>FrameUV</key>
+				<string>{{0.51587301, 0.792}, {0.60317463, 0.97000003}}</string>
+				<key>HD_ImageSize</key>
+				<string>{504, 500}</string>
+				<key>Image</key>
+				<string>eyes.png</string>
+				<key>Image-HD</key>
+				<string>eyes-hd.png</string>
+				<key>ImageURL</key>
+				<string>/Users/jeppetuxen/Documents/ITU/UserExperienceAndPrototyping/Corona/prototype4/eyes.png</string>
+				<key>ImageURL-HD</key>
+				<string>/Users/jeppetuxen/Documents/ITU/UserExperienceAndPrototyping/Corona/prototype4/eyes-hd.png</string>
+				<key>Name</key>
+				<string>eye16R</string>
+				<key>Opacity</key>
+				<real>1</real>
+				<key>SD_ImageSize</key>
+				<string>{252, 250}</string>
+				<key>Scale</key>
+				<string>{1, 1}</string>
+				<key>ZOrder</key>
+				<integer>0</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>PhysicProperties</key>
+			<dict>
+				<key>AngularDamping</key>
+				<real>0.0</real>
+				<key>AngularVelocity</key>
+				<real>0.0</real>
+				<key>CanSleep</key>
+				<true/>
+				<key>Category</key>
+				<integer>1</integer>
+				<key>Density</key>
+				<real>0.20000000298023224</real>
+				<key>Fixtures</key>
+				<array>
+					<array>
+						<string>{1.5, -14.75}</string>
+						<string>{3.5, -15.800003}</string>
+						<string>{10.5, -13.25}</string>
+						<string>{11.050003, -11.25}</string>
+						<string>{11, -6.25}</string>
+						<string>{10.5, -2.75}</string>
+						<string>{-4.5, -7.25}</string>
+						<string>{-1.5, -11.75}</string>
+					</array>
+					<array>
+						<string>{-11.5, 10.75}</string>
+						<string>{-10.5, 6.75}</string>
+						<string>{-3, 16.199997}</string>
+						<string>{-8, 16.25}</string>
+						<string>{-9, 15.75}</string>
+						<string>{-10.5, 14.25}</string>
+						<string>{-11, 13.25}</string>
+						<string>{-11.5, 11.75}</string>
+					</array>
+					<array>
+						<string>{-4.5, -7.25}</string>
+						<string>{10.5, -2.75}</string>
+						<string>{10, -0.75}</string>
+						<string>{9.5, 0.75}</string>
+						<string>{8, 4.25}</string>
+						<string>{3.5, 11.25}</string>
+						<string>{-9.5, 3.25}</string>
+					</array>
+					<array>
+						<string>{9.5, -15.25}</string>
+						<string>{10.5, -13.25}</string>
+						<string>{3.5, -15.800003}</string>
+						<string>{8.5, -15.75}</string>
+					</array>
+					<array>
+						<string>{-9.5, 3.25}</string>
+						<string>{3.5, 11.25}</string>
+						<string>{2.5, 12.75}</string>
+						<string>{1.5, 13.75}</string>
+						<string>{-0, 14.75}</string>
+						<string>{-3, 16.199997}</string>
+						<string>{-10.5, 6.75}</string>
+					</array>
+				</array>
+				<key>Friction</key>
+				<real>0.20000000298023224</real>
+				<key>Group</key>
+				<integer>0</integer>
+				<key>IsBullet</key>
+				<false/>
+				<key>IsCircle</key>
+				<false/>
+				<key>IsFixedRot</key>
+				<false/>
+				<key>IsSensor</key>
+				<false/>
+				<key>LinearDamping</key>
+				<real>0.0</real>
+				<key>LinearVelocityX</key>
+				<real>0.0</real>
+				<key>LinearVelocityY</key>
+				<real>0.0</real>
+				<key>Mask</key>
+				<integer>65535</integer>
+				<key>PhysicType</key>
+				<integer>2</integer>
+				<key>Restitution</key>
+				<real>0.20000000298023224</real>
+				<key>SHHolesPoints</key>
+				<array/>
+				<key>SHShapePoints</key>
+				<array>
+					<string>{328, 405}</string>
+					<string>{329, 402}</string>
+					<string>{330, 400}</string>
+					<string>{333, 397}</string>
+					<string>{335, 396}</string>
+					<string>{345, 396.10001}</string>
+					<string>{351, 399}</string>
+					<string>{354, 401}</string>
+					<string>{356, 403}</string>
+					<string>{358, 406}</string>
+					<string>{367, 420}</string>
+					<string>{370, 427}</string>
+					<string>{371, 430}</string>
+					<string>{372, 434}</string>
+					<string>{373, 441}</string>
+					<string>{373.10001, 451}</string>
+					<string>{372, 455}</string>
+					<string>{370, 459}</string>
+					<string>{368, 460}</string>
+					<string>{358, 460.10001}</string>
+					<string>{354, 458}</string>
+					<string>{348, 452}</string>
+					<string>{342, 443}</string>
+					<string>{341, 441}</string>
+					<string>{332, 422}</string>
+					<string>{330, 415}</string>
+					<string>{328, 407}</string>
+				</array>
+				<key>ShapeBorderH</key>
+				<integer>0</integer>
+				<key>ShapeBorderW</key>
+				<integer>0</integer>
+				<key>ShapePositionOffsetX</key>
+				<integer>0</integer>
+				<key>ShapePositionOffsetY</key>
+				<integer>0</integer>
+			</dict>
+			<key>TextureProperties</key>
+			<dict>
+				<key>Color</key>
+				<string>{{1, 1}, {1, 0}}</string>
+				<key>Frame</key>
+				<string>{{164, 198}, {23, 32.5}}</string>
+				<key>Frame-HD</key>
+				<string>{{328, 396}, {46, 65}}</string>
+				<key>FrameUV</key>
+				<string>{{0.65079367, 0.792}, {0.74206346, 0.92199999}}</string>
+				<key>HD_ImageSize</key>
+				<string>{504, 500}</string>
+				<key>Image</key>
+				<string>eyes.png</string>
+				<key>Image-HD</key>
+				<string>eyes-hd.png</string>
+				<key>ImageURL</key>
+				<string>/Users/jeppetuxen/Documents/ITU/UserExperienceAndPrototyping/Corona/prototype4/eyes.png</string>
+				<key>ImageURL-HD</key>
+				<string>/Users/jeppetuxen/Documents/ITU/UserExperienceAndPrototyping/Corona/prototype4/eyes-hd.png</string>
+				<key>Name</key>
+				<string>eye11L_2</string>
+				<key>Opacity</key>
+				<real>1</real>
+				<key>SD_ImageSize</key>
+				<string>{252, 250}</string>
+				<key>Scale</key>
+				<string>{1, 1}</string>
+				<key>ZOrder</key>
+				<integer>0</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>PhysicProperties</key>
+			<dict>
+				<key>AngularDamping</key>
+				<real>0.0</real>
+				<key>AngularVelocity</key>
+				<real>0.0</real>
+				<key>CanSleep</key>
+				<true/>
+				<key>Category</key>
+				<integer>1</integer>
+				<key>Density</key>
+				<real>0.20000000298023224</real>
+				<key>Fixtures</key>
+				<array>
+					<array>
+						<string>{15.25, 18.75}</string>
+						<string>{16.299999, 19.75}</string>
+						<string>{16.25, 22.25}</string>
+						<string>{15.75, 23.25}</string>
+						<string>{15.25, 23.75}</string>
+						<string>{13.25, 24.75}</string>
+						<string>{10.25, 25.199997}</string>
+						<string>{5.25, 25.25}</string>
+					</array>
+					<array>
+						<string>{-9.75, 3.25}</string>
+						<string>{15.25, 18.75}</string>
+						<string>{5.25, 25.25}</string>
+						<string>{-0.75, 24.75}</string>
+						<string>{-2.25, 24.25}</string>
+						<string>{-5.25, 22.75}</string>
+						<string>{-8.75, 19.75}</string>
+						<string>{-10.75, 17.25}</string>
+					</array>
+					<array>
+						<string>{-14.75, 4.75}</string>
+						<string>{-13.75, 3.75}</string>
+						<string>{-11.75, 2.6999969}</string>
+						<string>{-10.75, 2.75}</string>
+						<string>{-9.75, 3.25}</string>
+						<string>{-14.75, 10.25}</string>
+						<string>{-15.25, 8.75}</string>
+						<string>{-15.25, 5.75}</string>
+					</array>
+					<array>
+						<string>{-14.25, 11.25}</string>
+						<string>{-14.75, 10.25}</string>
+						<string>{-9.75, 3.25}</string>
+						<string>{-10.75, 17.25}</string>
+					</array>
+				</array>
+				<key>Friction</key>
+				<real>0.20000000298023224</real>
+				<key>Group</key>
+				<integer>0</integer>
+				<key>IsBullet</key>
+				<false/>
+				<key>IsCircle</key>
+				<false/>
+				<key>IsFixedRot</key>
+				<false/>
+				<key>IsSensor</key>
+				<false/>
+				<key>LinearDamping</key>
+				<real>0.0</real>
+				<key>LinearVelocityX</key>
+				<real>0.0</real>
+				<key>LinearVelocityY</key>
+				<real>0.0</real>
+				<key>Mask</key>
+				<integer>65535</integer>
+				<key>PhysicType</key>
+				<integer>2</integer>
+				<key>Restitution</key>
+				<real>0.20000000298023224</real>
+				<key>SHHolesPoints</key>
+				<array/>
+				<key>SHShapePoints</key>
+				<array>
+					<string>{5, 431}</string>
+					<string>{6, 428}</string>
+					<string>{7, 426}</string>
+					<string>{11, 419}</string>
+					<string>{14, 414}</string>
+					<string>{18, 409}</string>
+					<string>{25, 403}</string>
+					<string>{31, 400}</string>
+					<string>{34, 399}</string>
+					<string>{46, 398}</string>
+					<string>{56, 398.10001}</string>
+					<string>{62, 399}</string>
+					<string>{66, 401}</string>
+					<string>{67, 402}</string>
+					<string>{68, 404}</string>
+					<string>{68.099998, 409}</string>
+					<string>{66, 411}</string>
+					<string>{16, 442}</string>
+					<string>{14, 443}</string>
+					<string>{12, 443.10001}</string>
+					<string>{8, 441}</string>
+					<string>{6, 439}</string>
+					<string>{5, 437}</string>
+				</array>
+				<key>ShapeBorderH</key>
+				<integer>0</integer>
+				<key>ShapeBorderW</key>
+				<integer>0</integer>
+				<key>ShapePositionOffsetX</key>
+				<integer>0</integer>
+				<key>ShapePositionOffsetY</key>
+				<integer>0</integer>
+			</dict>
+			<key>TextureProperties</key>
+			<dict>
+				<key>Color</key>
+				<string>{{1, 1}, {1, 0}}</string>
+				<key>Frame</key>
+				<string>{{0, 199}, {35.5, 50.5}}</string>
+				<key>Frame-HD</key>
+				<string>{{0, 398}, {71, 101}}</string>
+				<key>FrameUV</key>
+				<string>{{0, 0.796}, {0.14087301, 0.99800003}}</string>
+				<key>HD_ImageSize</key>
+				<string>{504, 500}</string>
+				<key>Image</key>
+				<string>eyes.png</string>
+				<key>Image-HD</key>
+				<string>eyes-hd.png</string>
+				<key>ImageURL</key>
+				<string>/Users/jeppetuxen/Documents/ITU/UserExperienceAndPrototyping/Corona/prototype4/eyes.png</string>
+				<key>ImageURL-HD</key>
+				<string>/Users/jeppetuxen/Documents/ITU/UserExperienceAndPrototyping/Corona/prototype4/eyes-hd.png</string>
+				<key>Name</key>
+				<string>eye19</string>
+				<key>Opacity</key>
+				<real>1</real>
+				<key>SD_ImageSize</key>
+				<string>{252, 250}</string>
+				<key>Scale</key>
+				<string>{1, 1}</string>
+				<key>ZOrder</key>
+				<integer>0</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>PhysicProperties</key>
+			<dict>
+				<key>AngularDamping</key>
+				<real>0.0</real>
+				<key>AngularVelocity</key>
+				<real>0.0</real>
+				<key>CanSleep</key>
+				<true/>
+				<key>Category</key>
+				<integer>1</integer>
+				<key>Density</key>
+				<real>0.20000000298023224</real>
+				<key>Fixtures</key>
+				<array>
+					<array>
+						<string>{8.75, 5.75}</string>
+						<string>{7.25, 9.75}</string>
+						<string>{-8.75, 8.75}</string>
+						<string>{-9.7000008, 2.25}</string>
+						<string>{-9.75, -1.25}</string>
+						<string>{8.75, -3.75}</string>
+						<string>{9.2999992, 1.75}</string>
+						<string>{9.25, 3.75}</string>
+					</array>
+					<array>
+						<string>{-9.25, -6.75}</string>
+						<string>{-8.75, -9.25}</string>
+						<string>{5.75, -12.25}</string>
+						<string>{6.75, -10.75}</string>
+						<string>{7.75, -8.75}</string>
+						<string>{8.25, -7.25}</string>
+						<string>{8.75, -3.75}</string>
+						<string>{-9.75, -1.25}</string>
+					</array>
+					<array>
+						<string>{-7.25, -13.75}</string>
+						<string>{-6.75, -14.25}</string>
+						<string>{-4.75, -15.300003}</string>
+						<string>{1.25, -15.25}</string>
+						<string>{4.25, -13.75}</string>
+						<string>{5.75, -12.25}</string>
+						<string>{-8.75, -9.25}</string>
+						<string>{-7.75, -12.75}</string>
+					</array>
+					<array>
+						<string>{-8.75, 8.75}</string>
+						<string>{7.25, 9.75}</string>
+						<string>{5.25, 12.75}</string>
+						<string>{3.25, 14.75}</string>
+						<string>{1.25, 15.699997}</string>
+						<string>{-2.75, 15.75}</string>
+						<string>{-6.75, 13.75}</string>
+						<string>{-7.75, 12.25}</string>
+					</array>
+					<array>
+						<string>{-7.75, 12.25}</string>
+						<string>{-6.75, 13.75}</string>
+						<string>{-7.25, 13.25}</string>
+					</array>
+				</array>
+				<key>Friction</key>
+				<real>0.20000000298023224</real>
+				<key>Group</key>
+				<integer>0</integer>
+				<key>IsBullet</key>
+				<false/>
+				<key>IsCircle</key>
+				<false/>
+				<key>IsFixedRot</key>
+				<false/>
+				<key>IsSensor</key>
+				<false/>
+				<key>LinearDamping</key>
+				<real>0.0</real>
+				<key>LinearVelocityX</key>
+				<real>0.0</real>
+				<key>LinearVelocityY</key>
+				<real>0.0</real>
+				<key>Mask</key>
+				<integer>65535</integer>
+				<key>PhysicType</key>
+				<integer>2</integer>
+				<key>Restitution</key>
+				<real>0.20000000298023224</real>
+				<key>SHHolesPoints</key>
+				<array/>
+				<key>SHShapePoints</key>
+				<array>
+					<string>{76.099998, 425}</string>
+					<string>{78, 412}</string>
+					<string>{80, 405}</string>
+					<string>{81, 403}</string>
+					<string>{82, 402}</string>
+					<string>{90, 398}</string>
+					<string>{98, 398.10001}</string>
+					<string>{102, 400}</string>
+					<string>{106, 404}</string>
+					<string>{110, 410}</string>
+					<string>{113, 418}</string>
+					<string>{114, 422}</string>
+					<string>{114.1, 426}</string>
+					<string>{113, 437}</string>
+					<string>{112, 444}</string>
+					<string>{111, 447}</string>
+					<string>{109, 451}</string>
+					<string>{107, 454}</string>
+					<string>{104, 457}</string>
+					<string>{98, 460}</string>
+					<string>{86, 460.10001}</string>
+					<string>{82, 458}</string>
+					<string>{81, 457}</string>
+					<string>{80, 455}</string>
+					<string>{78, 448}</string>
+					<string>{77, 443}</string>
+					<string>{76, 432}</string>
+				</array>
+				<key>ShapeBorderH</key>
+				<integer>0</integer>
+				<key>ShapeBorderW</key>
+				<integer>0</integer>
+				<key>ShapePositionOffsetX</key>
+				<integer>0</integer>
+				<key>ShapePositionOffsetY</key>
+				<integer>0</integer>
+			</dict>
+			<key>TextureProperties</key>
+			<dict>
+				<key>Color</key>
+				<string>{{1, 1}, {1, 0}}</string>
+				<key>Frame</key>
+				<string>{{38, 199}, {19.5, 31.5}}</string>
+				<key>Frame-HD</key>
+				<string>{{76, 398}, {39, 63}}</string>
+				<key>FrameUV</key>
+				<string>{{0.15079366, 0.796}, {0.2281746, 0.92199999}}</string>
+				<key>HD_ImageSize</key>
+				<string>{504, 500}</string>
+				<key>Image</key>
+				<string>eyes.png</string>
+				<key>Image-HD</key>
+				<string>eyes-hd.png</string>
+				<key>ImageURL</key>
+				<string>/Users/jeppetuxen/Documents/ITU/UserExperienceAndPrototyping/Corona/prototype4/eyes.png</string>
+				<key>ImageURL-HD</key>
+				<string>/Users/jeppetuxen/Documents/ITU/UserExperienceAndPrototyping/Corona/prototype4/eyes-hd.png</string>
+				<key>Name</key>
+				<string>eye3L</string>
+				<key>Opacity</key>
+				<real>1</real>
+				<key>SD_ImageSize</key>
+				<string>{252, 250}</string>
+				<key>Scale</key>
+				<string>{1, 1}</string>
+				<key>ZOrder</key>
+				<integer>0</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>PhysicProperties</key>
+			<dict>
+				<key>AngularDamping</key>
+				<real>0.0</real>
+				<key>AngularVelocity</key>
+				<real>0.0</real>
+				<key>CanSleep</key>
+				<true/>
+				<key>Category</key>
+				<integer>1</integer>
+				<key>Density</key>
+				<real>0.20000000298023224</real>
+				<key>Fixtures</key>
+				<array>
+					<array>
+						<string>{12.25, -7}</string>
+						<string>{16.800003, -6}</string>
+						<string>{16.75, -5}</string>
+						<string>{16.25, -4}</string>
+						<string>{13.75, 0}</string>
+						<string>{10.25, -7.0500031}</string>
+					</array>
+					<array>
+						<string>{13.25, 0.5}</string>
+						<string>{3.25, 4}</string>
+						<string>{-10.25, 7.4499969}</string>
+						<string>{-4.75, -6.5}</string>
+						<string>{10.25, -7.0500031}</string>
+						<string>{16.25, -4}</string>
+						<string>{13.75, 0}</string>
+					</array>
+					<array>
+						<string>{-14.25, -4.5}</string>
+						<string>{-4.75, -6.5}</string>
+						<string>{-10.25, 7.4499969}</string>
+						<string>{-13.25, 7.5}</string>
+						<string>{-16.25, 4.5}</string>
+						<string>{-16.75, 2.5}</string>
+						<string>{-17.25, 0}</string>
+						<string>{-16.25, -3.5}</string>
+					</array>
+					<array>
+						<string>{-17.25, -2}</string>
+						<string>{-16.75, -3}</string>
+						<string>{-16.25, -3.5}</string>
+						<string>{-17.25, 0}</string>
+					</array>
+					<array>
+						<string>{-15.75, 6}</string>
+						<string>{-16.25, 4.5}</string>
+						<string>{-13.25, 7.5}</string>
+						<string>{-14.75, 7}</string>
+					</array>
+				</array>
+				<key>Friction</key>
+				<real>0.20000000298023224</real>
+				<key>Group</key>
+				<integer>0</integer>
+				<key>IsBullet</key>
+				<false/>
+				<key>IsCircle</key>
+				<false/>
+				<key>IsFixedRot</key>
+				<false/>
+				<key>IsSensor</key>
+				<false/>
+				<key>LinearDamping</key>
+				<real>0.0</real>
+				<key>LinearVelocityX</key>
+				<real>0.0</real>
+				<key>LinearVelocityY</key>
+				<real>0.0</real>
+				<key>Mask</key>
+				<integer>65535</integer>
+				<key>PhysicType</key>
+				<integer>2</integer>
+				<key>Restitution</key>
+				<real>0.20000000298023224</real>
+				<key>SHHolesPoints</key>
+				<array/>
+				<key>SHShapePoints</key>
+				<array>
+					<string>{382, 439}</string>
+					<string>{383, 434}</string>
+					<string>{384, 430}</string>
+					<string>{385, 427}</string>
+					<string>{387, 425}</string>
+					<string>{390, 424}</string>
+					<string>{396, 424.10001}</string>
+					<string>{412, 428}</string>
+					<string>{423, 431}</string>
+					<string>{443, 438}</string>
+					<string>{444, 439}</string>
+					<string>{449, 447}</string>
+					<string>{450, 449}</string>
+					<string>{450.10001, 451}</string>
+					<string>{441, 453}</string>
+					<string>{437, 453.10001}</string>
+					<string>{407, 452}</string>
+					<string>{388, 448}</string>
+					<string>{384, 446}</string>
+					<string>{383, 445}</string>
+					<string>{382, 443}</string>
+				</array>
+				<key>ShapeBorderH</key>
+				<integer>0</integer>
+				<key>ShapeBorderW</key>
+				<integer>0</integer>
+				<key>ShapePositionOffsetX</key>
+				<integer>0</integer>
+				<key>ShapePositionOffsetY</key>
+				<integer>0</integer>
+			</dict>
+			<key>TextureProperties</key>
+			<dict>
+				<key>Color</key>
+				<string>{{1, 1}, {1, 0}}</string>
+				<key>Frame</key>
+				<string>{{191, 212}, {34.5, 15}}</string>
+				<key>Frame-HD</key>
+				<string>{{382, 424}, {69, 30}}</string>
+				<key>FrameUV</key>
+				<string>{{0.75793654, 0.84799999}, {0.89484125, 0.90799999}}</string>
+				<key>HD_ImageSize</key>
+				<string>{504, 500}</string>
+				<key>Image</key>
+				<string>eyes.png</string>
+				<key>Image-HD</key>
+				<string>eyes-hd.png</string>
+				<key>ImageURL</key>
+				<string>/Users/jeppetuxen/Documents/ITU/UserExperienceAndPrototyping/Corona/prototype4/eyes.png</string>
+				<key>ImageURL-HD</key>
+				<string>/Users/jeppetuxen/Documents/ITU/UserExperienceAndPrototyping/Corona/prototype4/eyes-hd.png</string>
+				<key>Name</key>
+				<string>eye5</string>
+				<key>Opacity</key>
+				<real>1</real>
+				<key>SD_ImageSize</key>
+				<string>{252, 250}</string>
+				<key>Scale</key>
+				<string>{1, 1}</string>
+				<key>ZOrder</key>
+				<integer>0</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>PhysicProperties</key>
+			<dict>
+				<key>AngularDamping</key>
+				<real>0.0</real>
+				<key>AngularVelocity</key>
+				<real>0.0</real>
+				<key>CanSleep</key>
+				<true/>
+				<key>Category</key>
+				<integer>1</integer>
+				<key>Density</key>
+				<real>0.20000000298023224</real>
+				<key>Fixtures</key>
+				<array>
+					<array>
+						<string>{14.75, 5.5}</string>
+						<string>{9.75, 7.9499969}</string>
+						<string>{3.25, 8}</string>
+						<string>{-4.75, 5.5}</string>
+						<string>{-10.75, -7.5}</string>
+						<string>{12.25, -2}</string>
+						<string>{15.300003, 2}</string>
+						<string>{15.25, 4.5}</string>
+					</array>
+					<array>
+						<string>{-13.75, -7.5500031}</string>
+						<string>{-10.75, -7.5}</string>
+						<string>{-8.75, 4}</string>
+						<string>{-9.75, 3.5}</string>
+						<string>{-15.25, -2}</string>
+						<string>{-15.75, -3}</string>
+						<string>{-15.75, -5}</string>
+						<string>{-14.75, -7}</string>
+					</array>
+					<array>
+						<string>{13.25, -1.5}</string>
+						<string>{15.300003, 2}</string>
+						<string>{12.25, -2}</string>
+					</array>
+					<array>
+						<string>{-10.75, -7.5}</string>
+						<string>{-4.75, 5.5}</string>
+						<string>{-8.75, 4}</string>
+					</array>
+				</array>
+				<key>Friction</key>
+				<real>0.20000000298023224</real>
+				<key>Group</key>
+				<integer>0</integer>
+				<key>IsBullet</key>
+				<false/>
+				<key>IsCircle</key>
+				<false/>
+				<key>IsFixedRot</key>
+				<false/>
+				<key>IsSensor</key>
+				<false/>
+				<key>LinearDamping</key>
+				<real>0.0</real>
+				<key>LinearVelocityX</key>
+				<real>0.0</real>
+				<key>LinearVelocityY</key>
+				<real>0.0</real>
+				<key>Mask</key>
+				<integer>65535</integer>
+				<key>PhysicType</key>
+				<integer>2</integer>
+				<key>Restitution</key>
+				<real>0.20000000298023224</real>
+				<key>SHHolesPoints</key>
+				<array/>
+				<key>SHShapePoints</key>
+				<array>
+					<string>{188, 468}</string>
+					<string>{189, 466}</string>
+					<string>{200, 455}</string>
+					<string>{202, 454}</string>
+					<string>{210, 451}</string>
+					<string>{226, 446}</string>
+					<string>{239, 446.10001}</string>
+					<string>{249, 451}</string>
+					<string>{250, 453}</string>
+					<string>{250.10001, 458}</string>
+					<string>{246, 465}</string>
+					<string>{244, 466}</string>
+					<string>{198, 477}</string>
+					<string>{192, 477.10001}</string>
+					<string>{190, 476}</string>
+					<string>{188, 472}</string>
+				</array>
+				<key>ShapeBorderH</key>
+				<integer>0</integer>
+				<key>ShapeBorderW</key>
+				<integer>0</integer>
+				<key>ShapePositionOffsetX</key>
+				<integer>0</integer>
+				<key>ShapePositionOffsetY</key>
+				<integer>0</integer>
+			</dict>
+			<key>TextureProperties</key>
+			<dict>
+				<key>Color</key>
+				<string>{{1, 1}, {1, 0}}</string>
+				<key>Frame</key>
+				<string>{{94, 223}, {31.5, 16}}</string>
+				<key>Frame-HD</key>
+				<string>{{188, 446}, {63, 32}}</string>
+				<key>FrameUV</key>
+				<string>{{0.37301588, 0.89200002}, {0.49801588, 0.95599997}}</string>
+				<key>HD_ImageSize</key>
+				<string>{504, 500}</string>
+				<key>Image</key>
+				<string>eyes.png</string>
+				<key>Image-HD</key>
+				<string>eyes-hd.png</string>
+				<key>ImageURL</key>
+				<string>/Users/jeppetuxen/Documents/ITU/UserExperienceAndPrototyping/Corona/prototype4/eyes.png</string>
+				<key>ImageURL-HD</key>
+				<string>/Users/jeppetuxen/Documents/ITU/UserExperienceAndPrototyping/Corona/prototype4/eyes-hd.png</string>
+				<key>Name</key>
+				<string>eye7</string>
+				<key>Opacity</key>
+				<real>1</real>
+				<key>SD_ImageSize</key>
+				<string>{252, 250}</string>
+				<key>Scale</key>
+				<string>{1, 1}</string>
+				<key>ZOrder</key>
+				<integer>0</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>PhysicProperties</key>
+			<dict>
+				<key>AngularDamping</key>
+				<real>0.0</real>
+				<key>AngularVelocity</key>
+				<real>0.0</real>
+				<key>CanSleep</key>
+				<true/>
+				<key>Category</key>
+				<integer>1</integer>
+				<key>Density</key>
+				<real>0.20000000298023224</real>
+				<key>Fixtures</key>
+				<array>
+					<array>
+						<string>{5.25, -6.75}</string>
+						<string>{6.25, -6.25}</string>
+						<string>{6.75, -5.25}</string>
+						<string>{7.2999992, -2.75}</string>
+						<string>{7.25, -0.25}</string>
+						<string>{4.75, 4.75}</string>
+						<string>{-3.75, 7.1999969}</string>
+						<string>{-7.75, -2.25}</string>
+					</array>
+					<array>
+						<string>{-7.75, 5.75}</string>
+						<string>{-7.75, -2.25}</string>
+						<string>{-3.75, 7.1999969}</string>
+						<string>{-6.25, 7.25}</string>
+						<string>{-7.25, 6.75}</string>
+					</array>
+					<array>
+						<string>{4.75, 4.75}</string>
+						<string>{7.25, -0.25}</string>
+						<string>{6.75, 2.75}</string>
+						<string>{6.25, 3.75}</string>
+						<string>{5.75, 4.25}</string>
+					</array>
+					<array>
+						<string>{-7.25, -5.25}</string>
+						<string>{-6.75, -6.25}</string>
+						<string>{-5.75, -6.8000031}</string>
+						<string>{5.25, -6.75}</string>
+						<string>{-7.75, -2.25}</string>
+					</array>
+				</array>
+				<key>Friction</key>
+				<real>0.20000000298023224</real>
+				<key>Group</key>
+				<integer>0</integer>
+				<key>IsBullet</key>
+				<false/>
+				<key>IsCircle</key>
+				<false/>
+				<key>IsFixedRot</key>
+				<false/>
+				<key>IsSensor</key>
+				<false/>
+				<key>LinearDamping</key>
+				<real>0.0</real>
+				<key>LinearVelocityX</key>
+				<real>0.0</real>
+				<key>LinearVelocityY</key>
+				<real>0.0</real>
+				<key>Mask</key>
+				<integer>65535</integer>
+				<key>PhysicType</key>
+				<integer>2</integer>
+				<key>Restitution</key>
+				<real>0.20000000298023224</real>
+				<key>SHHolesPoints</key>
+				<array/>
+				<key>SHShapePoints</key>
+				<array>
+					<string>{76, 469}</string>
+					<string>{77, 467}</string>
+					<string>{79, 466}</string>
+					<string>{84, 466.10001}</string>
+					<string>{101, 471}</string>
+					<string>{103, 472}</string>
+					<string>{104, 473}</string>
+					<string>{105, 475}</string>
+					<string>{106, 481}</string>
+					<string>{106.1, 486}</string>
+					<string>{105, 491}</string>
+					<string>{104, 493}</string>
+					<string>{102, 494}</string>
+					<string>{80, 494.10001}</string>
+					<string>{78, 493}</string>
+					<string>{77, 491}</string>
+					<string>{76, 485}</string>
+				</array>
+				<key>ShapeBorderH</key>
+				<integer>0</integer>
+				<key>ShapeBorderW</key>
+				<integer>0</integer>
+				<key>ShapePositionOffsetX</key>
+				<integer>0</integer>
+				<key>ShapePositionOffsetY</key>
+				<integer>0</integer>
+			</dict>
+			<key>TextureProperties</key>
+			<dict>
+				<key>Color</key>
+				<string>{{1, 1}, {1, 0}}</string>
+				<key>Frame</key>
+				<string>{{38, 233}, {15.5, 14.5}}</string>
+				<key>Frame-HD</key>
+				<string>{{76, 466}, {31, 29}}</string>
+				<key>FrameUV</key>
+				<string>{{0.15079366, 0.93199998}, {0.21230158, 0.99000001}}</string>
+				<key>HD_ImageSize</key>
+				<string>{504, 500}</string>
+				<key>Image</key>
+				<string>eyes.png</string>
+				<key>Image-HD</key>
+				<string>eyes-hd.png</string>
+				<key>ImageURL</key>
+				<string>/Users/jeppetuxen/Documents/ITU/UserExperienceAndPrototyping/Corona/prototype4/eyes.png</string>
+				<key>ImageURL-HD</key>
+				<string>/Users/jeppetuxen/Documents/ITU/UserExperienceAndPrototyping/Corona/prototype4/eyes-hd.png</string>
+				<key>Name</key>
+				<string>eye16</string>
+				<key>Opacity</key>
+				<real>1</real>
+				<key>SD_ImageSize</key>
+				<string>{252, 250}</string>
+				<key>Scale</key>
+				<string>{1, 1}</string>
+				<key>ZOrder</key>
+				<integer>0</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>PhysicProperties</key>
+			<dict>
+				<key>AngularDamping</key>
+				<real>0.0</real>
+				<key>AngularVelocity</key>
+				<real>0.0</real>
+				<key>CanSleep</key>
+				<true/>
+				<key>Category</key>
+				<integer>1</integer>
+				<key>Density</key>
+				<real>0.20000000298023224</real>
+				<key>Fixtures</key>
+				<array>
+					<array>
+						<string>{2.75, -6.3000031}</string>
+						<string>{5.25, -6.25}</string>
+						<string>{6.25, -5.75}</string>
+						<string>{6.75, -5.25}</string>
+						<string>{7.3000031, -4.25}</string>
+						<string>{7.25, 4.25}</string>
+						<string>{3.25, 6.75}</string>
+						<string>{-0.75, 6.25}</string>
+					</array>
+					<array>
+						<string>{3.25, 6.75}</string>
+						<string>{7.25, 4.25}</string>
+						<string>{6.25, 5.75}</string>
+						<string>{4.25, 6.6999969}</string>
+					</array>
+					<array>
+						<string>{-7.75, 1.75}</string>
+						<string>{-7.25, -1.75}</string>
+						<string>{-6.75, -2.75}</string>
+						<string>{-4.75, -4.25}</string>
+						<string>{-5.75, 4.75}</string>
+						<string>{-6.75, 4.25}</string>
+						<string>{-7.25, 3.75}</string>
+						<string>{-7.75, 2.75}</string>
+					</array>
+					<array>
+						<string>{-5.75, -3.75}</string>
+						<string>{-4.75, -4.25}</string>
+						<string>{-6.75, -2.75}</string>
+					</array>
+					<array>
+						<string>{-4.75, -4.25}</string>
+						<string>{2.75, -6.3000031}</string>
+						<string>{-0.75, 6.25}</string>
+						<string>{-5.75, 4.75}</string>
+					</array>
+				</array>
+				<key>Friction</key>
+				<real>0.20000000298023224</real>
+				<key>Group</key>
+				<integer>0</integer>
+				<key>IsBullet</key>
+				<false/>
+				<key>IsCircle</key>
+				<false/>
+				<key>IsFixedRot</key>
+				<false/>
+				<key>IsSensor</key>
+				<false/>
+				<key>LinearDamping</key>
+				<real>0.0</real>
+				<key>LinearVelocityX</key>
+				<real>0.0</real>
+				<key>LinearVelocityY</key>
+				<real>0.0</real>
+				<key>Mask</key>
+				<integer>65535</integer>
+				<key>PhysicType</key>
+				<integer>2</integer>
+				<key>Restitution</key>
+				<real>0.20000000298023224</real>
+				<key>SHHolesPoints</key>
+				<array/>
+				<key>SHShapePoints</key>
+				<array>
+					<string>{328, 474}</string>
+					<string>{329, 472}</string>
+					<string>{330, 471}</string>
+					<string>{332, 470}</string>
+					<string>{342, 467}</string>
+					<string>{350, 466}</string>
+					<string>{352, 466.10001}</string>
+					<string>{356, 468}</string>
+					<string>{358, 471}</string>
+					<string>{358.10001, 488}</string>
+					<string>{357, 490}</string>
+					<string>{356, 491}</string>
+					<string>{354, 492}</string>
+					<string>{349, 492.10001}</string>
+					<string>{334, 488}</string>
+					<string>{332, 487}</string>
+					<string>{330, 485}</string>
+					<string>{329, 483}</string>
+					<string>{328, 476}</string>
+				</array>
+				<key>ShapeBorderH</key>
+				<integer>0</integer>
+				<key>ShapeBorderW</key>
+				<integer>0</integer>
+				<key>ShapePositionOffsetX</key>
+				<integer>0</integer>
+				<key>ShapePositionOffsetY</key>
+				<integer>0</integer>
+			</dict>
+			<key>TextureProperties</key>
+			<dict>
+				<key>Color</key>
+				<string>{{1, 1}, {1, 0}}</string>
+				<key>Frame</key>
+				<string>{{164, 233}, {15.5, 13.5}}</string>
+				<key>Frame-HD</key>
+				<string>{{328, 466}, {31, 27}}</string>
+				<key>FrameUV</key>
+				<string>{{0.65079367, 0.93199998}, {0.71230161, 0.986}}</string>
+				<key>HD_ImageSize</key>
+				<string>{504, 500}</string>
+				<key>Image</key>
+				<string>eyes.png</string>
+				<key>Image-HD</key>
+				<string>eyes-hd.png</string>
+				<key>ImageURL</key>
+				<string>/Users/jeppetuxen/Documents/ITU/UserExperienceAndPrototyping/Corona/prototype4/eyes.png</string>
+				<key>ImageURL-HD</key>
+				<string>/Users/jeppetuxen/Documents/ITU/UserExperienceAndPrototyping/Corona/prototype4/eyes-hd.png</string>
+				<key>Name</key>
+				<string>eye12L</string>
+				<key>Opacity</key>
+				<real>1</real>
+				<key>SD_ImageSize</key>
+				<string>{252, 250}</string>
+				<key>Scale</key>
+				<string>{1, 1}</string>
+				<key>ZOrder</key>
+				<integer>0</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>PhysicProperties</key>
+			<dict>
+				<key>AngularDamping</key>
+				<real>0.0</real>
+				<key>AngularVelocity</key>
+				<real>0.0</real>
+				<key>CanSleep</key>
+				<true/>
+				<key>Category</key>
+				<integer>1</integer>
+				<key>Density</key>
+				<real>0.20000000298023224</real>
+				<key>Fixtures</key>
+				<array>
+					<array>
+						<string>{13.25, -3.5}</string>
+						<string>{14.25, -3}</string>
+						<string>{14.800003, -2}</string>
+						<string>{14.75, -1}</string>
+						<string>{13.75, 1}</string>
+						<string>{8.75, 3.5}</string>
+						<string>{6.75, 3.9499969}</string>
+						<string>{-13.25, -3.5500031}</string>
+					</array>
+					<array>
+						<string>{-15.25, -2}</string>
+						<string>{-14.25, -3}</string>
+						<string>{-13.25, -3.5500031}</string>
+						<string>{-7.25, 4}</string>
+						<string>{-10.75, 3.5}</string>
+						<string>{-13.25, 3}</string>
+						<string>{-14.75, 2.5}</string>
+						<string>{-15.199997, 2}</string>
+					</array>
+					<array>
+						<string>{-13.25, -3.5500031}</string>
+						<string>{6.75, 3.9499969}</string>
+						<string>{-7.25, 4}</string>
+					</array>
+				</array>
+				<key>Friction</key>
+				<real>0.20000000298023224</real>
+				<key>Group</key>
+				<integer>0</integer>
+				<key>IsBullet</key>
+				<false/>
+				<key>IsCircle</key>
+				<false/>
+				<key>IsFixedRot</key>
+				<false/>
+				<key>IsSensor</key>
+				<false/>
+				<key>LinearDamping</key>
+				<real>0.0</real>
+				<key>LinearVelocityX</key>
+				<real>0.0</real>
+				<key>LinearVelocityY</key>
+				<real>0.0</real>
+				<key>Mask</key>
+				<integer>65535</integer>
+				<key>PhysicType</key>
+				<integer>2</integer>
+				<key>Restitution</key>
+				<real>0.20000000298023224</real>
+				<key>SHHolesPoints</key>
+				<array/>
+				<key>SHShapePoints</key>
+				<array>
+					<string>{188.10001, 488}</string>
+					<string>{189, 487}</string>
+					<string>{192, 486}</string>
+					<string>{197, 485}</string>
+					<string>{204, 484}</string>
+					<string>{232, 484.10001}</string>
+					<string>{236, 485}</string>
+					<string>{246, 490}</string>
+					<string>{248, 494}</string>
+					<string>{248.10001, 496}</string>
+					<string>{247, 498}</string>
+					<string>{245, 499}</string>
+					<string>{192, 499.10001}</string>
+					<string>{190, 498}</string>
+					<string>{188, 496}</string>
+				</array>
+				<key>ShapeBorderH</key>
+				<integer>0</integer>
+				<key>ShapeBorderW</key>
+				<integer>0</integer>
+				<key>ShapePositionOffsetX</key>
+				<integer>0</integer>
+				<key>ShapePositionOffsetY</key>
+				<integer>0</integer>
+			</dict>
+			<key>TextureProperties</key>
+			<dict>
+				<key>Color</key>
+				<string>{{1, 1}, {1, 0}}</string>
+				<key>Frame</key>
+				<string>{{94, 242}, {30.5, 8}}</string>
+				<key>Frame-HD</key>
+				<string>{{188, 484}, {61, 16}}</string>
+				<key>FrameUV</key>
+				<string>{{0.37301588, 0.96799999}, {0.49404761, 1}}</string>
+				<key>HD_ImageSize</key>
+				<string>{504, 500}</string>
+				<key>Image</key>
+				<string>eyes.png</string>
+				<key>Image-HD</key>
+				<string>eyes-hd.png</string>
+				<key>ImageURL</key>
+				<string>/Users/jeppetuxen/Documents/ITU/UserExperienceAndPrototyping/Corona/prototype4/eyes.png</string>
+				<key>ImageURL-HD</key>
+				<string>/Users/jeppetuxen/Documents/ITU/UserExperienceAndPrototyping/Corona/prototype4/eyes-hd.png</string>
+				<key>Name</key>
+				<string>eye4L</string>
+				<key>Opacity</key>
+				<real>1</real>
+				<key>SD_ImageSize</key>
+				<string>{252, 250}</string>
+				<key>Scale</key>
+				<string>{1, 1}</string>
+				<key>ZOrder</key>
+				<integer>0</integer>
+			</dict>
+		</dict>
+	</array>
+	<key>ScenePreference</key>
+	<dict>
+		<key>BackgroundColor</key>
+		<string>{{0.89399999, 0.89399999}, {0.89399999, 1}}</string>
+		<key>GridSize</key>
+		<integer>32</integer>
+	</dict>
+	<key>Version</key>
+	<string>1.7.3</string>
+</dict>
+</plist>

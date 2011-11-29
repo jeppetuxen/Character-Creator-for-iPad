@@ -1,0 +1,1348 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ANIMATION_INFO</key>
+	<array/>
+	<key>Author</key>
+	<string>Bogdan Vladu</string>
+	<key>BatchZOrder</key>
+	<integer>0</integer>
+	<key>CreatedWith</key>
+	<string>SpriteHelper</string>
+	<key>ImportedImages</key>
+	<array>
+		<string>/Users/jeppetuxen/Documents/ITU/UserExperienceAndPrototyping/Corona/UIPrototype2/heads.png</string>
+	</array>
+	<key>ImportedImages-HD</key>
+	<array>
+		<string>/Users/jeppetuxen/Documents/ITU/UserExperienceAndPrototyping/Corona/UIPrototype2/heads-hd.png</string>
+	</array>
+	<key>ImportedImages-HD_relative</key>
+	<array>
+		<string>heads-hd.png</string>
+	</array>
+	<key>ImportedImages_relative</key>
+	<array>
+		<string>heads.png</string>
+	</array>
+	<key>SPRITES_INFO</key>
+	<array>
+		<dict>
+			<key>PhysicProperties</key>
+			<dict>
+				<key>AngularDamping</key>
+				<real>0.0</real>
+				<key>AngularVelocity</key>
+				<real>0.0</real>
+				<key>CanSleep</key>
+				<true/>
+				<key>Category</key>
+				<integer>1</integer>
+				<key>Density</key>
+				<real>0.20000000298023224</real>
+				<key>Fixtures</key>
+				<array>
+					<array>
+						<string>{-54.75, 6.75}</string>
+						<string>{-54.25, 2.75}</string>
+						<string>{-53.25, -1.75}</string>
+						<string>{23.75, 47.25}</string>
+						<string>{21.75, 48.75}</string>
+						<string>{-53.75, 20.25}</string>
+						<string>{-54.25, 17.25}</string>
+						<string>{-54.75, 9.25}</string>
+					</array>
+					<array>
+						<string>{2.75, -65.25}</string>
+						<string>{32.25, -61.25}</string>
+						<string>{52.75, -35.25}</string>
+						<string>{54.300003, -25.75}</string>
+						<string>{54.25, -13.75}</string>
+						<string>{-23.75, -53.75}</string>
+					</array>
+					<array>
+						<string>{-23.75, -53.75}</string>
+						<string>{54.25, -13.75}</string>
+						<string>{53.75, -9.75}</string>
+						<string>{53.25, -6.75}</string>
+						<string>{-37.25, -37.25}</string>
+						<string>{-33.25, -43.75}</string>
+						<string>{-31.75, -45.75}</string>
+					</array>
+					<array>
+						<string>{-37.25, -37.25}</string>
+						<string>{53.25, -6.75}</string>
+						<string>{51.25, 2.25}</string>
+						<string>{49.25, 9.75}</string>
+						<string>{48.25, 12.75}</string>
+						<string>{46.75, 16.75}</string>
+						<string>{-48.25, -15.75}</string>
+					</array>
+					<array>
+						<string>{51.25, -41.25}</string>
+						<string>{52.75, -35.25}</string>
+						<string>{32.25, -61.25}</string>
+						<string>{38.25, -58.25}</string>
+						<string>{41.25, -56.25}</string>
+						<string>{46.25, -51.25}</string>
+						<string>{47.75, -49.25}</string>
+						<string>{50.25, -44.25}</string>
+					</array>
+					<array>
+						<string>{-49.25, 37.25}</string>
+						<string>{-51.25, 31.25}</string>
+						<string>{14.25, 54.25}</string>
+						<string>{-34.25, 54.75}</string>
+						<string>{-37.75, 52.25}</string>
+						<string>{-41.75, 48.75}</string>
+						<string>{-46.25, 43.25}</string>
+						<string>{-47.75, 40.75}</string>
+					</array>
+					<array>
+						<string>{-46.25, 43.25}</string>
+						<string>{-41.75, 48.75}</string>
+						<string>{-43.75, 46.75}</string>
+					</array>
+					<array>
+						<string>{-48.25, -15.75}</string>
+						<string>{46.75, 16.75}</string>
+						<string>{45.75, 19.25}</string>
+						<string>{42.25, 26.25}</string>
+						<string>{40.75, 28.75}</string>
+						<string>{39.75, 30.25}</string>
+						<string>{34.75, 36.75}</string>
+					</array>
+					<array>
+						<string>{-27.25, -50.75}</string>
+						<string>{-23.75, -53.75}</string>
+						<string>{-31.75, -45.75}</string>
+						<string>{-28.75, -49.25}</string>
+					</array>
+					<array>
+						<string>{-48.25, -15.75}</string>
+						<string>{34.75, 36.75}</string>
+						<string>{26.25, 45.25}</string>
+						<string>{23.75, 47.25}</string>
+						<string>{-53.25, -1.75}</string>
+						<string>{-52.75, -3.75}</string>
+						<string>{-50.25, -11.25}</string>
+					</array>
+					<array>
+						<string>{-10.75, 66.199997}</string>
+						<string>{-17.75, 65.25}</string>
+						<string>{-34.25, 54.75}</string>
+						<string>{6.75, 59.25}</string>
+						<string>{0.75, 62.25}</string>
+						<string>{-6.75, 65.25}</string>
+						<string>{-8.25, 65.75}</string>
+					</array>
+					<array>
+						<string>{-17.75, 65.25}</string>
+						<string>{-10.75, 66.199997}</string>
+						<string>{-15.75, 66.25}</string>
+					</array>
+					<array>
+						<string>{21.75, -64.75}</string>
+						<string>{32.25, -61.25}</string>
+						<string>{2.75, -65.25}</string>
+						<string>{16.25, -65.75}</string>
+					</array>
+					<array>
+						<string>{-11.25, -62.75}</string>
+						<string>{-9.75, -63.25}</string>
+						<string>{2.75, -65.25}</string>
+						<string>{-23.75, -53.75}</string>
+						<string>{-12.75, -61.75}</string>
+					</array>
+					<array>
+						<string>{-52.75, 25.25}</string>
+						<string>{-53.75, 20.25}</string>
+						<string>{21.75, 48.75}</string>
+						<string>{14.25, 54.25}</string>
+						<string>{-51.25, 31.25}</string>
+					</array>
+					<array>
+						<string>{-34.25, 54.75}</string>
+						<string>{14.25, 54.25}</string>
+						<string>{6.75, 59.25}</string>
+					</array>
+				</array>
+				<key>Friction</key>
+				<real>0.20000000298023224</real>
+				<key>Group</key>
+				<integer>0</integer>
+				<key>IsBullet</key>
+				<false/>
+				<key>IsCircle</key>
+				<false/>
+				<key>IsFixedRot</key>
+				<false/>
+				<key>IsSensor</key>
+				<false/>
+				<key>LinearDamping</key>
+				<real>0.0</real>
+				<key>LinearVelocityX</key>
+				<real>0.0</real>
+				<key>LinearVelocityY</key>
+				<real>0.0</real>
+				<key>Mask</key>
+				<integer>65535</integer>
+				<key>PhysicType</key>
+				<integer>0</integer>
+				<key>Restitution</key>
+				<real>0.20000000298023224</real>
+				<key>SHHolesPoints</key>
+				<array/>
+				<key>SHShapePoints</key>
+				<array>
+					<string>{0, 114}</string>
+					<string>{1, 98}</string>
+					<string>{2, 92}</string>
+					<string>{4, 82}</string>
+					<string>{7, 70}</string>
+					<string>{11, 58}</string>
+					<string>{13, 53}</string>
+					<string>{14, 51}</string>
+					<string>{17, 46}</string>
+					<string>{22, 39}</string>
+					<string>{26, 35}</string>
+					<string>{34, 28}</string>
+					<string>{41, 23}</string>
+					<string>{53, 15}</string>
+					<string>{74, 2}</string>
+					<string>{78, 0}</string>
+					<string>{88, 0.1000061}</string>
+					<string>{93, 1}</string>
+					<string>{96, 2}</string>
+					<string>{111, 8}</string>
+					<string>{123, 14}</string>
+					<string>{138, 24}</string>
+					<string>{153, 35}</string>
+					<string>{157, 38}</string>
+					<string>{162, 42}</string>
+					<string>{179, 59}</string>
+					<string>{183, 64}</string>
+					<string>{189, 72}</string>
+					<string>{191, 75}</string>
+					<string>{194, 80}</string>
+					<string>{201, 94}</string>
+					<string>{203, 99}</string>
+					<string>{206, 107}</string>
+					<string>{208, 113}</string>
+					<string>{212, 128}</string>
+					<string>{216, 146}</string>
+					<string>{217, 152}</string>
+					<string>{218, 160}</string>
+					<string>{218.10001, 184}</string>
+					<string>{217, 192}</string>
+					<string>{216, 198}</string>
+					<string>{215, 203}</string>
+					<string>{212, 215}</string>
+					<string>{210, 221}</string>
+					<string>{205, 231}</string>
+					<string>{202, 235}</string>
+					<string>{192, 245}</string>
+					<string>{186, 249}</string>
+					<string>{174, 255}</string>
+					<string>{153, 262}</string>
+					<string>{148, 263}</string>
+					<string>{142, 264}</string>
+					<string>{124, 264.10001}</string>
+					<string>{115, 263}</string>
+					<string>{90, 259}</string>
+					<string>{87, 258}</string>
+					<string>{84, 256}</string>
+					<string>{62, 240}</string>
+					<string>{55, 234}</string>
+					<string>{52, 231}</string>
+					<string>{46, 224}</string>
+					<string>{43, 220}</string>
+					<string>{38, 212}</string>
+					<string>{35, 207}</string>
+					<string>{28, 194}</string>
+					<string>{13, 164}</string>
+					<string>{9, 155}</string>
+					<string>{4, 140}</string>
+					<string>{3, 136}</string>
+					<string>{1, 127}</string>
+					<string>{0, 119}</string>
+				</array>
+				<key>ShapeBorderH</key>
+				<integer>0</integer>
+				<key>ShapeBorderW</key>
+				<integer>0</integer>
+				<key>ShapePositionOffsetX</key>
+				<integer>0</integer>
+				<key>ShapePositionOffsetY</key>
+				<integer>0</integer>
+			</dict>
+			<key>TextureProperties</key>
+			<dict>
+				<key>Color</key>
+				<string>{{1, 1}, {1, 0}}</string>
+				<key>Frame</key>
+				<string>{{0, 0}, {109.5, 132.5}}</string>
+				<key>Frame-HD</key>
+				<string>{{0, 0}, {219, 265}}</string>
+				<key>FrameUV</key>
+				<string>{{0, 0}, {0.40555555, 0.47661871}}</string>
+				<key>HD_ImageSize</key>
+				<string>{540, 556}</string>
+				<key>Image</key>
+				<string>heads.png</string>
+				<key>Image-HD</key>
+				<string>heads-hd.png</string>
+				<key>ImageURL</key>
+				<string>/Users/jeppetuxen/Documents/ITU/UserExperienceAndPrototyping/Corona/UIPrototype2/heads.png</string>
+				<key>ImageURL-HD</key>
+				<string>/Users/jeppetuxen/Documents/ITU/UserExperienceAndPrototyping/Corona/UIPrototype2/heads-hd.png</string>
+				<key>Name</key>
+				<string>head2</string>
+				<key>Opacity</key>
+				<real>1</real>
+				<key>SD_ImageSize</key>
+				<string>{270, 278}</string>
+				<key>Scale</key>
+				<string>{1, 1}</string>
+				<key>ZOrder</key>
+				<integer>0</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>PhysicProperties</key>
+			<dict>
+				<key>AngularDamping</key>
+				<real>0.0</real>
+				<key>AngularVelocity</key>
+				<real>0.0</real>
+				<key>CanSleep</key>
+				<true/>
+				<key>Category</key>
+				<integer>1</integer>
+				<key>Density</key>
+				<real>0.20000000298023224</real>
+				<key>Fixtures</key>
+				<array>
+					<array>
+						<string>{35, -19.75}</string>
+						<string>{35.550003, -12.25}</string>
+						<string>{35.5, 2.75}</string>
+						<string>{33, 26.25}</string>
+						<string>{-35.5, 0.25}</string>
+						<string>{-36, -12.25}</string>
+						<string>{-36, -15.75}</string>
+						<string>{34.5, -23.75}</string>
+					</array>
+					<array>
+						<string>{-35, -32.25}</string>
+						<string>{30, -40.75}</string>
+						<string>{32.5, -33.25}</string>
+						<string>{33.5, -29.25}</string>
+						<string>{34.5, -23.75}</string>
+						<string>{-36, -15.75}</string>
+					</array>
+					<array>
+						<string>{-35.5, 0.25}</string>
+						<string>{33, 26.25}</string>
+						<string>{28.5, 38.75}</string>
+						<string>{27, 42.25}</string>
+						<string>{26, 44.25}</string>
+						<string>{-31, 37.25}</string>
+						<string>{-32, 31.75}</string>
+					</array>
+					<array>
+						<string>{30, -40.75}</string>
+						<string>{-35, -32.25}</string>
+						<string>{-34, -40.75}</string>
+						<string>{24, -52.75}</string>
+						<string>{27.5, -46.75}</string>
+					</array>
+					<array>
+						<string>{-22.5, -65.25}</string>
+						<string>{-19.5, -67.25}</string>
+						<string>{-15.5, -69.25}</string>
+						<string>{-11.5, -70.299988}</string>
+						<string>{-3.5, -70.25}</string>
+						<string>{-1.5, -69.75}</string>
+						<string>{-30, -54.75}</string>
+						<string>{-25, -62.75}</string>
+					</array>
+					<array>
+						<string>{-31, 37.25}</string>
+						<string>{26, 44.25}</string>
+						<string>{23, 49.25}</string>
+						<string>{22, 50.75}</string>
+						<string>{19, 54.75}</string>
+						<string>{-25, 53.25}</string>
+						<string>{-28, 47.25}</string>
+						<string>{-30, 41.25}</string>
+					</array>
+					<array>
+						<string>{-27.5, -59.75}</string>
+						<string>{-25, -62.75}</string>
+						<string>{-30, -54.75}</string>
+					</array>
+					<array>
+						<string>{21, -56.75}</string>
+						<string>{24, -52.75}</string>
+						<string>{-34, -40.75}</string>
+						<string>{-33, -45.75}</string>
+						<string>{-31.5, -50.75}</string>
+						<string>{8.5, -66.25}</string>
+						<string>{12.5, -64.25}</string>
+						<string>{15.5, -62.25}</string>
+					</array>
+					<array>
+						<string>{-13, 66.25}</string>
+						<string>{-17, 62.25}</string>
+						<string>{13.5, 61.25}</string>
+						<string>{6, 68.75}</string>
+						<string>{4, 69.75}</string>
+						<string>{-4, 70.75}</string>
+						<string>{-6, 70.25}</string>
+					</array>
+					<array>
+						<string>{-1.5, -69.75}</string>
+						<string>{2, -68.75}</string>
+						<string>{3.5, -68.25}</string>
+						<string>{8.5, -66.25}</string>
+						<string>{-31.5, -50.75}</string>
+						<string>{-30, -54.75}</string>
+					</array>
+					<array>
+						<string>{-25, 53.25}</string>
+						<string>{19, 54.75}</string>
+						<string>{17, 57.25}</string>
+						<string>{13.5, 61.25}</string>
+						<string>{-17, 62.25}</string>
+					</array>
+					<array>
+						<string>{-3.5, 70.699997}</string>
+						<string>{4, 69.75}</string>
+						<string>{2.5, 70.25}</string>
+					</array>
+				</array>
+				<key>Friction</key>
+				<real>0.20000000298023224</real>
+				<key>Group</key>
+				<integer>0</integer>
+				<key>IsBullet</key>
+				<false/>
+				<key>IsCircle</key>
+				<false/>
+				<key>IsFixedRot</key>
+				<false/>
+				<key>IsSensor</key>
+				<false/>
+				<key>LinearDamping</key>
+				<real>0.0</real>
+				<key>LinearVelocityX</key>
+				<real>0.0</real>
+				<key>LinearVelocityY</key>
+				<real>0.0</real>
+				<key>Mask</key>
+				<integer>65535</integer>
+				<key>PhysicType</key>
+				<integer>0</integer>
+				<key>Restitution</key>
+				<real>0.20000000298023224</real>
+				<key>SHHolesPoints</key>
+				<array/>
+				<key>SHShapePoints</key>
+				<array>
+					<string>{0, 436}</string>
+					<string>{1, 411}</string>
+					<string>{8, 348}</string>
+					<string>{9, 342}</string>
+					<string>{10, 337}</string>
+					<string>{12, 329}</string>
+					<string>{16, 317}</string>
+					<string>{22, 305}</string>
+					<string>{38, 287}</string>
+					<string>{46, 279}</string>
+					<string>{60, 271}</string>
+					<string>{64, 270}</string>
+					<string>{65, 270.10001}</string>
+					<string>{77, 271}</string>
+					<string>{80, 272}</string>
+					<string>{84, 274}</string>
+					<string>{99, 289}</string>
+					<string>{106, 297}</string>
+					<string>{110, 302}</string>
+					<string>{116, 310}</string>
+					<string>{118, 313}</string>
+					<string>{124, 323}</string>
+					<string>{126, 327}</string>
+					<string>{129, 334}</string>
+					<string>{138, 359}</string>
+					<string>{143, 406}</string>
+					<string>{143.10001, 436}</string>
+					<string>{142, 451}</string>
+					<string>{141, 459}</string>
+					<string>{140, 465}</string>
+					<string>{139, 470}</string>
+					<string>{137, 478}</string>
+					<string>{132, 493}</string>
+					<string>{130, 498}</string>
+					<string>{127, 505}</string>
+					<string>{123, 512}</string>
+					<string>{120, 517}</string>
+					<string>{114, 525}</string>
+					<string>{103, 536}</string>
+					<string>{97, 540}</string>
+					<string>{89, 544}</string>
+					<string>{79, 548}</string>
+					<string>{76, 549}</string>
+					<string>{69, 551}</string>
+					<string>{65, 552}</string>
+					<string>{49, 552.09998}</string>
+					<string>{44, 551}</string>
+					<string>{41, 550}</string>
+					<string>{33, 546}</string>
+					<string>{27, 542}</string>
+					<string>{22, 537}</string>
+					<string>{17, 531}</string>
+					<string>{12, 521}</string>
+					<string>{9, 513}</string>
+					<string>{6, 503}</string>
+					<string>{4, 493}</string>
+					<string>{3, 485}</string>
+					<string>{2, 476}</string>
+					<string>{1, 462}</string>
+					<string>{0, 443}</string>
+				</array>
+				<key>ShapeBorderH</key>
+				<integer>0</integer>
+				<key>ShapeBorderW</key>
+				<integer>0</integer>
+				<key>ShapePositionOffsetX</key>
+				<integer>0</integer>
+				<key>ShapePositionOffsetY</key>
+				<integer>0</integer>
+			</dict>
+			<key>TextureProperties</key>
+			<dict>
+				<key>Color</key>
+				<string>{{1, 1}, {1, 0}}</string>
+				<key>Frame</key>
+				<string>{{0, 135}, {72, 141.5}}</string>
+				<key>Frame-HD</key>
+				<string>{{0, 270}, {144, 283}}</string>
+				<key>FrameUV</key>
+				<string>{{0, 0.4856115}, {0.26666668, 0.99460429}}</string>
+				<key>HD_ImageSize</key>
+				<string>{540, 556}</string>
+				<key>Image</key>
+				<string>heads.png</string>
+				<key>Image-HD</key>
+				<string>heads-hd.png</string>
+				<key>ImageURL</key>
+				<string>/Users/jeppetuxen/Documents/ITU/UserExperienceAndPrototyping/Corona/UIPrototype2/heads.png</string>
+				<key>ImageURL-HD</key>
+				<string>/Users/jeppetuxen/Documents/ITU/UserExperienceAndPrototyping/Corona/UIPrototype2/heads-hd.png</string>
+				<key>Name</key>
+				<string>head5</string>
+				<key>Opacity</key>
+				<real>1</real>
+				<key>SD_ImageSize</key>
+				<string>{270, 278}</string>
+				<key>Scale</key>
+				<string>{1, 1}</string>
+				<key>ZOrder</key>
+				<integer>0</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>PhysicProperties</key>
+			<dict>
+				<key>AngularDamping</key>
+				<real>0.0</real>
+				<key>AngularVelocity</key>
+				<real>0.0</real>
+				<key>CanSleep</key>
+				<true/>
+				<key>Category</key>
+				<integer>1</integer>
+				<key>Density</key>
+				<real>0.20000000298023224</real>
+				<key>Fixtures</key>
+				<array>
+					<array>
+						<string>{49.25, -14.25}</string>
+						<string>{49.800003, -7.75}</string>
+						<string>{26.75, -39.75}</string>
+						<string>{33.25, -36.25}</string>
+						<string>{35.75, -34.75}</string>
+						<string>{38.75, -32.75}</string>
+						<string>{47.75, -20.75}</string>
+						<string>{48.75, -16.75}</string>
+					</array>
+					<array>
+						<string>{26.75, -39.75}</string>
+						<string>{49.800003, -7.75}</string>
+						<string>{49.75, -1.25}</string>
+						<string>{49.25, 2.75}</string>
+						<string>{48.25, 6.75}</string>
+						<string>{46.75, 11.25}</string>
+						<string>{45.25, 14.75}</string>
+						<string>{40.75, 22.25}</string>
+					</array>
+					<array>
+						<string>{-47.75, -16.75}</string>
+						<string>{-45.75, -21.25}</string>
+						<string>{11.25, -46.25}</string>
+						<string>{28.25, 35.75}</string>
+						<string>{-50.25, -5.75}</string>
+						<string>{-49.25, -11.25}</string>
+					</array>
+					<array>
+						<string>{-50.25, 9.25}</string>
+						<string>{-50.25, -5.75}</string>
+						<string>{28.25, 35.75}</string>
+						<string>{-40.25, 31.25}</string>
+						<string>{-45.25, 23.25}</string>
+						<string>{-46.25, 21.25}</string>
+						<string>{-47.75, 17.75}</string>
+						<string>{-49.75, 11.75}</string>
+					</array>
+					<array>
+						<string>{45.75, -25.25}</string>
+						<string>{47.25, -22.25}</string>
+						<string>{47.75, -20.75}</string>
+						<string>{38.75, -32.75}</string>
+						<string>{41.25, -30.75}</string>
+						<string>{42.75, -29.25}</string>
+						<string>{44.75, -26.75}</string>
+					</array>
+					<array>
+						<string>{-20.75, -46.75}</string>
+						<string>{-17.25, -47.75}</string>
+						<string>{-14.75, -48.25}</string>
+						<string>{-41.25, -29.75}</string>
+						<string>{-36.75, -35.75}</string>
+						<string>{-30.75, -41.25}</string>
+						<string>{-26.25, -44.25}</string>
+						<string>{-23.25, -45.75}</string>
+					</array>
+					<array>
+						<string>{40.75, 22.25}</string>
+						<string>{45.25, 14.75}</string>
+						<string>{43.75, 17.75}</string>
+						<string>{42.25, 20.25}</string>
+					</array>
+					<array>
+						<string>{21.75, -42.25}</string>
+						<string>{26.75, -39.75}</string>
+						<string>{40.75, 22.25}</string>
+						<string>{28.25, 35.75}</string>
+						<string>{11.25, -46.25}</string>
+						<string>{15.75, -44.75}</string>
+					</array>
+					<array>
+						<string>{18.25, 44.25}</string>
+						<string>{15.25, 46.25}</string>
+						<string>{11.25, 48.25}</string>
+						<string>{-8.25, 49.25}</string>
+						<string>{-40.25, 31.25}</string>
+						<string>{28.25, 35.75}</string>
+						<string>{24.75, 39.25}</string>
+					</array>
+					<array>
+						<string>{-39.25, -32.75}</string>
+						<string>{-36.75, -35.75}</string>
+						<string>{-41.25, -29.75}</string>
+					</array>
+					<array>
+						<string>{-40.25, 31.25}</string>
+						<string>{-8.25, 49.25}</string>
+						<string>{-22.75, 46.75}</string>
+						<string>{-28.75, 44.25}</string>
+						<string>{-30.75, 42.75}</string>
+						<string>{-34.75, 38.75}</string>
+						<string>{-38.25, 34.25}</string>
+					</array>
+					<array>
+						<string>{-33.25, -39.25}</string>
+						<string>{-30.75, -41.25}</string>
+						<string>{-36.75, -35.75}</string>
+					</array>
+					<array>
+						<string>{-28.75, -42.75}</string>
+						<string>{-26.25, -44.25}</string>
+						<string>{-30.75, -41.25}</string>
+					</array>
+					<array>
+						<string>{-14.75, -48.25}</string>
+						<string>{-11.25, -48.800003}</string>
+						<string>{0.75, -48.75}</string>
+						<string>{5.75, -47.75}</string>
+						<string>{7.75, -47.25}</string>
+						<string>{-45.75, -21.25}</string>
+						<string>{-42.75, -27.25}</string>
+						<string>{-41.25, -29.75}</string>
+					</array>
+					<array>
+						<string>{-28.75, 44.25}</string>
+						<string>{-22.75, 46.75}</string>
+						<string>{-24.75, 46.25}</string>
+					</array>
+					<array>
+						<string>{-8.25, 49.25}</string>
+						<string>{11.25, 48.25}</string>
+						<string>{9.75, 48.75}</string>
+						<string>{7.25, 49.200001}</string>
+					</array>
+					<array>
+						<string>{7.75, -47.25}</string>
+						<string>{11.25, -46.25}</string>
+						<string>{-45.75, -21.25}</string>
+					</array>
+				</array>
+				<key>Friction</key>
+				<real>0.20000000298023224</real>
+				<key>Group</key>
+				<integer>0</integer>
+				<key>IsBullet</key>
+				<false/>
+				<key>IsCircle</key>
+				<false/>
+				<key>IsFixedRot</key>
+				<false/>
+				<key>IsSensor</key>
+				<false/>
+				<key>LinearDamping</key>
+				<real>0.0</real>
+				<key>LinearVelocityX</key>
+				<real>0.0</real>
+				<key>LinearVelocityY</key>
+				<real>0.0</real>
+				<key>Mask</key>
+				<integer>65535</integer>
+				<key>PhysicType</key>
+				<integer>0</integer>
+				<key>Restitution</key>
+				<real>0.20000000298023224</real>
+				<key>SHHolesPoints</key>
+				<array/>
+				<key>SHShapePoints</key>
+				<array>
+					<string>{224, 80}</string>
+					<string>{225, 75}</string>
+					<string>{229, 63}</string>
+					<string>{232, 56}</string>
+					<string>{234, 52}</string>
+					<string>{244, 36}</string>
+					<string>{248, 30}</string>
+					<string>{251, 26}</string>
+					<string>{255, 21}</string>
+					<string>{263, 13}</string>
+					<string>{267, 10}</string>
+					<string>{275, 6}</string>
+					<string>{279, 5}</string>
+					<string>{308, 0}</string>
+					<string>{339, 0.099998474}</string>
+					<string>{344, 1}</string>
+					<string>{347, 2}</string>
+					<string>{355, 6}</string>
+					<string>{361, 10}</string>
+					<string>{369, 16}</string>
+					<string>{374, 20}</string>
+					<string>{381, 27}</string>
+					<string>{406, 54}</string>
+					<string>{409, 58}</string>
+					<string>{412, 63}</string>
+					<string>{415, 69}</string>
+					<string>{418, 76}</string>
+					<string>{421, 85}</string>
+					<string>{423, 93}</string>
+					<string>{424, 101}</string>
+					<string>{424.10001, 114}</string>
+					<string>{423, 127}</string>
+					<string>{422, 132}</string>
+					<string>{420, 140}</string>
+					<string>{419, 143}</string>
+					<string>{416, 149}</string>
+					<string>{414, 152}</string>
+					<string>{410, 157}</string>
+					<string>{407, 160}</string>
+					<string>{402, 164}</string>
+					<string>{396, 168}</string>
+					<string>{391, 171}</string>
+					<string>{378, 178}</string>
+					<string>{368, 183}</string>
+					<string>{361, 186}</string>
+					<string>{356, 188}</string>
+					<string>{347, 191}</string>
+					<string>{340, 193}</string>
+					<string>{336, 194}</string>
+					<string>{326, 196}</string>
+					<string>{302, 196.10001}</string>
+					<string>{295, 195}</string>
+					<string>{290, 194}</string>
+					<string>{286, 193}</string>
+					<string>{283, 192}</string>
+					<string>{278, 190}</string>
+					<string>{272, 187}</string>
+					<string>{267, 184}</string>
+					<string>{263, 181}</string>
+					<string>{258, 177}</string>
+					<string>{251, 170}</string>
+					<string>{246, 164}</string>
+					<string>{242, 158}</string>
+					<string>{239, 153}</string>
+					<string>{233, 141}</string>
+					<string>{229, 132}</string>
+					<string>{227, 125}</string>
+					<string>{226, 121}</string>
+					<string>{225, 116}</string>
+					<string>{224, 110}</string>
+				</array>
+				<key>ShapeBorderH</key>
+				<integer>0</integer>
+				<key>ShapeBorderW</key>
+				<integer>0</integer>
+				<key>ShapePositionOffsetX</key>
+				<integer>0</integer>
+				<key>ShapePositionOffsetY</key>
+				<integer>0</integer>
+			</dict>
+			<key>TextureProperties</key>
+			<dict>
+				<key>Color</key>
+				<string>{{1, 1}, {1, 0}}</string>
+				<key>Frame</key>
+				<string>{{112, 0}, {100.5, 98.5}}</string>
+				<key>Frame-HD</key>
+				<string>{{224, 0}, {201, 197}}</string>
+				<key>FrameUV</key>
+				<string>{{0.4148148, 0}, {0.78703701, 0.35431653}}</string>
+				<key>HD_ImageSize</key>
+				<string>{540, 556}</string>
+				<key>Image</key>
+				<string>heads.png</string>
+				<key>Image-HD</key>
+				<string>heads-hd.png</string>
+				<key>ImageURL</key>
+				<string>/Users/jeppetuxen/Documents/ITU/UserExperienceAndPrototyping/Corona/UIPrototype2/heads.png</string>
+				<key>ImageURL-HD</key>
+				<string>/Users/jeppetuxen/Documents/ITU/UserExperienceAndPrototyping/Corona/UIPrototype2/heads-hd.png</string>
+				<key>Name</key>
+				<string>head1</string>
+				<key>Opacity</key>
+				<real>1</real>
+				<key>SD_ImageSize</key>
+				<string>{270, 278}</string>
+				<key>Scale</key>
+				<string>{1, 1}</string>
+				<key>ZOrder</key>
+				<integer>0</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>PhysicProperties</key>
+			<dict>
+				<key>AngularDamping</key>
+				<real>0.0</real>
+				<key>AngularVelocity</key>
+				<real>0.0</real>
+				<key>CanSleep</key>
+				<true/>
+				<key>Category</key>
+				<integer>1</integer>
+				<key>Density</key>
+				<real>0.20000000298023224</real>
+				<key>Fixtures</key>
+				<array>
+					<array>
+						<string>{-23.25, -32.25}</string>
+						<string>{24.25, -37.75}</string>
+						<string>{26.299988, -10.75}</string>
+						<string>{26.25, 5.75}</string>
+						<string>{25.75, 10.25}</string>
+						<string>{-26.75, 52.75}</string>
+					</array>
+					<array>
+						<string>{-26.75, 52.75}</string>
+						<string>{25.75, 10.25}</string>
+						<string>{22.75, 30.25}</string>
+						<string>{20.75, 38.25}</string>
+						<string>{19.25, 42.75}</string>
+						<string>{8.75, 67.25}</string>
+					</array>
+					<array>
+						<string>{-26.25, 71.25}</string>
+						<string>{-26.75, 62.25}</string>
+						<string>{6.25, 72.25}</string>
+						<string>{-1.25, 83.75}</string>
+						<string>{-3.75, 85.75}</string>
+						<string>{-21.25, 82.25}</string>
+						<string>{-25.25, 76.25}</string>
+						<string>{-25.75, 74.75}</string>
+					</array>
+					<array>
+						<string>{24.25, -37.75}</string>
+						<string>{-23.25, -32.25}</string>
+						<string>{-22.25, -47.25}</string>
+						<string>{21.25, -54.75}</string>
+						<string>{22.75, -48.25}</string>
+					</array>
+					<array>
+						<string>{19.25, -61.75}</string>
+						<string>{21.25, -54.75}</string>
+						<string>{-22.25, -47.25}</string>
+						<string>{-21.25, -55.25}</string>
+						<string>{-20.75, -58.25}</string>
+						<string>{-19.25, -64.25}</string>
+						<string>{-17.25, -70.25}</string>
+						<string>{17.75, -66.25}</string>
+					</array>
+					<array>
+						<string>{-21.25, 82.25}</string>
+						<string>{-3.75, 85.75}</string>
+						<string>{-9.25, 87.75}</string>
+						<string>{-13.75, 88.25}</string>
+						<string>{-15.25, 87.75}</string>
+						<string>{-16.25, 87.25}</string>
+						<string>{-17.75, 86.25}</string>
+						<string>{-19.75, 84.25}</string>
+					</array>
+					<array>
+						<string>{15.75, -71.75}</string>
+						<string>{17.75, -66.25}</string>
+						<string>{-17.25, -70.25}</string>
+						<string>{-14.75, -76.25}</string>
+						<string>{-14.25, -77.25}</string>
+						<string>{-12.25, -80.75}</string>
+						<string>{11.25, -80.25}</string>
+						<string>{12.25, -78.75}</string>
+					</array>
+					<array>
+						<string>{-13.75, 88.25}</string>
+						<string>{-9.25, 87.75}</string>
+						<string>{-10.75, 88.199997}</string>
+					</array>
+					<array>
+						<string>{-3.75, 85.75}</string>
+						<string>{-1.25, 83.75}</string>
+						<string>{-2.75, 85.25}</string>
+					</array>
+					<array>
+						<string>{11.25, -80.25}</string>
+						<string>{12.25, -78.75}</string>
+						<string>{15.75, -71.75}</string>
+						<string>{9.75, -82.25}</string>
+					</array>
+					<array>
+						<string>{9.75, -82.25}</string>
+						<string>{12.25, -78.75}</string>
+						<string>{-12.25, -80.75}</string>
+						<string>{-10.25, -83.25}</string>
+						<string>{-7.25, -85.75}</string>
+						<string>{7.25, -84.75}</string>
+					</array>
+					<array>
+						<string>{-3.25, -87.800003}</string>
+						<string>{1.75, -87.75}</string>
+						<string>{3.25, -87.25}</string>
+						<string>{5.25, -86.25}</string>
+						<string>{9.75, -82.25}</string>
+						<string>{-7.25, -85.75}</string>
+					</array>
+					<array>
+						<string>{7.25, -84.75}</string>
+						<string>{9.75, -82.25}</string>
+						<string>{11.25, -80.25}</string>
+						<string>{5.25, -86.25}</string>
+					</array>
+					<array>
+						<string>{-26.75, 62.25}</string>
+						<string>{-26.75, 52.75}</string>
+						<string>{8.75, 67.25}</string>
+						<string>{6.25, 72.25}</string>
+					</array>
+				</array>
+				<key>Friction</key>
+				<real>0.20000000298023224</real>
+				<key>Group</key>
+				<integer>0</integer>
+				<key>IsBullet</key>
+				<false/>
+				<key>IsCircle</key>
+				<false/>
+				<key>IsFixedRot</key>
+				<false/>
+				<key>IsSensor</key>
+				<false/>
+				<key>LinearDamping</key>
+				<real>0.0</real>
+				<key>LinearVelocityX</key>
+				<real>0.0</real>
+				<key>LinearVelocityY</key>
+				<real>0.0</real>
+				<key>Mask</key>
+				<integer>65535</integer>
+				<key>PhysicType</key>
+				<integer>0</integer>
+				<key>Restitution</key>
+				<real>0.20000000298023224</real>
+				<key>SHHolesPoints</key>
+				<array/>
+				<key>SHShapePoints</key>
+				<array>
+					<string>{430, 52}</string>
+					<string>{431, 34}</string>
+					<string>{432, 27}</string>
+					<string>{433, 24}</string>
+					<string>{441, 12}</string>
+					<string>{444, 8}</string>
+					<string>{448, 4}</string>
+					<string>{451, 2}</string>
+					<string>{453, 1}</string>
+					<string>{456, 0}</string>
+					<string>{462, 0.1000061}</string>
+					<string>{465, 1}</string>
+					<string>{476, 5}</string>
+					<string>{478, 6}</string>
+					<string>{481, 9}</string>
+					<string>{496, 32}</string>
+					<string>{501, 42}</string>
+					<string>{520, 86}</string>
+					<string>{522, 91}</string>
+					<string>{525, 100}</string>
+					<string>{529, 116}</string>
+					<string>{531, 128}</string>
+					<string>{535, 156}</string>
+					<string>{536, 165}</string>
+					<string>{536.09998, 198}</string>
+					<string>{534, 229}</string>
+					<string>{533, 242}</string>
+					<string>{532, 252}</string>
+					<string>{531, 260}</string>
+					<string>{530, 267}</string>
+					<string>{529, 273}</string>
+					<string>{527, 282}</string>
+					<string>{526, 286}</string>
+					<string>{522, 300}</string>
+					<string>{519, 309}</string>
+					<string>{515, 320}</string>
+					<string>{508, 334}</string>
+					<string>{506, 337}</string>
+					<string>{503, 341}</string>
+					<string>{498, 346}</string>
+					<string>{494, 349}</string>
+					<string>{490, 351}</string>
+					<string>{487, 352}</string>
+					<string>{477, 352.10001}</string>
+					<string>{469, 348}</string>
+					<string>{463, 343}</string>
+					<string>{459, 338}</string>
+					<string>{455, 331}</string>
+					<string>{454, 329}</string>
+					<string>{449, 317}</string>
+					<string>{445, 305}</string>
+					<string>{442, 293}</string>
+					<string>{441, 287}</string>
+					<string>{439, 271}</string>
+					<string>{437, 241}</string>
+					<string>{430, 71}</string>
+				</array>
+				<key>ShapeBorderH</key>
+				<integer>0</integer>
+				<key>ShapeBorderW</key>
+				<integer>0</integer>
+				<key>ShapePositionOffsetX</key>
+				<integer>0</integer>
+				<key>ShapePositionOffsetY</key>
+				<integer>0</integer>
+			</dict>
+			<key>TextureProperties</key>
+			<dict>
+				<key>Color</key>
+				<string>{{1, 1}, {1, 0}}</string>
+				<key>Frame</key>
+				<string>{{215, 0}, {53.5, 176.5}}</string>
+				<key>Frame-HD</key>
+				<string>{{430, 0}, {107, 353}}</string>
+				<key>FrameUV</key>
+				<string>{{0.7962963, 0}, {0.99444443, 0.63489211}}</string>
+				<key>HD_ImageSize</key>
+				<string>{540, 556}</string>
+				<key>Image</key>
+				<string>heads.png</string>
+				<key>Image-HD</key>
+				<string>heads-hd.png</string>
+				<key>ImageURL</key>
+				<string>/Users/jeppetuxen/Documents/ITU/UserExperienceAndPrototyping/Corona/UIPrototype2/heads.png</string>
+				<key>ImageURL-HD</key>
+				<string>/Users/jeppetuxen/Documents/ITU/UserExperienceAndPrototyping/Corona/UIPrototype2/heads-hd.png</string>
+				<key>Name</key>
+				<string>head4</string>
+				<key>Opacity</key>
+				<real>1</real>
+				<key>SD_ImageSize</key>
+				<string>{270, 278}</string>
+				<key>Scale</key>
+				<string>{1, 1}</string>
+				<key>ZOrder</key>
+				<integer>0</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>PhysicProperties</key>
+			<dict>
+				<key>AngularDamping</key>
+				<real>0.0</real>
+				<key>AngularVelocity</key>
+				<real>0.0</real>
+				<key>CanSleep</key>
+				<true/>
+				<key>Category</key>
+				<integer>1</integer>
+				<key>Density</key>
+				<real>0.20000000298023224</real>
+				<key>Fixtures</key>
+				<array>
+					<array>
+						<string>{-39.5, -2}</string>
+						<string>{-39.5, -8.5}</string>
+						<string>{38.5, -16}</string>
+						<string>{39.050003, -10.5}</string>
+						<string>{39, 5.5}</string>
+						<string>{38.5, 10}</string>
+						<string>{38, 13}</string>
+						<string>{-39, 5.5}</string>
+					</array>
+					<array>
+						<string>{-38.5, -20}</string>
+						<string>{-33, -33}</string>
+						<string>{36.5, -26.5}</string>
+						<string>{38.5, -16}</string>
+						<string>{-39.5, -8.5}</string>
+					</array>
+					<array>
+						<string>{-37, 21.5}</string>
+						<string>{34, 27.5}</string>
+						<string>{33, 30}</string>
+						<string>{-23.5, 42.5}</string>
+						<string>{-29, 37}</string>
+						<string>{-32, 33}</string>
+						<string>{-35.5, 26.5}</string>
+						<string>{-36.5, 23.5}</string>
+					</array>
+					<array>
+						<string>{-37, 21.5}</string>
+						<string>{-39, 5.5}</string>
+						<string>{38, 13}</string>
+						<string>{36.5, 20}</string>
+						<string>{34, 27.5}</string>
+					</array>
+					<array>
+						<string>{35, -31}</string>
+						<string>{36.5, -26.5}</string>
+						<string>{-33, -33}</string>
+						<string>{-31.5, -36}</string>
+						<string>{28, -42}</string>
+						<string>{31.5, -37.5}</string>
+						<string>{32.5, -36}</string>
+					</array>
+					<array>
+						<string>{-23.5, 42.5}</string>
+						<string>{33, 30}</string>
+						<string>{31.5, 33}</string>
+						<string>{29.5, 36.5}</string>
+						<string>{27, 40}</string>
+						<string>{21, 46}</string>
+						<string>{-16, 48}</string>
+						<string>{-20.5, 45}</string>
+					</array>
+					<array>
+						<string>{-16, 48}</string>
+						<string>{27, 40}</string>
+						<string>{17.5, 48.5}</string>
+						<string>{15, 50}</string>
+						<string>{11, 52}</string>
+						<string>{8.5, 53}</string>
+						<string>{-0.5, 55.949997}</string>
+						<string>{-1, 56}</string>
+					</array>
+					<array>
+						<string>{7.5, -54.5}</string>
+						<string>{9.5, -54}</string>
+						<string>{18, -50.5}</string>
+						<string>{19.5, -49.5}</string>
+						<string>{23.5, -46.5}</string>
+						<string>{-29, -40}</string>
+						<string>{-26.5, -43.5}</string>
+						<string>{4.5, -55}</string>
+					</array>
+					<array>
+						<string>{-30, -38.5}</string>
+						<string>{-29, -40}</string>
+						<string>{23.5, -46.5}</string>
+						<string>{28, -42}</string>
+						<string>{-31.5, -36}</string>
+					</array>
+					<array>
+						<string>{-11.5, -55.550003}</string>
+						<string>{0.5, -55.5}</string>
+						<string>{4.5, -55}</string>
+						<string>{-26.5, -43.5}</string>
+						<string>{-24.5, -46}</string>
+						<string>{-21, -49.5}</string>
+						<string>{-18.5, -51.5}</string>
+						<string>{-14, -54.5}</string>
+					</array>
+					<array>
+						<string>{-20.5, 45}</string>
+						<string>{21, 46}</string>
+						<string>{17.5, 48.5}</string>
+					</array>
+					<array>
+						<string>{13, -53}</string>
+						<string>{18, -50.5}</string>
+						<string>{9.5, -54}</string>
+					</array>
+				</array>
+				<key>Friction</key>
+				<real>0.20000000298023224</real>
+				<key>Group</key>
+				<integer>0</integer>
+				<key>IsBullet</key>
+				<false/>
+				<key>IsCircle</key>
+				<false/>
+				<key>IsFixedRot</key>
+				<false/>
+				<key>IsSensor</key>
+				<false/>
+				<key>LinearDamping</key>
+				<real>0.0</real>
+				<key>LinearVelocityX</key>
+				<real>0.0</real>
+				<key>LinearVelocityY</key>
+				<real>0.0</real>
+				<key>Mask</key>
+				<integer>65535</integer>
+				<key>PhysicType</key>
+				<integer>0</integer>
+				<key>Restitution</key>
+				<real>0.20000000298023224</real>
+				<key>SHHolesPoints</key>
+				<array/>
+				<key>SHShapePoints</key>
+				<array>
+					<string>{224, 318}</string>
+					<string>{225, 303}</string>
+					<string>{229, 271}</string>
+					<string>{230, 267}</string>
+					<string>{232, 261}</string>
+					<string>{237, 251}</string>
+					<string>{239, 248}</string>
+					<string>{245, 240}</string>
+					<string>{256, 229}</string>
+					<string>{262, 224}</string>
+					<string>{271, 218}</string>
+					<string>{301, 202}</string>
+					<string>{302, 202.10001}</string>
+					<string>{320, 208}</string>
+					<string>{325, 210}</string>
+					<string>{333, 214}</string>
+					<string>{338, 217}</string>
+					<string>{345, 222}</string>
+					<string>{357, 234}</string>
+					<string>{362, 241}</string>
+					<string>{366, 248}</string>
+					<string>{369, 254}</string>
+					<string>{371, 259}</string>
+					<string>{376, 274}</string>
+					<string>{378, 283}</string>
+					<string>{379, 288}</string>
+					<string>{380, 294}</string>
+					<string>{381, 303}</string>
+					<string>{381.10001, 335}</string>
+					<string>{380, 346}</string>
+					<string>{379, 352}</string>
+					<string>{376, 367}</string>
+					<string>{373, 376}</string>
+					<string>{368, 386}</string>
+					<string>{366, 389}</string>
+					<string>{363, 393}</string>
+					<string>{359, 398}</string>
+					<string>{350, 407}</string>
+					<string>{342, 413}</string>
+					<string>{339, 415}</string>
+					<string>{329, 420}</string>
+					<string>{322, 422}</string>
+					<string>{318, 423}</string>
+					<string>{312, 424}</string>
+					<string>{304, 425}</string>
+					<string>{280, 425.10001}</string>
+					<string>{277, 424}</string>
+					<string>{275, 423}</string>
+					<string>{266, 417}</string>
+					<string>{261, 413}</string>
+					<string>{254, 406}</string>
+					<string>{250, 401}</string>
+					<string>{245, 394}</string>
+					<string>{243, 391}</string>
+					<string>{240, 386}</string>
+					<string>{237, 380}</string>
+					<string>{233, 371}</string>
+					<string>{228, 359}</string>
+					<string>{226, 354}</string>
+					<string>{224, 331}</string>
+				</array>
+				<key>ShapeBorderH</key>
+				<integer>0</integer>
+				<key>ShapeBorderW</key>
+				<integer>0</integer>
+				<key>ShapePositionOffsetX</key>
+				<integer>0</integer>
+				<key>ShapePositionOffsetY</key>
+				<integer>0</integer>
+			</dict>
+			<key>TextureProperties</key>
+			<dict>
+				<key>Color</key>
+				<string>{{1, 1}, {1, 0}}</string>
+				<key>Frame</key>
+				<string>{{112, 101}, {79, 112}}</string>
+				<key>Frame-HD</key>
+				<string>{{224, 202}, {158, 224}}</string>
+				<key>FrameUV</key>
+				<string>{{0.4148148, 0.36330935}, {0.70740741, 0.76618707}}</string>
+				<key>HD_ImageSize</key>
+				<string>{540, 556}</string>
+				<key>Image</key>
+				<string>heads.png</string>
+				<key>Image-HD</key>
+				<string>heads-hd.png</string>
+				<key>ImageURL</key>
+				<string>/Users/jeppetuxen/Documents/ITU/UserExperienceAndPrototyping/Corona/UIPrototype2/heads.png</string>
+				<key>ImageURL-HD</key>
+				<string>/Users/jeppetuxen/Documents/ITU/UserExperienceAndPrototyping/Corona/UIPrototype2/heads-hd.png</string>
+				<key>Name</key>
+				<string>head3</string>
+				<key>Opacity</key>
+				<real>1</real>
+				<key>SD_ImageSize</key>
+				<string>{270, 278}</string>
+				<key>Scale</key>
+				<string>{1, 1}</string>
+				<key>ZOrder</key>
+				<integer>0</integer>
+			</dict>
+		</dict>
+	</array>
+	<key>ScenePreference</key>
+	<dict>
+		<key>BackgroundColor</key>
+		<string>{{0.89399999, 0.89399999}, {0.89399999, 1}}</string>
+		<key>GridSize</key>
+		<integer>32</integer>
+	</dict>
+	<key>Version</key>
+	<string>1.7.3</string>
+</dict>
+</plist>
