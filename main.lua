@@ -74,7 +74,7 @@ local function onTouchCreateNewSprite( event )
 		t.x0 = event.x - t.x
 		t.y0 = event.y - t.y
 		
-		playRandomSoundInArray(t.voiceSounds)
+		playRandomSoundInArray(t.objectSounds)
 		
 		-- create New Object
 		newSprite = loader:newSpriteWithUniqueName(t.uniqueName)
@@ -83,8 +83,16 @@ local function onTouchCreateNewSprite( event )
 		newSprite.xScale = scaleConstant
 		newSprite.yScale= scaleConstant
 		newSprite.alpha = 1
+		newSprite.objectSounds= t.objectSounds
 		parent.newObjectGroup:insert(newSprite)
 		
+		local scaleFactor = 0.07
+		
+		oldScale = newSprite.xScale
+		newSprite.xScale = newSprite.xScale + scaleFactor
+		newSprite.yScale = newSprite.yScale + scaleFactor
+		
+		audio.play(popSound)
 		--newSprite.
 		
 	elseif t.isFocus then
@@ -108,10 +116,12 @@ local function onTouchCreateNewSprite( event )
 			if not isGarbage then
 			
 			newSprite:addEventListener( "touch" , onTouch )
-			
+			newSprite.xScale = oldScale
+		newSprite.yScale = oldScale
 			
 			else 
 			newSprite:removeSelf()
+			audio.play(trashSound)
 			end
 			display.getCurrentStage():setFocus( nil )
 			
@@ -141,10 +151,20 @@ function onTouch( event )
 		-- To prevent this, we add this flag. Only when it's true will "move"
 		-- events be sent to the target.
 		t.isFocus = true
+		
+		audio.play(popSound)
+		playRandomSoundInArray(t.objectSounds)
+		--playRandomSoundInArray(fartingSounds)
 
 		-- Store initial position
 		t.x0 = event.x - t.x
 		t.y0 = event.y - t.y
+		
+		local scaleFactor = 0.07
+		
+		oldScale = t.xScale
+		t.xScale = t.xScale + scaleFactor
+		t.yScale = t.yScale + scaleFactor
 	elseif t.isFocus then
 		if "moved" == phase then
 			-- Make object move (we subtract t.x0,t.y0 so that moves are
@@ -164,9 +184,12 @@ function onTouch( event )
 			local isGarbage = garbageBounds.xMin <= x and garbageBounds.xMax >= x and garbageBounds.yMin <= y and garbageBounds.yMax >= y
 			if isGarbage then
 			t:removeSelf()
+			audio.play(trashSound)
 			end
 			
 			display.getCurrentStage():setFocus( nil )
+			t.xScale = oldScale
+			t.yScale = oldScale
 			t.isFocus = false
 		end
 	end
@@ -314,12 +337,14 @@ end
 
 
 --------------------------LOADING SOUNDS ---------------------------------------
-local function loadSoundsInArray(directory)
+local function loadSoundsInArray(directory,extension)
+
+
 
 --- creating a local array of particular voices
 local array = {}
     for i = 1,20 do
-    local sound = audio.loadSound(directory..i..".aif")
+    local sound = audio.loadSound(directory..i..extension)
 
     if sound == nil then break
     else 
@@ -338,12 +363,20 @@ end
 
 voiceArrays = {}
 for i = 1,8 do
-local voiceArray = loadSoundsInArray("content/voices/voice"..i.."/")
+local voiceArray = loadSoundsInArray("content/voices/voice"..i.."/",".mp3")
 voiceArrays[i] = voiceArray
 end
 print("voicesArrays "..#voiceArrays)
 playRandomSoundInArray(voiceArrays[8])
 
+popSound = audio.loadSound("content/sounds/pop.mp3")
+trashSound = audio.loadSound("content/sounds/trash.mp3")
+
+
+
+
+fartingSounds = loadSoundsInArray("content/sounds/farting/",".mp3")
+print("farts"..#fartingSounds)
 
 ----------------------localGarbageBIN---------------------------------------
 garbage = display.newRoundedRect(200,650,750,100,20);
@@ -474,7 +507,7 @@ mouthGroup.newObjectGroup = mouths_inScene
 
 for i = 1,#mouthUI do
 if i<#voiceArrays then
-mouthUI[i].voiceSounds = voiceArrays[i]
+mouthUI[i].objectSounds= voiceArrays[i]
 
 end
 mouthUI[i].alpha = 1
