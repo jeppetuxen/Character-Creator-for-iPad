@@ -3,7 +3,35 @@
 <plist version="1.0">
 <dict>
 	<key>ANIMS_INFO</key>
-	<array/>
+	<array>
+		<dict>
+			<key>Frames</key>
+			<array>
+				<dict>
+					<key>FrameRect</key>
+					<string>{{0, 0}, {105, 171}}</string>
+					<key>SpriteName</key>
+					<string>arm1L</string>
+				</dict>
+				<dict>
+					<key>FrameRect</key>
+					<string>{{0, 174}, {73, 175}}</string>
+					<key>SpriteName</key>
+					<string>arm1R</string>
+				</dict>
+			</array>
+			<key>Image</key>
+			<string>arms.png</string>
+			<key>LoopForever</key>
+			<true/>
+			<key>Repetitions</key>
+			<integer>1</integer>
+			<key>Speed</key>
+			<real>0.20000000298023224</real>
+			<key>UniqueName</key>
+			<string>Anim</string>
+		</dict>
+	</array>
 	<key>Author</key>
 	<string>Bogdan Vladu</string>
 	<key>BEZIER_INFO</key>
@@ -7114,9 +7142,9 @@
 				<key>IsInParallax</key>
 				<false/>
 				<key>Locked</key>
-				<true/>
+				<false/>
 				<key>Opacity</key>
-				<real>0.0</real>
+				<real>1</real>
 				<key>PathIsCyclic</key>
 				<false/>
 				<key>PathName</key>
@@ -7128,7 +7156,7 @@
 				<key>PathStartPoint</key>
 				<integer>0</integer>
 				<key>Position</key>
-				<string>{272, 688}</string>
+				<string>{264.79956, 700.00073}</string>
 				<key>SHName</key>
 				<string>eye13</string>
 				<key>Scale</key>
@@ -7212,9 +7240,9 @@
 				<key>IsInParallax</key>
 				<false/>
 				<key>Locked</key>
-				<true/>
+				<false/>
 				<key>Opacity</key>
-				<real>0.0</real>
+				<real>1</real>
 				<key>PathIsCyclic</key>
 				<false/>
 				<key>PathName</key>
@@ -7226,11 +7254,11 @@
 				<key>PathStartPoint</key>
 				<integer>0</integer>
 				<key>Position</key>
-				<string>{336, 688}</string>
+				<string>{326.39941, 700.00073}</string>
 				<key>SHName</key>
 				<string>eye20</string>
 				<key>Scale</key>
-				<string>{1, 1}</string>
+				<string>{0.80000001, 0.80000001}</string>
 				<key>Size</key>
 				<string>{38, 72}</string>
 				<key>Tag</key>
@@ -7355,9 +7383,9 @@
 				<key>IsInParallax</key>
 				<false/>
 				<key>Locked</key>
-				<true/>
+				<false/>
 				<key>Opacity</key>
-				<real>0.0</real>
+				<real>1</real>
 				<key>PathIsCyclic</key>
 				<false/>
 				<key>PathName</key>
@@ -7369,11 +7397,11 @@
 				<key>PathStartPoint</key>
 				<integer>0</integer>
 				<key>Position</key>
-				<string>{384, 688}</string>
+				<string>{375.59952, 700.00073}</string>
 				<key>SHName</key>
 				<string>eye9</string>
 				<key>Scale</key>
-				<string>{1, 1}</string>
+				<string>{0.80000001, 0.80000001}</string>
 				<key>Size</key>
 				<string>{36, 70}</string>
 				<key>Tag</key>
@@ -7495,9 +7523,9 @@
 				<key>IsInParallax</key>
 				<false/>
 				<key>Locked</key>
-				<true/>
+				<false/>
 				<key>Opacity</key>
-				<real>0.0</real>
+				<real>1</real>
 				<key>PathIsCyclic</key>
 				<false/>
 				<key>PathName</key>
@@ -7509,7 +7537,7 @@
 				<key>PathStartPoint</key>
 				<integer>0</integer>
 				<key>Position</key>
-				<string>{432, 688}</string>
+				<string>{428.39984, 700.00073}</string>
 				<key>SHName</key>
 				<string>eye4</string>
 				<key>Scale</key>
@@ -7595,9 +7623,9 @@
 				<key>IsInParallax</key>
 				<false/>
 				<key>Locked</key>
-				<true/>
+				<false/>
 				<key>Opacity</key>
-				<real>0.0</real>
+				<real>1</real>
 				<key>PathIsCyclic</key>
 				<false/>
 				<key>PathName</key>
@@ -7609,7 +7637,7 @@
 				<key>PathStartPoint</key>
 				<integer>0</integer>
 				<key>Position</key>
-				<string>{480, 688}</string>
+				<string>{484.80026, 701.20081}</string>
 				<key>SHName</key>
 				<string>eye8</string>
 				<key>Scale</key>
@@ -7723,9 +7751,9 @@
 				<key>IsInParallax</key>
 				<false/>
 				<key>Locked</key>
-				<true/>
+				<false/>
 				<key>Opacity</key>
-				<real>0.0</real>
+				<real>1</real>
 				<key>PathIsCyclic</key>
 				<false/>
 				<key>PathName</key>
@@ -7737,11 +7765,11 @@
 				<key>PathStartPoint</key>
 				<integer>0</integer>
 				<key>Position</key>
-				<string>{525.83752, 692.32495}</string>
+				<string>{540.2384, 707.9259}</string>
 				<key>SHName</key>
 				<string>eye12L.</string>
 				<key>Scale</key>
-				<string>{1, 1}</string>
+				<string>{1.2, 1.2}</string>
 				<key>Size</key>
 				<string>{28, 31}</string>
 				<key>Tag</key>
@@ -7862,9 +7890,9 @@
 				<key>IsInParallax</key>
 				<false/>
 				<key>Locked</key>
-				<true/>
+				<false/>
 				<key>Opacity</key>
-				<real>0.0</real>
+				<real>1</real>
 				<key>PathIsCyclic</key>
 				<false/>
 				<key>PathName</key>
@@ -7876,177 +7904,11 @@
 				<key>PathStartPoint</key>
 				<integer>0</integer>
 				<key>Position</key>
-				<string>{574.91876, 688}</string>
-				<key>SHName</key>
-				<string>eye15R</string>
-				<key>Scale</key>
-				<string>{1, 1}</string>
-				<key>Size</key>
-				<string>{42, 69}</string>
-				<key>Tag</key>
-				<integer>5</integer>
-				<key>UV</key>
-				<string>{{0, 68}, {42, 69}}</string>
-				<key>UniqueName</key>
-				<string>eye15R</string>
-				<key>ZOrder</key>
-				<integer>16</integer>
-			</dict>
-			<key>PhysicProperties</key>
-			<dict>
-				<key>Category</key>
-				<integer>1</integer>
-				<key>Density</key>
-				<real>0.20000000298023224</real>
-				<key>FixedRot</key>
-				<false/>
-				<key>Friction</key>
-				<real>0.20000000298023224</real>
-				<key>Group</key>
-				<integer>0</integer>
-				<key>IsCircle</key>
-				<false/>
-				<key>IsSenzor</key>
-				<false/>
-				<key>Mask</key>
-				<integer>65535</integer>
-				<key>Restitution</key>
-				<real>0.20000000298023224</real>
-				<key>ShapeBorder</key>
-				<string>{0, 0}</string>
-				<key>ShapeFixtures</key>
-				<array>
-					<array>
-						<string>{-18, 23.25}</string>
-						<string>{-20, 19.25}</string>
-						<string>{-21, 10.75}</string>
-						<string>{-21, 2.25}</string>
-						<string>{20.549999, 5.25}</string>
-						<string>{20.5, 19.75}</string>
-						<string>{-4, 33.75}</string>
-						<string>{-8.5, 32.25}</string>
-					</array>
-					<array>
-						<string>{16, -14.75}</string>
-						<string>{20.549999, 5.25}</string>
-						<string>{-21, 2.25}</string>
-						<string>{-18.5, -7.25}</string>
-						<string>{-17, -11.25}</string>
-						<string>{-13.5, -18.25}</string>
-						<string>{-12.5, -19.75}</string>
-					</array>
-					<array>
-						<string>{-21, 10.75}</string>
-						<string>{-20, 19.25}</string>
-						<string>{-20.5, 17.75}</string>
-					</array>
-					<array>
-						<string>{-0, 34.75}</string>
-						<string>{-4, 33.75}</string>
-						<string>{20.5, 19.75}</string>
-						<string>{19.5, 23.25}</string>
-						<string>{19, 24.75}</string>
-						<string>{18, 26.75}</string>
-						<string>{16, 29.75}</string>
-						<string>{10.5, 34.25}</string>
-					</array>
-					<array>
-						<string>{10.5, 34.25}</string>
-						<string>{16, 29.75}</string>
-						<string>{12.5, 33.25}</string>
-					</array>
-					<array>
-						<string>{-15, 27.75}</string>
-						<string>{-16.5, 25.75}</string>
-						<string>{-18, 23.25}</string>
-						<string>{-8.5, 32.25}</string>
-						<string>{-10.5, 31.25}</string>
-						<string>{-12, 30.25}</string>
-						<string>{-14, 28.75}</string>
-					</array>
-					<array>
-						<string>{16, -14.75}</string>
-						<string>{-12.5, -19.75}</string>
-						<string>{-8.5, -24.75}</string>
-						<string>{-5.5, -27.75}</string>
-						<string>{2.5, -33.75}</string>
-						<string>{12.5, -27.75}</string>
-					</array>
-					<array>
-						<string>{16, -14.75}</string>
-						<string>{8.5, 34.699997}</string>
-						<string>{3.5, -34.300003}</string>
-						<string>{11.5, -30.25}</string>
-						<string>{12, -29.25}</string>
-						<string>{12.5, -27.75}</string>
-					</array>
-					<array>
-						<string>{12, -29.25}</string>
-						<string>{12.5, -27.75}</string>
-						<string>{2.5, -33.75}</string>
-						<string>{5.5, -34.25}</string>
-						<string>{7.5, -33.75}</string>
-						<string>{8.5, -33.25}</string>
-						<string>{11.5, -30.25}</string>
-					</array>
-					<array>
-						<string>{5.5, -34.25}</string>
-						<string>{7.5, -33.75}</string>
-						<string>{8.5, -33.25}</string>
-						<string>{11.5, -30.25}</string>
-						<string>{3.5, -34.300003}</string>
-					</array>
-					<array>
-						<string>{-0, 34.75}</string>
-						<string>{10.5, 34.25}</string>
-						<string>{8.5, 34.699997}</string>
-					</array>
-				</array>
-				<key>Type</key>
-				<integer>0</integer>
-			</dict>
-		</dict>
-		<dict>
-			<key>GeneralProperties</key>
-			<dict>
-				<key>Angle</key>
-				<real>0.0</real>
-				<key>AnimAtStart</key>
-				<true/>
-				<key>AnimLoop</key>
-				<false/>
-				<key>AnimName</key>
-				<string></string>
-				<key>AnimRepetitions</key>
-				<integer>1</integer>
-				<key>AnimSpeed</key>
-				<real>0.30000001192092896</real>
-				<key>Color</key>
-				<string>{{1, 1}, {1, 1}}</string>
-				<key>Image</key>
-				<string>eyes.png</string>
-				<key>IsInParallax</key>
-				<false/>
-				<key>Locked</key>
-				<true/>
-				<key>Opacity</key>
-				<real>0.0</real>
-				<key>PathIsCyclic</key>
-				<false/>
-				<key>PathName</key>
-				<string>None</string>
-				<key>PathOtherEnd</key>
-				<false/>
-				<key>PathSpeed</key>
-				<real>5</real>
-				<key>PathStartPoint</key>
-				<integer>0</integer>
-				<key>Position</key>
-				<string>{624, 690.16248}</string>
+				<string>{599.99854, 702.16315}</string>
 				<key>SHName</key>
 				<string>eye20_1</string>
 				<key>Scale</key>
-				<string>{1, 1}</string>
+				<string>{1.3, 1.3}</string>
 				<key>Size</key>
 				<string>{36, 39}</string>
 				<key>Tag</key>
@@ -8054,7 +7916,7 @@
 				<key>UV</key>
 				<string>{{169, 75}, {36, 39}}</string>
 				<key>UniqueName</key>
-				<string>eye20_1</string>
+				<string>eye23</string>
 				<key>ZOrder</key>
 				<integer>16</integer>
 			</dict>
@@ -8142,9 +8004,9 @@
 				<key>IsInParallax</key>
 				<false/>
 				<key>Locked</key>
-				<true/>
+				<false/>
 				<key>Opacity</key>
-				<real>0.0</real>
+				<real>1</real>
 				<key>PathIsCyclic</key>
 				<false/>
 				<key>PathName</key>
@@ -8156,11 +8018,11 @@
 				<key>PathStartPoint</key>
 				<integer>0</integer>
 				<key>Position</key>
-				<string>{662.48743, 690.16248}</string>
+				<string>{666.08771, 705.76343}</string>
 				<key>SHName</key>
 				<string>eye1L_1</string>
 				<key>Scale</key>
-				<string>{1, 1}</string>
+				<string>{1.3, 1.2}</string>
 				<key>Size</key>
 				<string>{30, 31}</string>
 				<key>Tag</key>
@@ -8274,9 +8136,9 @@
 				<key>IsInParallax</key>
 				<false/>
 				<key>Locked</key>
-				<true/>
+				<false/>
 				<key>Opacity</key>
-				<real>0.0</real>
+				<real>1</real>
 				<key>PathIsCyclic</key>
 				<false/>
 				<key>PathName</key>
@@ -8288,11 +8150,11 @@
 				<key>PathStartPoint</key>
 				<integer>0</integer>
 				<key>Position</key>
-				<string>{692.32495, 692.32495}</string>
+				<string>{716.32629, 699.52539}</string>
 				<key>SHName</key>
 				<string>eye3R</string>
 				<key>Scale</key>
-				<string>{1, 1}</string>
+				<string>{1.5, 1.5}</string>
 				<key>Size</key>
 				<string>{16, 32}</string>
 				<key>Tag</key>
@@ -8393,7 +8255,7 @@
 				<key>Locked</key>
 				<false/>
 				<key>Opacity</key>
-				<real>0.0</real>
+				<real>1</real>
 				<key>PathIsCyclic</key>
 				<false/>
 				<key>PathName</key>
@@ -8527,9 +8389,9 @@
 				<key>IsInParallax</key>
 				<false/>
 				<key>Locked</key>
-				<true/>
+				<false/>
 				<key>Opacity</key>
-				<real>0.0</real>
+				<real>1</real>
 				<key>PathIsCyclic</key>
 				<false/>
 				<key>PathName</key>
@@ -8541,131 +8403,11 @@
 				<key>PathStartPoint</key>
 				<integer>0</integer>
 				<key>Position</key>
-				<string>{725.91876, 693.61902}</string>
-				<key>SHName</key>
-				<string>eye5</string>
-				<key>Scale</key>
-				<string>{1, 1}</string>
-				<key>Size</key>
-				<string>{34, 15}</string>
-				<key>Tag</key>
-				<integer>5</integer>
-				<key>UV</key>
-				<string>{{191, 212}, {34, 15}}</string>
-				<key>UniqueName</key>
-				<string>eye5</string>
-				<key>ZOrder</key>
-				<integer>16</integer>
-			</dict>
-			<key>PhysicProperties</key>
-			<dict>
-				<key>Category</key>
-				<integer>1</integer>
-				<key>Density</key>
-				<real>0.20000000298023224</real>
-				<key>FixedRot</key>
-				<false/>
-				<key>Friction</key>
-				<real>0.20000000298023224</real>
-				<key>Group</key>
-				<integer>0</integer>
-				<key>IsCircle</key>
-				<false/>
-				<key>IsSenzor</key>
-				<false/>
-				<key>Mask</key>
-				<integer>65535</integer>
-				<key>Restitution</key>
-				<real>0.20000000298023224</real>
-				<key>ShapeBorder</key>
-				<string>{0, 0}</string>
-				<key>ShapeFixtures</key>
-				<array>
-					<array>
-						<string>{12.25, -7}</string>
-						<string>{16.800003, -6}</string>
-						<string>{16.75, -5}</string>
-						<string>{16.25, -4}</string>
-						<string>{13.75, 0}</string>
-						<string>{10.25, -7.0500031}</string>
-					</array>
-					<array>
-						<string>{13.25, 0.5}</string>
-						<string>{3.25, 4}</string>
-						<string>{-10.25, 7.4499969}</string>
-						<string>{-4.75, -6.5}</string>
-						<string>{10.25, -7.0500031}</string>
-						<string>{16.25, -4}</string>
-						<string>{13.75, 0}</string>
-					</array>
-					<array>
-						<string>{-14.25, -4.5}</string>
-						<string>{-4.75, -6.5}</string>
-						<string>{-10.25, 7.4499969}</string>
-						<string>{-13.25, 7.5}</string>
-						<string>{-16.25, 4.5}</string>
-						<string>{-16.75, 2.5}</string>
-						<string>{-17.25, 0}</string>
-						<string>{-16.25, -3.5}</string>
-					</array>
-					<array>
-						<string>{-17.25, -2}</string>
-						<string>{-16.75, -3}</string>
-						<string>{-16.25, -3.5}</string>
-						<string>{-17.25, 0}</string>
-					</array>
-					<array>
-						<string>{-15.75, 6}</string>
-						<string>{-16.25, 4.5}</string>
-						<string>{-13.25, 7.5}</string>
-						<string>{-14.75, 7}</string>
-					</array>
-				</array>
-				<key>Type</key>
-				<integer>0</integer>
-			</dict>
-		</dict>
-		<dict>
-			<key>GeneralProperties</key>
-			<dict>
-				<key>Angle</key>
-				<real>0.0</real>
-				<key>AnimAtStart</key>
-				<true/>
-				<key>AnimLoop</key>
-				<false/>
-				<key>AnimName</key>
-				<string></string>
-				<key>AnimRepetitions</key>
-				<integer>1</integer>
-				<key>AnimSpeed</key>
-				<real>0.30000001192092896</real>
-				<key>Color</key>
-				<string>{{1, 1}, {1, 1}}</string>
-				<key>Image</key>
-				<string>eyes.png</string>
-				<key>IsInParallax</key>
-				<false/>
-				<key>Locked</key>
-				<true/>
-				<key>Opacity</key>
-				<real>0.0</real>
-				<key>PathIsCyclic</key>
-				<false/>
-				<key>PathName</key>
-				<string>None</string>
-				<key>PathOtherEnd</key>
-				<false/>
-				<key>PathSpeed</key>
-				<real>5</real>
-				<key>PathStartPoint</key>
-				<integer>0</integer>
-				<key>Position</key>
-				<string>{763.10632, 691.18762}</string>
+				<string>{767.90662, 694.78784}</string>
 				<key>SHName</key>
 				<string>eye19</string>
 				<key>Scale</key>
-				<string>{1, 1}</string>
+				<string>{1.2, 1.2}</string>
 				<key>Size</key>
 				<string>{35, 50}</string>
 				<key>Tag</key>
@@ -8764,9 +8506,9 @@
 				<key>IsInParallax</key>
 				<false/>
 				<key>Locked</key>
-				<true/>
+				<false/>
 				<key>Opacity</key>
-				<real>0.0</real>
+				<real>1</real>
 				<key>PathIsCyclic</key>
 				<false/>
 				<key>PathName</key>
@@ -8778,11 +8520,11 @@
 				<key>PathStartPoint</key>
 				<integer>0</integer>
 				<key>Position</key>
-				<string>{806.56866, 694.94391}</string>
+				<string>{817.36932, 702.14435}</string>
 				<key>SHName</key>
 				<string>eye11L_2</string>
 				<key>Scale</key>
-				<string>{1, 1}</string>
+				<string>{1.2, 1.2}</string>
 				<key>Size</key>
 				<string>{23, 32}</string>
 				<key>Tag</key>
@@ -8889,9 +8631,9 @@
 				<key>IsInParallax</key>
 				<false/>
 				<key>Locked</key>
-				<true/>
+				<false/>
 				<key>Opacity</key>
-				<real>0.0</real>
+				<real>1</real>
 				<key>PathIsCyclic</key>
 				<false/>
 				<key>PathName</key>
@@ -8903,11 +8645,11 @@
 				<key>PathStartPoint</key>
 				<integer>0</integer>
 				<key>Position</key>
-				<string>{840.56854, 698}</string>
+				<string>{859.76971, 699.20007}</string>
 				<key>SHName</key>
 				<string>eye16L.</string>
 				<key>Scale</key>
-				<string>{1, 1}</string>
+				<string>{1.2, 1.2}</string>
 				<key>Size</key>
 				<string>{21, 46}</string>
 				<key>Tag</key>
@@ -9025,9 +8767,9 @@
 				<key>IsInParallax</key>
 				<false/>
 				<key>Locked</key>
-				<true/>
+				<false/>
 				<key>Opacity</key>
-				<real>0.0</real>
+				<real>1</real>
 				<key>PathIsCyclic</key>
 				<false/>
 				<key>PathName</key>
@@ -9039,11 +8781,11 @@
 				<key>PathStartPoint</key>
 				<integer>0</integer>
 				<key>Position</key>
-				<string>{874.78705, 699}</string>
+				<string>{910.78918, 699}</string>
 				<key>SHName</key>
 				<string>eye16R</string>
 				<key>Scale</key>
-				<string>{1, 1}</string>
+				<string>{1.2, 1.2}</string>
 				<key>Size</key>
 				<string>{22, 44}</string>
 				<key>Tag</key>
@@ -9128,131 +8870,6 @@
 						<string>{4.5, -19.75}</string>
 						<string>{5, -19.25}</string>
 						<string>{3, -20.75}</string>
-					</array>
-				</array>
-				<key>Type</key>
-				<integer>0</integer>
-			</dict>
-		</dict>
-		<dict>
-			<key>GeneralProperties</key>
-			<dict>
-				<key>Angle</key>
-				<real>0.0</real>
-				<key>AnimAtStart</key>
-				<true/>
-				<key>AnimLoop</key>
-				<false/>
-				<key>AnimName</key>
-				<string></string>
-				<key>AnimRepetitions</key>
-				<integer>1</integer>
-				<key>AnimSpeed</key>
-				<real>0.30000001192092896</real>
-				<key>Color</key>
-				<string>{{1, 1}, {1, 1}}</string>
-				<key>Image</key>
-				<string>eyes.png</string>
-				<key>IsInParallax</key>
-				<false/>
-				<key>Locked</key>
-				<true/>
-				<key>Opacity</key>
-				<real>0.0</real>
-				<key>PathIsCyclic</key>
-				<false/>
-				<key>PathName</key>
-				<string>None</string>
-				<key>PathOtherEnd</key>
-				<false/>
-				<key>PathSpeed</key>
-				<real>5</real>
-				<key>PathStartPoint</key>
-				<integer>0</integer>
-				<key>Position</key>
-				<string>{908.27441, 698.83752}</string>
-				<key>SHName</key>
-				<string>eye11L_2</string>
-				<key>Scale</key>
-				<string>{1, 1}</string>
-				<key>Size</key>
-				<string>{23, 32}</string>
-				<key>Tag</key>
-				<integer>5</integer>
-				<key>UV</key>
-				<string>{{164, 198}, {23, 32}}</string>
-				<key>UniqueName</key>
-				<string>eye11L_2_1</string>
-				<key>ZOrder</key>
-				<integer>16</integer>
-			</dict>
-			<key>PhysicProperties</key>
-			<dict>
-				<key>Category</key>
-				<integer>1</integer>
-				<key>Density</key>
-				<real>0.20000000298023224</real>
-				<key>FixedRot</key>
-				<false/>
-				<key>Friction</key>
-				<real>0.20000000298023224</real>
-				<key>Group</key>
-				<integer>0</integer>
-				<key>IsCircle</key>
-				<false/>
-				<key>IsSenzor</key>
-				<false/>
-				<key>Mask</key>
-				<integer>65535</integer>
-				<key>Restitution</key>
-				<real>0.20000000298023224</real>
-				<key>ShapeBorder</key>
-				<string>{0, 0}</string>
-				<key>ShapeFixtures</key>
-				<array>
-					<array>
-						<string>{1.5, -14.75}</string>
-						<string>{3.5, -15.800003}</string>
-						<string>{10.5, -13.25}</string>
-						<string>{11.050003, -11.25}</string>
-						<string>{11, -6.25}</string>
-						<string>{10.5, -2.75}</string>
-						<string>{-4.5, -7.25}</string>
-						<string>{-1.5, -11.75}</string>
-					</array>
-					<array>
-						<string>{-11.5, 10.75}</string>
-						<string>{-10.5, 6.75}</string>
-						<string>{-3, 16.199997}</string>
-						<string>{-8, 16.25}</string>
-						<string>{-9, 15.75}</string>
-						<string>{-10.5, 14.25}</string>
-						<string>{-11, 13.25}</string>
-						<string>{-11.5, 11.75}</string>
-					</array>
-					<array>
-						<string>{-4.5, -7.25}</string>
-						<string>{10.5, -2.75}</string>
-						<string>{10, -0.75}</string>
-						<string>{9.5, 0.75}</string>
-						<string>{8, 4.25}</string>
-						<string>{3.5, 11.25}</string>
-						<string>{-9.5, 3.25}</string>
-					</array>
-					<array>
-						<string>{9.5, -15.25}</string>
-						<string>{10.5, -13.25}</string>
-						<string>{3.5, -15.800003}</string>
-						<string>{8.5, -15.75}</string>
-					</array>
-					<array>
-						<string>{-9.5, 3.25}</string>
-						<string>{3.5, 11.25}</string>
-						<string>{2.5, 12.75}</string>
-						<string>{1.5, 13.75}</string>
-						<string>{-0, 14.75}</string>
-						<string>{-3, 16.199997}</string>
-						<string>{-10.5, 6.75}</string>
 					</array>
 				</array>
 				<key>Type</key>
@@ -10410,7 +10027,7 @@
 			<string>UI_BODIES</string>
 		</array>
 		<key>TimeOfSave</key>
-		<real>344253993.36292201</real>
+		<real>344295177.65085602</real>
 	</dict>
 	<key>ShScenesURL</key>
 	<array>

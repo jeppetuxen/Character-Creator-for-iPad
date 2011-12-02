@@ -355,16 +355,16 @@ end
 return array
 end
 function playRandomSoundInArray(array)
-if array~=nil then
-local r = math.random(#array)
-sound = audio.play( array[r] )
-end
+	if array~=nil then
+		local r = math.random(#array)
+		sound = audio.play( array[r] )
+	end
 end
 
 voiceArrays = {}
 for i = 1,8 do
-local voiceArray = loadSoundsInArray("content/voices/voice"..i.."/",".mp3")
-voiceArrays[i] = voiceArray
+	local voiceArray = loadSoundsInArray("content/voices/voice"..i.."/",".mp3")
+	voiceArrays[i] = voiceArray
 end
 print("voicesArrays "..#voiceArrays)
 playRandomSoundInArray(voiceArrays[8])
@@ -380,7 +380,7 @@ print("farts"..#fartingSounds)
 
 ----------------------localGarbageBIN---------------------------------------
 garbage = display.newRoundedRect(200,650,750,100,20);
-garbage:setFillColor(255,0,0,100)
+garbage:setFillColor(255,142,185,200)
 garbage.strokeWidth = 4;
 garbage:setStrokeColor(0,0,0,100)
 garbageBounds = garbage.stageBounds
@@ -409,9 +409,9 @@ local eyesGroup = display.newGroup()
 eyesGroup.newObjectGroup = eyes_inScene
 
 for i = 1,#eyesUI do
-eyesUI[i].alpha = 1
-eyesUI[i]:addEventListener( "touch", onTouchCreateNewSprite )
-eyesGroup:insert(eyesUI[i])
+	eyesUI[i].alpha = 1
+	eyesUI[i]:addEventListener( "touch", onTouchCreateNewSprite )
+	eyesGroup:insert(eyesUI[i])
 end
 print(eyesGroup.numChildren)
 eyesGroup.alpha = 0
@@ -429,9 +429,9 @@ local headsGroup = display.newGroup()
 headsGroup.newObjectGroup = heads_inScene
 
 for i = 1,#headsUI do
-headsUI[i].alpha = 1
-headsUI[i]:addEventListener( "touch", onTouchCreateNewSprite )
-headsGroup:insert(headsUI[i])
+	headsUI[i].alpha = 1
+	headsUI[i]:addEventListener( "touch", onTouchCreateNewSprite )
+	headsGroup:insert(headsUI[i])
 end
 print(headsGroup.numChildren)
 headsGroup:setReferencePoint(display.CenterReferencePoint)
@@ -447,9 +447,9 @@ local armsGroup = display.newGroup()
 armsGroup.newObjectGroup = legsNArms_inScene
 
 for i = 1,#armsUI do
-armsUI[i].alpha = 1
-armsUI[i]:addEventListener( "touch", onTouchCreateNewSprite )
-armsGroup:insert(armsUI[i])
+	armsUI[i].alpha = 1
+	armsUI[i]:addEventListener( "touch", onTouchCreateNewSprite )
+	armsGroup:insert(armsUI[i])
 end
 print(armsGroup.numChildren)
 armsGroup:setReferencePoint(display.CenterReferencePoint)
@@ -466,9 +466,9 @@ local legsGroup = display.newGroup()
 legsGroup.newObjectGroup = legsNArms_inScene
 
 for i = 1,#legsUI do
-legsUI[i].alpha = 1
-legsUI[i]:addEventListener( "touch", onTouchCreateNewSprite )
-legsGroup:insert(legsUI[i])
+	legsUI[i].alpha = 1
+	legsUI[i]:addEventListener( "touch", onTouchCreateNewSprite )
+	legsGroup:insert(legsUI[i])
 end
 print(legsGroup.numChildren)
 legsGroup:setReferencePoint(display.CenterReferencePoint)
@@ -486,9 +486,9 @@ hairGroup.newObjectGroup = hair_inScene
 
 
 for i = 1,#hairUI do
-hairUI[i].alpha = 1
-hairUI[i]:addEventListener( "touch", onTouchCreateNewSprite )
-hairGroup:insert(hairUI[i])
+	hairUI[i].alpha = 1
+	hairUI[i]:addEventListener( "touch", onTouchCreateNewSprite )
+	hairGroup:insert(hairUI[i])
 end
 print(hairGroup.numChildren)
 hairGroup:setReferencePoint(display.CenterReferencePoint)
@@ -506,13 +506,13 @@ mouthGroup.newObjectGroup = mouths_inScene
 
 
 for i = 1,#mouthUI do
-if i<#voiceArrays then
-mouthUI[i].objectSounds= voiceArrays[i]
+	if i<#voiceArrays then
+		mouthUI[i].objectSounds= voiceArrays[i]
 
-end
-mouthUI[i].alpha = 1
-mouthUI[i]:addEventListener( "touch", onTouchCreateNewSprite )
-mouthGroup:insert(mouthUI[i])
+	end
+	mouthUI[i].alpha = 1
+	mouthUI[i]:addEventListener( "touch", onTouchCreateNewSprite )
+	mouthGroup:insert(mouthUI[i])
 end
 print("nr of mouths "..mouthGroup.numChildren)
 mouthGroup:setReferencePoint(display.CenterReferencePoint)
@@ -530,9 +530,9 @@ hatGroup.newObjectGroup = hat_inScene
 
 
 for i = 1,#hatUI do
-hatUI[i].alpha = 1
-hatUI[i]:addEventListener( "touch", onTouchCreateNewSprite )
-hatGroup:insert(hatUI[i])
+	hatUI[i].alpha = 1
+	hatUI[i]:addEventListener( "touch", onTouchCreateNewSprite )
+	hatGroup:insert(hatUI[i])
 end
 print(hatGroup.numChildren)
 hatGroup:setReferencePoint(display.CenterReferencePoint)
@@ -548,9 +548,9 @@ bodyUIGroup.newObjectGroup = body_inScene
 
 
 for i = 1,#bodyUI do
-bodyUI[i].alpha = 1
-bodyUI[i]:addEventListener( "touch", onTouchCreateNewSprite )
-bodyUIGroup:insert(bodyUI[i])
+	bodyUI[i].alpha = 1
+	bodyUI[i]:addEventListener( "touch", onTouchCreateNewSprite )
+	bodyUIGroup:insert(bodyUI[i])
 end
 print(bodyUIGroup.numChildren)
 bodyUIGroup:setReferencePoint(display.CenterReferencePoint)
@@ -726,16 +726,16 @@ function ScreenTouched(event)
 		Emitter.x = event.x
 		Emitter.y = event.y
 		-- TRIGGER THE EMITTERS
-     Particles.StartEmitter("E1")
-		
+		Particles.StartEmitter("E1")
+
 	elseif event.phase == "moved" then  
 		Emitter.x = event.x
 		Emitter.y = event.y
-		
+
 	elseif event.phase == "ended" then
 		Particles.StopEmitter("E1")
 		print(event.phase)
-		
+
 	end
 	return true
 end
