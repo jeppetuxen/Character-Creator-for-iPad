@@ -192,7 +192,7 @@
 				<key>ShapeFixtures</key>
 				<array/>
 				<key>Type</key>
-				<integer>0</integer>
+				<integer>3</integer>
 			</dict>
 		</dict>
 		<dict>
@@ -512,7 +512,7 @@
 				<key>ShapeFixtures</key>
 				<array/>
 				<key>Type</key>
-				<integer>0</integer>
+				<integer>3</integer>
 			</dict>
 		</dict>
 		<dict>
@@ -1031,7 +1031,7 @@
 				<key>PathStartPoint</key>
 				<integer>0</integer>
 				<key>Position</key>
-				<string>{40.484425, 607.29114}</string>
+				<string>{39.184353, 607.29114}</string>
 				<key>SHName</key>
 				<string>RobotArmL</string>
 				<key>Scale</key>
@@ -1111,7 +1111,7 @@
 				<key>PathStartPoint</key>
 				<integer>0</integer>
 				<key>Position</key>
-				<string>{121.33768, 630.00684}</string>
+				<string>{120.03761, 630.00684}</string>
 				<key>SHName</key>
 				<string>RobotBody</string>
 				<key>Scale</key>
@@ -1259,7 +1259,7 @@
 				<key>Locked</key>
 				<true/>
 				<key>Opacity</key>
-				<real>0.0</real>
+				<real>1</real>
 				<key>PathIsCyclic</key>
 				<false/>
 				<key>PathName</key>
@@ -1275,7 +1275,7 @@
 				<key>SHName</key>
 				<string>arm1L</string>
 				<key>Scale</key>
-				<string>{0.5, 0.5}</string>
+				<string>{1, 1}</string>
 				<key>Size</key>
 				<string>{105, 171}</string>
 				<key>Tag</key>
@@ -1380,7 +1380,7 @@
 					</array>
 				</array>
 				<key>Type</key>
-				<integer>0</integer>
+				<integer>2</integer>
 			</dict>
 		</dict>
 		<dict>
@@ -1423,7 +1423,7 @@
 				<key>SHName</key>
 				<string>arm1R</string>
 				<key>Scale</key>
-				<string>{0.69999999, 0.5}</string>
+				<string>{1, 1}</string>
 				<key>Size</key>
 				<string>{73, 175}</string>
 				<key>Tag</key>
@@ -1519,7 +1519,7 @@
 					</array>
 				</array>
 				<key>Type</key>
-				<integer>0</integer>
+				<integer>2</integer>
 			</dict>
 		</dict>
 		<dict>
@@ -1562,7 +1562,7 @@
 				<key>SHName</key>
 				<string>arm4L</string>
 				<key>Scale</key>
-				<string>{0.69999999, 0.69999999}</string>
+				<string>{1, 1}</string>
 				<key>Size</key>
 				<string>{71, 117}</string>
 				<key>Tag</key>
@@ -1631,7 +1631,7 @@
 					</array>
 				</array>
 				<key>Type</key>
-				<integer>0</integer>
+				<integer>2</integer>
 			</dict>
 		</dict>
 		<dict>
@@ -1674,7 +1674,7 @@
 				<key>SHName</key>
 				<string>arm4R</string>
 				<key>Scale</key>
-				<string>{0.69999999, 0.69999999}</string>
+				<string>{1, 1}</string>
 				<key>Size</key>
 				<string>{66, 107}</string>
 				<key>Tag</key>
@@ -1750,7 +1750,7 @@
 					</array>
 				</array>
 				<key>Type</key>
-				<integer>0</integer>
+				<integer>2</integer>
 			</dict>
 		</dict>
 		<dict>
@@ -1793,7 +1793,7 @@
 				<key>SHName</key>
 				<string>arm5L</string>
 				<key>Scale</key>
-				<string>{0.80000001, 0.80000001}</string>
+				<string>{1, 1}</string>
 				<key>Size</key>
 				<string>{95, 64}</string>
 				<key>Tag</key>
@@ -1910,7 +1910,7 @@
 					</array>
 				</array>
 				<key>Type</key>
-				<integer>0</integer>
+				<integer>2</integer>
 			</dict>
 		</dict>
 		<dict>
@@ -1953,7 +1953,7 @@
 				<key>SHName</key>
 				<string>arm5R</string>
 				<key>Scale</key>
-				<string>{0.80000001, 0.80000001}</string>
+				<string>{1, 1}</string>
 				<key>Size</key>
 				<string>{98, 56}</string>
 				<key>Tag</key>
@@ -2068,7 +2068,7 @@
 					</array>
 				</array>
 				<key>Type</key>
-				<integer>0</integer>
+				<integer>2</integer>
 			</dict>
 		</dict>
 		<dict>
@@ -2111,7 +2111,7 @@
 				<key>SHName</key>
 				<string>arm2L</string>
 				<key>Scale</key>
-				<string>{0.89999998, 0.89999998}</string>
+				<string>{1, 1}</string>
 				<key>Size</key>
 				<string>{65, 78}</string>
 				<key>Tag</key>
@@ -2230,7 +2230,7 @@
 					</array>
 				</array>
 				<key>Type</key>
-				<integer>0</integer>
+				<integer>2</integer>
 			</dict>
 		</dict>
 		<dict>
@@ -2273,7 +2273,7 @@
 				<key>SHName</key>
 				<string>arm2R</string>
 				<key>Scale</key>
-				<string>{0.89999998, 0.89999998}</string>
+				<string>{1, 1}</string>
 				<key>Size</key>
 				<string>{62, 70}</string>
 				<key>Tag</key>
@@ -2397,7 +2397,7 @@
 					</array>
 				</array>
 				<key>Type</key>
-				<integer>0</integer>
+				<integer>2</integer>
 			</dict>
 		</dict>
 		<dict>
@@ -2440,7 +2440,7 @@
 				<key>SHName</key>
 				<string>arm3L</string>
 				<key>Scale</key>
-				<string>{0.89999998, 0.89999998}</string>
+				<string>{1, 1}</string>
 				<key>Size</key>
 				<string>{84, 37}</string>
 				<key>Tag</key>
@@ -2504,7 +2504,7 @@
 					</array>
 				</array>
 				<key>Type</key>
-				<integer>0</integer>
+				<integer>2</integer>
 			</dict>
 		</dict>
 		<dict>
@@ -2547,7 +2547,7 @@
 				<key>SHName</key>
 				<string>arm3R</string>
 				<key>Scale</key>
-				<string>{0.89999998, 0.89999998}</string>
+				<string>{1, 1}</string>
 				<key>Size</key>
 				<string>{87, 35}</string>
 				<key>Tag</key>
@@ -2629,7 +2629,7 @@
 					</array>
 				</array>
 				<key>Type</key>
-				<integer>0</integer>
+				<integer>2</integer>
 			</dict>
 		</dict>
 		<dict>
@@ -2672,7 +2672,7 @@
 				<key>SHName</key>
 				<string>leg4L</string>
 				<key>Scale</key>
-				<string>{0.60000002, 0.60000002}</string>
+				<string>{1, 1}</string>
 				<key>Size</key>
 				<string>{72, 137}</string>
 				<key>Tag</key>
@@ -2794,7 +2794,7 @@
 					</array>
 				</array>
 				<key>Type</key>
-				<integer>0</integer>
+				<integer>2</integer>
 			</dict>
 		</dict>
 		<dict>
@@ -2837,7 +2837,7 @@
 				<key>SHName</key>
 				<string>leg4R</string>
 				<key>Scale</key>
-				<string>{0.60000002, 0.60000002}</string>
+				<string>{1, 1}</string>
 				<key>Size</key>
 				<string>{69, 138}</string>
 				<key>Tag</key>
@@ -2949,7 +2949,7 @@
 					</array>
 				</array>
 				<key>Type</key>
-				<integer>0</integer>
+				<integer>2</integer>
 			</dict>
 		</dict>
 		<dict>
@@ -2992,7 +2992,7 @@
 				<key>SHName</key>
 				<string>leg5R</string>
 				<key>Scale</key>
-				<string>{0.60000002, 0.60000002}</string>
+				<string>{1, 1}</string>
 				<key>Size</key>
 				<string>{66, 141}</string>
 				<key>Tag</key>
@@ -3100,7 +3100,7 @@
 					</array>
 				</array>
 				<key>Type</key>
-				<integer>0</integer>
+				<integer>2</integer>
 			</dict>
 		</dict>
 		<dict>
@@ -3143,7 +3143,7 @@
 				<key>SHName</key>
 				<string>leg5L</string>
 				<key>Scale</key>
-				<string>{0.60000002, 0.60000002}</string>
+				<string>{1, 1}</string>
 				<key>Size</key>
 				<string>{64, 139}</string>
 				<key>Tag</key>
@@ -3261,7 +3261,7 @@
 					</array>
 				</array>
 				<key>Type</key>
-				<integer>0</integer>
+				<integer>2</integer>
 			</dict>
 		</dict>
 		<dict>
@@ -3304,7 +3304,7 @@
 				<key>SHName</key>
 				<string>leg3L</string>
 				<key>Scale</key>
-				<string>{0.69999999, 0.69999999}</string>
+				<string>{1, 1}</string>
 				<key>Size</key>
 				<string>{45, 124}</string>
 				<key>Tag</key>
@@ -3405,7 +3405,7 @@
 					</array>
 				</array>
 				<key>Type</key>
-				<integer>0</integer>
+				<integer>2</integer>
 			</dict>
 		</dict>
 		<dict>
@@ -3448,7 +3448,7 @@
 				<key>SHName</key>
 				<string>leg3R</string>
 				<key>Scale</key>
-				<string>{0.69999999, 0.69999999}</string>
+				<string>{1, 1}</string>
 				<key>Size</key>
 				<string>{39, 126}</string>
 				<key>Tag</key>
@@ -3545,7 +3545,7 @@
 					</array>
 				</array>
 				<key>Type</key>
-				<integer>0</integer>
+				<integer>2</integer>
 			</dict>
 		</dict>
 		<dict>
@@ -3588,7 +3588,7 @@
 				<key>SHName</key>
 				<string>leg1L</string>
 				<key>Scale</key>
-				<string>{0.80000001, 0.80000001}</string>
+				<string>{1, 1}</string>
 				<key>Size</key>
 				<string>{42, 94}</string>
 				<key>Tag</key>
@@ -3665,7 +3665,7 @@
 					</array>
 				</array>
 				<key>Type</key>
-				<integer>0</integer>
+				<integer>2</integer>
 			</dict>
 		</dict>
 		<dict>
@@ -3708,7 +3708,7 @@
 				<key>SHName</key>
 				<string>leg1R</string>
 				<key>Scale</key>
-				<string>{0.80000001, 0.80000001}</string>
+				<string>{1, 1}</string>
 				<key>Size</key>
 				<string>{42, 95}</string>
 				<key>Tag</key>
@@ -3776,7 +3776,7 @@
 					</array>
 				</array>
 				<key>Type</key>
-				<integer>0</integer>
+				<integer>2</integer>
 			</dict>
 		</dict>
 		<dict>
@@ -3819,7 +3819,7 @@
 				<key>SHName</key>
 				<string>leg2L</string>
 				<key>Scale</key>
-				<string>{0.80000001, 0.80000001}</string>
+				<string>{1, 1}</string>
 				<key>Size</key>
 				<string>{33, 94}</string>
 				<key>Tag</key>
@@ -3943,7 +3943,7 @@
 					</array>
 				</array>
 				<key>Type</key>
-				<integer>0</integer>
+				<integer>2</integer>
 			</dict>
 		</dict>
 		<dict>
@@ -3986,7 +3986,7 @@
 				<key>SHName</key>
 				<string>leg2R</string>
 				<key>Scale</key>
-				<string>{0.80000001, 0.80000001}</string>
+				<string>{1, 1}</string>
 				<key>Size</key>
 				<string>{33, 94}</string>
 				<key>Tag</key>
@@ -4116,7 +4116,7 @@
 					</array>
 				</array>
 				<key>Type</key>
-				<integer>0</integer>
+				<integer>2</integer>
 			</dict>
 		</dict>
 		<dict>
@@ -4159,7 +4159,7 @@
 				<key>SHName</key>
 				<string>body5</string>
 				<key>Scale</key>
-				<string>{0.5, 0.5}</string>
+				<string>{1, 1}</string>
 				<key>Size</key>
 				<string>{218, 235}</string>
 				<key>Tag</key>
@@ -4293,7 +4293,7 @@
 				<key>SHName</key>
 				<string>body2</string>
 				<key>Scale</key>
-				<string>{0.5, 0.5}</string>
+				<string>{1, 1}</string>
 				<key>Size</key>
 				<string>{172, 258}</string>
 				<key>Tag</key>
@@ -4445,7 +4445,7 @@
 				<key>SHName</key>
 				<string>body1</string>
 				<key>Scale</key>
-				<string>{0.60000002, 0.60000002}</string>
+				<string>{1, 1}</string>
 				<key>Size</key>
 				<string>{152, 188}</string>
 				<key>Tag</key>
@@ -4645,7 +4645,7 @@
 				<key>SHName</key>
 				<string>body3</string>
 				<key>Scale</key>
-				<string>{0.60000002, 0.60000002}</string>
+				<string>{1, 1}</string>
 				<key>Size</key>
 				<string>{118, 181}</string>
 				<key>Tag</key>
@@ -4760,7 +4760,7 @@
 				<key>SHName</key>
 				<string>body4_1</string>
 				<key>Scale</key>
-				<string>{0.60000002, 0.60000002}</string>
+				<string>{1, 1}</string>
 				<key>Size</key>
 				<string>{64, 203}</string>
 				<key>Tag</key>
@@ -4956,7 +4956,7 @@
 				<key>SHName</key>
 				<string>head2</string>
 				<key>Scale</key>
-				<string>{0.80000001, 0.80000001}</string>
+				<string>{1, 1}</string>
 				<key>Size</key>
 				<string>{109, 132}</string>
 				<key>Tag</key>
@@ -5118,7 +5118,7 @@
 					</array>
 				</array>
 				<key>Type</key>
-				<integer>0</integer>
+				<integer>2</integer>
 			</dict>
 		</dict>
 		<dict>
@@ -5329,7 +5329,7 @@
 					</array>
 				</array>
 				<key>Type</key>
-				<integer>0</integer>
+				<integer>2</integer>
 			</dict>
 		</dict>
 		<dict>
@@ -5510,7 +5510,7 @@
 					</array>
 				</array>
 				<key>Type</key>
-				<integer>0</integer>
+				<integer>2</integer>
 			</dict>
 		</dict>
 		<dict>
@@ -5553,7 +5553,7 @@
 				<key>SHName</key>
 				<string>head4</string>
 				<key>Scale</key>
-				<string>{0.80000001, 0.69999999}</string>
+				<string>{1, 1}</string>
 				<key>Size</key>
 				<string>{53, 176}</string>
 				<key>Tag</key>
@@ -5698,7 +5698,7 @@
 					</array>
 				</array>
 				<key>Type</key>
-				<integer>0</integer>
+				<integer>2</integer>
 			</dict>
 		</dict>
 		<dict>
@@ -5741,7 +5741,7 @@
 				<key>SHName</key>
 				<string>head5</string>
 				<key>Scale</key>
-				<string>{0.80000001, 0.80000001}</string>
+				<string>{1, 1}</string>
 				<key>Size</key>
 				<string>{72, 141}</string>
 				<key>Tag</key>
@@ -5877,7 +5877,7 @@
 					</array>
 				</array>
 				<key>Type</key>
-				<integer>0</integer>
+				<integer>2</integer>
 			</dict>
 		</dict>
 		<dict>
@@ -5920,7 +5920,7 @@
 				<key>SHName</key>
 				<string>mouth9</string>
 				<key>Scale</key>
-				<string>{1.2, 1.2}</string>
+				<string>{1, 1}</string>
 				<key>Size</key>
 				<string>{45, 37}</string>
 				<key>Tag</key>
@@ -5996,7 +5996,7 @@
 					</array>
 				</array>
 				<key>Type</key>
-				<integer>0</integer>
+				<integer>2</integer>
 			</dict>
 		</dict>
 		<dict>
@@ -6039,7 +6039,7 @@
 				<key>SHName</key>
 				<string>mouth5</string>
 				<key>Scale</key>
-				<string>{1.2, 1.2}</string>
+				<string>{1, 1}</string>
 				<key>Size</key>
 				<string>{47, 26}</string>
 				<key>Tag</key>
@@ -6130,7 +6130,7 @@
 					</array>
 				</array>
 				<key>Type</key>
-				<integer>0</integer>
+				<integer>2</integer>
 			</dict>
 		</dict>
 		<dict>
@@ -6173,7 +6173,7 @@
 				<key>SHName</key>
 				<string>mouth3</string>
 				<key>Scale</key>
-				<string>{1.2, 1.2}</string>
+				<string>{1, 1}</string>
 				<key>Size</key>
 				<string>{74, 27}</string>
 				<key>Tag</key>
@@ -6265,7 +6265,7 @@
 					</array>
 				</array>
 				<key>Type</key>
-				<integer>0</integer>
+				<integer>2</integer>
 			</dict>
 		</dict>
 		<dict>
@@ -6308,7 +6308,7 @@
 				<key>SHName</key>
 				<string>mouth7</string>
 				<key>Scale</key>
-				<string>{1.2, 1.2}</string>
+				<string>{1, 1}</string>
 				<key>Size</key>
 				<string>{34, 40}</string>
 				<key>Tag</key>
@@ -6420,7 +6420,7 @@
 					</array>
 				</array>
 				<key>Type</key>
-				<integer>0</integer>
+				<integer>2</integer>
 			</dict>
 		</dict>
 		<dict>
@@ -6463,7 +6463,7 @@
 				<key>SHName</key>
 				<string>mouth2</string>
 				<key>Scale</key>
-				<string>{1.4, 1.4}</string>
+				<string>{1, 1}</string>
 				<key>Size</key>
 				<string>{32, 31}</string>
 				<key>Tag</key>
@@ -6550,7 +6550,7 @@
 					</array>
 				</array>
 				<key>Type</key>
-				<integer>0</integer>
+				<integer>2</integer>
 			</dict>
 		</dict>
 		<dict>
@@ -6593,7 +6593,7 @@
 				<key>SHName</key>
 				<string>mouth8</string>
 				<key>Scale</key>
-				<string>{1.2, 1.2}</string>
+				<string>{1, 1}</string>
 				<key>Size</key>
 				<string>{45, 31}</string>
 				<key>Tag</key>
@@ -6660,7 +6660,7 @@
 					</array>
 				</array>
 				<key>Type</key>
-				<integer>0</integer>
+				<integer>2</integer>
 			</dict>
 		</dict>
 		<dict>
@@ -6703,7 +6703,7 @@
 				<key>SHName</key>
 				<string>mouth1</string>
 				<key>Scale</key>
-				<string>{1.6, 1.6}</string>
+				<string>{1, 1}</string>
 				<key>Size</key>
 				<string>{45, 14}</string>
 				<key>Tag</key>
@@ -6784,7 +6784,7 @@
 					</array>
 				</array>
 				<key>Type</key>
-				<integer>0</integer>
+				<integer>2</integer>
 			</dict>
 		</dict>
 		<dict>
@@ -6827,7 +6827,7 @@
 				<key>SHName</key>
 				<string>mouth6</string>
 				<key>Scale</key>
-				<string>{2, 2}</string>
+				<string>{1, 1}</string>
 				<key>Size</key>
 				<string>{10, 7}</string>
 				<key>Tag</key>
@@ -6885,7 +6885,7 @@
 					</array>
 				</array>
 				<key>Type</key>
-				<integer>0</integer>
+				<integer>2</integer>
 			</dict>
 		</dict>
 		<dict>
@@ -6928,7 +6928,7 @@
 				<key>SHName</key>
 				<string>mouth6.</string>
 				<key>Scale</key>
-				<string>{1.4, 1.4}</string>
+				<string>{1, 1}</string>
 				<key>Size</key>
 				<string>{47, 13}</string>
 				<key>Tag</key>
@@ -7008,7 +7008,7 @@
 					</array>
 				</array>
 				<key>Type</key>
-				<integer>0</integer>
+				<integer>2</integer>
 			</dict>
 		</dict>
 		<dict>
@@ -7051,7 +7051,7 @@
 				<key>SHName</key>
 				<string>mouth4</string>
 				<key>Scale</key>
-				<string>{1.6, 1.6}</string>
+				<string>{1, 1}</string>
 				<key>Size</key>
 				<string>{33, 14}</string>
 				<key>Tag</key>
@@ -7117,7 +7117,7 @@
 					</array>
 				</array>
 				<key>Type</key>
-				<integer>0</integer>
+				<integer>2</integer>
 			</dict>
 		</dict>
 		<dict>
@@ -7215,7 +7215,7 @@
 					</array>
 				</array>
 				<key>Type</key>
-				<integer>0</integer>
+				<integer>2</integer>
 			</dict>
 		</dict>
 		<dict>
@@ -7258,7 +7258,7 @@
 				<key>SHName</key>
 				<string>eye20</string>
 				<key>Scale</key>
-				<string>{0.80000001, 0.80000001}</string>
+				<string>{1, 1}</string>
 				<key>Size</key>
 				<string>{38, 72}</string>
 				<key>Tag</key>
@@ -7358,7 +7358,7 @@
 					</array>
 				</array>
 				<key>Type</key>
-				<integer>0</integer>
+				<integer>2</integer>
 			</dict>
 		</dict>
 		<dict>
@@ -7401,7 +7401,7 @@
 				<key>SHName</key>
 				<string>eye9</string>
 				<key>Scale</key>
-				<string>{0.80000001, 0.80000001}</string>
+				<string>{1, 1}</string>
 				<key>Size</key>
 				<string>{36, 70}</string>
 				<key>Tag</key>
@@ -7498,7 +7498,7 @@
 					</array>
 				</array>
 				<key>Type</key>
-				<integer>0</integer>
+				<integer>2</integer>
 			</dict>
 		</dict>
 		<dict>
@@ -7598,7 +7598,7 @@
 					</array>
 				</array>
 				<key>Type</key>
-				<integer>0</integer>
+				<integer>2</integer>
 			</dict>
 		</dict>
 		<dict>
@@ -7726,7 +7726,7 @@
 					</array>
 				</array>
 				<key>Type</key>
-				<integer>0</integer>
+				<integer>2</integer>
 			</dict>
 		</dict>
 		<dict>
@@ -7769,7 +7769,7 @@
 				<key>SHName</key>
 				<string>eye12L.</string>
 				<key>Scale</key>
-				<string>{1.2, 1.2}</string>
+				<string>{1, 1}</string>
 				<key>Size</key>
 				<string>{28, 31}</string>
 				<key>Tag</key>
@@ -7865,7 +7865,7 @@
 					</array>
 				</array>
 				<key>Type</key>
-				<integer>0</integer>
+				<integer>2</integer>
 			</dict>
 		</dict>
 		<dict>
@@ -7908,7 +7908,7 @@
 				<key>SHName</key>
 				<string>eye20_1</string>
 				<key>Scale</key>
-				<string>{1.3, 1.3}</string>
+				<string>{1, 1}</string>
 				<key>Size</key>
 				<string>{36, 39}</string>
 				<key>Tag</key>
@@ -7979,7 +7979,7 @@
 					</array>
 				</array>
 				<key>Type</key>
-				<integer>0</integer>
+				<integer>2</integer>
 			</dict>
 		</dict>
 		<dict>
@@ -8022,7 +8022,7 @@
 				<key>SHName</key>
 				<string>eye1L_1</string>
 				<key>Scale</key>
-				<string>{1.3, 1.2}</string>
+				<string>{1, 1}</string>
 				<key>Size</key>
 				<string>{30, 31}</string>
 				<key>Tag</key>
@@ -8111,7 +8111,7 @@
 					</array>
 				</array>
 				<key>Type</key>
-				<integer>0</integer>
+				<integer>2</integer>
 			</dict>
 		</dict>
 		<dict>
@@ -8154,7 +8154,7 @@
 				<key>SHName</key>
 				<string>eye3R</string>
 				<key>Scale</key>
-				<string>{1.5, 1.5}</string>
+				<string>{1, 1}</string>
 				<key>Size</key>
 				<string>{16, 32}</string>
 				<key>Tag</key>
@@ -8228,7 +8228,7 @@
 					</array>
 				</array>
 				<key>Type</key>
-				<integer>0</integer>
+				<integer>2</integer>
 			</dict>
 		</dict>
 		<dict>
@@ -8364,7 +8364,7 @@
 					</array>
 				</array>
 				<key>Type</key>
-				<integer>0</integer>
+				<integer>2</integer>
 			</dict>
 		</dict>
 		<dict>
@@ -8407,7 +8407,7 @@
 				<key>SHName</key>
 				<string>eye19</string>
 				<key>Scale</key>
-				<string>{1.2, 1.2}</string>
+				<string>{1, 1}</string>
 				<key>Size</key>
 				<string>{35, 50}</string>
 				<key>Tag</key>
@@ -8481,7 +8481,7 @@
 					</array>
 				</array>
 				<key>Type</key>
-				<integer>0</integer>
+				<integer>2</integer>
 			</dict>
 		</dict>
 		<dict>
@@ -8524,7 +8524,7 @@
 				<key>SHName</key>
 				<string>eye11L_2</string>
 				<key>Scale</key>
-				<string>{1.2, 1.2}</string>
+				<string>{1, 1}</string>
 				<key>Size</key>
 				<string>{23, 32}</string>
 				<key>Tag</key>
@@ -8606,7 +8606,7 @@
 					</array>
 				</array>
 				<key>Type</key>
-				<integer>0</integer>
+				<integer>2</integer>
 			</dict>
 		</dict>
 		<dict>
@@ -8649,7 +8649,7 @@
 				<key>SHName</key>
 				<string>eye16L.</string>
 				<key>Scale</key>
-				<string>{1.2, 1.2}</string>
+				<string>{1, 1}</string>
 				<key>Size</key>
 				<string>{21, 46}</string>
 				<key>Tag</key>
@@ -8742,7 +8742,7 @@
 					</array>
 				</array>
 				<key>Type</key>
-				<integer>0</integer>
+				<integer>2</integer>
 			</dict>
 		</dict>
 		<dict>
@@ -8785,7 +8785,7 @@
 				<key>SHName</key>
 				<string>eye16R</string>
 				<key>Scale</key>
-				<string>{1.2, 1.2}</string>
+				<string>{1, 1}</string>
 				<key>Size</key>
 				<string>{22, 44}</string>
 				<key>Tag</key>
@@ -8873,7 +8873,7 @@
 					</array>
 				</array>
 				<key>Type</key>
-				<integer>0</integer>
+				<integer>2</integer>
 			</dict>
 		</dict>
 		<dict>
@@ -8916,7 +8916,7 @@
 				<key>SHName</key>
 				<string>hair2</string>
 				<key>Scale</key>
-				<string>{0.69999999, 0.69999999}</string>
+				<string>{1, 1}</string>
 				<key>Size</key>
 				<string>{117, 134}</string>
 				<key>Tag</key>
@@ -9094,7 +9094,7 @@
 				<key>SHName</key>
 				<string>hair3</string>
 				<key>Scale</key>
-				<string>{0.80000001, 0.80000001}</string>
+				<string>{1, 1}</string>
 				<key>Size</key>
 				<string>{88, 103}</string>
 				<key>Tag</key>
@@ -9243,7 +9243,7 @@
 				<key>SHName</key>
 				<string>hair1</string>
 				<key>Scale</key>
-				<string>{0.80000001, 0.80000001}</string>
+				<string>{1, 1}</string>
 				<key>Size</key>
 				<string>{121, 118}</string>
 				<key>Tag</key>
@@ -9379,7 +9379,7 @@
 				<key>SHName</key>
 				<string>hair4</string>
 				<key>Scale</key>
-				<string>{0.80000001, 0.80000001}</string>
+				<string>{1, 1}</string>
 				<key>Size</key>
 				<string>{76, 97}</string>
 				<key>Tag</key>
@@ -9537,7 +9537,7 @@
 				<key>SHName</key>
 				<string>hair5</string>
 				<key>Scale</key>
-				<string>{1.5, 1.5}</string>
+				<string>{1, 1}</string>
 				<key>Size</key>
 				<string>{37, 23}</string>
 				<key>Tag</key>
@@ -9643,7 +9643,7 @@
 				<key>SHName</key>
 				<string>crone</string>
 				<key>Scale</key>
-				<string>{1.2, 1.2}</string>
+				<string>{1, 1}</string>
 				<key>Size</key>
 				<string>{56, 73}</string>
 				<key>Tag</key>
@@ -9751,7 +9751,7 @@
 					</array>
 				</array>
 				<key>Type</key>
-				<integer>0</integer>
+				<integer>2</integer>
 			</dict>
 		</dict>
 		<dict>
@@ -9794,7 +9794,7 @@
 				<key>SHName</key>
 				<string>fez</string>
 				<key>Scale</key>
-				<string>{1.2, 1.2}</string>
+				<string>{1, 1}</string>
 				<key>Size</key>
 				<string>{70, 48}</string>
 				<key>Tag</key>
@@ -9869,7 +9869,7 @@
 					</array>
 				</array>
 				<key>Type</key>
-				<integer>0</integer>
+				<integer>2</integer>
 			</dict>
 		</dict>
 		<dict>
@@ -9912,7 +9912,7 @@
 				<key>SHName</key>
 				<string>hat</string>
 				<key>Scale</key>
-				<string>{1.2, 1.2}</string>
+				<string>{1, 1}</string>
 				<key>Size</key>
 				<string>{113, 51}</string>
 				<key>Tag</key>
@@ -9988,7 +9988,7 @@
 					</array>
 				</array>
 				<key>Type</key>
-				<integer>0</integer>
+				<integer>2</integer>
 			</dict>
 		</dict>
 	</array>
@@ -10027,7 +10027,7 @@
 			<string>UI_BODIES</string>
 		</array>
 		<key>TimeOfSave</key>
-		<real>344295177.65085602</real>
+		<real>344904245.214113</real>
 	</dict>
 	<key>ShScenesURL</key>
 	<array>
@@ -10045,6 +10045,23 @@
 	</array>
 	<key>Version</key>
 	<string>1.3</string>
+	<key>WBInfo</key>
+	<dict>
+		<key>Category</key>
+		<integer>1</integer>
+		<key>Density</key>
+		<real>0.20000000298023224</real>
+		<key>Friction</key>
+		<real>0.20000000298023224</real>
+		<key>Group</key>
+		<integer>0</integer>
+		<key>Mask</key>
+		<integer>65535</integer>
+		<key>Restitution</key>
+		<real>0.20000000298023224</real>
+		<key>WBRect</key>
+		<string>{{1025, 772}, {-1025, -772}}</string>
+	</dict>
 	<key>Website</key>
 	<string>http://www.levelhelper.org</string>
 </dict>

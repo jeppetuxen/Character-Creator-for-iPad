@@ -11,6 +11,7 @@ require "LevelHelperLoader"
 loader = LevelHelperLoader:initWithContentOfFile("UInterface.plhs")
 loader:enableRetina(true)
 loader:instantiateSprites()
+--loader:instantiateObjects(physics)
 
 -- scaleConstant is used to decide how big the objects are
 scaleConstant = 0.5
@@ -21,10 +22,12 @@ local function dragBody( event )
         local body = event.target
         local phase = event.phase
         local stage = display.getCurrentStage()
+        
  
         if "began" == phase then
                 stage:setFocus( body, event.id )
                 body.isFocus = true
+				body.bodyType = "dynamic"
  
                 -- Create a temporary touch joint and store it in the object for later reference
                 body.tempJoint = physics.newJoint( "touch", body, event.x, event.y )
@@ -39,8 +42,20 @@ local function dragBody( event )
                         stage:setFocus( body, nil )
                         body.isFocus = false
                         
-                        -- Remove the joint when the touch ends                 
-                        body.tempJoint:removeSelf()
+						-- Remove the joint when the touch ends                 
+						body.tempJoint:removeSelf()
+						if body.isAttached == false then
+							body.bodyType = "static"
+						end
+						if body.otherObject ~= nil and body.isAttached == false then
+							body.pivotJoint = physics.newJoint( "pivot", newObject, newObject.otherObject, event.x,event.y)
+							--body.isSensor = false
+							body.isFixedRotation = false
+							body.bodyType = body.originalType
+							body.isAttached = true
+
+
+					      end
                         
                 end
         end
@@ -48,6 +63,125 @@ local function dragBody( event )
         -- Stop further propagation of touch event
         return true
 end
+
+function attachOnCollision(self,event)
+	local phase = event.phase
+	--self.otherObject = event.other
+if "began"== phase then
+		
+self.otherObject = event.other
+--		print "collisionBegan with "
+	elseif "ended" == phase then
+		self.otherObject = nil
+--		print "collisionEnded"
+	end	
+end
+
+local function onTouchCreateNewObject( event )
+    local t = event.target
+
+	-- Print info about the event. For actual production code, you should
+	-- not call this function because it wastes CPU resources.
+	--printTouch(event)
+	
+
+	local phase = event.phase
+	if "began" == phase then
+		-- Make target the top-most object
+		parent = t.parent
+		--parent:insert( t )
+		stage = display.getCurrentStage()
+		stage:setFocus( t ,event.id)
+
+		-- Spurious events can be sent to the target, e.g. the user presses 
+		-- elsewhere on the screen and then moves the finger over the target.
+		-- To prevent this, we add this flag. Only when it's true will "move"
+		-- events be sent to the target.
+		t.isFocus = true
+
+		-- Store initial position
+		t.x0 = event.x - t.x
+		t.y0 = event.y - t.y
+		
+		playRandomSoundInArray(t.objectSounds)
+		
+		-- create New Object
+		newObject = loader:newObjectWithUniqueName(t.uniqueName,physics)
+		newObject.originalType = newObject.bodyType
+		newObject.bodyType = "dynamic"
+		newObject.x = t.x
+		newObject.y = t.y
+		newObject.xScale = scaleConstant
+		newObject.yScale= scaleConstant
+		newObject.alpha = 1
+		newObject.objectSounds= t.objectSounds
+		newObject.isFixedRotation = true
+		newObject.isSensor = true
+		newObject.isAttached = false
+		parent.newObjectGroup:insert(newObject)
+		newObject.collision = attachOnCollision
+		newObject:addEventListener("collision",newObject)
+		
+		local scaleFactor = 0.07
+		
+		oldScale = newObject.xScale
+		newObject.xScale = newObject.xScale + scaleFactor
+		newObject.yScale = newObject.yScale + scaleFactor
+		newObject.tempJoint = physics.newJoint( "touch", newObject, event.x, event.y )
+		newObject.otherObject = nil
+		
+		
+		audio.play(popSound)
+		--newSprite.
+		
+	--	stage:setFocus( newObject, event.id )
+		newObject.isFocus = true
+
+	elseif newObject.isFocus then
+		if "moved" == phase then
+
+			newObject.tempJoint:setTarget( event.x, event.y )
+			
+		elseif "ended" == phase or "cancelled" == phase then
+			
+			local x,y = event.x, event.y
+			
+			
+			local isGarbage = garbageBounds.xMin <= x and garbageBounds.xMax >= x and garbageBounds.yMin <= y and garbageBounds.yMax >= y
+			if not isGarbage then
+			
+			newObject:addEventListener( "touch" , dragBody )
+			newObject.xScale = oldScale
+		newObject.yScale = oldScale
+			
+			else 
+			newObject:removeSelf()
+			audio.play(trashSound)
+			end
+			display.getCurrentStage():setFocus( nil )
+			
+			
+			
+			newObject.isFocus = false
+
+			-- Remove the joint when the touch ends                 
+			newObject.tempJoint:removeSelf()
+			
+			newObject.bodyType = "static"
+
+
+			if newObject.otherObject ~= nil then
+				newObject.isAttached = true
+				newObject.pivotJoint = physics.newJoint( "pivot", newObject, newObject.otherObject, event.x,event.y)
+				newObject.isSensor = false
+				newObject.isFixedRotation = false
+				newObject.bodyType = newObject.originalType
+				
+	      end
+		end
+	end
+	end
+
 
 local function onTouchCreateNewSprite( event )
     local t = event.target
@@ -130,7 +264,7 @@ local function onTouchCreateNewSprite( event )
 			t.isFocus = false
 		end
 	end
-	end
+end
 
 function onTouch( event )
 	local t = event.target
@@ -410,7 +544,8 @@ eyesGroup.newObjectGroup = eyes_inScene
 
 for i = 1,#eyesUI do
 	eyesUI[i].alpha = 1
-	eyesUI[i]:addEventListener( "touch", onTouchCreateNewSprite )
+	--eyesUI[i]:addEventListener( "touch", onTouchCreateNewSprite ) -- for sprites
+	eyesUI[i]:addEventListener( "touch", onTouchCreateNewObject )
 	eyesGroup:insert(eyesUI[i])
 end
 print(eyesGroup.numChildren)
@@ -430,7 +565,8 @@ headsGroup.newObjectGroup = heads_inScene
 
 for i = 1,#headsUI do
 	headsUI[i].alpha = 1
-	headsUI[i]:addEventListener( "touch", onTouchCreateNewSprite )
+	--headsUI[i]:addEventListener( "touch", onTouchCreateNewSprite )-- Sprites
+	headsUI[i]:addEventListener( "touch", onTouchCreateNewObject )
 	headsGroup:insert(headsUI[i])
 end
 print(headsGroup.numChildren)
@@ -448,7 +584,7 @@ armsGroup.newObjectGroup = legsNArms_inScene
 
 for i = 1,#armsUI do
 	armsUI[i].alpha = 1
-	armsUI[i]:addEventListener( "touch", onTouchCreateNewSprite )
+	armsUI[i]:addEventListener( "touch", onTouchCreateNewObject )
 	armsGroup:insert(armsUI[i])
 end
 print(armsGroup.numChildren)
@@ -467,7 +603,7 @@ legsGroup.newObjectGroup = legsNArms_inScene
 
 for i = 1,#legsUI do
 	legsUI[i].alpha = 1
-	legsUI[i]:addEventListener( "touch", onTouchCreateNewSprite )
+	legsUI[i]:addEventListener( "touch", onTouchCreateNewObject )
 	legsGroup:insert(legsUI[i])
 end
 print(legsGroup.numChildren)
@@ -487,7 +623,7 @@ hairGroup.newObjectGroup = hair_inScene
 
 for i = 1,#hairUI do
 	hairUI[i].alpha = 1
-	hairUI[i]:addEventListener( "touch", onTouchCreateNewSprite )
+	hairUI[i]:addEventListener( "touch", onTouchCreateNewObject )
 	hairGroup:insert(hairUI[i])
 end
 print(hairGroup.numChildren)
@@ -511,7 +647,7 @@ for i = 1,#mouthUI do
 
 	end
 	mouthUI[i].alpha = 1
-	mouthUI[i]:addEventListener( "touch", onTouchCreateNewSprite )
+	mouthUI[i]:addEventListener( "touch", onTouchCreateNewObject )
 	mouthGroup:insert(mouthUI[i])
 end
 print("nr of mouths "..mouthGroup.numChildren)
@@ -531,7 +667,7 @@ hatGroup.newObjectGroup = hat_inScene
 
 for i = 1,#hatUI do
 	hatUI[i].alpha = 1
-	hatUI[i]:addEventListener( "touch", onTouchCreateNewSprite )
+	hatUI[i]:addEventListener( "touch", onTouchCreateNewObject )
 	hatGroup:insert(hatUI[i])
 end
 print(hatGroup.numChildren)
@@ -549,7 +685,8 @@ bodyUIGroup.newObjectGroup = body_inScene
 
 for i = 1,#bodyUI do
 	bodyUI[i].alpha = 1
-	bodyUI[i]:addEventListener( "touch", onTouchCreateNewSprite )
+	bodyUI[i]:addEventListener( "touch", onTouchCreateNewObject )
+	bodyUI[i].physicsModel = "static"
 	bodyUIGroup:insert(bodyUI[i])
 end
 print(bodyUIGroup.numChildren)
