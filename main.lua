@@ -3,10 +3,16 @@ local Particles = require("lib_particle_candy")
 
 local physics = require("physics")
 physics.start()
-physics.setDrawMode( "hybrid" ) 
+physics.setDrawMode( "normal" ) 
 display.setStatusBar( display.HiddenStatusBar )
 require "LevelHelperLoader"
 
+
+---Analytics
+
+require "analytics"
+
+analytics.init( "484676566" )
 
 loader = LevelHelperLoader:initWithContentOfFile("UInterface.plhs")
 loader:enableRetina(true)
@@ -19,73 +25,111 @@ scaleConstant = 0.5
 
 --------------------FUNCTIONS FOR DRAGGING-------------------------
 local function dragBody( event )
-        local body = event.target
-        local phase = event.phase
-        local stage = display.getCurrentStage()
-        
- 
-        if "began" == phase then
-                stage:setFocus( body, event.id )
-                body.isFocus = true
-				body.bodyType = "dynamic"
- 
-                -- Create a temporary touch joint and store it in the object for later reference
-                body.tempJoint = physics.newJoint( "touch", body, event.x, event.y )
- 
-        elseif body.isFocus then
-                if "moved" == phase then
-                
-                        -- Update the joint to track the touch
-                        body.tempJoint:setTarget( event.x, event.y )
- 
-                elseif "ended" == phase or "cancelled" == phase then
-                        stage:setFocus( body, nil )
-                        body.isFocus = false
-                        
-						-- Remove the joint when the touch ends                 
-						body.tempJoint:removeSelf()
-						if body.isAttached == false then
-							body.bodyType = "static"
-						end
-						if body.otherObject ~= nil and body.isAttached == false then
-							body.pivotJoint = physics.newJoint( "pivot", newObject, newObject.otherObject, event.x,event.y)
-							--body.isSensor = false
-							body.isFixedRotation = false
-							body.bodyType = body.originalType
-							body.isAttached = true
+	local body = event.target
+	local phase = event.phase
+	local x,y = event.x,event.y
+	local stage = display.getCurrentStage()
+	local parent = event.target.parent
 
 
-					      end
-                        
-                end
-        end
- 
-        -- Stop further propagation of touch event
-        return true
+	if "began" == phase then
+		local c = audio.findFreeChannel()
+		stage:setFocus( body, event.id )
+		body.isFocus = true
+		body.bodyType = "dynamic"
+		
+		playRandomSoundInArray(popSounds)
+	--	audio.play(particleSound,{ loops = -1,fadeIn = 300})
+	
+
+		-- Create a temporary touch joint and store it in the object for later reference
+		body.tempJoint = physics.newJoint( "touch", body, event.x, event.y )
+		
+		analytics.logEvent( body.uniqueName .. " is draged" )
+		print ("logged ".. body.uniqueName)
+
+	elseif body.isFocus then
+		if "moved" == phase then
+
+			-- Update the joint to track the touch
+			body.tempJoint:setTarget( event.x, event.y )
+
+		elseif "ended" == phase or "cancelled" == phase then
+			stage:setFocus( body, nil )
+			body.isFocus = false
+			
+			--audio.fadeOut({time=30 } )
+				--playRandomSoundInArray(popSounds)
+--	audio.play(puffSound)
+			-- Remove the joint when the touch ends                 
+			body.tempJoint:removeSelf()
+			if body.isAttached == false then
+				body.bodyType = "static"
+			end
+			
+			
+			
+			if body.otherObject ~= nil and body.isAttached == false then
+				if body.otherObject.parent == nil or body.otherObject.parent == body.parent.parentGroup then
+					body.pivotJoint = physics.newJoint( "pivot", newObject, newObject.otherObject, event.x,event.y)
+					--body.isSensor = false
+					body.angularDamping = 5
+					body.isFixedRotation = false
+					body.bodyType = body.originalType
+					body.isAttached = true
+					audio.play(puffSound)
+					analytics.logEvent( body.uniqueName .. " is connected with " .. body.otherObject.uniqueName )
+					print (body.uniqueName .. " is connected with " .. body.otherObject.uniqueName)
+					
+					---starting explosion emitter
+					expEmitter.x = event.x
+					expEmitter.y = event.y
+					Particles.StartEmitter("Explosion1",true)
+
+					-- setting the rotation limits
+					if body.parent.rotationLimits ~= nil then
+
+						body.pivotJoint.isLimitEnabled = true
+						body.pivotJoint:setRotationLimits(-body.parent.rotationLimits,body.parent.rotationLimits)
+					end
+
+				end
+			end
+			
+			local isGarbage = garbageBounds.xMin <= x and garbageBounds.xMax >= x and garbageBounds.yMin <= y and garbageBounds.yMax >= y
+
+			if isGarbage then
+				body:removeSelf()
+				audio.play(trashSound)
+			end
+
+		end
+	end
+
+	-- Stop further propagation of touch event
+	return true
 end
+
+
 
 function attachOnCollision(self,event)
 	local phase = event.phase
 	--self.otherObject = event.other
-if "began"== phase then
-		
-self.otherObject = event.other
---		print "collisionBegan with "
+	if "began"== phase then
+		if (event.other.parent == self.otherGroup or self.otherGroup == nil) then
+		self.otherObject = event.other
+	end
+	
 	elseif "ended" == phase then
 		self.otherObject = nil
---		print "collisionEnded"
+		--		print "collisionEnded"
 	end	
 end
 
 local function onTouchCreateNewObject( event )
-    local t = event.target
-
-	-- Print info about the event. For actual production code, you should
-	-- not call this function because it wastes CPU resources.
-	--printTouch(event)
-	
-
+	local t = event.target
 	local phase = event.phase
+
 	if "began" == phase then
 		-- Make target the top-most object
 		parent = t.parent
@@ -98,13 +142,14 @@ local function onTouchCreateNewObject( event )
 		-- To prevent this, we add this flag. Only when it's true will "move"
 		-- events be sent to the target.
 		t.isFocus = true
+		analytics.logEvent( t.uniqueName .. " is created" )
 
 		-- Store initial position
 		t.x0 = event.x - t.x
 		t.y0 = event.y - t.y
-		
+
 		playRandomSoundInArray(t.objectSounds)
-		
+
 		-- create New Object
 		newObject = loader:newObjectWithUniqueName(t.uniqueName,physics)
 		newObject.originalType = newObject.bodyType
@@ -121,67 +166,87 @@ local function onTouchCreateNewObject( event )
 		parent.newObjectGroup:insert(newObject)
 		newObject.collision = attachOnCollision
 		newObject:addEventListener("collision",newObject)
-		
+
 		local scaleFactor = 0.07
-		
+
 		oldScale = newObject.xScale
 		newObject.xScale = newObject.xScale + scaleFactor
 		newObject.yScale = newObject.yScale + scaleFactor
 		newObject.tempJoint = physics.newJoint( "touch", newObject, event.x, event.y )
 		newObject.otherObject = nil
-		
-		
-		audio.play(popSound)
-		--newSprite.
-		
-	--	stage:setFocus( newObject, event.id )
+
+		playRandomSoundInArray(popSounds)
+
+
+		--	stage:setFocus( newObject, event.id )
 		newObject.isFocus = true
 
 	elseif newObject.isFocus then
+
 		if "moved" == phase then
 
 			newObject.tempJoint:setTarget( event.x, event.y )
-			
+
 		elseif "ended" == phase or "cancelled" == phase then
-			
+
 			local x,y = event.x, event.y
-			
-			
+
+
 			local isGarbage = garbageBounds.xMin <= x and garbageBounds.xMax >= x and garbageBounds.yMin <= y and garbageBounds.yMax >= y
+
 			if not isGarbage then
-			
-			newObject:addEventListener( "touch" , dragBody )
-			newObject.xScale = oldScale
-		newObject.yScale = oldScale
-			
+				newObject:addEventListener( "touch" , dragBody )
+				newObject.xScale = oldScale
+				newObject.yScale = oldScale
 			else 
-			newObject:removeSelf()
-			audio.play(trashSound)
+				newObject:removeSelf()
+				audio.play(trashSound)
+				analytics.logEvent( t.uniqueName .. " is garbage" )
 			end
 			display.getCurrentStage():setFocus( nil )
-			
-			
-			
 			newObject.isFocus = false
 
 			-- Remove the joint when the touch ends                 
 			newObject.tempJoint:removeSelf()
-			
 			newObject.bodyType = "static"
+		
+			local body = newObject
+			
 
 
-			if newObject.otherObject ~= nil then
-				newObject.isAttached = true
-				newObject.pivotJoint = physics.newJoint( "pivot", newObject, newObject.otherObject, event.x,event.y)
-				newObject.isSensor = false
-				newObject.isFixedRotation = false
-				newObject.bodyType = newObject.originalType
-				
-	      end
+			if body.otherObject ~= nil and body.isAttached == false then
+				if body.otherObject.parent == nil or body.otherObject.parent == body.parent.parentGroup then
+					body.pivotJoint = physics.newJoint( "pivot", newObject, newObject.otherObject, event.x,event.y)
+					--body.isSensor = false
+					body.angularDamping = 5
+					body.isFixedRotation = false
+					body.bodyType = body.originalType
+					body.isAttached = true
+					
+						---starting explosion emitter
+						expEmitter.x = event.x
+						expEmitter.y = event.y
+						Particles.StartEmitter("Explosion1",true)
+						
+						analytics.logEvent( body.uniqueName .. " is connected with " .. body.otherObject.uniqueName .. " on creation" )
+						print (body.uniqueName .. " is connected on creation with " .. body.otherObject.uniqueName)
+						
+						audio.play(puffSound) 
+
+					-- setting the rotation limits
+					if body.parent.rotationLimits ~= nil then
+
+						body.pivotJoint.isLimitEnabled = true
+						body.pivotJoint:setRotationLimits(-body.parent.rotationLimits,body.parent.rotationLimits)
+					end
+
+				end
+			end
 		end
-	end
-	end
 
+	end
+	return true
+end
 
 local function onTouchCreateNewSprite( event )
     local t = event.target
@@ -192,6 +257,8 @@ local function onTouchCreateNewSprite( event )
 	
 
 	local phase = event.phase
+	
+	
 	if "began" == phase then
 		-- Make target the top-most object
 		parent = t.parent
@@ -228,13 +295,14 @@ local function onTouchCreateNewSprite( event )
 		
 		audio.play(popSound)
 		--newSprite.
-		
+	
 	elseif t.isFocus then
 		if "moved" == phase then
 			-- Make object move (we subtract t.x0,t.y0 so that moves are
 			-- relative to initial grab point, rather than object "snapping").
 			newSprite.x = event.x - t.x0
 			newSprite.y = event.y - t.y0
+			
 		elseif "ended" == phase or "cancelled" == phase then
 			
 			local x,y = event.x, event.y
@@ -247,20 +315,19 @@ local function onTouchCreateNewSprite( event )
 			print ("y:"..y)
 			
 			local isGarbage = garbageBounds.xMin <= x and garbageBounds.xMax >= x and garbageBounds.yMin <= y and garbageBounds.yMax >= y
+		
+		
 			if not isGarbage then
-			
-			newSprite:addEventListener( "touch" , onTouch )
-			newSprite.xScale = oldScale
-		newSprite.yScale = oldScale
-			
+
+				newSprite:addEventListener( "touch" , onTouch )
+				newSprite.xScale = oldScale
+				newSprite.yScale = oldScale
+
 			else 
-			newSprite:removeSelf()
-			audio.play(trashSound)
+				newSprite:removeSelf()
+				audio.play(trashSound)
 			end
 			display.getCurrentStage():setFocus( nil )
-			
-			
-			
 			t.isFocus = false
 		end
 	end
@@ -271,67 +338,71 @@ function onTouch( event )
 
 	-- Print info about the event. For actual production code, you should
 	-- not call this function because it wastes CPU resources.
-	--printTouch(event)
+		--printTouch(event)
 
-	local phase = event.phase
-	if "began" == phase then
-		-- Make target the top-most object
-		local parent = t.parent
-		--parent:insert( t )
-		display.getCurrentStage():setFocus( t )
+		local phase = event.phase
+		if "began" == phase then
+			-- Make target the top-most object
+			local parent = t.parent
+			--parent:insert( t )
+			display.getCurrentStage():setFocus( t )
 
-		-- Spurious events can be sent to the target, e.g. the user presses 
-		-- elsewhere on the screen and then moves the finger over the target.
-		-- To prevent this, we add this flag. Only when it's true will "move"
-		-- events be sent to the target.
-		t.isFocus = true
-		
-		audio.play(popSound)
-		playRandomSoundInArray(t.objectSounds)
-		--playRandomSoundInArray(fartingSounds)
+			-- Spurious events can be sent to the target, e.g. the user presses 
+			-- elsewhere on the screen and then moves the finger over the target.
+			-- To prevent this, we add this flag. Only when it's true will "move"
+			-- events be sent to the target.
+			t.isFocus = true
 
-		-- Store initial position
-		t.x0 = event.x - t.x
-		t.y0 = event.y - t.y
-		
-		local scaleFactor = 0.07
-		
-		oldScale = t.xScale
-		t.xScale = t.xScale + scaleFactor
-		t.yScale = t.yScale + scaleFactor
-	elseif t.isFocus then
-		if "moved" == phase then
-			-- Make object move (we subtract t.x0,t.y0 so that moves are
-			-- relative to initial grab point, rather than object "snapping").
-			t.x = event.x - t.x0
-			t.y = event.y - t.y0
-		elseif "ended" == phase or "cancelled" == phase then
-		local x,y = event.x, event.y
-			--local isGarbage = true
-			print ("garbageBounds xMin:" ..garbageBounds.xMin)
-			print ("garbageBounds xMax:" ..garbageBounds.xMax)
-			print ("garbageBounds yMin:" ..garbageBounds.yMin)
-			print ("garbageBounds yMax:" ..garbageBounds.yMax)
-			print ("x:"..x)
-			print ("y:"..y)
-			
-			local isGarbage = garbageBounds.xMin <= x and garbageBounds.xMax >= x and garbageBounds.yMin <= y and garbageBounds.yMax >= y
-			if isGarbage then
-			t:removeSelf()
-			audio.play(trashSound)
+			audio.play(popSound)
+			playRandomSoundInArray(t.objectSounds)
+			--playRandomSoundInArray(fartingSounds)
+
+			-- Store initial position
+			t.x0 = event.x - t.x
+			t.y0 = event.y - t.y
+
+			local scaleFactor = 0.07
+
+			oldScale = t.xScale
+			t.xScale = t.xScale + scaleFactor
+			t.yScale = t.yScale + scaleFactor
+		elseif t.isFocus then
+			if "moved" == phase then
+				-- Make object move (we subtract t.x0,t.y0 so that moves are
+				-- relative to initial grab point, rather than object "snapping").
+				t.x = event.x - t.x0
+				t.y = event.y - t.y0
+			elseif "ended" == phase or "cancelled" == phase then
+				local x,y = event.x, event.y
+				--local isGarbage = true
+				print ("garbageBounds xMin:" ..garbageBounds.xMin)
+				print ("garbageBounds xMax:" ..garbageBounds.xMax)
+				print ("garbageBounds yMin:" ..garbageBounds.yMin)
+				print ("garbageBounds yMax:" ..garbageBounds.yMax)
+				print ("x:"..x)
+				print ("y:"..y)
+
+				local isGarbage = garbageBounds.xMin <= x and garbageBounds.xMax >= x and garbageBounds.yMin <= y and garbageBounds.yMax >= y
+				if isGarbage then
+					t:removeSelf()
+					audio.play(trashSound)
+				end
+
+				display.getCurrentStage():setFocus( nil )
+				t.xScale = oldScale
+				t.yScale = oldScale
+				t.isFocus = false
 			end
-			
-			display.getCurrentStage():setFocus( nil )
-			t.xScale = oldScale
-			t.yScale = oldScale
-			t.isFocus = false
 		end
-	end
+	
 
-	-- Important to return true. This tells the system that the event
-	-- should not be propagated to listeners of any objects underneath.
-	return true
+		-- Important to return true. This tells the system that the event
+		-- should not be propagated to listeners of any objects underneath.
+		return true
 end
+
+
+
 ----------------------UI FUNCTIONS---------------------------------
 local function setFocusOnGroup ( event )
 -- getting the target
@@ -350,12 +421,13 @@ local function setFocusOnGroup ( event )
 		local parent = t.parent
 		--parent:insert( t )
 		--display.getCurrentStage():setFocus( t )
+		analytics.logEvent( t.uniqueName .. " is pushed" )
 
 		-- Spurious events can be sent to the target, e.g. the user presses 
 		-- elsewhere on the screen and then moves the finger over the target.
 		-- To prevent this, we add this flag. Only when it's true will "move"
 		-- events be sent to the target.
-		
+		playRandomSoundInArray(robotSounds)
 	   --t.isFocus = true
 	 
         t.xScale= 1.8
@@ -427,6 +499,10 @@ t = event.target
 
 	local phase = event.phase
 	if "began" == phase then
+		
+		-- play robot sound
+	--	playRandomSoundInArray(robotSounds)
+		
 		-- Make target the top-most object
 		local parent = t.parent
 		--parent:insert( t )
@@ -475,19 +551,20 @@ local function loadSoundsInArray(directory,extension)
 
 
 
---- creating a local array of particular voices
-local array = {}
-    for i = 1,20 do
-    local sound = audio.loadSound(directory..i..extension)
+	--- creating a local array of particular voices
+	local array = {}
+	for i = 1,20 do
+		local sound = audio.loadSound(directory..i..extension)
 
-    if sound == nil then break
-    else 
-table.insert(array,sound)
+		if sound == nil then break
+		else 
+			table.insert(array,sound)
+		end
+
+	end
+	return array
 end
-  
-end
-return array
-end
+
 function playRandomSoundInArray(array)
 	if array~=nil then
 		local r = math.random(#array)
@@ -496,25 +573,36 @@ function playRandomSoundInArray(array)
 end
 
 voiceArrays = {}
-for i = 1,8 do
+
+---- creating arrays of voice samples
+for i = 1,9 do
 	local voiceArray = loadSoundsInArray("content/voices/voice"..i.."/",".mp3")
 	voiceArrays[i] = voiceArray
 end
 print("voicesArrays "..#voiceArrays)
-playRandomSoundInArray(voiceArrays[8])
+playRandomSoundInArray(voiceArrays[math.random(1,9)])
 
 popSound = audio.loadSound("content/sounds/pop.mp3")
+
+
 trashSound = audio.loadSound("content/sounds/trash.mp3")
 
 
-
+robotSounds = loadSoundsInArray("content/sounds/robot/",".mp3")
+print("robotSounds"..#robotSounds)
 
 fartingSounds = loadSoundsInArray("content/sounds/farting/",".mp3")
 print("farts"..#fartingSounds)
 
+popSounds = loadSoundsInArray("content/sounds/pop/",".mp3")
+
+particleSound = audio.loadSound("content/sounds/particle.mp3")
+
+puffSound = audio.loadSound("content/sounds/puff/1.mp3")
+
 ----------------------localGarbageBIN---------------------------------------
-garbage = display.newRoundedRect(200,650,750,100,20);
-garbage:setFillColor(255,142,185,200)
+garbage = display.newRoundedRect(225,650,750,100,20);
+garbage:setFillColor(255,142,185,255)
 garbage.strokeWidth = 4;
 garbage:setStrokeColor(0,0,0,100)
 garbageBounds = garbage.stageBounds
@@ -534,7 +622,37 @@ hat_inScene = display.newGroup()
 mouths_inScene = display.newGroup()
 eyes_inScene = display.newGroup()
 
+
+----- setting angular min max for each group
+
+heads_inScene.rotationLimits = 20
+eyes_inScene.rotationLimits = 6
+hat_inScene.rotationLimit = 5
+hair_inScene.rotationLimits = 3
+mouths_inScene.rotationLimits = 2
+legsNArms_inScene.rotationLimits = 40
+
+
+
+--- setting allowable interaction groups
+
+eyes_inScene.parentGroup = heads_inScene
+heads_inScene.parentGroup = body_inScene
+legsNArms_inScene.parentGroup = body_inScene
+hat_inScene.parentGroup = body_inScene
+mouths_inScene.parentGroup = heads_inScene
+hair_inScene.parentGroup = heads_inScene
+
 groups = {}
+
+-------------setting Angular damping for each group ------------------
+-- first a general value for all
+for i = 1,#groups do
+	groups[i].angularDamping = 10 -- high number because unless spicified we don't want to much rotation
+end
+-- Special Cases
+legsNArms_inScene.angularDamping = 1
+
 
 
 ---------------------LOADING EYES------------------------------------
@@ -634,15 +752,19 @@ hairGroup.isVisible = false
 
 ----------------------LOADING MOUTHS---------------------------------
 ---------------------------------------------------------
-local mouthUI = loader:spritesWithTag(10)--something is wrong here LevelHelper_TAG.IUEYES
-
+--local mouthUI = loader:spritesWithTag(10)--something is wrong here LevelHelper_TAG.IUEYES
+local mouthUI = {}
 local mouthGroup = display.newGroup()
 mouthGroup.newObjectGroup = mouths_inScene
 
+for i = 1, 10 do
+	if (i<10) then
+	mouthUI[i]=loader:spriteWithUniqueName("mouth_"..i)
+elseif i == 10 then
+	mouthUI[10]=loader:spriteWithUniqueName("mouth_a")
+end
 
-
-for i = 1,#mouthUI do
-	if i<#voiceArrays then
+	if i<11 then
 		mouthUI[i].objectSounds= voiceArrays[i]
 
 	end
@@ -650,6 +772,12 @@ for i = 1,#mouthUI do
 	mouthUI[i]:addEventListener( "touch", onTouchCreateNewObject )
 	mouthGroup:insert(mouthUI[i])
 end
+
+
+
+
+
+
 print("nr of mouths "..mouthGroup.numChildren)
 mouthGroup:setReferencePoint(display.CenterReferencePoint)
 
@@ -843,6 +971,9 @@ Properties.useEmitterRotation	= false
 Properties.blendMode			= "add"
 Particles.CreateParticleType ("FairyDust", Properties)
 
+
+
+
 -- CREATE EMITTERS (NAME, SCREENW, SCREENH, ROTATION, ISVISIBLE, LOOP)
 Particles.CreateEmitter("E1", screenW*0.5, screenH*0.5, 0, false, true)
 
@@ -853,7 +984,41 @@ Particles.AttachParticleType("E1", "FairyDust" , 20, 9999999999999,0)
 
 
 local Emitter = Particles.GetEmitter("E1")
+--Particles.SetEmitterSound("E1", particleSound, 0, true, {loops = -1})
 
+Particles.CreateEmitter("Explosion1", screenW*0.5, screenH*0.5, 180, false, false)
+
+Particles.CreateParticleType ("Explosion", {
+	imagePath		= "content/particle/explosion.png",
+	imageWidth		= 64,	
+	imageHeight		= 64,	
+	velocityStart		= 65,	
+	velocityVariation	= 65,
+	velocityChange		= -1.0,
+	directionVariation	= 330,
+	alphaStart		= 0,		
+	alphaVariation		= .25,		
+	fadeInSpeed		= 2.0,	
+	fadeOutSpeed		= -0.85,	
+	fadeOutDelay		= 500,	
+	scaleStart		= 0.01,	
+	scaleVariation		= 0.2,
+	scaleInSpeed		= 0.5,
+	weight			= 0,	
+	autoOrientation 	= true,	
+	rotationVariation	= 360,
+	killOutsideScreen	= true,	
+	lifeTime		= 4000,  
+	useEmitterRotation	= false,
+	emissionShape		= 0,
+	emissionRadius		= 30,
+	blendMode		= "add",
+	colorChange		= {-100,-100,-100},
+	} )
+	
+	Particles.AttachParticleType("Explosion1", "Explosion"	, 25, 0,0) 
+	
+	expEmitter = Particles.GetEmitter("Explosion1")
 
 
 -- DETECT SCREEN TOUC AND START MOVING EMITTER

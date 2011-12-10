@@ -457,7 +457,7 @@
 				<key>IsInParallax</key>
 				<false/>
 				<key>Locked</key>
-				<true/>
+				<false/>
 				<key>Opacity</key>
 				<real>1</real>
 				<key>PathIsCyclic</key>
@@ -471,7 +471,7 @@
 				<key>PathStartPoint</key>
 				<integer>0</integer>
 				<key>Position</key>
-				<string>{576, 688}</string>
+				<string>{589.60059, 691.40015}</string>
 				<key>SHName</key>
 				<string>SelectorLine1</string>
 				<key>Scale</key>
@@ -777,7 +777,7 @@
 				<key>IsInParallax</key>
 				<false/>
 				<key>Locked</key>
-				<false/>
+				<true/>
 				<key>Opacity</key>
 				<real>1</real>
 				<key>PathIsCyclic</key>
@@ -857,7 +857,7 @@
 				<key>IsInParallax</key>
 				<false/>
 				<key>Locked</key>
-				<false/>
+				<true/>
 				<key>Opacity</key>
 				<real>1</real>
 				<key>PathIsCyclic</key>
@@ -937,7 +937,7 @@
 				<key>IsInParallax</key>
 				<false/>
 				<key>Locked</key>
-				<false/>
+				<true/>
 				<key>Opacity</key>
 				<real>1</real>
 				<key>PathIsCyclic</key>
@@ -1017,7 +1017,7 @@
 				<key>IsInParallax</key>
 				<false/>
 				<key>Locked</key>
-				<false/>
+				<true/>
 				<key>Opacity</key>
 				<real>1</real>
 				<key>PathIsCyclic</key>
@@ -1097,7 +1097,7 @@
 				<key>IsInParallax</key>
 				<false/>
 				<key>Locked</key>
-				<false/>
+				<true/>
 				<key>Opacity</key>
 				<real>1</real>
 				<key>PathIsCyclic</key>
@@ -1271,7 +1271,7 @@
 				<key>PathStartPoint</key>
 				<integer>0</integer>
 				<key>Position</key>
-				<string>{261.49951, 692.40021}</string>
+				<string>{275.10034, 695.80035}</string>
 				<key>SHName</key>
 				<string>arm1L</string>
 				<key>Scale</key>
@@ -1419,7 +1419,7 @@
 				<key>PathStartPoint</key>
 				<integer>0</integer>
 				<key>Position</key>
-				<string>{322.39984, 693.19965}</string>
+				<string>{336.00067, 696.59979}</string>
 				<key>SHName</key>
 				<string>arm1R</string>
 				<key>Scale</key>
@@ -1558,7 +1558,7 @@
 				<key>PathStartPoint</key>
 				<integer>0</integer>
 				<key>Position</key>
-				<string>{385.19662, 697.00146}</string>
+				<string>{398.79745, 700.40161}</string>
 				<key>SHName</key>
 				<string>arm4L</string>
 				<key>Scale</key>
@@ -1670,7 +1670,7 @@
 				<key>PathStartPoint</key>
 				<integer>0</integer>
 				<key>Position</key>
-				<string>{444.89432, 696.99915}</string>
+				<string>{458.49515, 700.39929}</string>
 				<key>SHName</key>
 				<string>arm4R</string>
 				<key>Scale</key>
@@ -1789,7 +1789,7 @@
 				<key>PathStartPoint</key>
 				<integer>0</integer>
 				<key>Position</key>
-				<string>{509.89828, 698.40039}</string>
+				<string>{523.4989, 701.80054}</string>
 				<key>SHName</key>
 				<string>arm5L</string>
 				<key>Scale</key>
@@ -1949,7 +1949,7 @@
 				<key>PathStartPoint</key>
 				<integer>0</integer>
 				<key>Position</key>
-				<string>{588.89142, 698.30878}</string>
+				<string>{602.492, 701.70892}</string>
 				<key>SHName</key>
 				<string>arm5R</string>
 				<key>Scale</key>
@@ -2107,7 +2107,7 @@
 				<key>PathStartPoint</key>
 				<integer>0</integer>
 				<key>Position</key>
-				<string>{662.89337, 694.92139}</string>
+				<string>{676.49396, 698.32153}</string>
 				<key>SHName</key>
 				<string>arm2L</string>
 				<key>Scale</key>
@@ -2269,7 +2269,7 @@
 				<key>PathStartPoint</key>
 				<integer>0</integer>
 				<key>Position</key>
-				<string>{739.78937, 694.3197}</string>
+				<string>{753.38995, 697.71985}</string>
 				<key>SHName</key>
 				<string>arm2R</string>
 				<key>Scale</key>
@@ -2436,7 +2436,7 @@
 				<key>PathStartPoint</key>
 				<integer>0</integer>
 				<key>Position</key>
-				<string>{813.79724, 695.31165}</string>
+				<string>{827.39783, 698.71179}</string>
 				<key>SHName</key>
 				<string>arm3L</string>
 				<key>Scale</key>
@@ -2543,7 +2543,7 @@
 				<key>PathStartPoint</key>
 				<integer>0</integer>
 				<key>Position</key>
-				<string>{896.5976, 695.8075}</string>
+				<string>{910.19818, 699.20764}</string>
 				<key>SHName</key>
 				<string>arm3R</string>
 				<key>Scale</key>
@@ -2668,7 +2668,7 @@
 				<key>PathStartPoint</key>
 				<integer>0</integer>
 				<key>Position</key>
-				<string>{268.69769, 690.90436}</string>
+				<string>{282.29852, 694.3045}</string>
 				<key>SHName</key>
 				<string>leg4L</string>
 				<key>Scale</key>
@@ -2833,7 +2833,7 @@
 				<key>PathStartPoint</key>
 				<integer>0</integer>
 				<key>Position</key>
-				<string>{325.89551, 689.40454}</string>
+				<string>{339.49634, 692.80469}</string>
 				<key>SHName</key>
 				<string>leg4R</string>
 				<key>Scale</key>
@@ -2988,7 +2988,7 @@
 				<key>PathStartPoint</key>
 				<integer>0</integer>
 				<key>Position</key>
-				<string>{464.99319, 686.90497}</string>
+				<string>{478.59402, 690.30511}</string>
 				<key>SHName</key>
 				<string>leg5R</string>
 				<key>Scale</key>
@@ -3139,7 +3139,7 @@
 				<key>PathStartPoint</key>
 				<integer>0</integer>
 				<key>Position</key>
-				<string>{401.99512, 686.20483}</string>
+				<string>{415.59595, 689.60498}</string>
 				<key>SHName</key>
 				<string>leg5L</string>
 				<key>Scale</key>
@@ -3300,7 +3300,7 @@
 				<key>PathStartPoint</key>
 				<integer>0</integer>
 				<key>Position</key>
-				<string>{546.39264, 683.80341}</string>
+				<string>{559.99323, 687.20355}</string>
 				<key>SHName</key>
 				<string>leg3L</string>
 				<key>Scale</key>
@@ -3444,7 +3444,7 @@
 				<key>PathStartPoint</key>
 				<integer>0</integer>
 				<key>Position</key>
-				<string>{606.29144, 683.80396}</string>
+				<string>{619.89203, 687.2041}</string>
 				<key>SHName</key>
 				<string>leg3R</string>
 				<key>Scale</key>
@@ -3584,7 +3584,7 @@
 				<key>PathStartPoint</key>
 				<integer>0</integer>
 				<key>Position</key>
-				<string>{682.19159, 689.10406}</string>
+				<string>{695.79218, 692.50421}</string>
 				<key>SHName</key>
 				<string>leg1L</string>
 				<key>Scale</key>
@@ -3704,7 +3704,7 @@
 				<key>PathStartPoint</key>
 				<integer>0</integer>
 				<key>Position</key>
-				<string>{743.89111, 688.60437}</string>
+				<string>{757.4917, 692.00452}</string>
 				<key>SHName</key>
 				<string>leg1R</string>
 				<key>Scale</key>
@@ -3815,7 +3815,7 @@
 				<key>PathStartPoint</key>
 				<integer>0</integer>
 				<key>Position</key>
-				<string>{824.20178, 687.20081}</string>
+				<string>{837.80237, 690.60095}</string>
 				<key>SHName</key>
 				<string>leg2L</string>
 				<key>Scale</key>
@@ -3982,7 +3982,7 @@
 				<key>PathStartPoint</key>
 				<integer>0</integer>
 				<key>Position</key>
-				<string>{878.10126, 688.5011}</string>
+				<string>{891.70184, 691.90125}</string>
 				<key>SHName</key>
 				<string>leg2R</string>
 				<key>Scale</key>
@@ -4155,7 +4155,7 @@
 				<key>PathStartPoint</key>
 				<integer>0</integer>
 				<key>Position</key>
-				<string>{315.4978, 674.10248}</string>
+				<string>{329.09863, 677.50262}</string>
 				<key>SHName</key>
 				<string>body5</string>
 				<key>Scale</key>
@@ -4289,7 +4289,7 @@
 				<key>PathStartPoint</key>
 				<integer>0</integer>
 				<key>Position</key>
-				<string>{458.59586, 669.10413}</string>
+				<string>{472.19669, 672.50427}</string>
 				<key>SHName</key>
 				<string>body2</string>
 				<key>Scale</key>
@@ -4441,7 +4441,7 @@
 				<key>PathStartPoint</key>
 				<integer>0</integer>
 				<key>Position</key>
-				<string>{597.39539, 673.70422}</string>
+				<string>{610.99597, 677.10437}</string>
 				<key>SHName</key>
 				<string>body1</string>
 				<key>Scale</key>
@@ -4641,7 +4641,7 @@
 				<key>PathStartPoint</key>
 				<integer>0</integer>
 				<key>Position</key>
-				<string>{731.29742, 676.604}</string>
+				<string>{744.89801, 680.00415}</string>
 				<key>SHName</key>
 				<string>body3</string>
 				<key>Scale</key>
@@ -4756,7 +4756,7 @@
 				<key>PathStartPoint</key>
 				<integer>0</integer>
 				<key>Position</key>
-				<string>{857.09918, 671.80316}</string>
+				<string>{870.69977, 675.20331}</string>
 				<key>SHName</key>
 				<string>body4_1</string>
 				<key>Scale</key>
@@ -4952,7 +4952,7 @@
 				<key>PathStartPoint</key>
 				<integer>0</integer>
 				<key>Position</key>
-				<string>{442.3009, 669.59875}</string>
+				<string>{455.90173, 672.9989}</string>
 				<key>SHName</key>
 				<string>head2</string>
 				<key>Scale</key>
@@ -5157,7 +5157,7 @@
 				<key>PathStartPoint</key>
 				<integer>0</integer>
 				<key>Position</key>
-				<string>{297.59784, 681.90222}</string>
+				<string>{311.19867, 685.30237}</string>
 				<key>SHName</key>
 				<string>head1</string>
 				<key>Scale</key>
@@ -5368,7 +5368,7 @@
 				<key>PathStartPoint</key>
 				<integer>0</integer>
 				<key>Position</key>
-				<string>{578.00092, 669.70001}</string>
+				<string>{591.6015, 673.10016}</string>
 				<key>SHName</key>
 				<string>head3</string>
 				<key>Scale</key>
@@ -5549,7 +5549,7 @@
 				<key>PathStartPoint</key>
 				<integer>0</integer>
 				<key>Position</key>
-				<string>{708.50171, 663.2005}</string>
+				<string>{722.10229, 666.60065}</string>
 				<key>SHName</key>
 				<string>head4</string>
 				<key>Scale</key>
@@ -5737,7 +5737,7 @@
 				<key>PathStartPoint</key>
 				<integer>0</integer>
 				<key>Position</key>
-				<string>{841.00043, 672}</string>
+				<string>{854.60101, 675.40015}</string>
 				<key>SHName</key>
 				<string>head5</string>
 				<key>Scale</key>
@@ -5904,7 +5904,7 @@
 				<key>Locked</key>
 				<true/>
 				<key>Opacity</key>
-				<real>0.0</real>
+				<real>1</real>
 				<key>PathIsCyclic</key>
 				<false/>
 				<key>PathName</key>
@@ -5916,7 +5916,7 @@
 				<key>PathStartPoint</key>
 				<integer>0</integer>
 				<key>Position</key>
-				<string>{273.39978, 695}</string>
+				<string>{287.00061, 698.40015}</string>
 				<key>SHName</key>
 				<string>mouth9</string>
 				<key>Scale</key>
@@ -5928,7 +5928,7 @@
 				<key>UV</key>
 				<string>{{0, 30}, {45, 37}}</string>
 				<key>UniqueName</key>
-				<string>mouth9</string>
+				<string>mouth_1</string>
 				<key>ZOrder</key>
 				<integer>16</integer>
 			</dict>
@@ -6021,7 +6021,7 @@
 				<key>IsInParallax</key>
 				<false/>
 				<key>Locked</key>
-				<true/>
+				<false/>
 				<key>Opacity</key>
 				<real>0.0</real>
 				<key>PathIsCyclic</key>
@@ -6035,7 +6035,7 @@
 				<key>PathStartPoint</key>
 				<integer>0</integer>
 				<key>Position</key>
-				<string>{345.99899, 693.50024}</string>
+				<string>{359.59982, 696.90039}</string>
 				<key>SHName</key>
 				<string>mouth5</string>
 				<key>Scale</key>
@@ -6047,7 +6047,7 @@
 				<key>UV</key>
 				<string>{{77, 0}, {47, 26}}</string>
 				<key>UniqueName</key>
-				<string>mouth5</string>
+				<string>mouth_2</string>
 				<key>ZOrder</key>
 				<integer>16</integer>
 			</dict>
@@ -6155,9 +6155,9 @@
 				<key>IsInParallax</key>
 				<false/>
 				<key>Locked</key>
-				<true/>
+				<false/>
 				<key>Opacity</key>
-				<real>0.0</real>
+				<real>1</real>
 				<key>PathIsCyclic</key>
 				<false/>
 				<key>PathName</key>
@@ -6169,7 +6169,7 @@
 				<key>PathStartPoint</key>
 				<integer>0</integer>
 				<key>Position</key>
-				<string>{437.90012, 696.70007}</string>
+				<string>{451.50095, 700.10022}</string>
 				<key>SHName</key>
 				<string>mouth3</string>
 				<key>Scale</key>
@@ -6181,7 +6181,7 @@
 				<key>UV</key>
 				<string>{{0, 0}, {74, 27}}</string>
 				<key>UniqueName</key>
-				<string>mouth3</string>
+				<string>mouth_3</string>
 				<key>ZOrder</key>
 				<integer>16</integer>
 			</dict>
@@ -6290,7 +6290,7 @@
 				<key>IsInParallax</key>
 				<false/>
 				<key>Locked</key>
-				<true/>
+				<false/>
 				<key>Opacity</key>
 				<real>0.0</real>
 				<key>PathIsCyclic</key>
@@ -6304,7 +6304,7 @@
 				<key>PathStartPoint</key>
 				<integer>0</integer>
 				<key>Position</key>
-				<string>{592.50385, 695.39984}</string>
+				<string>{606.10443, 698.79999}</string>
 				<key>SHName</key>
 				<string>mouth7</string>
 				<key>Scale</key>
@@ -6316,7 +6316,7 @@
 				<key>UV</key>
 				<string>{{48, 30}, {34, 40}}</string>
 				<key>UniqueName</key>
-				<string>mouth7</string>
+				<string>mouth_5</string>
 				<key>ZOrder</key>
 				<integer>16</integer>
 			</dict>
@@ -6445,7 +6445,7 @@
 				<key>IsInParallax</key>
 				<false/>
 				<key>Locked</key>
-				<true/>
+				<false/>
 				<key>Opacity</key>
 				<real>0.0</real>
 				<key>PathIsCyclic</key>
@@ -6459,7 +6459,7 @@
 				<key>PathStartPoint</key>
 				<integer>0</integer>
 				<key>Position</key>
-				<string>{725.60675, 695.3999}</string>
+				<string>{739.20734, 698.80005}</string>
 				<key>SHName</key>
 				<string>mouth2</string>
 				<key>Scale</key>
@@ -6471,7 +6471,7 @@
 				<key>UV</key>
 				<string>{{84, 30}, {32, 31}}</string>
 				<key>UniqueName</key>
-				<string>mouth2</string>
+				<string>mouth_7</string>
 				<key>ZOrder</key>
 				<integer>16</integer>
 			</dict>
@@ -6575,7 +6575,7 @@
 				<key>IsInParallax</key>
 				<false/>
 				<key>Locked</key>
-				<true/>
+				<false/>
 				<key>Opacity</key>
 				<real>0.0</real>
 				<key>PathIsCyclic</key>
@@ -6589,7 +6589,7 @@
 				<key>PathStartPoint</key>
 				<integer>0</integer>
 				<key>Position</key>
-				<string>{902.41278, 692.89966}</string>
+				<string>{916.01337, 696.2998}</string>
 				<key>SHName</key>
 				<string>mouth8</string>
 				<key>Scale</key>
@@ -6601,7 +6601,7 @@
 				<key>UV</key>
 				<string>{{0, 70}, {45, 31}}</string>
 				<key>UniqueName</key>
-				<string>mouth8</string>
+				<string>mouth_a</string>
 				<key>ZOrder</key>
 				<integer>16</integer>
 			</dict>
@@ -6685,7 +6685,7 @@
 				<key>IsInParallax</key>
 				<false/>
 				<key>Locked</key>
-				<true/>
+				<false/>
 				<key>Opacity</key>
 				<real>0.0</real>
 				<key>PathIsCyclic</key>
@@ -6699,7 +6699,7 @@
 				<key>PathStartPoint</key>
 				<integer>0</integer>
 				<key>Position</key>
-				<string>{524.9881, 696.09998}</string>
+				<string>{538.58868, 699.50012}</string>
 				<key>SHName</key>
 				<string>mouth1</string>
 				<key>Scale</key>
@@ -6711,7 +6711,7 @@
 				<key>UV</key>
 				<string>{{48, 73}, {45, 14}}</string>
 				<key>UniqueName</key>
-				<string>mouth1</string>
+				<string>mouth_4</string>
 				<key>ZOrder</key>
 				<integer>16</integer>
 			</dict>
@@ -6809,7 +6809,7 @@
 				<key>IsInParallax</key>
 				<false/>
 				<key>Locked</key>
-				<true/>
+				<false/>
 				<key>Opacity</key>
 				<real>0.0</real>
 				<key>PathIsCyclic</key>
@@ -6823,7 +6823,7 @@
 				<key>PathStartPoint</key>
 				<integer>0</integer>
 				<key>Position</key>
-				<string>{773.29919, 695.6001}</string>
+				<string>{786.89978, 699.00024}</string>
 				<key>SHName</key>
 				<string>mouth6</string>
 				<key>Scale</key>
@@ -6835,7 +6835,7 @@
 				<key>UV</key>
 				<string>{{96, 73}, {10, 7}}</string>
 				<key>UniqueName</key>
-				<string>mouth6</string>
+				<string>mouth_8</string>
 				<key>ZOrder</key>
 				<integer>16</integer>
 			</dict>
@@ -6910,7 +6910,7 @@
 				<key>IsInParallax</key>
 				<false/>
 				<key>Locked</key>
-				<true/>
+				<false/>
 				<key>Opacity</key>
 				<real>0.0</real>
 				<key>PathIsCyclic</key>
@@ -6924,7 +6924,7 @@
 				<key>PathStartPoint</key>
 				<integer>0</integer>
 				<key>Position</key>
-				<string>{827.49927, 698.40033}</string>
+				<string>{841.09985, 701.80048}</string>
 				<key>SHName</key>
 				<string>mouth6.</string>
 				<key>Scale</key>
@@ -6936,7 +6936,7 @@
 				<key>UV</key>
 				<string>{{48, 90}, {47, 13}}</string>
 				<key>UniqueName</key>
-				<string>mouth6.</string>
+				<string>mouth_9</string>
 				<key>ZOrder</key>
 				<integer>16</integer>
 			</dict>
@@ -7033,7 +7033,7 @@
 				<key>IsInParallax</key>
 				<false/>
 				<key>Locked</key>
-				<true/>
+				<false/>
 				<key>Opacity</key>
 				<real>0.0</real>
 				<key>PathIsCyclic</key>
@@ -7047,7 +7047,7 @@
 				<key>PathStartPoint</key>
 				<integer>0</integer>
 				<key>Position</key>
-				<string>{656.2865, 694.79962}</string>
+				<string>{669.88708, 698.19977}</string>
 				<key>SHName</key>
 				<string>mouth4</string>
 				<key>Scale</key>
@@ -7059,7 +7059,7 @@
 				<key>UV</key>
 				<string>{{0, 104}, {33, 14}}</string>
 				<key>UniqueName</key>
-				<string>mouth4</string>
+				<string>mouth_6</string>
 				<key>ZOrder</key>
 				<integer>16</integer>
 			</dict>
@@ -7142,9 +7142,9 @@
 				<key>IsInParallax</key>
 				<false/>
 				<key>Locked</key>
-				<false/>
+				<true/>
 				<key>Opacity</key>
-				<real>1</real>
+				<real>0.0</real>
 				<key>PathIsCyclic</key>
 				<false/>
 				<key>PathName</key>
@@ -7156,7 +7156,7 @@
 				<key>PathStartPoint</key>
 				<integer>0</integer>
 				<key>Position</key>
-				<string>{264.79956, 700.00073}</string>
+				<string>{278.40039, 703.40088}</string>
 				<key>SHName</key>
 				<string>eye13</string>
 				<key>Scale</key>
@@ -7240,9 +7240,9 @@
 				<key>IsInParallax</key>
 				<false/>
 				<key>Locked</key>
-				<false/>
+				<true/>
 				<key>Opacity</key>
-				<real>1</real>
+				<real>0.0</real>
 				<key>PathIsCyclic</key>
 				<false/>
 				<key>PathName</key>
@@ -7254,7 +7254,7 @@
 				<key>PathStartPoint</key>
 				<integer>0</integer>
 				<key>Position</key>
-				<string>{326.39941, 700.00073}</string>
+				<string>{340.00024, 703.40088}</string>
 				<key>SHName</key>
 				<string>eye20</string>
 				<key>Scale</key>
@@ -7383,9 +7383,9 @@
 				<key>IsInParallax</key>
 				<false/>
 				<key>Locked</key>
-				<false/>
+				<true/>
 				<key>Opacity</key>
-				<real>1</real>
+				<real>0.0</real>
 				<key>PathIsCyclic</key>
 				<false/>
 				<key>PathName</key>
@@ -7397,7 +7397,7 @@
 				<key>PathStartPoint</key>
 				<integer>0</integer>
 				<key>Position</key>
-				<string>{375.59952, 700.00073}</string>
+				<string>{389.20035, 703.40088}</string>
 				<key>SHName</key>
 				<string>eye9</string>
 				<key>Scale</key>
@@ -7523,9 +7523,9 @@
 				<key>IsInParallax</key>
 				<false/>
 				<key>Locked</key>
-				<false/>
+				<true/>
 				<key>Opacity</key>
-				<real>1</real>
+				<real>0.0</real>
 				<key>PathIsCyclic</key>
 				<false/>
 				<key>PathName</key>
@@ -7537,7 +7537,7 @@
 				<key>PathStartPoint</key>
 				<integer>0</integer>
 				<key>Position</key>
-				<string>{428.39984, 700.00073}</string>
+				<string>{442.00067, 703.40088}</string>
 				<key>SHName</key>
 				<string>eye4</string>
 				<key>Scale</key>
@@ -7623,9 +7623,9 @@
 				<key>IsInParallax</key>
 				<false/>
 				<key>Locked</key>
-				<false/>
+				<true/>
 				<key>Opacity</key>
-				<real>1</real>
+				<real>0.0</real>
 				<key>PathIsCyclic</key>
 				<false/>
 				<key>PathName</key>
@@ -7637,7 +7637,7 @@
 				<key>PathStartPoint</key>
 				<integer>0</integer>
 				<key>Position</key>
-				<string>{484.80026, 701.20081}</string>
+				<string>{498.40109, 704.60095}</string>
 				<key>SHName</key>
 				<string>eye8</string>
 				<key>Scale</key>
@@ -7751,9 +7751,9 @@
 				<key>IsInParallax</key>
 				<false/>
 				<key>Locked</key>
-				<false/>
+				<true/>
 				<key>Opacity</key>
-				<real>1</real>
+				<real>0.0</real>
 				<key>PathIsCyclic</key>
 				<false/>
 				<key>PathName</key>
@@ -7765,7 +7765,7 @@
 				<key>PathStartPoint</key>
 				<integer>0</integer>
 				<key>Position</key>
-				<string>{540.2384, 707.9259}</string>
+				<string>{553.83899, 711.32605}</string>
 				<key>SHName</key>
 				<string>eye12L.</string>
 				<key>Scale</key>
@@ -7890,9 +7890,9 @@
 				<key>IsInParallax</key>
 				<false/>
 				<key>Locked</key>
-				<false/>
+				<true/>
 				<key>Opacity</key>
-				<real>1</real>
+				<real>0.0</real>
 				<key>PathIsCyclic</key>
 				<false/>
 				<key>PathName</key>
@@ -7904,7 +7904,7 @@
 				<key>PathStartPoint</key>
 				<integer>0</integer>
 				<key>Position</key>
-				<string>{599.99854, 702.16315}</string>
+				<string>{613.59912, 705.56329}</string>
 				<key>SHName</key>
 				<string>eye20_1</string>
 				<key>Scale</key>
@@ -8004,9 +8004,9 @@
 				<key>IsInParallax</key>
 				<false/>
 				<key>Locked</key>
-				<false/>
+				<true/>
 				<key>Opacity</key>
-				<real>1</real>
+				<real>0.0</real>
 				<key>PathIsCyclic</key>
 				<false/>
 				<key>PathName</key>
@@ -8018,7 +8018,7 @@
 				<key>PathStartPoint</key>
 				<integer>0</integer>
 				<key>Position</key>
-				<string>{666.08771, 705.76343}</string>
+				<string>{679.68829, 709.16357}</string>
 				<key>SHName</key>
 				<string>eye1L_1</string>
 				<key>Scale</key>
@@ -8136,9 +8136,9 @@
 				<key>IsInParallax</key>
 				<false/>
 				<key>Locked</key>
-				<false/>
+				<true/>
 				<key>Opacity</key>
-				<real>1</real>
+				<real>0.0</real>
 				<key>PathIsCyclic</key>
 				<false/>
 				<key>PathName</key>
@@ -8150,7 +8150,7 @@
 				<key>PathStartPoint</key>
 				<integer>0</integer>
 				<key>Position</key>
-				<string>{716.32629, 699.52539}</string>
+				<string>{729.92688, 702.92554}</string>
 				<key>SHName</key>
 				<string>eye3R</string>
 				<key>Scale</key>
@@ -8253,9 +8253,9 @@
 				<key>IsInParallax</key>
 				<false/>
 				<key>Locked</key>
-				<false/>
+				<true/>
 				<key>Opacity</key>
-				<real>1</real>
+				<real>0.0</real>
 				<key>PathIsCyclic</key>
 				<false/>
 				<key>PathName</key>
@@ -8267,7 +8267,7 @@
 				<key>PathStartPoint</key>
 				<integer>0</integer>
 				<key>Position</key>
-				<string>{-17738.246, 4647.4951}</string>
+				<string>{-17724.652, 4650.8955}</string>
 				<key>SHName</key>
 				<string>eye12R_2</string>
 				<key>Scale</key>
@@ -8389,9 +8389,9 @@
 				<key>IsInParallax</key>
 				<false/>
 				<key>Locked</key>
-				<false/>
+				<true/>
 				<key>Opacity</key>
-				<real>1</real>
+				<real>0.0</real>
 				<key>PathIsCyclic</key>
 				<false/>
 				<key>PathName</key>
@@ -8403,7 +8403,7 @@
 				<key>PathStartPoint</key>
 				<integer>0</integer>
 				<key>Position</key>
-				<string>{767.90662, 694.78784}</string>
+				<string>{781.5072, 698.18799}</string>
 				<key>SHName</key>
 				<string>eye19</string>
 				<key>Scale</key>
@@ -8506,9 +8506,9 @@
 				<key>IsInParallax</key>
 				<false/>
 				<key>Locked</key>
-				<false/>
+				<true/>
 				<key>Opacity</key>
-				<real>1</real>
+				<real>0.0</real>
 				<key>PathIsCyclic</key>
 				<false/>
 				<key>PathName</key>
@@ -8520,7 +8520,7 @@
 				<key>PathStartPoint</key>
 				<integer>0</integer>
 				<key>Position</key>
-				<string>{817.36932, 702.14435}</string>
+				<string>{830.96991, 705.54449}</string>
 				<key>SHName</key>
 				<string>eye11L_2</string>
 				<key>Scale</key>
@@ -8631,9 +8631,9 @@
 				<key>IsInParallax</key>
 				<false/>
 				<key>Locked</key>
-				<false/>
+				<true/>
 				<key>Opacity</key>
-				<real>1</real>
+				<real>0.0</real>
 				<key>PathIsCyclic</key>
 				<false/>
 				<key>PathName</key>
@@ -8645,7 +8645,7 @@
 				<key>PathStartPoint</key>
 				<integer>0</integer>
 				<key>Position</key>
-				<string>{859.76971, 699.20007}</string>
+				<string>{873.3703, 702.60022}</string>
 				<key>SHName</key>
 				<string>eye16L.</string>
 				<key>Scale</key>
@@ -8767,9 +8767,9 @@
 				<key>IsInParallax</key>
 				<false/>
 				<key>Locked</key>
-				<false/>
+				<true/>
 				<key>Opacity</key>
-				<real>1</real>
+				<real>0.0</real>
 				<key>PathIsCyclic</key>
 				<false/>
 				<key>PathName</key>
@@ -8781,7 +8781,7 @@
 				<key>PathStartPoint</key>
 				<integer>0</integer>
 				<key>Position</key>
-				<string>{910.78918, 699}</string>
+				<string>{924.38977, 702.40015}</string>
 				<key>SHName</key>
 				<string>eye16R</string>
 				<key>Scale</key>
@@ -8912,7 +8912,7 @@
 				<key>PathStartPoint</key>
 				<integer>0</integer>
 				<key>Position</key>
-				<string>{326.20197, 694.00299}</string>
+				<string>{339.8028, 697.40314}</string>
 				<key>SHName</key>
 				<string>hair2</string>
 				<key>Scale</key>
@@ -9090,7 +9090,7 @@
 				<key>PathStartPoint</key>
 				<integer>0</integer>
 				<key>Position</key>
-				<string>{467.69971, 688.50226}</string>
+				<string>{481.30054, 691.9024}</string>
 				<key>SHName</key>
 				<string>hair3</string>
 				<key>Scale</key>
@@ -9239,7 +9239,7 @@
 				<key>PathStartPoint</key>
 				<integer>0</integer>
 				<key>Position</key>
-				<string>{614.20044, 686.80212}</string>
+				<string>{627.80103, 690.20227}</string>
 				<key>SHName</key>
 				<string>hair1</string>
 				<key>Scale</key>
@@ -9375,7 +9375,7 @@
 				<key>PathStartPoint</key>
 				<integer>0</integer>
 				<key>Position</key>
-				<string>{763.29944, 694.30188}</string>
+				<string>{776.90002, 697.70203}</string>
 				<key>SHName</key>
 				<string>hair4</string>
 				<key>Scale</key>
@@ -9533,7 +9533,7 @@
 				<key>PathStartPoint</key>
 				<integer>0</integer>
 				<key>Position</key>
-				<string>{870.09961, 701.0014}</string>
+				<string>{883.7002, 704.40155}</string>
 				<key>SHName</key>
 				<string>hair5</string>
 				<key>Scale</key>
@@ -9639,7 +9639,7 @@
 				<key>PathStartPoint</key>
 				<integer>0</integer>
 				<key>Position</key>
-				<string>{437.39487, 688.00031}</string>
+				<string>{450.9957, 691.40045}</string>
 				<key>SHName</key>
 				<string>crone</string>
 				<key>Scale</key>
@@ -9790,7 +9790,7 @@
 				<key>PathStartPoint</key>
 				<integer>0</integer>
 				<key>Position</key>
-				<string>{538.78735, 693.70056}</string>
+				<string>{552.38794, 697.10071}</string>
 				<key>SHName</key>
 				<string>fez</string>
 				<key>Scale</key>
@@ -9908,7 +9908,7 @@
 				<key>PathStartPoint</key>
 				<integer>0</integer>
 				<key>Position</key>
-				<string>{317.59918, 696.50073}</string>
+				<string>{331.20001, 699.90088}</string>
 				<key>SHName</key>
 				<string>hat</string>
 				<key>Scale</key>
@@ -10027,7 +10027,7 @@
 			<string>UI_BODIES</string>
 		</array>
 		<key>TimeOfSave</key>
-		<real>344904245.214113</real>
+		<real>345156347.40393502</real>
 	</dict>
 	<key>ShScenesURL</key>
 	<array>
