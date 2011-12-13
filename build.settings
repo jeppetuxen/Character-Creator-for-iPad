@@ -7,7 +7,7 @@ settings =
 
 		supported = 
 		{
-		"landscape",
+		"landscape","landscapeLeft","landscapeRight",
 		},
 
 	},

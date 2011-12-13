@@ -23,41 +23,170 @@ loader:instantiateSprites()
 scaleConstant = 0.5
 
 
+
+
 --------------------FUNCTIONS FOR DRAGGING-------------------------
+local function attach2Bodies(body, x, y)
+		body.pivotJoint = physics.newJoint( "pivot", body, body.otherObject, x,y)
+		--body.isSensor = false
+		body.angularDamping = 5
+		body.isFixedRotation = false
+		body.bodyType = body.originalType
+		body.isAttached = true
+		audio.play(puffSound)
+		analytics.logEvent( body.uniqueName .. " is connected with " .. body.otherObject.uniqueName )
+		print (body.uniqueName .. " is connected with " .. body.otherObject.uniqueName)
+		
+	
+
+		---starting explosion emitter
+		expEmitter.x = x
+		expEmitter.y = y
+		Particles.StartEmitter("Explosion1",true)
+
+		-- setting the rotation limits
+		if body.parent.rotationLimits ~= nil then
+
+			body.pivotJoint.isLimitEnabled = true
+			body.pivotJoint:setRotationLimits(-body.parent.rotationLimits,body.parent.rotationLimits)
+		end
+	end 
+
+local counter = 0;
+
+local jitterObject
+local jitterTimer
+
+local millisBeforeDetach = 2000
+
+
+function jitter (event)
+	if jitterTimer ~= nil then
+
+		local time = timer.pause(jitterTimer)
+		local jitterRange = math.ceil((millisBeforeDetach-time)/200)
+		local x1 = math.random(-jitterRange,jitterRange)
+		local y1 = math.random(-jitterRange,jitterRange)
+		print ("jitter! on " .. time)
+		timer.resume(jitterTimer)
+		if jitterObject ~= nil then
+			jitterObject:translate(x1,y1)
+		end
+
+	end	
+
+end
+
+Runtime:addEventListener("enterFrame",jitter)
+
+
+
+
+
 local function dragBody( event )
 	local body = event.target
 	local phase = event.phase
 	local x,y = event.x,event.y
 	local stage = display.getCurrentStage()
 	local parent = event.target.parent
+	local scaleFactor = 0.03
+
+	
+	local deAttach = function () 
+		if body.isFocus == true then
+			if body.pivotJoint ~= nil then
+				local x1,y1 = body.pivotJoint:getAnchorA()
+				print ("x1 = " .. x1)
+				body.pivotJoint:removeSelf()
+				body.tempJoint:removeSelf()
+				body.tempJoint = physics.newJoint( "touch", body, x1, y1)
+				
+				body.isAttached = false
+				body.isFixedRotation = true
+				playRandomSoundInArray(popSounds)
+				jitterObject = nil
+				jitterTimer = nil
+			end
+		end
+	end
+	
+	
+	ScreenTouched(event)
 
 
 	if "began" == phase then
-		local c = audio.findFreeChannel()
+		
 		stage:setFocus( body, event.id )
 		body.isFocus = true
 		body.bodyType = "dynamic"
 		
+		body.xScale = body.xScale+scaleFactor
+		body.yScale = body.yScale+scaleFactor
+		
+		
+		
 		playRandomSoundInArray(popSounds)
-	--	audio.play(particleSound,{ loops = -1,fadeIn = 300})
-	
 
 		-- Create a temporary touch joint and store it in the object for later reference
 		body.tempJoint = physics.newJoint( "touch", body, event.x, event.y )
+		body.tempJoint:setTarget( event.x, event.y )
 		
 		analytics.logEvent( body.uniqueName .. " is draged" )
 		print ("logged ".. body.uniqueName)
+		body.collision = attachOnCollision
+		body:addEventListener("collision",body)
+		
+		if body.isAttached == true then
+			jitterTimer = timer.performWithDelay(millisBeforeDetach, deAttach,1)
+			jitterObject = body
+		
+		end
 
 	elseif body.isFocus then
 		if "moved" == phase then
+			
+	
+			if body.otherObject ~= nil and body.isAttached == false then
+				if body.otherObject.parent == nil or body.otherObject.parent == body.parent.parentGroup then
+					local bounds = body.otherObject.contentBounds
+					local isWhithinBounds = bounds.xMin <= x and bounds.xMax >= x and bounds.yMin <= y and bounds.yMax >= y
+					
+					if isWhithinBounds then
+						sparksEmitter.x = x
+						sparksEmitter.y = y
+						if Particles.EmitterIsActive("Sparks") == false then
+							Particles.StartEmitter("Sparks")	
+						end
+						else body.otherObject = nil
+
+						end
+					end
+				end
+			
 
 			-- Update the joint to track the touch
 			body.tempJoint:setTarget( event.x, event.y )
 
 		elseif "ended" == phase or "cancelled" == phase then
-			stage:setFocus( body, nil )
-			body.isFocus = false
+				-- stopping sparks emitter
+				Particles.StopEmitter("Sparks")
+			body:removeEventListener("collision",body)
+			if jitterTimer ~= nil then
+			timer.cancel(jitterTimer)
+		end 
+			jitterObject = nil
 			
+			
+			--scale back
+			
+			body.xScale = body.xScale-scaleFactor
+			body.yScale = body.yScale-scaleFactor
+			
+			if body.otherObject ~= nil and body.isAttached == false then
+				if body.otherObject.parent == nil or body.otherObject.parent == body.parent.parentGroup then
+					attach2Bodies(body,event.x,event.y)
+				end
+			end
 			--audio.fadeOut({time=30 } )
 				--playRandomSoundInArray(popSounds)
 --	audio.play(puffSound)
@@ -67,41 +196,22 @@ local function dragBody( event )
 				body.bodyType = "static"
 			end
 			
+			if body.other ~= nil then
+			print("other object name " .. body.other.uniqueName)
+		end 
 			
 			
-			if body.otherObject ~= nil and body.isAttached == false then
-				if body.otherObject.parent == nil or body.otherObject.parent == body.parent.parentGroup then
-					body.pivotJoint = physics.newJoint( "pivot", newObject, newObject.otherObject, event.x,event.y)
-					--body.isSensor = false
-					body.angularDamping = 5
-					body.isFixedRotation = false
-					body.bodyType = body.originalType
-					body.isAttached = true
-					audio.play(puffSound)
-					analytics.logEvent( body.uniqueName .. " is connected with " .. body.otherObject.uniqueName )
-					print (body.uniqueName .. " is connected with " .. body.otherObject.uniqueName)
-					
-					---starting explosion emitter
-					expEmitter.x = event.x
-					expEmitter.y = event.y
-					Particles.StartEmitter("Explosion1",true)
-
-					-- setting the rotation limits
-					if body.parent.rotationLimits ~= nil then
-
-						body.pivotJoint.isLimitEnabled = true
-						body.pivotJoint:setRotationLimits(-body.parent.rotationLimits,body.parent.rotationLimits)
-					end
-
-				end
-			end
+			
 			
 			local isGarbage = garbageBounds.xMin <= x and garbageBounds.xMax >= x and garbageBounds.yMin <= y and garbageBounds.yMax >= y
-
+         
 			if isGarbage then
 				body:removeSelf()
 				audio.play(trashSound)
 			end
+			
+			stage:setFocus( body, nil )
+			body.isFocus = false
 
 		end
 	end
@@ -110,25 +220,69 @@ local function dragBody( event )
 	return true
 end
 
-
+function attachOnCollisionWithGroup(event, object1, object2)
+end
 
 function attachOnCollision(self,event)
 	local phase = event.phase
-	--self.otherObject = event.other
-	if "began"== phase then
-		if (event.other.parent == self.otherGroup or self.otherGroup == nil) then
-		self.otherObject = event.other
-	end
+	local thisObject = self
+	local otherObject = event.other
+	local stopCollision = function () 
+		thisObject.otherObject = nil
+		print (thisObject.uniqueName .. " has stopped")
+		end
 	
-	elseif "ended" == phase then
-		self.otherObject = nil
-		--		print "collisionEnded"
-	end	
+	if thisObject.isFocus == true then
+		if thisObject.parent.parentGroup == otherObject.parent then
+		if phase == "began" then
+			print (thisObject.uniqueName .. otherObject.uniqueName .. " has begun connecting")
+				thisObject.otherObject = otherObject
+	
+
+		elseif phase == "ended" then
+			
+			
+		--	timer.performWithDelay(500, stopCollision,1)
+		end
+	end
+end
+
 end
 
 local function onTouchCreateNewObject( event )
 	local t = event.target
 	local phase = event.phase
+	local x,y =  event.x,event.y
+	
+	--- Particles
+	ScreenTouched(event)
+	
+	local attach = function() 
+		body.pivotJoint = physics.newJoint( "pivot", newObject, newObject.otherObject, event.x,event.y)
+		--body.isSensor = false
+		body.angularDamping = 5
+		body.isFixedRotation = false
+		body.bodyType = body.originalType
+		body.isAttached = true
+
+		---starting explosion emitter
+		expEmitter.x = event.x
+		expEmitter.y = event.y
+		Particles.StartEmitter("Explosion1",true)
+
+		analytics.logEvent( body.uniqueName .. " is connected with " .. body.otherObject.uniqueName .. " on creation" )
+		print (body.uniqueName .. " is connected on creation with " .. body.otherObject.uniqueName)
+
+		audio.play(puffSound) 
+
+		-- setting the rotation limits
+		if body.parent.rotationLimits ~= nil then
+
+			body.pivotJoint.isLimitEnabled = true
+			body.pivotJoint:setRotationLimits(-body.parent.rotationLimits,body.parent.rotationLimits)
+		end
+	end
+	
 
 	if "began" == phase then
 		-- Make target the top-most object
@@ -184,13 +338,34 @@ local function onTouchCreateNewObject( event )
 	elseif newObject.isFocus then
 
 		if "moved" == phase then
+			
+			if newObject.otherObject ~= nil and newObject.isAttached == false then
+				if newObject.otherObject.parent == nil or newObject.otherObject.parent == newObject.parent.parentGroup then
+					local bounds = newObject.otherObject.contentBounds
+					local isWhithinBounds = bounds.xMin <= x and bounds.xMax >= x and bounds.yMin <= y and bounds.yMax >= y
+					
+					if isWhithinBounds then
+						sparksEmitter.x = x
+						sparksEmitter.y = y
+						if Particles.EmitterIsActive("Sparks") == false then
+							Particles.StartEmitter("Sparks")	
+						end
+						else newObject.otherObject = nil
+
+						end
+					end
+				end
 
 			newObject.tempJoint:setTarget( event.x, event.y )
 
 		elseif "ended" == phase or "cancelled" == phase then
-
+				-- stopping sparks emitter
+				Particles.StopEmitter("Sparks")
+			
+           newObject:removeEventListener("collision",newObject)
+				
 			local x,y = event.x, event.y
-
+            newObject.isFocus = false
 
 			local isGarbage = garbageBounds.xMin <= x and garbageBounds.xMax >= x and garbageBounds.yMin <= y and garbageBounds.yMax >= y
 
@@ -204,7 +379,7 @@ local function onTouchCreateNewObject( event )
 				analytics.logEvent( t.uniqueName .. " is garbage" )
 			end
 			display.getCurrentStage():setFocus( nil )
-			newObject.isFocus = false
+			
 
 			-- Remove the joint when the touch ends                 
 			newObject.tempJoint:removeSelf()
@@ -216,32 +391,12 @@ local function onTouchCreateNewObject( event )
 
 			if body.otherObject ~= nil and body.isAttached == false then
 				if body.otherObject.parent == nil or body.otherObject.parent == body.parent.parentGroup then
-					body.pivotJoint = physics.newJoint( "pivot", newObject, newObject.otherObject, event.x,event.y)
-					--body.isSensor = false
-					body.angularDamping = 5
-					body.isFixedRotation = false
-					body.bodyType = body.originalType
-					body.isAttached = true
-					
-						---starting explosion emitter
-						expEmitter.x = event.x
-						expEmitter.y = event.y
-						Particles.StartEmitter("Explosion1",true)
-						
-						analytics.logEvent( body.uniqueName .. " is connected with " .. body.otherObject.uniqueName .. " on creation" )
-						print (body.uniqueName .. " is connected on creation with " .. body.otherObject.uniqueName)
-						
-						audio.play(puffSound) 
-
-					-- setting the rotation limits
-					if body.parent.rotationLimits ~= nil then
-
-						body.pivotJoint.isLimitEnabled = true
-						body.pivotJoint:setRotationLimits(-body.parent.rotationLimits,body.parent.rotationLimits)
+				--	attatch()
+				attach2Bodies(body,event.x,event.y)
 					end
 
 				end
-			end
+		
 		end
 
 	end
@@ -479,6 +634,27 @@ local function setFocusOnGroup ( event )
 	return true
 	
 end
+
+
+---------------------INITIAL FOCUS--------------------------------
+local function setInitialFocusOnGroup ( target )
+-- getting the target
+ t = target
+ local targetObject = t.targetObject
+
+	-- Print info about the event. For actual production code, you should
+	-- not call this function because it wastes CPU resources.
+	--printTouch(event)
+	
+	        targetObject.isVisible = true
+	        transition.to(targetObject, {time=1000, alpha=1} )
+	        currentGroup = targetObject
+	        t.xScale= 1.5
+		    t.yScale= 1.5
+			display.getCurrentStage():setFocus( nil )
+			t.isFocus = false
+	
+end
 -------------------------------------------------------------------
 ---------------------FUNCTIONS FOR MINI ROBOT----------------------
 function hideObject( object )
@@ -627,8 +803,8 @@ eyes_inScene = display.newGroup()
 
 heads_inScene.rotationLimits = 20
 eyes_inScene.rotationLimits = 6
-hat_inScene.rotationLimit = 5
-hair_inScene.rotationLimits = 3
+hat_inScene.rotationLimits = 3
+hair_inScene.rotationLimits = 0
 mouths_inScene.rotationLimits = 2
 legsNArms_inScene.rotationLimits = 40
 
@@ -639,7 +815,7 @@ legsNArms_inScene.rotationLimits = 40
 eyes_inScene.parentGroup = heads_inScene
 heads_inScene.parentGroup = body_inScene
 legsNArms_inScene.parentGroup = body_inScene
-hat_inScene.parentGroup = body_inScene
+hat_inScene.parentGroup = heads_inScene
 mouths_inScene.parentGroup = heads_inScene
 hair_inScene.parentGroup = heads_inScene
 
@@ -936,12 +1112,16 @@ robotEyeL:addEventListener("touch",setFocusOnGroup)
 robotEyeR:addEventListener("touch",setFocusOnGroup)
 robotBigHead:addEventListener("touch",setFocusOnGroup)
 
+setInitialFocusOnGroup(robotBody)
+
 
 
 
 ------------------------------------FOR PARTICLES--------------------------------------------------
 local screenW = display.contentWidth
 local screenH = display.contentHeight
+
+local particleImagesPath = "content/Particle_Images/"
 
 
 
@@ -1001,7 +1181,7 @@ Particles.CreateParticleType ("Explosion", {
 	fadeInSpeed		= 2.0,	
 	fadeOutSpeed		= -0.85,	
 	fadeOutDelay		= 500,	
-	scaleStart		= 0.01,	
+	scaleStart		= 0.3,	
 	scaleVariation		= 0.2,
 	scaleInSpeed		= 0.5,
 	weight			= 0,	
@@ -1016,10 +1196,125 @@ Particles.CreateParticleType ("Explosion", {
 	colorChange		= {-100,-100,-100},
 	} )
 	
-	Particles.AttachParticleType("Explosion1", "Explosion"	, 25, 0,0) 
+	
+	
+	Particles.CreateParticleType ("StarsAndSmoke", {
+		imagePath		= "content/particle/stars.png",
+		imageWidth		= 128,	
+		imageHeight		= 128,	
+		velocityStart		= 10,	
+		velocityVariation	= 10,
+		directionVariation	= 360,
+		alphaStart		= 0,		
+		alphaVariation		= .25,		
+		fadeInSpeed		= 1.5,	
+		fadeOutSpeed		= -0.75,	
+		fadeOutDelay		= 500,	
+		scaleStart		= 1.4,	
+		scaleVariation		= 0.15,
+		scaleInSpeed		= 0.1,
+		weight			= 0.01,	
+		autoOrientation 	= false,	
+		rotationVariation	= 360,
+		killOutsideScreen	= true,	
+		lifeTime		= 6000,  
+		useEmitterRotation	= false,
+		emissionShape		= 0,
+		blendMode		= "add",
+		colorChange		= {-100,-100,-100},
+	} )
+	
+	
+    Particles.AttachParticleType("Explosion1", "Explosion"	, 25, 0,0) 
+	Particles.AttachParticleType("Explosion1", "StarsAndSmoke"	, 3, 0,0)
 	
 	expEmitter = Particles.GetEmitter("Explosion1")
 
+
+  Particles.CreateEmitter("Sparks", screenW*0.5, screenH*0.5, 180, false, true)
+
+	Particles.CreateParticleType ("ElectricSparks", 
+		{
+		imagePath			= particleImagesPath.."electric_spark.png",
+		imageWidth			= 8,
+		imageHeight			= 32,
+		weight				= 0.8,
+		xReference			= 4,
+		yReference			= 32,
+		velocityStart			= 150,
+		velocityVariation		= 100,
+		directionVariation		= 360,
+		autoOrientation			= true,
+		useEmitterRotation		= false,
+		alphaStart			= 1.0,
+		fadeOutSpeed			= -1.0,
+		fadeOutDelay			= 250,
+		scaleStart			= 0.2,
+		scaleVariation			= 0.3,
+		scaleChange			= -1.0,
+		emissionShape			= 0,
+		killOutsideScreen		= true,
+		blendMode			= "add",
+		lifeTime			= 1500
+		} )
+		
+		Particles.CreateParticleType ("LightSmoke",
+			{
+			imagePath		= particleImagesPath.."smoke_whispery_bright.png",
+			imageWidth		= 64,	
+			imageHeight		= 64,
+			weight			= -0.2,
+			directionVariation	= 360,	
+			velocityVariation	= 50,
+			rotationVariation	= 360,
+			rotationChange		= 30,
+			useEmitterRotation	= false,
+			alphaStart		= 0.0,
+			fadeInSpeed		= 1.5,
+			fadeOutSpeed		= -0.5,
+			fadeOutDelay		= 500,
+			scaleStart		= 0.5,
+			scaleVariation		= 0.5,
+			scaleInSpeed		= 1.0,
+			scaleOutSpeed		= 0.01,
+			scaleOutDelay		= 500,
+			emissionShape		= 2,
+			emissionRadius		= 30,
+			killOutsideScreen	= true	,
+			lifeTime		= 3000  
+			} )
+			
+			Particles.CreateParticleType ("ExplosionFlash", 
+				{
+				imagePath		= particleImagesPath.."flare.png",
+				imageWidth		= 128,
+				imageHeight		= 128,
+				directionVariation	= 360,
+				rotationVariation	= 360,
+				rotationChange		= 0,
+				useEmitterRotation	= false,
+				alphaStart		= 1.0,
+				fadeInSpeed		= 1.0,
+				fadeOutSpeed		= -1.0,
+				fadeOutDelay		= 0,
+				scaleStart		= 1.0,
+				scaleInSpeed		= 1.0,
+				scaleOutSpeed		= -1.0,
+				scaleOutDelay		= 0,
+				killOutsideScreen	= false,
+				blendMode		= "add",
+				lifeTime		= 1000
+				} )
+		
+		Particles.AttachParticleType ("Sparks", "LightSmoke"		, 2, 1500,0) 
+		Particles.AttachParticleType ("Sparks", "ElectricSparks"	, 20, 1500,0) 
+		Particles.AttachParticleType ("Sparks", "ExplosionFlash"	,  2, 1500,0) 
+		sparkSound = audio.loadSound("content/sounds/sparks.aac")
+		
+		Particles.SetEmitterSound("Sparks", sparkSound, 0, false, { channel = 0, loops = 0, fadeIn = 20 } )
+		
+		
+		sparksEmitter = Particles.GetEmitter("Sparks")
 
 -- DETECT SCREEN TOUC AND START MOVING EMITTER
 function ScreenTouched(event)
@@ -1041,6 +1336,7 @@ function ScreenTouched(event)
 	end
 	return true
 end
+
 Runtime:addEventListener("touch", ScreenTouched)
 
 
